@@ -1,0 +1,47 @@
+#subheader {
+    .page_wrapper {
+        display: block;
+        border-bottom: 2px solid $primary-color;
+        @include clearfix();
+
+        #searchbox {
+            padding-top: 0 !important;
+            padding-right: 24px;
+            float: right;
+        }
+        > nav {
+            padding-left: 24px;
+        }
+    }
+}
+
+#logo_row {
+    @include clearfix();
+    background: $bg1;
+    padding: 1em 24px;
+    margin-bottom: 1em;
+
+    #organisation_logo {
+        overflow: hidden;
+        padding-left: 23px;
+        float: right;
+
+        img {
+            vertical-align: bottom;
+            margin-right: 10px;
+            max-height: 35px;
+        }
+        h2 {
+            float: right;
+            text-transform: uppercase;
+            font-weight: normal;
+        }
+        a:hover {
+            text-decoration: none;
+        }
+    }
+
+    #instance_settings {
+        float: right;
+    }
+}

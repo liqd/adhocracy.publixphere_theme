@@ -1,0 +1,64 @@
+ul.comments_list, .comment_wrapper {
+    background: none;
+}
+ul.comments_list li {
+    border-bottom: solid 1px $border;
+}
+
+#footer .page_wrapper {
+    background-image: none;
+}
+
+.content_list > * {
+    background: none !important;
+}
+
+p {
+    font-family: Georgia, "Times New Roman", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: herlvetica, arial, sans-serif;
+}
+
+body {
+    background-image: url("/static_theme/static/images/background.jpg");
+    border-bottom: 5px solid  $tertiary-color;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% auto;
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    min-width: 1000px;
+}
+#main {
+    background: transparent;
+}
+.page_wrapper {
+    background: white;
+    #welcome_message & {
+        padding: 1em 24px 1em;
+    }
+}
+
+.tile.event {
+    border-top: none;
+}
+#col3_content {
+    padding: 0 24px;
+}
+#main {
+    margin: 0;
+    .page_wrapper {
+        padding: 1em 0 2em;
+    }
+}
+
+#flash_message {
+    background: none;
+    .page_wrapper {
+        background: $flash;
+    }
+}

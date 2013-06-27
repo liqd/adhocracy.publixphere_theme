@@ -1,0 +1,41 @@
+.sidebar_box, #facets {
+    background: $bg1;
+    padding-bottom: 1em;
+
+    h3 {
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 1.1em;
+        line-height: 3em;
+        padding: 0;
+
+        background-color: $secondary-color;
+        &:nth-of-type(even) {
+            background-color: $primary-color;
+        }
+    }
+
+    > * {
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+        margin-bottom: 1.5em;
+    }
+
+    // HACK
+    br {
+        display: none;
+    }
+
+    h4, h6 {
+        color: $tertiary-color;
+        font-size: 1.1em;
+    }
+}
+
+/* Sidebar content summary */
+#col3 summary ol {
+    list-style-type: none;
+    margin-left: 0;
+}
