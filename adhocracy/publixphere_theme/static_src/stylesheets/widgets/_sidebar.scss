@@ -1,4 +1,4 @@
-.sidebar_box, #facets {
+.sidebar_box {
     background: $bg1;
     padding-bottom: 1em;
 
@@ -12,12 +12,12 @@
         padding: 0;
 
         background-color: $secondary-color;
-        &:nth-of-type(even) {
-            background-color: $primary-color;
-        }
+    }
+    &:nth-of-type(even) h3 {
+        background-color: $primary-color;
     }
 
-    > * {
+    h3 ~ * {
         padding-left: 1.5em;
         padding-right: 1.5em;
         margin-bottom: 1.5em;
