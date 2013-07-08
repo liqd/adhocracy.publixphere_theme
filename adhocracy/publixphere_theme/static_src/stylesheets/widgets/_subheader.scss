@@ -1,7 +1,7 @@
 #subheader {
     .page_wrapper {
         display: block;
-        border-bottom: 2px solid $primary-color;
+        border-bottom: 1px solid $primary-color;
         @include clearfix();
 
         #searchbox {

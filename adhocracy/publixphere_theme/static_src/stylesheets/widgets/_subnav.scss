@@ -17,12 +17,7 @@
             padding: 0 1.5em;
             @include border-radius(6px 6px 0 0);
 
-            border: 2px solid lighten(desaturate($primary-color, 10%), 20%);
-            // two adjacent borders should be collapsed.
-            // I tried margin-left: -2px but then they would overlap.
-            // so I decided to use set both borders to 1px
-            border-right-width: 1px;
-            border-left-width: 1px;
+            border: 1px solid lighten(desaturate($primary-color, 10%), 30%);
             border-bottom-width: 0;
 
             &:hover {
@@ -35,13 +30,6 @@
                 color: $primary-color;
                 border-color: $primary-color;
             }
-        }
-
-        &:first-child a {
-                border-left-width: 2px;
-        }
-        &:last-child a {
-            border-right-width: 2px;
         }
     }
 }
