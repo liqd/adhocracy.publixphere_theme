@@ -1,0 +1,42 @@
+#share {
+    position: absolute;
+    top: 42px;
+    width: 30px;
+    height: 100px;
+    left: -30px;
+    @include border-top-left-radius(5px);
+    @include border-bottom-left-radius(5px);
+    
+    background-color: $primary-color;
+    background-image: url(/static_theme/static/images/socialbglines.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    a {
+        width: 30px;
+        height: 30px;
+        background-repeat: no-repeat;
+        background-position: center top;
+        display: block;
+        clear: both;
+
+        &:hover {
+            background-position: center bottom;
+        }
+
+        &:first-child {
+            margin-top: 5px;
+        }
+    }
+}
+
+
+#fb_share {
+    background-image:url(/static_theme/static/images/facebook.png);
+}
+#tw_share {
+    background-image:url(/static_theme/static/images/twitter.png);
+}
+#gp_share {
+    background-image:url(/static_theme/static/images/googleplus.png);
+}
