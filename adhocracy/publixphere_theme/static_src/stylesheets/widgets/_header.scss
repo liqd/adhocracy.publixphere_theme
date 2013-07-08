@@ -70,16 +70,46 @@
 // navigation
 #nav {
     clear: none;
+    color: white;
+
+    a {
+        color: white;
+    }
 
     li:after {
         content: " | ";
     }
+    li:nth-last-child(2):after, 
     li:last-child:after {
         content: "";
     }
 }
-.show_me {
-    line-height: 3em;
+
+#nav_login, #user_menu {
+    padding-left: 1em;
+    margin-left: 0.5em;
+    border-left: 1px solid #595856;
+
+    > a {
+        display: block;
+        width: 100px;
+        @include border-radius(10px);
+        border: thin solid #595856;
+
+        background-image: url(/static_theme/static/images/pfeil.png);
+        background-position: 80px center;
+        background-repeat: no-repeat;
+
+        text-indent: 5px;
+        color: white;
+        line-height: 25px;
+        cursor: pointer;
+        text-align: left;
+    }
+
+    &:hover > a {
+        background-image: url(/static_theme/static/images/pfeildown.png);
+    }
 }
 
 #nav li:hover ul.children {
@@ -88,7 +118,7 @@
 #nav ul.children {
     display: none;
     position: absolute;
-    background-color: $tertiary-color;
+    background-color: rgba(#024774, 0.9);
     margin: 0px;
     min-width: 200px;
     text-align: center;
@@ -96,14 +126,16 @@
     right: 0px;
     z-index: 100;
     font-size: 14px;
+    @include border-bottom-right-radius(0.4em);
+    @include border-bottom-left-radius(0.4em);
 
     li {
         font-size: 16px;
         line-height: 36px;
         display: block;
 
-        border-bottom: 1px solid darken($tertiary-color, 10%);
-        border-top: 1px solid lighten($tertiary-color, 10%);
+        border-bottom: 1px solid darken(#024774, 10%);
+        border-top: 1px solid desaturate(lighten(#024774, 14%), 15%);
 
         &:first-child {
             border-top: none;
@@ -114,14 +146,14 @@
         }
         a {
             display: block;
-            color: lighten($tertiary-color, 42%);
+            color: white;
             font-weight: bold;
             text-decoration: none;
             height: auto;
             padding: 0;
         }
         a:hover, &.current a {
-            color: lighten($tertiary-color, 25%);
+            color: lighten(desaturate(#024774, 50%), 50%);
         }
         &:after {
             content: none;

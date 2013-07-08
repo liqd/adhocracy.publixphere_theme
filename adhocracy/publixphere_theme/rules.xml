@@ -38,6 +38,18 @@
     <drop theme="/html/body/*" if-content="/html/body"/>
     <append theme="/html/body" content="/html/body/*" />
 
+    <drop css:content="li#nav_home"/>
+    <drop css:content="li#nav_instances"/>
+    <drop css:content="li#nav_watchlist"/>
+    <replace css:content="li#nav_about a">
+        <a href="http://www2.publixphere.de/page/%C3%BCber-uns" class="staticlink_about">About</a>
+    </replace>
+    <drop css:content="li#nav_dummy"/>
+    <replace css:content="li#nav_help a">
+        <a href="http://www2.publixphere.de/page/Hilfe">Help</a>
+    </replace>
+    <drop attributes="class" css:content="li#user_menu a"/>
+
     <!--Logo and Topnav-->
       <!-- if body.compact -->
       <!--<drop css:content="#logo_row"/>-->
