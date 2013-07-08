@@ -59,3 +59,11 @@ body {
         background: $flash;
     }
 }
+
+.vote {
+    border: 1px solid #d9d9d9;
+
+    .vote_up, .vote_down {
+        border-left: 1px solid #d9d9d9;
+    }
+}
