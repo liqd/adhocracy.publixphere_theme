@@ -26,7 +26,9 @@
     <!-- RSS -->
     <replace theme="/html/head/link[contains(@type, 'application/rss+xml')]" content="/html/head/link[contains(@type, 'application/rss+xml')]" />
     <!-- Favicon -->
-    <replace theme="/html/head/link[contains(@rel, 'icon')]" content="/html/head/link[contains(@rel, 'icon')]" />
+    <replace theme="/html/head/link[contains(@rel, 'icon')]">
+        <link rel="icon" href="/static_theme/static/favicon.ico" />
+    </replace>
     <!--Conditional comments-->
     <append theme="/html/head">
       <xsl:for-each select="/html/head/comment()">
