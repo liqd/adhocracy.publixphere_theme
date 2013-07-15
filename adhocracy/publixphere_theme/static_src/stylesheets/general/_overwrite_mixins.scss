@@ -37,11 +37,10 @@
 
 @mixin button($color) {
     @include button-base;
-    line-height: 3em;
     font-weight: bold;
     padding: 0 15px;
 
     color: #fff;
     @include button-background($color);
-    line-height: 2em !important;
+    line-height: 2.25em !important;
 }
