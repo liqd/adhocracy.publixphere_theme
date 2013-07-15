@@ -76,9 +76,9 @@
           </div>
         </div>
         <div id="share">
-            <a target="_blank" href="http://www.facebook.com/sharer.php?u=http://salon.publixphere.de" id="fb_share"></a>
-            <a target="_blank" href="http://twitter.com/home?status=europäische salon salon.publixphere.de" id="tw_share"></a>
-            <a target="_blank" href="https://plus.google.com/share?url=http://salon.publixphere.de" id="gp_share"></a>
+            <a target="_blank" href="http://www.facebook.com/sharer.php?u=http://partizipation.publixphere.de" id="fb_share"></a>
+            <a target="_blank" href="http://twitter.com/home?status=publixphere partizipation partizipation.publixphere.de" id="tw_share"></a>
+            <a target="_blank" href="https://plus.google.com/share?url=http://partizipation.publixphere.de" id="gp_share"></a>
         </div>
       </replace>
 
