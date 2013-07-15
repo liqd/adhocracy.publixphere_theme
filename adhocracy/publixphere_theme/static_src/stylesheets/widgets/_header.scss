@@ -109,8 +109,11 @@
     }
 
     &:hover > a {
-        background-image: url(/static_theme/static/images/pfeildown.png);
+        text-decoration: none;
     }
+}
+#user_menu:hover > a {
+    background-image: url(/static_theme/static/images/pfeildown.png);
 }
 
 #nav li:hover ul.children {
