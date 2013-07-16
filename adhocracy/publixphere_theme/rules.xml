@@ -72,7 +72,7 @@
           <div id="publixphere-scroll-back"></div>
           <div id="publixphere-scroll-top"></div>
           <div id="publixphere-scroll-down">
-            <a id="publixphere-logo" href="http://www.publixphere.de">
+            <a id="publixphere-logo" href="http://www2.publixphere.de">
               <img src="/static_theme/static/images/logo.png" alt="publixphere" />
             </a>
           </div>
@@ -95,13 +95,13 @@
                             <div id="second_footer_line" class="subcolumns" role="complementary">
                                 <div class="c33l footer_content">
                                     <ul>
-                                        <li><a class="staticlink_codex" href="/static/misc/codex.html">
+                                        <li><a class="staticlink_codex" href="http://www2.publixphere.de/page/netiquette-0">
                                                 Verhaltenscodex
                                         </a></li>
-                                        <li><a class="staticlink_privacy" href="/static/misc/privacy.html">
+                                        <li><a class="staticlink_privacy" href="http://www2.publixphere.de/page/datenschutzerkl%C3%A4rung-0">
                                                 Datenschutz
                                         </a></li>
-                                        <li><a class="staticlink_imprint" href="/static/misc/imprint.html">
+                                        <li><a class="staticlink_imprint" href="http://www2.publixphere.de/page/impressum-0">
                                                 Impressum
                                         </a></li>
                                     </ul>
