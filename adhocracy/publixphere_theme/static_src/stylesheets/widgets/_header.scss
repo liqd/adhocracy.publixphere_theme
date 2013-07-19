@@ -8,7 +8,7 @@
     color: $primary-color;
 
     .page_wrapper {
-        background: #19283B;
+        background: $header-color;
         padding: 0 24px;
         position: relative;
         text-align: right;
@@ -89,13 +89,13 @@
 #nav_login, #user_menu {
     padding-left: 1em;
     margin-left: 0.5em;
-    border-left: 1px solid #595856;
+    border-left: 1px solid $header-color2;
 
     > a {
         display: block;
         width: 100px;
         @include border-radius(10px);
-        border: thin solid #595856;
+        border: thin solid $header-color2;
 
         background-image: url(/static_theme/static/images/pfeil.png);
         background-position: 80px center;
@@ -122,7 +122,7 @@
 #nav ul.children {
     display: none;
     position: absolute;
-    background-color: rgba(#024774, 0.9);
+    background-color: rgba($header-color3, 0.9);
     margin: 0px;
     min-width: 200px;
     text-align: center;
@@ -138,8 +138,8 @@
         line-height: 36px;
         display: block;
 
-        border-bottom: 1px solid darken(#024774, 10%);
-        border-top: 1px solid desaturate(lighten(#024774, 14%), 15%);
+        border-bottom: 1px solid darken($header-color3, 10%);
+        border-top: 1px solid desaturate(lighten($header-color3, 14%), 15%);
 
         &:first-child {
             border-top: none;
@@ -157,7 +157,7 @@
             padding: 0;
         }
         a:hover, &.current a {
-            color: lighten(desaturate(#024774, 50%), 50%);
+            color: lighten(desaturate($header-color3, 50%), 50%);
         }
         &:after {
             content: none;
