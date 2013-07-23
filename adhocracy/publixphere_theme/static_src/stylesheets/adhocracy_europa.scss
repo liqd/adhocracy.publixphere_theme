@@ -62,9 +62,14 @@
 #header .page_wrapper h2 {
     color: #f7dd00;
 }
-/*
-publixphere-scroll-back
-publixphere-scroll-top
-publixphere-scroll-down
-publixphere-logo
-*/
+#publixphere-scroll {
+    #publixphere-scroll-back {
+        background-image: url(/static_theme/static/images/menu_top_europa.png);
+    }
+    #publixphere-scroll-top {
+        background-image: url(/static_theme/static/images/mainmenubg_europa.png);
+    }
+    #publixphere-scroll-down {
+        background-image: url(/static_theme/static/images/menu_down_europa.png);
+    }
+}
