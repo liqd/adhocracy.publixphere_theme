@@ -1,0 +1,4067 @@
+# Translations template for adhocracy.
+# Copyright (C) 2013 ORGANIZATION
+# This file is distributed under the same license as the adhocracy project.
+# Translators:
+# Mieke Van Heesewijk <>, 2012
+# sicco <sicco@ddo.nl>, 2013
+# sicco <sicco@ddo.nl>, 2012
+# The_Vole <the.vole.anonymous@gmail.com>, 2012
+msgid ""
+msgstr ""
+"Project-Id-Version: Adhocracy\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2013-07-17 01:44+0200\n"
+"PO-Revision-Date: 2013-07-16 23:44+0000\n"
+"Last-Translator: Nicolas Dietrich <nicodietrich@gmail.com>\n"
+"Language-Team: Dutch (http://www.transifex.com/projects/p/adhocracy/language/nl/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 0.9.6\n"
+"Language: nl\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Not specified"
+msgstr ""
+
+msgid "Thank you for helping."
+msgstr "Bedankt voor uw hulp."
+
+msgid "Please insert a subject for the mail we will send to the users."
+msgstr "Voeg alstublieft een onderwerp toe voor de e-mail die verstuurd zal worden naar de gebruikers."
+
+msgid "Please insert a template for the mail we will send to the users."
+msgstr "Voeg alstublieft een sjabloon toe voor de e-mail die verstuurd zal worden naar de gebruikers."
+
+msgid "Solr index updated."
+msgstr "Solr index bijgewerkt."
+
+#, python-format
+msgid "Autojoin fixed - added %s memberships."
+msgstr "Autojoin gecorrigeerd - %s leden toegevoegd"
+
+msgid ""
+"Requested generation of welcome codes, but welcome "
+"functionality(adhocracy.enable_welcome) is not enabled."
+msgstr "Generatie van welkom codes is aangevraagd, maar welkom functionality(adhocracy.enable_welcome) is niet ingeschakeld."
+
+msgid "In all instances"
+msgstr "In alle groepen"
+
+#, python-format
+msgid "In instance \"%s\""
+msgstr "in groep \"%s\""
+
+#, python-format
+msgid "We cannot find the badge with the id %s"
+msgstr "We kunnen de badge met %s ID niet vinden"
+
+msgid "Badge changed successfully"
+msgstr "De badge is veranderd"
+
+msgid "oldest"
+msgstr "oudste"
+
+msgid "newest"
+msgstr "nieuwste"
+
+#, python-format
+msgid "Comment topic has no variant %s"
+msgstr "Het reactie onderwerp heeft geen variant %s"
+
+msgid "The comment has been deleted."
+msgstr "De reactie is verwijderd"
+
+msgid ""
+"You're trying to revert to a revision which is not part of this comment's "
+"history"
+msgstr "U probeert een revisie te herstellen die niet deel uitmaakt van de geschiedenis van deze reactie"
+
+msgid "The comment has been reverted."
+msgstr "De reactie is hersteld."
+
+msgid ""
+"You're trying to purge a revision which is not part of this comment's "
+"history"
+msgstr "U probeert een revisie te verwijderen die niet deel uitmaakt van de geschiedenis van deze reactie"
+
+msgid "The comment revision has been deleted."
+msgstr "De revisie van de reactie is verwijderd."
+
+msgid "Wrong topic"
+msgstr "Verkeerd onderwerp"
+
+msgid "Invalid delegation recipient"
+msgstr "Ongeldige volmacht ontvanger"
+
+#, python-format
+msgid "You have already delegated voting to %s in %s"
+msgstr "U heeft %s al gevolmachtigd voor %s"
+
+#, python-format
+msgid "Cannot access delegation %(id)s"
+msgstr "Kan geen toegang krijgen tot volmacht %(id)s"
+
+msgid "The delegation is now revoked."
+msgstr "De volmachtiging is nu ingetrokken."
+
+msgid "The system is currently down for maintenance. Please check back soon!"
+msgstr ""
+
+#, python-format
+msgid "Error %s"
+msgstr "Foutmelding %s"
+
+#, python-format
+msgid "%s News"
+msgstr "%s Nieuws"
+
+#, python-format
+msgid "News from %s"
+msgstr "Nieuws van %s"
+
+msgid "General"
+msgstr "Algemeen"
+
+msgid "Appearance"
+msgstr "Weergave"
+
+msgid "Contents"
+msgstr "Inhoud"
+
+msgid "Votings"
+msgstr "Stemmen"
+
+msgid "Badges"
+msgstr "Badges"
+
+msgid "Mass message service"
+msgstr "Massa bericht dienst"
+
+msgid "Members import"
+msgstr "Gebruikers importeren"
+
+msgid "Instance created successfully. You can now configure it as you like."
+msgstr "Het aanmaken van de groep is gelukt. U kunt de configuratie nu naar wens aanpassen."
+
+msgid "Delegations are enabled."
+msgstr "Het geven van volmachten is ingeschakeld."
+
+msgid "Delegations are disabled."
+msgstr "Het geven van volmachten is uitgeschakeld."
+
+msgid "tutorial_instance_show_intro"
+msgstr "Welkom op de hoofdpagina van deze groep."
+
+msgid "The logo has been deleted."
+msgstr "Het logo is verwijderd."
+
+msgid "No delay"
+msgstr "Direct"
+
+msgid "1 Day"
+msgstr "1 Dag"
+
+msgid "2 Days"
+msgstr "2 Dagen"
+
+msgid "One Week"
+msgstr "1 Week"
+
+msgid "Two Weeks"
+msgstr "2 Weken"
+
+msgid "Four Weeks"
+msgstr "4 Weken"
+
+msgid "A simple majority (&frac12; of vote)"
+msgstr "Een meerderheid (&frac12; van de stemmen)"
+
+msgid "A two-thirds majority"
+msgstr "Een twee derde meerderheid"
+
+#, python-format
+msgid "The instance %s has been deleted."
+msgstr "De groep %s is verwijderd."
+
+#, python-format
+msgid "Welcome to %(instance)s"
+msgstr "Welkom bij %(instance)s"
+
+#, python-format
+msgid "You're not a member of %(instance)s."
+msgstr "U bent geen lid van %(instance)s."
+
+#, python-format
+msgid "You're the founder of %s, cannot leave."
+msgstr "U ben de oprichter van %s en kan het daarom niet verlaten."
+
+#, python-format
+msgid "You've left %(instance)s."
+msgstr "U heeft de %(instance)s verlaten."
+
+msgid "You cannot manipulate one instance from within another instance."
+msgstr "U kunt de ene groep niet bewerken vanuit een andere groep."
+
+msgid "Sorry, but you're not allowed to set these message options"
+msgstr "Sorry, maar het is u niet toegestaan om deze berichtinstellingen aan te passen"
+
+msgid "Email isn't activated"
+msgstr "E-mail is niet geactiveerd"
+
+msgid "Not permitted in system settings"
+msgstr "Niet toegestaan in de systeeminstellingen"
+
+msgid "adhocracy.registration_support_email not set"
+msgstr "adhocracy.registration_support_email niet ingesteld"
+
+#, python-format
+msgid "Could not render message: %s"
+msgstr "Weergeven van bericht kan niet: %s"
+
+#, python-format
+msgid "Message sent to %d users."
+msgstr "Bericht verstuurd naar %d gebruikers."
+
+#, python-format
+msgid "[%s] Message from %s: %s"
+msgstr "[%s] Bericht van %s: %s"
+
+msgid "Your message has been sent. Thanks."
+msgstr "Uw  bericht is verzonden. Dank u wel."
+
+msgid "tutorial_milestones_tab"
+msgstr "Op deze pagina vindt u een overzicht van de mijlpalen voor deze groep."
+
+msgid "tutorial_milestone_details_tab"
+msgstr "Het mijlpaal-detailoverzicht toont u meer informatie over de mijlpaal."
+
+#, python-format
+msgid "The milestone %s has been deleted."
+msgstr "De mijlpaal %s is verwijderd."
+
+msgid "Invalid input."
+msgstr "Ongeldige invoer."
+
+msgid "No OpenID given!"
+msgstr "Er is geen OpenID opgegeven!"
+
+msgid "Connection not allowed, OpenID has been disabled on this installation"
+msgstr "Verbinding niet toegestaan, OpenID is uitgeschakeld in deze omgeving"
+
+msgid "No OpenID was entered."
+msgstr "Er is geen OpenID ingevuld."
+
+msgid "Removal not allowed, OpenID has been disabled on this installation"
+msgstr "Verwijdering niet toegestaan, OpenID is uitgeschakeld in deze omgeving"
+
+#, python-format
+msgid "No OpenID with ID '%s' exists."
+msgstr "Er bestaat geen OpenID met ID '%s'."
+
+#, python-format
+msgid "You're not authorized to change %s's settings."
+msgstr "U bent niet geautoriseerd om %s's instellingen te veranderen."
+
+msgid "Successfully removed OpenID from account"
+msgstr "De OpenID is verwijderd van het account"
+
+msgid "OpenID login has been disabled on this installation"
+msgstr "OpenID inlog is uitgeschakeld op deze installatie"
+
+msgid "OpenID login failed."
+msgstr "OpenID inlog is mislukt."
+
+msgid "You have already claimed this OpenID."
+msgstr "U heeft deze OpenID al geclaimd."
+
+#, python-format
+msgid "OpenID %s already belongs to %s."
+msgstr "OpenID %s behoort al toe aan %s."
+
+msgid "Successfully added OpenID to user account."
+msgstr "De OpenID is toegevoegd aan de gebruikersaccount."
+
+#, python-format
+msgid ""
+"OpenID %s doesn't belong to an existing user account and user registration "
+"is disabled in this installation."
+msgstr "OpenID %s behoort niet tot een bestaand gebruikersaccount en gebruikersregistratie is uitgeschakeld op deze installatie."
+
+#, python-format
+msgid ""
+"The email address %s which was returned by the OpenID provider already "
+"belongs to a different user account. Please login with that account or use "
+"the forgot password functionality, and add the OpenID in your user profile "
+"settings afterwards. Sorry for the inconvenience."
+msgstr "Het e-mailadres %s dat werd teruggestuurd door de OpenID provider behoort al toe aan een ander gebruikersaccount. Log in met dat account of gebruik de 'wachtwoord vergeten' functionaliteit,  en voeg daarna de OpenID toe aan uw gebruikersprofielinstellingen. Excuses voor het ongemak."
+
+#, python-format
+msgid "Successfully created new user account %s"
+msgstr "Het nieuwe gebruikersaccount %s is aangemaakt"
+
+msgid "tutorial_norms_overview_tab"
+msgstr "Overzicht van alle reglementen van deze groep. Onder de titel van elk reglement staat het huidige aantal voorstellen en reacties."
+
+msgid "No proposal has been specified"
+msgstr "Er is geen voorstel gespecificeerd"
+
+msgid "You cannot create a new norm"
+msgstr "U kunt geen nieuw reglement creëren"
+
+#, python-format
+msgid "Variant %s is already present, cannot branch."
+msgstr "Variant %s is al gecreëerd en kan niet vertakt worden."
+
+msgid ""
+"You're trying to update to a text which is not part of this pages history"
+msgstr "U probeert een tekst aan te passen die geen deel uitmaakt van de geschiedenis van deze pagina's"
+
+msgid "<i>(No text)</i>"
+msgstr "<i>(Geen tekst)</i>"
+
+msgid "<i>(No title))</i>"
+msgstr "<i>(Geen titel))</i>"
+
+msgid "<i>(No differences))</i>"
+msgstr "<i>(Geen verschillen))</i>"
+
+msgid "<i>(No differences)</i>"
+msgstr "<i>(Geen verschillen)</i>"
+
+msgid "Original version"
+msgstr "Originele versie"
+
+#, python-format
+msgid "Variant: \"%s\""
+msgstr "Variant: \"%s\""
+
+msgid "Original Version"
+msgstr "Originele Versie"
+
+#, python-format
+msgid "Variant %s does not exist!"
+msgstr "Variant %s bestaat niet!"
+
+msgid "alphabetically"
+msgstr "alfabetisch"
+
+msgid "tutorial_norm_show_tab"
+msgstr "Op deze pagina vindt u de nu geldige versie van het reglement en alle voorgestelde varianten op dit reglement."
+
+msgid "No such text revision."
+msgstr "Deze tekst revisie bestaat niet."
+
+msgid "Cannot compare identical text revisions."
+msgstr "Identieke tekst revisies kunnen niet vergeleken worden."
+
+msgid "Cannot compare versions of different texts."
+msgstr "Verschillende tekstversies kunnen niet vergeleken worden."
+
+#, python-format
+msgid "The variant %s has been deleted."
+msgstr "De variant %s is verwijderd."
+
+msgid "Cannot delete, if there's only one version"
+msgstr "Verwijderen is onmogelijk als er maar een versie is"
+
+msgid "The selected version has been deleted."
+msgstr "De geselecteerde versie is verwijderd."
+
+#, python-format
+msgid "The page %s has been deleted."
+msgstr "De pagina %s is verwijderd."
+
+#, python-format
+msgid "Invalid text ID %s for this page/variant!"
+msgstr "Ongeldige tekst ID %s voor deze pagina/variant!"
+
+msgid "This is not an adoption poll."
+msgstr "Dit is geen stemming."
+
+msgid "This is not a rating poll."
+msgstr "Dit is geen beoordelings-stemming."
+
+msgid "The poll has ended."
+msgstr "De stemming is afgelopen."
+
+msgid "The proposal is not undergoing a poll."
+msgstr "Over het voorstel wordt momenteel niet gestemd."
+
+msgid "tutorial_proposal_overview_tab"
+msgstr "Overzicht van alle huidige voorstellen. Hier kunt u zoeken naar voorstellen of zelf een voorstel indienen."
+
+msgid "Please select norm and propose a change to it."
+msgstr "Selecteer het reglement en stel een aanpasssing voor."
+
+msgid "tutorial_proposal_show_tab"
+msgstr "Op de pagina van een voorstel, vindt u niet alleen de relevante informatie, maar ook vele mogelijkheden om er actief aan deel te nemen."
+
+#, python-format
+msgid "Proposal: %s"
+msgstr "Voorstel: %s"
+
+#, python-format
+msgid "Activity on the %s proposal"
+msgstr "Activiteit voor het %s voorstel"
+
+#, python-format
+msgid "The proposal %s has been deleted."
+msgstr "Het voorstel %s is verwijderd."
+
+#, python-format
+msgid "Proposal: %(proposal)s"
+msgstr "Voorstel: %(proposal)s"
+
+msgid "relevance"
+msgstr "relevantie"
+
+#, python-format
+msgid "The inclusion of %s has been deleted."
+msgstr "De opname van %s is verwijderd."
+
+msgid "Page not Found"
+msgstr "Pagina niet Gevonden"
+
+msgid "Shibboleth authentication not enabled"
+msgstr "Shibboleth authenticate niet ingeschakeld"
+
+msgid "This URL shouldn't be called directly"
+msgstr "Deze URL hoort niet direct aangeroepen te worden"
+
+#, python-format
+msgid "User %s has been undeleted"
+msgstr "De verwijdering van gebruiker %s is ongedaan gemaakt"
+
+msgid "Page does already exist. Select another key or language."
+msgstr "Pagina bestaat al. Selecteer een andere key of taal."
+
+msgid "Page updated"
+msgstr "Pagina bijgewerkt"
+
+msgid "Cannot find static page to edit"
+msgstr "Kan de te bewerken statische pagina niet vinden"
+
+msgid "The requested page was not found"
+msgstr "De opgevraagde pagina is niet gevonden"
+
+#, python-format
+msgid "Tag \"%s\" has been removed from %s \"%s\"."
+msgstr "Tag \"%s\" is verwijderd van %s \"%s\"."
+
+msgid "Treatment has been created."
+msgstr "Behandeling is aangemaakt."
+
+#, python-format
+msgid "Could not find the entity '%s'"
+msgstr "Kan entiteit '%s' niet vinden"
+
+msgid "All users have been assigned to their respective treatment badges."
+msgstr "Alle gebruikers zijn toegewezen aan hun respectievelijke behandeling badges."
+
+msgid "All users are already assigned to their respective treatment badges."
+msgstr "Alle gebruikers zijn al toegewezen aan hun respectievelijke behandeling badges."
+
+msgid ""
+"You have been logged out while authenticating at twitter. Please try again."
+msgstr "U bent uitgelogd tijdens de authenticatie van Twitter. Probeer het opnieuw."
+
+#, python-format
+msgid ""
+"You're now following %s on twitter so we can send you notifications as "
+"direct messages"
+msgstr "U volgt %s nu op Twitter dus we kunnen u berichten sturen door middel van 'direct messages'"
+
+msgid "You have no twitter association."
+msgstr "U heeft geen Twitter account."
+
+msgid "Personal"
+msgstr ""
+
+msgid "Login"
+msgstr "Log in"
+
+msgid "Notifications"
+msgstr "Meldingen"
+
+msgid "Advanced"
+msgstr ""
+
+msgid "Optional"
+msgstr "Optioneel"
+
+msgid "tutorial_user_index_intro"
+msgstr "Deelnemerslijst van de groep."
+
+msgid "Sorry, registration has been disabled by administrator."
+msgstr "Sorry, registratie is uitgeschakeld door de beheerder."
+
+msgid "Sorry, but we don't accept registrations with this email address."
+msgstr "Het spijt ons, registratie met dit e-mail adres is niet toegestaan."
+
+msgid "Gender-neutral"
+msgstr ""
+
+msgid "Female"
+msgstr "Vrouw"
+
+msgid "Male"
+msgstr "Man"
+
+msgid "No optional atributes defined."
+msgstr ""
+
+msgid "Password has been set. Have fun!"
+msgstr "Het wachtwoord is ingesteld. Veel plezier!"
+
+msgid "There is no user registered with that email address."
+msgstr "Er bestaat geen gebruiker met dit e-mailadres"
+
+msgid ""
+"you have requested that your password be reset. In order to confirm the "
+"validity of your claim, please open the link below in your browser:"
+msgstr "U wilt uw wachtwoord opnieuw instellen. Om de geldigheid van uw claim te bevestigen, opent u de onderstaande link in uw browser:"
+
+#, python-format
+msgid "Login for %s"
+msgstr "Inloggen voor %s"
+
+#, python-format
+msgid "Your user name to login is: %s"
+msgstr "Uw inlog gebruikersnaam is: %s"
+
+msgid "Reset your password"
+msgstr "Stel uw wachtwoord opnieuw in"
+
+msgid "your password has been reset. It is now:"
+msgstr "Uw wachtwoord is opnieuw ingesteld. Het is nu:"
+
+msgid "Please login and change the password in your user settings."
+msgstr "Gelieve in te loggen en het wachtwoord te wijzigen in uw gebruikersinstellingen."
+
+msgid "Your new password"
+msgstr "Uw nieuwe wachtwoord"
+
+msgid "Success. You have been sent an email with your new password."
+msgstr "Het is gelukt. U ontvangt een e-mail met uw nieuwe wachtwoord."
+
+msgid ""
+"The reset code is invalid. Please repeat the password recovery procedure."
+msgstr "De code is ongeldig. Herhaal de procedure om uw wachtwoord opnieuw in te stellen."
+
+msgid "The activation code is invalid. Please have it resent."
+msgstr "De activeringscode is ongeldig. Gelieve het opnieuw op te laten sturen."
+
+msgid "Thank you, The address is already activated."
+msgstr "Dank u wel, het adres is al geactiveerd."
+
+#, python-format
+msgid "Welcome to %s"
+msgstr "Welkom bij %s"
+
+msgid "Your email has been confirmed."
+msgstr "Uw e-mail is bevestigd."
+
+msgid "The activation link has been re-sent to your email address."
+msgstr "De activatie link is opnieuw verzonden naar uw e-mailadres."
+
+msgid "Invalid login"
+msgstr "Ongeldige inlog"
+
+msgid "Invalid email / user name or password"
+msgstr "Ongeldig e-mail / gebruikersnaam of wachtwoord"
+
+msgid "Invalid user name or password"
+msgstr "Ongeldige gebruikersnaam of wachtwoord"
+
+msgid "Invalid email or password"
+msgstr "Ongeldig e-mail of wachtwoord"
+
+#, python-format
+msgid "You can finish that session <a href='%s'>here</a>."
+msgstr ""
+
+#, python-format
+msgid ""
+"<p>You have successfully logged out of Adhocracy. However you might still be"
+" logged in at the central identity provider. %s</p><p>If you're on a public "
+"computer, please close your browser to complete the logout.</p>"
+msgstr ""
+
+msgid ""
+"You have successfully logged out of Adhocracy. However you might still be "
+"logged in through your OpenID provider. "
+msgstr ""
+
+msgid "Successfully logged out"
+msgstr ""
+
+msgid "Please use a valid email address."
+msgstr "Gebruik alstublieft een geldig e-mailadres."
+
+#, python-format
+msgid ""
+"A user tried to register on %s with the email address %s. Please contact "
+"them at %s ."
+msgstr "Een gebruiker heeft geprobeerd om zich te registeren op %s met e-mailadres %s. Neem alstublieft contact op via %s."
+
+#, python-format
+msgid "Registration attempt on %s"
+msgstr "Registratie poging op %s"
+
+msgid "tutorial_dashboard_title"
+msgstr "U bevindt zich op uw persoonlijk Dashboard. Hier vindt u een overzicht van alle voorstellen en reglementen in uw groepen en uw volglijst."
+
+msgid "The account has been suspended."
+msgstr "Het account is opgeschort."
+
+msgid "The account has been re-activated."
+msgstr "Het account is gereactiveerd."
+
+msgid "The account has been deleted."
+msgstr "Het account is verwijderd."
+
+msgid "Invalid badge choice."
+msgstr "Ongeldige badge keuze."
+
+#, python-format
+msgid "%(user)s is using Adhocracy, a democratic decision-making tool."
+msgstr "%(user)s gebruiken Adhocracy, een democratische besluitvorming platform."
+
+#, python-format
+msgid "%(user)ss Activity"
+msgstr "%(user)ss Activiteit"
+
+#, python-format
+msgid "%s is not a member of %s"
+msgstr "%s is geen lid van %s"
+
+#, python-format
+msgid "%s is banned from the system."
+msgstr "%s is verbannen uit het systeem."
+
+msgid "You already have a password - use that to log in."
+msgstr "U heeft al een wachtwoord - gebruik het om in te loggen."
+
+#, python-format
+msgid "The user can now log in via %s"
+msgstr "De gebruiker kan nu inloggen via %s"
+
+msgid "A watchlist entry for this entity already exists."
+msgstr "Dit staat al in uw volglijst."
+
+#, python-format
+msgid "You're not authorized to delete %s's watchlist entries."
+msgstr "Het is u niet toegestaan om dingen uit %s's volglijst te verwijderen."
+
+msgid "No username is given"
+msgstr "Geen gebruikersnaam opgegeven"
+
+msgid "Username is too short"
+msgstr "Gebruikersnaam is te kort"
+
+msgid "The username is invalid"
+msgstr "De gebuikersnaam is ongeldig"
+
+msgid "That username already exists"
+msgstr "Die gebruikersnaam bestaat al"
+
+msgid "That email is already registered"
+msgstr "Dat e-mailadres is al geregistreerd"
+
+msgid "That email is already used by another account"
+msgstr "Het e-mailadres wordt al gebruikt door een ander account"
+
+msgid "Invalid locale choice"
+msgstr ""
+
+msgid "Invalid date, expecting DD.MM.YYYY"
+msgstr "Ongeldige datum, gebruik DD.MM.JJJJ"
+
+msgid ""
+"Please enter a html color code like '#f0f0f0'. '%(value)' is not a valid "
+"color code."
+msgstr "Voer de html kleurcode als volgt in '#f0f0f0'. '%(value)' is geen geldige kleurcode."
+
+msgid "No instance key is given"
+msgstr "Er is geen groep ID opgegeven"
+
+msgid "The instance key is invalid"
+msgstr "De groep ID is ongelding"
+
+msgid "An instance with that key already exists"
+msgstr "Er bestaat al een groep met die ID"
+
+msgid "No static key is given"
+msgstr "Er is geen statische key geleverd"
+
+msgid "The static key is invalid"
+msgstr "De statische key is ongeldig"
+
+#, python-format
+msgid "No entity with ID '%s' exists"
+msgstr "Entiteit met ID '%s' bestaat niet"
+
+#, python-format
+msgid "No proposal with ID '%s' exists"
+msgstr "Er bestaat geen voorstel met het ID '%s'"
+
+#, python-format
+msgid "No group with ID '%s' exists"
+msgstr "Er bestaat geen groep met het ID '%s'"
+
+#, python-format
+msgid "Group '%s' is no instance group"
+msgstr "Groep '%s' is geen instance groep"
+
+msgid "At least one character is required"
+msgstr "Tenminste één karakter is vereist"
+
+msgid "You're not allowed to edit global badges"
+msgstr "U mag de algemene badges niet aanpassen"
+
+#, python-format
+msgid "No Badge ID '%s' exists"
+msgstr "Er bestaat geen badge met het ID '%s'"
+
+msgid "No badges selected"
+msgstr "Geen badges geselecteerd"
+
+msgid "Duplicates in input set of user badge IDs"
+msgstr "Er zijn duplicaten in de ingevoerde set van gebruikersbadge IDs"
+
+#, python-format
+msgid "Could not find badges %s"
+msgstr "Kon badge %s niet vinden"
+
+#, python-format
+msgid "Cannot use global category %s in this instance"
+msgstr "De algemene categorie %s is niet te gebruiken in deze groep"
+
+#, python-format
+msgid "Badge with ID '%s' not valid in this instance"
+msgstr "De badge met ID '%s' is niet geldig in deze groep"
+
+msgid "Parent and child category instance have to match"
+msgstr "Parent en child categorie groep moeten overeenkomen"
+
+msgid "You shall not create cycles!"
+msgstr "Gij zult geen cycli creëren!"
+
+#, python-format
+msgid "No revision with ID '%s' exists"
+msgstr "Er bestaat geen revisie met het ID '%s'"
+
+#, python-format
+msgid "No comment with ID '%s' exists"
+msgstr "Er bestaat geen reactie met het ID '%s'"
+
+#, python-format
+msgid "No watchlist entry with ID '%s' exists"
+msgstr "ID '%s' komt niet in de volglijst voor"
+
+msgid "Invalid reference"
+msgstr "Ongeldige referentie"
+
+#, python-format
+msgid "No user with the user name '%s' exists"
+msgstr "Er bestaat geen gebruiker met de gebruikersnaam '%s'"
+
+#, python-format
+msgid "No tagging with ID '%s' exists"
+msgstr "Er bestaat geen tag met ID '%s'"
+
+#, python-format
+msgid "No tag with ID '%s' exists"
+msgstr "Er bestaat geen tag met ID '%s'"
+
+#, python-format
+msgid "No text with ID '%s' exists"
+msgstr "Er bestaat geen tekst met het ID '%s'"
+
+#, python-format
+msgid "No page '%s' exists"
+msgstr "De pagina '%s' bestaat niet"
+
+#, python-format
+msgid "Invalid page function: %s"
+msgstr "Ongeldige pagina-functie: %s"
+
+msgid "No variant name is given."
+msgstr "Geen variant naam gegeven."
+
+#, python-format
+msgid "Invalid variant name: %s"
+msgstr "Ongeldige variant naam: %s"
+
+#, python-format
+msgid "Variant name cannot be purely numeric: %s"
+msgstr "Variant naam mag niet enkel cijfers zijn: %s"
+
+msgid "An entry with this title already exists"
+msgstr "Deze titel wordt al gebruikt."
+
+msgid "No page name is given."
+msgstr "Er is geen pagina naam gegeven."
+
+#, python-format
+msgid "Invalid page name: %s"
+msgstr "Ongeldige pagina naam: %s"
+
+#, python-format
+msgid "Error \"%(error)s\" while reading line <pre><i>%(line_content)s</i></pre>"
+msgstr "Fout \"%(error)s\" tijdens het lezen van de regel <pre><i>%(line_content)s</i></pre>"
+
+#, python-format
+msgid "The following errors occured while reading the list of users: <br />%s"
+msgstr "De volgende fouten zijn opgetreden tijden het uitlezen van de lijst met gebruikers: <br/>%s"
+
+#, python-format
+msgid "Line %s: %s"
+msgstr "Regel %s: %s"
+
+#, python-format
+msgid "Email %s is used multiple times"
+msgstr "E-mail %s is meerdere keren gebruikt"
+
+#, python-format
+msgid "Username %s is used multiple times"
+msgstr "Gebruikersnaam %s wordt meerdere malen gebruikt"
+
+#, python-format
+msgid "Lines %s: %s"
+msgstr "Regels %s: %s"
+
+#, python-format
+msgid ""
+"You need to insert the following placeholders into the email text so we can "
+"insert enough information for the user: %s"
+msgstr "U moet de volgende plaatshouders in de e-mail tekst invoegen zodat we de deelnemer genoeg kunnen informeren: %s"
+
+msgid "This is not a valid image file"
+msgstr "Dit is geen geldig afbeelding bestand"
+
+msgid "The file is too big (>1MB)"
+msgstr "Dit bestand is te groot (>1MB)"
+
+msgid "Please select at least one instance"
+msgstr "Selecteer ten minste één groep"
+
+msgid "Disallowed instance selected"
+msgstr "Geselecteerde groep niet toegestaan"
+
+msgid "Invalid value"
+msgstr ""
+
+msgid "Invalid choice"
+msgstr ""
+
+#, python-format
+msgid "%d days"
+msgstr "%d dagen"
+
+msgid "Voter"
+msgstr "Stemmer"
+
+msgid "Observer"
+msgstr "Waarnemer"
+
+msgid "Supervisor"
+msgstr "Begeleider"
+
+msgid "Administrator"
+msgstr "Beheerder"
+
+msgid "Default"
+msgstr "Default"
+
+msgid "Advisor"
+msgstr "Adviseur"
+
+msgid "Draft"
+msgstr "Ontwerp"
+
+msgid "Polling"
+msgstr "Stemming"
+
+msgid "Adopted"
+msgstr "Aangenomen"
+
+msgid ""
+"A liquid democracy platform for making decisions in distributed, open groups"
+" by cooperatively creating proposals and voting on them to establish their "
+"support."
+msgstr "Een 'liquid democracy' besluitvormingsplatform waar in gedistribueerde open groepen gezamenlijk voorstellen gemaakt worden en geëvalueerd door middel van stemmingen."
+
+msgid ""
+"adhocracy, direct democracy, liquid democracy, liqd, democracy, wiki, "
+"voting,participation, group decisions, decisions, decision-making"
+msgstr "adhocratie, adhocracy, directe democratie, direct democraty, vloeibare democratie, liquid democracy, liqd, democratie, democracy, wiki, stemmen, participatie, groepsbesluiten, besluiten, besluitvorming, beslissingen"
+
+msgid "Invalid request. Please go back and try again."
+msgstr "Ongeldig verzoek. Ga terug en probeer het opnieuw."
+
+msgid "The method you used is not implemented."
+msgstr "De methode die u heeft gebruikt, is niet geïmplementeerd."
+
+#, python-format
+msgid "Abuse report: %s"
+msgstr "Melding van misbruik: %s"
+
+#, python-format
+msgid ""
+"%(user)s has reported abuse on the page %(url)s:\r\n"
+"\r\n"
+"%(message)s"
+msgstr "%(user)s heeft misbruik gemeld op pagina %(url)s:\n\n%(message)s"
+
+#, python-format
+msgid "Hi %s,"
+msgstr "Hallo %s,"
+
+#, python-format
+msgid ""
+"Cheers,\r\n"
+"\r\n"
+"    the %s Team\r\n"
+msgstr "Hartelijke groet,\n\n    Het %s Team\n"
+
+#, python-format
+msgid "%s <%s>"
+msgstr "%s <%s>"
+
+msgid ""
+"this email is to check the email address you have provided. In order to "
+"confirm this email address, please open the link below in your browser:"
+msgstr "deze e-mail is bedoeld om het door u verstrekte e-mailadres te controleren. U kunt dit e-mailadres bevestigen door de onderstaande link te openen in uw browser:"
+
+msgid "Confirm your email address"
+msgstr "Bevestig uw e-mailadres"
+
+msgid "Dear Ms."
+msgstr "Beste mevrouw"
+
+msgid "Dear Mr."
+msgstr "Beste meneer"
+
+msgid "Dear"
+msgstr "Beste"
+
+msgid "Oldest"
+msgstr "Oudste"
+
+msgid "Newest"
+msgstr "Nieuwste"
+
+msgid "Activity"
+msgstr "Activiteit"
+
+msgid "Alphabetically"
+msgstr "Alfabetisch"
+
+msgid "Newest Comment"
+msgstr "Nieuwste Reactie"
+
+msgid "Most Support"
+msgstr "Meeste Steun"
+
+msgid "Mixed"
+msgstr "Gemengd"
+
+msgid "Controversy"
+msgstr "Controverse"
+
+msgid "Sort by proposal creation date"
+msgstr "Sorteer op voorstel aanmaakdatum"
+
+msgid "Sort by date of the last comment"
+msgstr "Sorteer op datum van de laatste reactie"
+
+msgid "Sort by number of votes for the proposal"
+msgstr "Sorteer op aantal stemmen voor het voorstel"
+
+msgid ""
+"Sort by the difference between number of votes for and against, and prefer "
+"newer proposals"
+msgstr "Sorteer op het verschil tussen het aantal stemmen voor en tegen, en prefereer nieuwere voorstellen."
+
+msgid "Prefer proposals where the gap between votes for and against is close"
+msgstr "Prefereer voorstellen waar het gat tussen voors en tegens klein is"
+
+msgid "Sort by the characters of the proposal title"
+msgstr "Sorteer op voorsteltitel"
+
+msgid "by date"
+msgstr "op datum"
+
+msgid "most proposals"
+msgstr "meeste voorstellen"
+
+msgid "hierarchical"
+msgstr "hiërarchisch"
+
+msgid "activity"
+msgstr "activiteit"
+
+msgid "Badge"
+msgstr "Badge"
+
+msgid "Instance"
+msgstr "Groep"
+
+msgid "Categories"
+msgstr "Categorieën"
+
+msgid "Thumbnails"
+msgstr "Thumbnails"
+
+msgid "Created by"
+msgstr "Aangemaakt door"
+
+msgid "Tags"
+msgstr "Tags"
+
+msgid "Milestones"
+msgstr "Mijlpalen"
+
+msgid "Yays - nays"
+msgstr "Voors - tegens"
+
+msgid "Most Votes"
+msgstr "Meeste Stemmen"
+
+msgid "Yays + nays"
+msgstr "Voors + tegens"
+
+msgid "Most Ayes"
+msgstr "Meeste Stemmen Voor"
+
+msgid "Most Nays"
+msgstr "Meeste Stemmen Tegen"
+
+msgid "Age and Support"
+msgstr "Leeftijd en Steun"
+
+msgid "Rating"
+msgstr "Beoordeling"
+
+msgid "Date"
+msgstr "Datum"
+
+msgid "User behavior"
+msgstr "Gebruikersgedrag"
+
+msgid "Other"
+msgstr "Andere"
+
+msgid "Support"
+msgstr "Steun"
+
+msgid "Newest Proposals"
+msgstr "Nieuwste Voorstellen"
+
+msgid "Support by"
+msgstr ""
+
+msgid "The changes were saved."
+msgstr ""
+
+msgid "No update required."
+msgstr "Geen update nodig."
+
+msgid "We're sorry, but it seems that you lack the permissions to continue."
+msgstr "Sorry, maar het lijkt erop dat u niet de rechten heeft om verder te gaan."
+
+msgid ""
+"I'm sorry, it looks like we made a mistake (CSRF alert). Please try again."
+msgstr "Sorry, het lijkt er op dat we een fout hebben gemaakt (CSRF alert). Probeer het alstublieft nogmaals."
+
+#, python-format
+msgid "variant %(variant)s of %(page)s"
+msgstr "variant %(variant)s van %(page)s"
+
+msgid "is for"
+msgstr "is voor"
+
+msgid "abstains on"
+msgstr "onthoudt zich van stemming op"
+
+msgid "is against"
+msgstr "is tegen"
+
+#, python-format
+msgid "comment on %s"
+msgstr "reactie op %s"
+
+#, python-format
+msgid "argument on %s"
+msgstr "argument voor %s"
+
+msgid "(Undefined)"
+msgstr "(onbepaald)"
+
+#, python-format
+msgid "New user: %(user)s"
+msgstr "Nieuwe gebruiker: %(user)s"
+
+msgid "signed up"
+msgstr "aangemeld"
+
+#, python-format
+msgid "%(user)s: profile updated"
+msgstr "%(user)s: profiel bijgewerkt"
+
+msgid "edited their profile"
+msgstr "heeft zijn/haar profiel aangepast"
+
+#, python-format
+msgid "%(user)s: profile was edited by %(admin)s"
+msgstr "%(user)s: profiel was aangepast door %(admin)s"
+
+#, python-format
+msgid "had their profile updated by %(admin)s"
+msgstr "profiel is bijgewerkt door %(admin)s"
+
+#, python-format
+msgid "New instance: %(instance)s"
+msgstr "Nieuwe Groep: %(instance)s"
+
+#, python-format
+msgid "founded the %(instance)s instance"
+msgstr "heeft de groep %(instance)s opgericht"
+
+#, python-format
+msgid "%(instance)s: instance was updated"
+msgstr "%(instance)s: groep is bijgewerkt."
+
+#, python-format
+msgid "updated the %(instance)s instance"
+msgstr "heeft de %(instance)s groep bijgewerkt"
+
+#, python-format
+msgid "Deleted Adhocracy: %(instance)s"
+msgstr "Verwijderde Adhocracy: %(instance)s"
+
+#, python-format
+msgid "deleted the %(instance)s instance"
+msgstr "de %(instance)s groep is verwijderd"
+
+#, python-format
+msgid "%(instance)s: %(user)s joined"
+msgstr "%(instance)s: %(user)s is lid geworden"
+
+#, python-format
+msgid "joined %(instance)s"
+msgstr "lid geworden op %(instance)s"
+
+#, python-format
+msgid "%(instance)s: %(user)s left"
+msgstr "%(instance)s: %(user)s verlaten"
+
+#, python-format
+msgid "left %(instance)s"
+msgstr "verliet %(instance)s"
+
+#, python-format
+msgid "%(instance)s: %(user)s was forced to leave"
+msgstr "%(instance)s: %(user)s was gedwongen te vertrekken"
+
+#, python-format
+msgid "was forced to leave %(instance)s by %(admin)s"
+msgstr "was gedwongen weg te gaan uit %(instance)s door %(admin)s"
+
+#, python-format
+msgid "%(instance)s: %(user)s is now a %(group)s"
+msgstr "%(instance)s: %(user)s is nu een %(group)s"
+
+#, python-format
+msgid "now is a %(group)s within %(instance)s"
+msgstr "is nu een %(group)s in %(instance)s"
+
+#, python-format
+msgid "New proposal: %(proposal)s"
+msgstr "Nieuw voorstel: %(proposal)s"
+
+#, python-format
+msgid "created %(proposal)s"
+msgstr "heeft %(proposal)s aangemaakt"
+
+#, python-format
+msgid "Edit proposal: %(proposal)s"
+msgstr "Bewerk voorstel: %(proposal)s"
+
+#, python-format
+msgid "edited %(proposal)s"
+msgstr "heeft %(proposal)s aangepast"
+
+#, python-format
+msgid "Poll cancelled: %(proposal)s"
+msgstr "Stemming geannuleerd: %(proposal)s"
+
+#, python-format
+msgid "re-drafted %(proposal)s"
+msgstr "herschreven %(proposal)s"
+
+#, python-format
+msgid "New Poll: %(proposal)s"
+msgstr "Nieuw Stemming: %(proposal)s"
+
+#, python-format
+msgid "called a vote on %(proposal)s"
+msgstr "opgeroepen tot stemmen voor %(proposal)s"
+
+#, python-format
+msgid "Deleted proposal: %(proposal)s"
+msgstr "Verwijderd voorstel: %(proposal)s"
+
+#, python-format
+msgid "deleted %(proposal)s"
+msgstr "verwijderde %(proposal)s"
+
+#, python-format
+msgid "New page: %(page)s"
+msgstr "Nieuw pagina: %(page)s"
+
+#, python-format
+msgid "created %(page)s"
+msgstr "heeft %(page)s aangemaakt"
+
+#, python-format
+msgid "Edit page: %(page)s"
+msgstr "Bewerk pagina: %(page)s"
+
+#, python-format
+msgid "edited %(page)s"
+msgstr "heeft %(page)s aangepast"
+
+#, python-format
+msgid "Deleted page: %(page)s"
+msgstr "Verwijderde pagina: %(page)s"
+
+#, python-format
+msgid "deleted %(page)s"
+msgstr "verwijderde %(page)s"
+
+#, python-format
+msgid "New comment: in %(topic)s"
+msgstr "Nieuwe reactie: in %(topic)s"
+
+#, python-format
+msgid "New argument: in %(topic)s"
+msgstr "Nieuw argument: in %(topic)s"
+
+#, python-format
+msgid "commented on %(topic)s"
+msgstr "reageerde op %(topic)s"
+
+#, python-format
+msgid "discussed %(topic)s"
+msgstr "bediscussieerde %(topic)s"
+
+#, python-format
+msgid "Edited comment: in %(topic)s"
+msgstr "Aangepaste reactie: in %(topic)s"
+
+#, python-format
+msgid "Edited argument: in %(topic)s"
+msgstr "Argument aangepast: in %(topic)s"
+
+#, python-format
+msgid "edited comment on %(topic)s"
+msgstr "aangepaste reactie op %(topic)s"
+
+#, python-format
+msgid "edited argument about %(topic)s"
+msgstr "paste argument over %(topic)s aan"
+
+#, python-format
+msgid "Deleted comment: in %(topic)s"
+msgstr "Verwijderde reactie: in %(topic)s"
+
+#, python-format
+msgid "Deleted argument: in %(topic)s"
+msgstr "Argument verwijderd: in %(topic)s"
+
+#, python-format
+msgid "deleted comment from %(topic)s"
+msgstr "verwijderde reactie van %(topic)s"
+
+#, python-format
+msgid "deleted argument from %(topic)s"
+msgstr "argument verwijderd van %(topic)s"
+
+#, python-format
+msgid "New Delegation: %(user)s delegated %(scope)s to %(agent)s"
+msgstr "Nieuw Volmachtiging: %(user)s heeft %(scope)s gevolmachtigd aan %(agent)s"
+
+#, python-format
+msgid "delegated voting on %(scope)s to %(agent)s"
+msgstr "%(scope)s is gevolmachtigd aan %(agent)s"
+
+#, python-format
+msgid "Revoked Delegation: %(user)s revoked delegation to %(agent)s"
+msgstr "Volmachtiging Ingetrokken: %(user)s heeft de volmachtiging aan %(agent)s ingetrokken"
+
+#, python-format
+msgid "revoked their delegation on %(scope)s to %(agent)s"
+msgstr "heeft de volmachtiging van %(scope)s aan %(agent)s ingetrokken"
+
+#, python-format
+msgid "Vote: %(user)s %(vote)s %(poll)s"
+msgstr "Stem: %(user)s %(vote)s %(poll)s"
+
+#, python-format
+msgid "%(vote)s %(poll)s"
+msgstr "%(vote)s %(poll)s"
+
+#, python-format
+msgid "Rating: %(user)s %(vote)s %(poll)s"
+msgstr "Beoordeling: %(user)s %(vote)s %(poll)s"
+
+#, python-format
+msgid "Variants: %(user)s %(vote)s %(poll)s"
+msgstr "Varianten: %(user)s %(vote)s %(poll)s"
+
+#, python-format
+msgid "Adhocracy says hello: %(test)s"
+msgstr "Adhocracy zegt hallo: %(test)s"
+
+#, python-format
+msgid "test %(test)s"
+msgstr "test %(test)s"
+
+#, python-format
+msgid "You received %(user)ss delegation on %(scope)s"
+msgstr "U heeft een volmachtiging voor %(scope)s ontvangen van %(user)ss"
+
+#, python-format
+msgid "You lost %(user)ss delegation on %(scope)s"
+msgstr "U bent de volmachtiging voor %(scope)s van %(user)ss kwijt"
+
+#, python-format
+msgid "Membership: You've been kicked from %(instance)s"
+msgstr "Lidmaatschap: U bent verwijderd uit %(instance)s"
+
+#, python-format
+msgid "Membership: you're now a %(group)s in %(instance)s"
+msgstr "Lidmaatschap: U bent nu een %(group)s in %(instance)s"
+
+#, python-format
+msgid "Your vote %(vote)s %(poll)s"
+msgstr "Uw stem %(vote)s %(poll)s"
+
+#, python-format
+msgid "Your delegate %(agent)s %(vote)s %(poll)s"
+msgstr "Uw gemachtigde %(agent)s %(vote)s %(poll)s"
+
+#, python-format
+msgid "Delegation conflict regarding %(poll)s"
+msgstr "Machtigingsconflict voor %(poll)s"
+
+#, python-format
+msgid "Comment Reply: %(topic)s"
+msgstr "Reactie Antwoord: %(topic)s"
+
+#, python-format
+msgid "Comment Edit: %(topic)s"
+msgstr "Reactie Bewerken: %(topic)s"
+
+#, python-format
+msgid ""
+"\r\n"
+"\r\n"
+"More info: %(url)s"
+msgstr " \n\nMeer informatie: %(url)s"
+
+msgid "This proposal is currently being voted on and cannot be modified."
+msgstr "Over dit voorstel wordt momenteel gestemd en kan daarom niet worden aangepast."
+
+msgid "(Unknown)"
+msgstr "(Onbekend)"
+
+msgid "Documents"
+msgstr "Documenten"
+
+msgid "Proposals"
+msgstr "Voorstellen"
+
+msgid "Implementation"
+msgstr "Implementatie"
+
+msgid "Adhocracy"
+msgstr "Adhocracy"
+
+msgid "delete"
+msgstr "verwijder"
+
+#, python-format
+msgid "%s (deleted user)"
+msgstr "%s (verwijderde gebruiker)"
+
+msgid "Users"
+msgstr "Gebruikers"
+
+msgid "This action is only available in an instance context."
+msgstr "Deze actie is enkel beschikbaar in de context van een groep."
+
+msgid "show more"
+msgstr "toon meer"
+
+msgid "show less"
+msgstr "toon minder"
+
+msgid "(no milestone)"
+msgstr "(geen mijlpaal)"
+
+msgid "Your current vote is already pro"
+msgstr "Uw huidige stem is al vóór"
+
+msgid "Click to change you vote to neutral"
+msgstr "Click om uw stem naar neutraal te veranderen"
+
+msgid "Click to vote pro"
+msgstr "Klik om vóór te stemmen"
+
+msgid "Click to vote con"
+msgstr "Klik om tegen te stemmen"
+
+msgid "Your current vote is already con"
+msgstr "Uw stem is al tegen"
+
+msgid "Voting has ended. Click to view the list of votes"
+msgstr "Het stemmen is geëindigd. Klik om de lijst met stemmen te zien. "
+
+msgid "Please login or register to vote."
+msgstr "Registreer of log in om te stemmen."
+
+#, python-format
+msgid "Please join the instance \"%s\" to vote."
+msgstr "Word lid van groep \"%s\" om te stemmen."
+
+msgid "Click to see the list of votes"
+msgstr "Klik hier om de lijst met stemmen te zien"
+
+msgid "(Untitled)"
+msgstr "(Naamloos)"
+
+msgid "Status Quo"
+msgstr "Status Quo"
+
+#, python-format
+msgid "The random username %s has been assigned to you."
+msgstr ""
+
+msgid "formatting hints"
+msgstr "opmaak tips"
+
+msgid "Save"
+msgstr "Opslaan"
+
+msgid "or"
+msgstr "of"
+
+msgid "cancel"
+msgstr "annuleren"
+
+msgid "Notify me of updates."
+msgstr "Houd mij op de hoogte."
+
+msgid "Follow Norm"
+msgstr "Volg Reglement"
+
+msgid "Follow Instance"
+msgstr "Volg groep"
+
+msgid "Follow Proposal"
+msgstr "Volg Voorstel"
+
+msgid "Follow Milestone"
+msgstr "Volg Mijlpaal"
+
+msgid "Follow User"
+msgstr "Volg Gebruiker"
+
+msgid "Follow Comment"
+msgstr "Volg Reactie"
+
+msgid "Follow Tag"
+msgstr "Volg Tag"
+
+msgid "Following"
+msgstr "Volgen"
+
+msgid "Unfollow"
+msgstr "Niet Meer Volgen"
+
+msgid "Disable email notifications."
+msgstr "Schakel e-mailnotificaties uit."
+
+msgid "Receive email notifications if changes occur."
+msgstr "Ontvang e-mailnotificaties als er wijzigingen optreden."
+
+msgid "Send us your feedback"
+msgstr "Stuur ons feedback"
+
+msgid "Category"
+msgstr "Categorie"
+
+msgid "Title"
+msgstr "Titel"
+
+msgid "One line summary"
+msgstr "Eenregelige samenvatting"
+
+msgid "Description"
+msgstr "Beschrijving"
+
+msgid "Submit"
+msgstr "Verzend"
+
+msgid "List existing feedback"
+msgstr "Toon bestaande feedback"
+
+msgid "Feedback"
+msgstr ""
+
+msgid "Proposal Category"
+msgstr "Voorstel Categorie"
+
+msgid "No Category"
+msgstr "Geen Categorie"
+
+msgid "Others"
+msgstr "Anderen"
+
+msgid "code of conduct"
+msgstr "gedragscode"
+
+msgid "terms and conditions"
+msgstr "algemene voorwaarden"
+
+msgid "privacy"
+msgstr "privacy"
+
+msgid "imprint"
+msgstr "contact"
+
+#, python-format
+msgid "<b>%s</b> members"
+msgstr "<b>%s</b> leden"
+
+#, python-format
+msgid "<b>%s</b> proposals"
+msgstr "<b>%s</b> voorstellen"
+
+#, python-format
+msgid "<b>%s</b> comments"
+msgstr "<b>%s</b> reacties"
+
+#, python-format
+msgid "<b>%s</b> votes"
+msgstr "<b>%s</b> stemmen"
+
+msgid "Start"
+msgstr "Start"
+
+msgid "Instances"
+msgstr "Groepen"
+
+msgid "Watchlist"
+msgstr "Volglijst"
+
+msgid "About"
+msgstr "Over"
+
+msgid "Help"
+msgstr "Hulp"
+
+msgid "Dashboard"
+msgstr "Dashboard"
+
+msgid "Edit Profile"
+msgstr "Bewerk Profiel"
+
+msgid "View Profile"
+msgstr "Bekijk Profiel"
+
+msgid "Administrate Site"
+msgstr "Beheer Site"
+
+msgid "Logout"
+msgstr "Log uit"
+
+msgid "Settings"
+msgstr "Instellingen"
+
+msgid "Search"
+msgstr "Zoeken"
+
+#, python-format
+msgid "Search in &ldquo;%s&rdquo;&hellip;"
+msgstr "Zoek in &ldquo;%s&rdquo;&hellip;"
+
+msgid "Overview"
+msgstr "Overzicht"
+
+msgid "Norms"
+msgstr "Reglementen"
+
+msgid "Members"
+msgstr "Leden"
+
+#, python-format
+msgid "%(start)s-%(end)s out of %(total)s"
+msgstr "%(start)s-%(end)s van de %(total)s"
+
+msgid "No entries."
+msgstr "Geen items."
+
+msgid "previous"
+msgstr "vorige"
+
+msgid "next"
+msgstr "volgende"
+
+msgid "entries"
+msgstr "items"
+
+msgid "Filter list"
+msgstr "Filter lijst"
+
+msgid "reset"
+msgstr "reset"
+
+msgid "Sort:"
+msgstr "Sorteer:"
+
+msgid "You are using an outdated web browser. Click here to update."
+msgstr "U gebruikt een verouderde webbrowser. Klik hier om te updaten."
+
+msgid "Welcome back!"
+msgstr "Welkom terug!"
+
+#, python-format
+msgid "Welcome to %s!"
+msgstr "Welkom bij %s!"
+
+msgid "Please choose a password:"
+msgstr "Kies een wachtwoord:"
+
+msgid "Please pick a secure password"
+msgstr "Kies alstublieft een veilig wachtwoord"
+
+msgid "Set Password"
+msgstr "Stel Wachtwoord In"
+
+msgid "Join this instance to start contributing."
+msgstr "Word lid van deze groep om er aan bij te dragen."
+
+msgid "join"
+msgstr "word lid"
+
+msgid "Validate email to start contributing."
+msgstr "Bevestig uw e-mailadres om deel te nemen."
+
+#, python-format
+msgid "Resend validation email to %s"
+msgstr "Verstuur bevestigingsmail opnieuw naar %s"
+
+msgid "Send activation link"
+msgstr "Verstuur activatielink"
+
+msgid "Edit profile"
+msgstr "Bewerk profiel"
+
+msgid "This instance has been frozen - you can not edit or post anything."
+msgstr "Deze groep is bevroren - u kunt geen aanpassingen maken of nieuwe inhoud plaatsen."
+
+msgid "Register"
+msgstr "Aanmelden"
+
+msgid "Get an account to participate in the discussion."
+msgstr "Maak een account aan om mee te doen aan de discussie."
+
+msgid "Log in to participate in the discussion."
+msgstr "Log in om deel te nemen aan de discussie."
+
+msgid ""
+"You need to set an email in your profile in order to contribute to this "
+"instance."
+msgstr "U moet een e-mailadres instellen in uw profiel om deel te kunnen nemen aan deze groep."
+
+msgid ""
+"Please validate your email address in order to contribute to this instance."
+msgstr "Bevestig uw e-mailadres om deel te kunnen nemen aan deze groep."
+
+msgid "Your registered email address is:"
+msgstr "Uw geregistreerde e-mailadres is:"
+
+msgid "Provide information"
+msgstr ""
+
+msgid "Please provide statistical information to help scientific evaluation!"
+msgstr ""
+
+msgid "Next"
+msgstr "Volgende"
+
+msgid "Previous"
+msgstr "Vorige"
+
+msgid "start_this_tutorial"
+msgstr "Start de tutorial"
+
+msgid "disable_this_tutorial"
+msgstr "Verberg deze tutorial"
+
+msgid "disable_all_tutorials"
+msgstr "Verberg alle tutorials"
+
+#, python-format
+msgid ""
+"A total of <a href=\"%(url)s\">%(votes)s votes</a>, thereof %(for)s ayes and"
+" %(against)s nays"
+msgstr "Een totaal van <a href=\"%(url)s\">%(votes)s stemmen</a>, waarvan %(for)s voor en %(against)s tegen"
+
+#, python-format
+msgid "A total of %(votes)s votes, thereof %(for)s ayes and %(against)s nays"
+msgstr "Een totaal van %(votes)s stemmen, waarvan %(for)s voor en %(against)s tegen"
+
+msgid "Votes"
+msgstr "Stemmen"
+
+msgid "Votes by User Group"
+msgstr "Stemmen per Gebruikersgroep"
+
+msgid "Shortlink"
+msgstr "Link"
+
+msgid "Report abuse"
+msgstr "Meld misbruik"
+
+msgid "Link:"
+msgstr "Link:"
+
+msgid "Reason to report this page..."
+msgstr "Reden voor het melden van deze pagina..."
+
+msgid "Send"
+msgstr "Verstuur"
+
+msgid "Export"
+msgstr "Exporteer"
+
+msgid "Export users"
+msgstr "Exporteer gebruikers"
+
+msgid "Include personal data"
+msgstr "Inclusief persoonlijke data"
+
+msgid "Include password hashes"
+msgstr "Inclusief paswoord hashes"
+
+msgid "Export badges"
+msgstr "Exporteer badges"
+
+msgid "Export content (instances)"
+msgstr "Exporteer inhoud (groepen)"
+
+msgid "Include proposals"
+msgstr "Inclusief voorstellen"
+
+msgid "Include comments"
+msgstr "Inclusief reacties"
+
+msgid "Include ratings"
+msgstr ""
+
+msgid "Export request log"
+msgstr "Exporteer aanvraag-logbestand"
+
+msgid "Export static pages"
+msgstr ""
+
+msgid "Export format:"
+msgstr "Exporteerformaat:"
+
+msgid "JSON"
+msgstr "JSON"
+
+msgid "JSON file"
+msgstr "JSON bestand"
+
+msgid "JSON file, compressed with gzip"
+msgstr "JSON bestand, gecomprimeerd met gzip"
+
+msgid "Tar file, compressed with bz2"
+msgstr "Tar bestand, gecomprimeerd met bz2"
+
+msgid "Zip file"
+msgstr "Zip bestand"
+
+msgid "Export Now"
+msgstr "Exporteer Nu"
+
+msgid "Import"
+msgstr "Importeer"
+
+msgid "Import users"
+msgstr "Importeer gebruikers"
+
+msgid "Generate welcome codes"
+msgstr "Genereer welkom codes"
+
+msgid "Import badges"
+msgstr "Importeer badges"
+
+msgid "Import content (instances)"
+msgstr "Importeer inhoud (groepen)"
+
+msgid "Import static pages"
+msgstr ""
+
+msgid "Replacement strategy"
+msgstr "Vervangingsstrategie"
+
+msgid "Update duplicate entries"
+msgstr "Update dubbele items"
+
+msgid "Skip duplicate entries"
+msgstr "Sla dubbele items over"
+
+msgid "Detect"
+msgstr "Detecteer"
+
+msgid "ZIP"
+msgstr "ZIP"
+
+msgid "Import Now"
+msgstr "Importeer Nu"
+
+msgid "Import successfully performed."
+msgstr "Het importeren is gelukt."
+
+msgid "back to main page"
+msgstr "terug naar de hoofdpagina"
+
+msgid "Admin: Group Permissions"
+msgstr "Admin: Groepsrechten"
+
+msgid "Admin &raquo; Group Permissions"
+msgstr "Admin &raquo; Groepsrechten"
+
+msgid "Group Permissions"
+msgstr "Groepsrechten"
+
+msgid ""
+"WARNING: This allows you to shut yourself out of your adhocracy. Handle with"
+" care!"
+msgstr "WAARSCHUWING: Hiermee kunt u zich uit Adhocracy buitensluiten. Ga hier voorzichtig mee om!"
+
+msgid "Permissions"
+msgstr "Rechten"
+
+msgid "All Events"
+msgstr "Alle Evenementen"
+
+msgid "Import Users"
+msgstr "Importeer Gebruikers"
+
+msgid "Update Search Index"
+msgstr "Update Zoek Index"
+
+msgid "Fix autojoin"
+msgstr "Autojoin corrigeren"
+
+msgid "Static Pages"
+msgstr "Statische Pagina's"
+
+msgid "Send an email to users"
+msgstr "Stuur een e-mail naar gebruikers"
+
+msgid "Assign treatment badges"
+msgstr "Wijs behandeling badge toe"
+
+msgid "Site administration"
+msgstr "Site administratie"
+
+msgid "Admin: Import Users"
+msgstr "Admin: Importeer Gebruikers"
+
+msgid ""
+"Paste the content of a CSV file, e.g. exported from Excel, with the 3 "
+"columns username, display name and email"
+msgstr "Plak de inhoud van een CSV bestand, bv. geëxporteerd vanuit Excel of LibreOffice Calc, met de 4 kolommen, gebruikersnaam, weergavenaam en e-mail"
+
+msgid "Users CSV"
+msgstr "Gebruikers CSV"
+
+msgid "Email Subject"
+msgstr "E-mail Onderwerp"
+
+msgid "Email Template"
+msgstr "E-mail Sjabloon"
+
+msgid "The name with which the user can log in."
+msgstr "De naam waarmee de gebruiker kan inloggen."
+
+msgid "The initial password for the user."
+msgstr "Het initiële wachtwoord van de gebruiker."
+
+msgid "An URL for the user to activate his account."
+msgstr "Een URL waarmee de gebruiker de account kan activeren."
+
+msgid "The name that will be displayed to other users."
+msgstr "De naam die andere gebruikers te zien krijgen."
+
+msgid "The email address of the user."
+msgstr "Het e-mailadres van de gebruiker."
+
+msgid ""
+"The template for the mail to the users. You need to insert some placeholders"
+" into the email text."
+msgstr "Het sjabloon voor e-mail naar de deelnemers. U moet enkele plaatshouders in de e-mail tekst invoegen."
+
+msgid "Required"
+msgstr "Vereist"
+
+msgid "Imported Users"
+msgstr "Geïmporteerde Gebruikers"
+
+msgid "But some errors occured"
+msgstr "Er zijn echter sommige fouten opgetreden"
+
+msgid "You successfully created the following users:"
+msgstr "De volgende gebruikers zijn aangemaakt:"
+
+#, python-format
+msgid ""
+"You successfully created the following users and added them as Members to "
+"the instance \"%s\":"
+msgstr "De volgende gebruikers zijn aangemaakt en toegevoegd als deelnemers aan de groep \"%s\":"
+
+msgid "The following errors happend while creating the users"
+msgstr "De volgende fouten zijn opgetreden tijdens het aanmaken van de gebruikers"
+
+msgid "These users could not be created:"
+msgstr "De volgende gebruikers konden niet worden aangemaakt:"
+
+msgid "These users where created, but we could not send out mails:"
+msgstr "De gebruikers zijn aangemaakt, maar we konden geen e-mail verzenden:"
+
+msgid "Badge title"
+msgstr "Badge titel"
+
+msgid "Badge description"
+msgstr "Badge beschrijving"
+
+msgid "The color that is used to show the badge"
+msgstr "De kleur die gebruikt wordt om de badge te tonen"
+
+msgid "Like '#a4a4a4'"
+msgstr "Zoals '#a4a4a4'"
+
+msgid "Preview:"
+msgstr "Voorbeeld:"
+
+msgid "Delete current thumbnail image"
+msgstr "Verwijder huidige thumbnail afbeelding"
+
+msgid "Upload thumbnail icon. This is used instead of color to show the badge"
+msgstr "Upload thumbnail pictogram. Dit wordt in plaats van een kleur gebruikt om de badge te tonen"
+
+msgid "Check to hide badge in user interface"
+msgstr "Verberg badge in gebruikersinterface"
+
+msgid "visible"
+msgstr "zichtbaar"
+
+msgid "Group"
+msgstr "Groep"
+
+msgid "No Group"
+msgstr "Geen groep"
+
+msgid ""
+"Automatically assign all users with this badge to the selected group for all"
+" instances in the adhocracy site."
+msgstr "Voeg alle gebruikers met deze badge automatisch toe aan de geselecteerde gebruikersgroep voor alle groepen op de adhocracy site."
+
+msgid "Automatically assign all users with this badge to the selected group."
+msgstr "Voeg alle gebruikers met deze badge automatisch toe aan de geselecteerde groep."
+
+msgid "Display group in instances"
+msgstr "Geef de gebruikersrollen in de groepen weer"
+
+msgid "Display this badge instead of the normal user group."
+msgstr "Geef deze badge weer in plaats van de normale gebruikersgroep."
+
+msgid "Global"
+msgstr "Algemeen"
+
+msgid "Parent Badge"
+msgstr "Parent Badge"
+
+msgid "No Parent Badge"
+msgstr "Geen Parent Badge"
+
+msgid "Global categories"
+msgstr "Algemene categorieën"
+
+msgid "Local instance categories"
+msgstr "Lokale groepscategorieën"
+
+msgid ""
+"Description to select children of this badge (irrelevant if this badge "
+"doesn't have any children)"
+msgstr "Beschrijving voor het selecteren van children van deze badge (ongeacht of deze badge children heeft)"
+
+msgid "Save Badge"
+msgstr "Sla Badge op"
+
+msgid "Edit"
+msgstr "Bewerk"
+
+msgid "No badges added yet."
+msgstr "Nog geen badges toegevoegd."
+
+msgid "Color"
+msgstr "Kleur"
+
+msgid "Preview"
+msgstr "Voorbeeld"
+
+msgid "Assigned Group"
+msgstr "Toegewezen Groep"
+
+msgid "Display"
+msgstr "Weergave"
+
+msgid "Actions"
+msgstr "Acties"
+
+msgid "yes"
+msgstr "ja"
+
+msgid "no"
+msgstr "nee"
+
+msgid "Parent"
+msgstr "Parent"
+
+msgid "User Badges"
+msgstr "Gebruikers badges"
+
+msgid "New"
+msgstr "Nieuw"
+
+msgid "Proposal Badges"
+msgstr "Voorstel Badges"
+
+msgid "Proposal Category Badges"
+msgstr "Voorstel Categorie Badges"
+
+msgid "Proposal Thumbnail Badges"
+msgstr "Voorstel Thumbnail Badges"
+
+msgid "Instance Badges"
+msgstr "Groepsbadge"
+
+msgid "Comment"
+msgstr "Reactie"
+
+msgid "Argument"
+msgstr "Argument"
+
+#, python-format
+msgid "Comment on %s"
+msgstr "Reactie op %s"
+
+#, python-format
+msgid "Argument about %s"
+msgstr "Argument over %s"
+
+msgid "Are you sure you want to delete this comment?"
+msgstr "Weet u zeker dat u deze reactie wilt verwijderen?"
+
+msgid "Are you sure you want to delete this argument?"
+msgstr "Weet u zeker dat u dit argument wilt verwijderen?"
+
+msgid "Confirm"
+msgstr "Bevestig"
+
+msgid "Edit comment"
+msgstr "Bewerk reactie"
+
+msgid "Edit argument"
+msgstr "Bewerk argument"
+
+#, python-format
+msgid "Comment on: %s"
+msgstr "Reactie op: %s"
+
+#, python-format
+msgid "Argument about: %s"
+msgstr "Argument over: %s"
+
+msgid "Comment History"
+msgstr "Reactie Geschiedenis"
+
+msgid "Argument History"
+msgstr "Argument Geschiedenis"
+
+msgid "New comment"
+msgstr "Nieuwe reactie"
+
+msgid "New argument"
+msgstr "Nieuw argument"
+
+#, python-format
+msgid "created %s"
+msgstr "aangemaakt op %s"
+
+msgid "revert here"
+msgstr "herstel deze"
+
+msgid "delete version permanently"
+msgstr "verwijder versie voorgoed"
+
+#, python-format
+msgid "on %s"
+msgstr "op %s"
+
+#, python-format
+msgid "edited %s"
+msgstr "heeft %s aangepast"
+
+msgid "No comments were made yet."
+msgstr "Er zijn geen reacties."
+
+msgid "No discussions were started yet."
+msgstr "Er zijn geen discussies gestart."
+
+msgid "Add comment"
+msgstr "Voeg reactie toe"
+
+msgid "Start new discussion"
+msgstr "Start nieuwe discussie"
+
+msgid "Join instance to comment."
+msgstr "Word lid van deze groep om te reageren."
+
+msgid "Join instance to discuss."
+msgstr "Neel deel aan de groep om te discussiëren."
+
+msgid "Add argument"
+msgstr "Voeg argument toe"
+
+msgid "Login to comment."
+msgstr "Log in om te reageren."
+
+msgid "Login to discuss."
+msgstr "Log in om te discussiëren."
+
+msgid "Validate email in order to comment."
+msgstr "Bevestig uw e-mailadres om te reageren."
+
+msgid "Validate email in order to discuss."
+msgstr "Bevestig e-mailadres om mee te doen aan de discussie."
+
+msgid "is pro"
+msgstr "is voor"
+
+msgid "is con"
+msgstr "is tegen"
+
+msgid "(deleted)"
+msgstr "(verwijderd)"
+
+msgid "This comment has been deleted."
+msgstr "Deze reactie is verwijderd."
+
+msgid "This argument has been deleted."
+msgstr "Dit argument is verwijderd."
+
+msgid "edit"
+msgstr "bewerk"
+
+msgid "1 Comment"
+msgstr "1 Reactie"
+
+msgid "1 Argument"
+msgstr "1 Argument"
+
+#, python-format
+msgid "%s Comments"
+msgstr "%s Reacties"
+
+#, python-format
+msgid "%s Arguments"
+msgstr "%s Argumenten"
+
+msgid "reply"
+msgstr "antwoord"
+
+msgid "Join instance to reply"
+msgstr "Word lid van deze groep om te antwoorden"
+
+msgid "Join instance to argue"
+msgstr "Word lid van de groep om te betogen"
+
+msgid "Login to reply"
+msgstr "Log in om te reageren"
+
+msgid "Login to argue"
+msgstr "Log in om te betogen"
+
+msgid "Validate email in order to reply"
+msgstr "Bevestig uw e-mailadres om te antwoorden."
+
+msgid "Validate email in order to argue"
+msgstr "Bevestig e-mailadres om te betogen"
+
+msgid "report"
+msgstr "meld misbruik"
+
+msgid "history"
+msgstr "geschiedenis"
+
+#, python-format
+msgid "deleted %s"
+msgstr "verwijderd %s"
+
+#, python-format
+msgid "edited %s by %s"
+msgstr "%s aangepast door %s"
+
+msgid "Comment is..."
+msgstr "Reactie is..."
+
+msgid "Argument is..."
+msgstr "Argument is..."
+
+msgid "Pro"
+msgstr "Voor"
+
+msgid "Neutral"
+msgstr "Neutraal"
+
+msgid "Con"
+msgstr "Tegen"
+
+msgid "Enter comment text:"
+msgstr "Voer reactietekst in:"
+
+msgid "Enter argument text:"
+msgstr "Voer argumenttekst in:"
+
+msgid "Allow others to edit this comment."
+msgstr "Sta toe dat anderen deze reactie mogen aanpassen."
+
+msgid "Allow others to edit this argument."
+msgstr "Sta anderen toe om dit argument aan te passen."
+
+#, python-format
+msgid "Comments on %s"
+msgstr "Reacties op %s"
+
+#, python-format
+msgid "Discussion on %s"
+msgstr "Discussie over %s"
+
+msgid "Context"
+msgstr "Context"
+
+msgid "History"
+msgstr "Geschiedenis"
+
+msgid "for"
+msgstr "voor"
+
+msgid "against"
+msgstr "tegen"
+
+msgid "abstained"
+msgstr "onthielden"
+
+msgid "undecided"
+msgstr "onbeslist"
+
+msgid ""
+"The user's delegates have voted, but no consensus wasreached among them. The"
+" decision is deferred."
+msgstr "De gemachtigden van de gebruiker hebben gestemd, maar er was onder hen geen consensus. De beslissing is uitgesteld."
+
+msgid "The decision was made without delegations."
+msgstr "Er zijn geen volmachtigingen gebruikt in deze stemming."
+
+msgid "The decision was determined as a result of the following delegations:"
+msgstr "De volgende volmachtigingen zijn gebruikt in deze stemming:"
+
+msgid "on"
+msgstr "op"
+
+msgid "review"
+msgstr "controleren"
+
+#, python-format
+msgid "Delegate: %s"
+msgstr "Volmachtiging: %s"
+
+msgid "Delegation"
+msgstr "Volmachten"
+
+msgid ""
+"These people might be a good match for your delegation. Either select one of"
+" the listed delegates, or enter another user name."
+msgstr "Deze deelnemers zijn mogelijk geschikt om uw volmacht aan te geven. Kies één van deze deelnemers of voer een nieuwe gebruikersnaam in."
+
+msgid "Start typing, you will receive suggestions to find the user."
+msgstr "Begin met typen, u ontvangt dan suggesties om de gebruiker te vinden."
+
+msgid "Include decisions made before now."
+msgstr "Toon ook eerdere beslissingen."
+
+#, python-format
+msgid "Delegation: %s"
+msgstr "Volmachtiging: %s"
+
+msgid "Cancel this delegation."
+msgstr "Annuleer deze machtiging."
+
+msgid "revoke"
+msgstr "herroepen"
+
+#, python-format
+msgid "from %s"
+msgstr "van %s"
+
+#, python-format
+msgid "to %s"
+msgstr "naar %s"
+
+#, python-format
+msgid "established %s"
+msgstr "sinds %s"
+
+#, python-format
+msgid "revoked %s"
+msgstr "%s is herroept"
+
+msgid "The delegation can be overridden or revoked at any time."
+msgstr "De volmachtiging kan op elk moment ingetrokken of overschreven worden."
+
+msgid ""
+"No decisions have been based on this delegation yet. As soon as this "
+"delegation leads to any decisions, they will be listed here."
+msgstr "Er zijn nog geen beslissingen gemaakt aan de hand van deze machtiging. Zodra deze machtiging tot een beslissing leidt zal dat hier zichtbaar worden."
+
+msgid "track record"
+msgstr "staat van dienst"
+
+#, python-format
+msgid "created <b>%s</b>"
+msgstr "aangemaakt op <b>%s</b>"
+
+msgid "Delegate voting"
+msgstr "Gemachtigde stemming"
+
+msgid "You have not delegated voting."
+msgstr "U heeft geen van uw stemmen gevolmachtigd."
+
+msgid "You have delegated voting to:"
+msgstr "U heeft stemmen gevolmachtigd aan:"
+
+msgid "Delegate your say in this debate to another participant."
+msgstr "Geef volmachtiging van uw stem in dit debat aan een andere deelnemer."
+
+msgid "delegate"
+msgstr "gemachtigde"
+
+msgid "You hold an additional vote."
+msgstr "U heeft nog een extra stem."
+
+#, python-format
+msgid "You hold %s additional votes."
+msgstr "U heeft nog %s extra stemmen."
+
+msgid ""
+"If this error continues to occur, please <a class='staticlink_imprint' "
+"href='/static/imprint.html'>notify the developers</a> with a description of "
+"what you were trying to do."
+msgstr "Als deze foutmelding zich blijft voordoen, breng dan<a class='staticlink_imprint' href='/static/imprint.html'>ontwikkelaars op de hoogte</a> met een beschrijving van wat u probeerde te doen."
+
+msgid ""
+"An automated email message describing the situation has been sent to our "
+"developers."
+msgstr "Een geautomatiseerde e-mail met de beschrijving van de situatie is naar onze ontwikkelaars verzonden."
+
+msgid "Whazza"
+msgstr "Whazza"
+
+msgid "All current events."
+msgstr "Alle huidige evenementen."
+
+#, python-format
+msgid "%s"
+msgstr "%s"
+
+msgid "more"
+msgstr "meer"
+
+msgid "Latest Events"
+msgstr "Laatste evenementen"
+
+msgid "This is a record of all recent actions within this instance."
+msgstr "Dit is een lijst van alle recente activiteiten in deze groep."
+
+msgid "You can also have notifications sent to you."
+msgstr "U kunt ook meldingen naar u laten verzenden."
+
+msgid "Info..."
+msgstr "informatie..."
+
+#, python-format
+msgid "Create a proposal to start debating in %(instance)s."
+msgstr "Maak een voorstel om te debatteren in %(instance)s"
+
+msgid "Delete"
+msgstr "Verwijder"
+
+msgid "Delete instance"
+msgstr "Verwijder groep"
+
+msgid "Are you sure you want to delete this instance?"
+msgstr "Weet u zeker dat u deze groep wilt verwijderen?"
+
+msgid "Leave"
+msgstr "Verlaten"
+
+msgid ""
+"Are you sure you want to leave this instance? You will no longer be able to "
+"write contributions or to vote."
+msgstr "Weet u zeker dat u deze groep wilt verlaten? U kunt dan niet bij bijdragen of stemmen."
+
+#, python-format
+msgid "Edit badges for %s"
+msgstr "Bewerk badges voor %s"
+
+msgid "Edit Badges"
+msgstr "Bewerk Badges"
+
+msgid "badge"
+msgstr "badge"
+
+msgid "new instance"
+msgstr "nieuwe groep"
+
+msgid "Instances are little democracies that are ran by their community."
+msgstr "Overzicht van alle groepen. Wordt lid van een groep om actief deel te nemen aan de discussie."
+
+msgid "New Instance"
+msgstr "Nieuwe Groep"
+
+msgid "Create new instance"
+msgstr "Maak een nieuwe groep"
+
+msgid "Instance name"
+msgstr "Groep naam"
+
+msgid "Instance URL"
+msgstr "Groep URL"
+
+msgid ""
+"The address may only contain alpha-numeric characters. Please note that this"
+" key cannot be changed after the instance has been created."
+msgstr "Het adres mag enkel bestaan uit alfanumerieke karakters. Houd er rekening mee dat het adres niet meer gewijzigd kan worden zodra de groep is aangemaakt."
+
+msgid ""
+"Describe what the goals of this instance are and who constitutes its "
+"community."
+msgstr "Beschrijf de doelstellingen van deze groep en wie de deelnemers zijn."
+
+msgid "(Both Markdown and HTML are allowed here.)"
+msgstr "(Zowel Markdown als HTML zijn hier toegestaan)."
+
+#, python-format
+msgid "Manage: %s"
+msgstr "Beheren: %s"
+
+msgid "Manage"
+msgstr "Beheren"
+
+msgid "Select a logo file to appear in the header area of this Instance."
+msgstr "Selecteer een logo bestand dat bovenaan de groepspagina's zal worden weergegeven."
+
+msgid "Logo"
+msgstr "Logo"
+
+msgid "Current logo"
+msgstr "Huidig logo"
+
+msgid "Delete current logo"
+msgstr "Verwijder huidig logo"
+
+msgid "You can add css that will be used to style the instance."
+msgstr "U kunt CSS toevoegen om de opmaak van deze groep aan te passen."
+
+msgid "Extra CSS"
+msgstr "Extra CSS"
+
+msgid "Thumbnail badges width"
+msgstr "Thumbnail badges breedte"
+
+msgid "Thumbnail badges height"
+msgstr "Thumbnail badges hoogte"
+
+msgid "Use Norms"
+msgstr "Gebruik Reglementen"
+
+msgid "Allow users to propose norms"
+msgstr "Sta gebruikers toe om nieuwe reglementen te maken"
+
+msgid "Require to propose a variant"
+msgstr "Elk voorstel moet minstens één veranderingen in het reglement aanbrengen"
+
+msgid "Show norms navigation item"
+msgstr "Toon reglementennavigatie"
+
+msgid "Use milestones"
+msgstr "Gebruik mijlpalen"
+
+msgid "Use thumbnail badges"
+msgstr "Gebruik thumbnail badges"
+
+msgid "Hide global categories"
+msgstr "Verberg algemene categorieën"
+
+msgid "Allow editing of comments by default"
+msgstr "Sta het aanpassen van reacties standaard toe"
+
+msgid "Freeze this instance"
+msgstr "Bevries deze groep"
+
+msgid "Name"
+msgstr "Naam"
+
+msgid "Language"
+msgstr "Taal"
+
+msgid ""
+"The language setting will be overridden by the user's personal setting."
+msgstr "The taalinstelling wordt overschreven door de persoonlijke instellingen van de gebruiker."
+
+msgid "Default group"
+msgstr "Standaard groep"
+
+msgid "Hide this instance"
+msgstr "Verberg deze groep"
+
+msgid "Select whether this instance will be shown in public listings."
+msgstr "Kies of"
+
+msgid "Require email validation"
+msgstr "Vereis e-mailadres bevestiging"
+
+msgid "Require instance members to validate their email address."
+msgstr "Vereis groepsleden om hun e-mailadressen te bevestigen."
+
+msgid "This instance is authenticated"
+msgstr "Deze groep is geverifieerd"
+
+msgid "Enable (final) adoption voting"
+msgstr "Schakel stemmingen voor (definitieve) goedkeuring in"
+
+msgid ""
+"Before activating, the defined majority must be continuously held by the "
+"proposal for the specified interval."
+msgstr "Om een voorstel aan te nemen, dient de gedefinieerde meerderheid voor het voorstel behaald te zijn na de hieronder te definiëren tijdspanne."
+
+msgid "Majority"
+msgstr "Meerderheid"
+
+msgid "Delay"
+msgstr "Periode dat een meerderheid behouden moet worden voor aanname"
+
+msgid "Enable vote delegation"
+msgstr "Schakel het geven van volmachten van stemmen in"
+
+msgid "Break down Voting Result by Badge"
+msgstr "Toon het Stem Resultaat per badge"
+
+msgid "Display how the users with the selected badges feel about the issue."
+msgstr "Toon wat gebruikers met de geselecteerde badge van dit onderwerp vinden."
+
+msgid "Home"
+msgstr "Home"
+
+msgid "Introduce a new idea to debate."
+msgstr "Introduceer een nieuw idee om over te debatteren."
+
+msgid "new proposal"
+msgstr "nieuw voorstel"
+
+msgid "Join instance to create a new proposal."
+msgstr "Word lid van deze groep om een voorstel in te dienen."
+
+msgid "Login to create a new proposal."
+msgstr "Log in om een nieuwe voorstel te maken"
+
+msgid "Validate email in order to create a new proposal."
+msgstr "Bevestig uw e-mailadres om een nieuw voorstel aan te maken."
+
+msgid "show a list of proposals"
+msgstr "toon een lijst van voorstellen zien"
+
+msgid "more proposals"
+msgstr "meer voorstellen"
+
+msgid "Next milestone"
+msgstr "Volgende mijlpaal"
+
+msgid "Next milestones"
+msgstr "Volgende mijlpalen"
+
+msgid "Newest Events"
+msgstr "Nieuwste evenementen"
+
+msgid "Informations"
+msgstr "Informatie"
+
+msgid "Created"
+msgstr "Aangemaakt"
+
+#, python-format
+msgid "by %s on %s"
+msgstr "door %s op %s"
+
+msgid "By the numbers"
+msgstr "Cijfers"
+
+#, python-format
+msgid "<b>%s</b> community members"
+msgstr "<b>%s</b> deelnemers"
+
+msgid "tutorial_instance_proposals_table"
+msgstr "Hier vindt u een overzicht van de nieuwste voorstellen."
+
+msgid "tutorial_instance_proposal_button"
+msgstr "Klik op de linkerknop om direct een eigen voorstel in te dienen of op de rechterknop om meer voorstellen te zien."
+
+msgid "Close"
+msgstr "Sluiten"
+
+msgid "tutorial_instance_numbers"
+msgstr "Hier ziet u het hoeveel deelnemers, voorstellen en reacties de groep heeft."
+
+#, python-format
+msgid "%s proposal"
+msgid_plural "%s proposals"
+msgstr[0] "%s voorstel"
+msgstr[1] "%s voorstellen"
+
+#, python-format
+msgid "%s norm"
+msgid_plural "%s norms"
+msgstr[0] "%s reglement"
+msgstr[1] "%s reglementen"
+
+#, python-format
+msgid ""
+"You receive this message because you're signed in to the news service on %s."
+" You can change your subscription settings on the following page: %s"
+msgstr "U ontvangt dit bericht omdat u bent aangemeld bij de nieuwsdienst van %s. U kunt uw abonnementsinstellingen op de volgende pagina wijzigen: %s"
+
+msgid "Send mass message"
+msgstr "Verstuur massa bericht"
+
+msgid ""
+"Please note that only users with verified email addresses and activated "
+"newsservice will receive this message per email."
+msgstr "Houd er rekening mee dat enkel gebruikers met een geverifieerd e-mailadres en geactiveerde nieuwsservice dit bericht per e-mail zullen ontvangen."
+
+msgid "Filter users ..."
+msgstr "Filter gebruikers ..."
+
+msgid "... by instance:"
+msgstr "... op groep:"
+
+msgid "... by badge:"
+msgstr "... op badge:"
+
+msgid "Subject"
+msgstr "Onderwerp"
+
+msgid "Body"
+msgstr "Inhoud"
+
+msgid "Use {email}, {name}, {salutation} to address the user directly."
+msgstr "Gebruik {e-mail}, {naam}, {aanhef} om de gebruiker direct te adresseren."
+
+msgid ""
+"Add a note about why the user got this message, and how to unsubscribe."
+msgstr "Voeg een opmerking toe over waarom de gebruiker dit bericht kreeg, en hoe zich af te melden."
+
+msgid "Uncheck if user management is centralized."
+msgstr "Haal het vinkje weg als gebruikersbeheer is gecentraliseerd."
+
+msgid "Include footer"
+msgstr "Gebruik footer"
+
+msgid "Sender identity"
+msgstr "Afzender identiteit"
+
+msgid "Mass Message Preview"
+msgstr "Massa Bericht Voorbeeld"
+
+#, python-format
+msgid "You're about to send the following message to %s recipients:"
+msgstr "U staat op het punt om het volgende bericht te versturen naar %s ontvangers:"
+
+msgid "The message will go to the following users:"
+msgstr "Dit bericht gaat naar de volgende gebruikers:"
+
+#, python-format
+msgid "The following message was sent to you by %s:"
+msgstr "Het volgende bericht is naar u gestuurd door %s:"
+
+#, python-format
+msgid "You can reply to %s by sending mail to: %s"
+msgstr "U kunt reageren op %s door een e-mail te sturen naar: %s"
+
+#, python-format
+msgid ""
+"Unfortunately, %s has not left an email address. You will not be able to "
+"reply directly."
+msgstr "Helaas, %s heeft geen e-mailadres achtergelaten. U kunt niet direct reageren."
+
+#, python-format
+msgid "Message %s"
+msgstr "Bericht %s"
+
+msgid ""
+"Your e-mail address will be included in this message to give the recipient a"
+" method to reply to you."
+msgstr "Uw e-mailadres wordt bij dit bericht gevoegd om de ontvanger de mogelijkheid tot antwoorden te geven."
+
+#, python-format
+msgid "Dear %s, ..."
+msgstr "Beste %s, ..."
+
+#, python-format
+msgid "Delete: %s"
+msgstr "Verwijder: %s"
+
+msgid "Are you sure you want to delete this milestone?"
+msgstr "Weet u zeker dat u deze mijlpaal wilt verwijderen?"
+
+#, python-format
+msgid "Edit %s"
+msgstr "Bewerk %s"
+
+msgid "Edit milestone"
+msgstr "Bewerk mijlpaal"
+
+msgid "Milestone title"
+msgstr "Mijlpaal titel"
+
+msgid "Milestone description"
+msgstr "Mijlpaal beschrijving"
+
+msgid "Give a brief description of the milestone."
+msgstr "Geef een korte beschrijving van de mijlpaal"
+
+msgid "Date of the milestone"
+msgstr "Datum van de mijlpaal"
+
+msgid "Please use the DD.MM.YYYY format."
+msgstr "Gebruik alstublieft het DD.MM.JJJJ formaat."
+
+msgid "Upcoming Milestones"
+msgstr ""
+
+msgid "Create a new milestone."
+msgstr "Maak een nieuwe mijlpaal."
+
+msgid "new milestone"
+msgstr "nieuwe mijlpaal"
+
+msgid "Past Milestones"
+msgstr "Oude Mijlpalen"
+
+msgid "tutorial_milestones_timeline"
+msgstr "Deze interactieve tijdlijn toont wanneer er mijlpalen zijn."
+
+msgid "tutorial_milestones_listing"
+msgstr "Hier vindt u de mijlpalen nog eens maar dan in een lijst. Door op de titel van een mijlpaal de klikken komt u op pagina van de mijlpaal."
+
+msgid "New milestone"
+msgstr "Nieuwe mijlpaal"
+
+msgid "Last Change"
+msgstr "Laatste Verandering"
+
+msgid "Edit this milestone."
+msgstr "Bewerk deze mijlpaal."
+
+msgid "Delete this milestone."
+msgstr "Verwijder deze mijlpaal."
+
+msgid "Associated Proposals"
+msgstr "Gerelateerde Voorstellen"
+
+msgid "No proposals are connected to this milestone"
+msgstr "Er zijn geen voorstellen verbonden aan deze mijlpaal"
+
+msgid "Associated Norms"
+msgstr "Geassocieerde Reglementen"
+
+msgid "No norms are connected to this milestone"
+msgstr "Er zijn geen reglementen verbonden aan deze mijlpaal"
+
+msgid "tutorial_milestone_details_follow"
+msgstr "U kunt de mijlpaal aan uw volglijst toevoegen als deze belangrijk voor u is."
+
+msgid "tutorial_milestone_details_description"
+msgstr "Informatie over de doelstelling van de mijlpaal, gaat het bv. over een meeting, werkgroep of stemming."
+
+msgid "tutorial_milestone_details_listing"
+msgstr "Hier vindt u een lijst met voorstellen en reglementen die betrekking hebben tot de mijlpaal."
+
+msgid "See more"
+msgstr "Meer"
+
+msgid "(unknown)"
+msgstr "(onbekend)"
+
+msgid "with an abstention on"
+msgstr "met een onthouding op"
+
+#, python-format
+msgid "On %s, %s wrote:"
+msgstr "Op %s, schreef %s:"
+
+msgid "Add an OpenID"
+msgstr "Voeg een OpenID toe"
+
+msgid "Add OpenID"
+msgstr "Voeg OpenID toe"
+
+msgid ""
+"Enter the URL of your OpenID to connect the ID to your account. This will "
+"allow you to login using this OpenID in the future."
+msgstr "Voer de URL van uw OpenID in om het ID met uw account te verbinden. Hierdoor kunt u in de toekomst met deze OpenID inloggen."
+
+msgid "Sign In"
+msgstr "Aanmelden"
+
+msgid "Alternative"
+msgstr "Alternatief"
+
+msgid "Login with your OpenID to skip registration."
+msgstr "Log in met uw OpenID om registratie over te slaan."
+
+msgid "Login with your OpenID."
+msgstr "Log in met uw OpenID."
+
+msgid "Sign in"
+msgstr "Aanmelden"
+
+msgid "Continue"
+msgstr "Ga verder"
+
+msgid "Select a user name"
+msgstr "Selecteer een gebruikersnaam"
+
+msgid "User name"
+msgstr "Gebruikersnaam"
+
+#, python-format
+msgid ""
+"A unique user name is required for you complete sign up and login. The user "
+"name \"%s\" received from your OpenID provider is invalid or already used. "
+"Please provide a different, unique user name."
+msgstr "Een unieke gebruikersnaam is vereist. De gebruikersnaam \"%s\" ontvangen van uw OpenID provider is ongeldig of al in gebruik. Probeer een andere gebruikersnaam."
+
+msgid "Username:"
+msgstr "Gebruikersnaam: "
+
+msgid "Are you sure you want to delete this page?"
+msgstr "Weet u zeker dat u deze pagina wilt verwijderen?"
+
+#, python-format
+msgid "Are you sure you want to purge variant %s?"
+msgstr "Weet u zeker dat u variant %s wilt verwijderen?"
+
+msgid ""
+"WARNING: This will remove all revisions of the variant from any proposals "
+"that might support it."
+msgstr "WAARSCHUWING: Hierdoor zullen alle revisies van deze variant verwijderd worden van all voorstellen die het steunen."
+
+msgid "Are you sure you want to purge the following version:"
+msgstr "Weet u zeker dat u de volgende versie wilt verwijderen:"
+
+#, python-format
+msgid "Variant: %s"
+msgstr "Variant: %s"
+
+msgid "This variant has no text."
+msgstr "Deze variant heeft geen tekst."
+
+msgid "Related Proposals"
+msgstr "Gerelateerde Voorstellen"
+
+msgid "(supports this variant)"
+msgstr "(steun deze variant)"
+
+msgid "Create a new proposal..."
+msgstr "Maak een nieuw voorstel..."
+
+msgid "Edit variant"
+msgstr "Bewerk variant"
+
+#, python-format
+msgid "Norm: %s"
+msgstr "Reglement: %s"
+
+msgid "Variant Name"
+msgstr "Variant Naam"
+
+msgid "Text"
+msgstr "Tekst"
+
+msgid "Formatting"
+msgstr "Tekstopmaak"
+
+msgid "Use markdown formatting."
+msgstr "Gebruik markdown opmaak."
+
+msgid "Parent page:"
+msgstr "Bovenliggende pagina:"
+
+msgid "Relates to a milestone"
+msgstr "Gerelateerd aan een mijlpaal"
+
+msgid "Create a new norm."
+msgstr "Maak een nieuw reglement."
+
+msgid "new norm"
+msgstr "nieuw reglement"
+
+msgid "Popular tags"
+msgstr "Populaire tags"
+
+msgid "tutorial_norms_overview_table"
+msgstr "Deze lijst toont u alle reglementen in de groep. Onder de titel van elk reglement ziet u ook hoeveel voorstellen er zijn ingediend en het aantal reacties."
+
+msgid "tutorial_norms_overview_facets"
+msgstr "Voor een specifieker overzicht kunt u de reglementen filteren met deze tags."
+
+msgid "New page"
+msgstr "Nieuwe pagina"
+
+msgid "Create norm"
+msgstr "Maak reglement"
+
+msgid "Norm title"
+msgstr "Titel van het reglement"
+
+msgid "New norm"
+msgstr "Nieuw reglement"
+
+msgid "Norm content"
+msgstr "Reglement inhoud"
+
+msgid "Tag and classify"
+msgstr "Tags en Eigenschappen"
+
+msgid "The new norm will be categorized under the specified parent theme."
+msgstr "Het nieuwe reglement wordt ondergebracht in het geselecteerde reglement. "
+
+msgid "Highlight Changes"
+msgstr "Zie Aanpassingen"
+
+msgid "On"
+msgstr "Aan"
+
+msgid "Off"
+msgstr "Uit"
+
+msgid "New Proposal"
+msgstr "Nieuw Voorstel"
+
+msgid "Information about the norm"
+msgstr "Informatie over het reglement"
+
+msgid "Last Activity"
+msgstr "Laatste Activiteit"
+
+msgid "This page is not assigned to any category"
+msgstr "Deze pagina is niet toegekend aan een categorie"
+
+#, python-format
+msgid "This norm relates to the milestone %s."
+msgstr "Dit reglement is gerelateerd aan mijlpaal %s."
+
+msgid "Subnorms"
+msgstr "sub-reglementen"
+
+msgid "View Proposal"
+msgstr "Bekijk Voorstel"
+
+msgid "No text."
+msgstr "Geen tekst."
+
+msgid "Text compared to the original version"
+msgstr "Tekst vergeleken met de originele versie"
+
+msgid "Proposal"
+msgstr "Voorstel"
+
+msgid "tutorial_norm_show_vote"
+msgstr "Bekijk het originele reglement en de voorgestelde varianten. U kunt voor een variant stemmen door op het pijltje omhoog te klikken of tegen door op het pijltje omlaag te klikken. U kunt op meerdere varianten uw stem uitbrengen."
+
+msgid "tutorial_norm_show_diff"
+msgstr "Door op 'An' te klikken kunt u precies zien welke veranderingen er gemaakt zijn ten opzichte van het originele reglement."
+
+msgid "tutorial_norm_show_new"
+msgstr "U kunt ook totaal nieuw reglement indienen."
+
+msgid "hide sub-topics"
+msgstr "verberg sub-onderwerpen"
+
+msgid "show sub-topics"
+msgstr "laat sub-onderwerpen zien"
+
+#, python-format
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] "%s reactie"
+msgstr[1] "%s reacties"
+
+#, python-format
+msgid "latest <b>%s</b>"
+msgstr "laatste <b>%s</b>"
+
+msgid "(none)"
+msgstr "(geen)"
+
+msgid "Propose alternative language."
+msgstr "Stel een andere taal voor."
+
+msgid "branch new variant"
+msgstr "maak een aftakking in een nieuwe variant"
+
+msgid "Edit the status quo."
+msgstr "Bewerk de status-quo"
+
+msgid "Edit this variant."
+msgstr "Bewerk deze variant."
+
+msgid "Delete this variant."
+msgstr "Verwijder deze variant."
+
+msgid "purge variant"
+msgstr "verwijder variant"
+
+#, python-format
+msgid "Variant %s of %s"
+msgstr "Variant %s van %s"
+
+#, python-format
+msgid "Variant of %s"
+msgstr "Variant van %s"
+
+msgid "End a poll"
+msgstr "Beëindig de stemming"
+
+msgid ""
+"You are about to cancel this poll. This means that the proposal will become "
+"editable again but that all votes that have been cast at this time "
+"<strong>will be invalidated</strong>."
+msgstr "U staat op het punt om deze stemming te annuleren. Dit betekent dat u het voorstel weer kunt aanpassen, maar alle uitgebrachte stemmen <strong>zullen ongeldig worden verklaard</strong>."
+
+msgid "to abstain"
+msgstr "zich onthouden"
+
+msgid "or:"
+msgstr "of:"
+
+msgid "Poll"
+msgstr "Stemming"
+
+msgid "Option"
+msgstr "Optie"
+
+msgid "Percent"
+msgstr "Percentage"
+
+msgid "Affirm"
+msgstr "Bevestigen"
+
+msgid "Dissent"
+msgstr "Tegen"
+
+msgid "Abstain"
+msgstr "Onthouden"
+
+msgid "vote"
+msgstr "stem"
+
+#, python-format
+msgid "%d votes"
+msgstr "%d stemmen"
+
+#, python-format
+msgid "ended %s"
+msgstr "geëindigd %s"
+
+#, python-format
+msgid "began %s"
+msgstr "begonnen %s"
+
+msgid "no enddate"
+msgstr "geen einddatum"
+
+#, python-format
+msgid "Votes: %s"
+msgstr "Stemmen: %s"
+
+msgid ""
+"Vote results are updated with a short delay. After casting your vote, expect"
+" a short delay before the tally updates."
+msgstr "Stemresultaten worden met een korte vertraging bijgewerkt. Nadat u heeft gestemd kan het even duren voordat de teller is bijgewerkt."
+
+msgid "Call a poll"
+msgstr "Roep op tot een stemming"
+
+msgid ""
+"You are about to call for a vote. When you do this, you will lose the "
+"ability to <strong>change the proposal's wording</strong> unless you cancel "
+"the vote."
+msgstr "U staat op het punt om op te roepen tot een stemming. Wanneer u dit doet, verliest u de mogelijkheid om <strong>de tekst van het voorstel aan te passen</ strong> tenzij u de stemming annuleert."
+
+msgid "Are you sure you want to delete this proposal?"
+msgstr "Weet u zeker dat u dit voorstel wilt verwijderen?"
+
+msgid "thumbnail badge"
+msgstr "thumbnail badge"
+
+msgid "No Thumbnail Badge"
+msgstr "Geen Thumbnail Badge"
+
+#, python-format
+msgid "Delegations: %s"
+msgstr "Volmachtigingen: %s"
+
+msgid "Delegations"
+msgstr "Volmachtigingen"
+
+msgid "Propose new Variant"
+msgstr "Stel nieuwe Variant voor"
+
+msgid "Join instance to propose a new variant."
+msgstr "Word lid van deze groep om een nieuwe variant voor te stellen"
+
+msgid "Login to propose a new variant."
+msgstr "Log in om een nieuwe variant voor te stellen"
+
+msgid "Validate email in order to propose a new variant."
+msgstr "Bevestig uw e-mailadres om een nieuwe variant voor te stellen."
+
+msgid "Get Involved"
+msgstr "Raak Betrokken"
+
+msgid "Vote"
+msgstr "Stem"
+
+msgid "Kein Text"
+msgstr "Geen Tekst"
+
+msgid "History of this variant"
+msgstr "Geschiedenis van deze variant"
+
+msgid "Votes for this variant"
+msgstr "Stemmen voor deze variant."
+
+#, python-format
+msgid "Edit &ldquo;%s&rdquo;"
+msgstr "Bewerk &ldquo;%s&rdquo;"
+
+msgid "Title and Goals"
+msgstr "Titel en Doelstellingen"
+
+msgid "Proposal title"
+msgstr "Voorstel titel"
+
+msgid "A brief description of <b>the goals</b> of your proposal."
+msgstr "Een korte beschrijving van <b>de doelstellingen</b> van uw voorstel."
+
+msgid "The proposal would..."
+msgstr "Het voorstel zal..."
+
+msgid "Proposal goals"
+msgstr "Voorstel doelstellingen"
+
+msgid "Collaboration and Notification"
+msgstr "Samenwerking en Meldingen"
+
+msgid "Allow others to edit this proposal."
+msgstr "Sta toe dat anderen dit voorstel aanpassen."
+
+msgid "Create new proposal"
+msgstr "Maak nieuw voorstel"
+
+msgid "Find proposals"
+msgstr "Vind voorstellen"
+
+msgid "Go"
+msgstr "Ga"
+
+msgid "tutorial_proposal_overview_table"
+msgstr "Deze lijst biedt een overzicht van alle tot nu toe ingediende voorstellen. De lijst kan op verschillende manieren gesorteerd worden."
+
+msgid "tutorial_proposal_overview_facets"
+msgstr "U kunt de voorstellen ook filteren op gebruiker, categorie, tag of de huidige staat van het voorstel."
+
+msgid "tutorial_proposal_overview_new"
+msgstr "Als u een nieuw idee heeft dan kunt u zelf een nieuw voorstel indienen."
+
+msgid "New proposal"
+msgstr "Nieuw voorstel"
+
+msgid "Change norms with this proposal"
+msgstr "Pas een reglement aan met dit voorstel"
+
+msgid ""
+"Proposals are implemented by including changes towards new or existing norm."
+" Norms are fixed documents that represent the consensus of this instance and"
+" can only be changed through a vote. Amend the proposal to change or create "
+"a norm."
+msgstr "Met voorstellen kunt u een nieuwe reglementen aanmaken of huidige reglementen aanpassen. Reglementen zijn documenten die de consensus van deze groep vertegenwoordigen en kunnen enkel door stemmingen worden aangepast."
+
+msgid "Select a norm to change:"
+msgstr "Selecteer het reglement om aan te passen:"
+
+msgid "Give a brief description of <b>the goals</b> of your proposal."
+msgstr "Geef een korte beschrijving van <b>de doelstellingen</b> van uw voorstel."
+
+msgid "Multiple tags can be separated by commas."
+msgstr "Meerdere tags kunnen gescheiden worden door komma's."
+
+msgid "Delete this proposal."
+msgstr "Verwijder dit voorstel."
+
+msgid "Topic and Description of the Proposal"
+msgstr "Onderwerp en Beschrijving van het Voorstel"
+
+#, python-format
+msgid "%s Discussions"
+msgstr "%s Discussies"
+
+#, python-format
+msgid "%s Proposed Implementations"
+msgstr "%s Voorgestelde Implementaties"
+
+msgid "Comments"
+msgstr "Reacties"
+
+msgid "Discussions"
+msgstr "Discussies"
+
+msgid "Proposed Implementations"
+msgstr "Voorgestelde Implementaties"
+
+msgid "Propose to change a norm"
+msgstr "Pas een nieuwe implementatie van dit voorstel toe op een reglement"
+
+msgid "Login to propose to change a norm"
+msgstr "Log in om voor te stellen om een reglement aan te passen"
+
+msgid "Join instance to propose to change a norm"
+msgstr "Word lid van deze groep om een aanpassing aan een reglement voor te stellen"
+
+msgid "Validate email in order to propose to change a norm"
+msgstr "Bevestig uw e-mailadres om voor te stellen om een reglement te veranderen"
+
+msgid "tutorial_proposal_show_vote"
+msgstr "U kunt voor of tegen het voorstel stemmen, of, als de groep dit toestaat, een volmachtiging geven zodat iemand anders voor u kan stemmen."
+
+msgid "tutorial_proposal_show_follow"
+msgstr "Ook kunt u een voorstel in uw volglijst opnemen."
+
+msgid "tutorial_proposal_show_information"
+msgstr "Hier vindt u meer informatie over het voorstel."
+
+msgid "tutorial_proposal_show_tags"
+msgstr "..tags voor het voorstel toevoegen..."
+
+msgid "tutorial_proposal_show_share"
+msgstr "Deel het voorstel met anderen via Facebook, Twitter of Google+."
+
+msgid "tutorial_proposal_show_vote_comment"
+msgstr "Reacties kunt u niet alleen bewerken..."
+
+msgid "tutorial_proposal_show_answers"
+msgstr "...maar u kunt ook de daarbij behorende antwoorden inzien..."
+
+msgid "tutorial_proposal_show_answer"
+msgstr "...of zelf een antwoord op de reactie geven..."
+
+msgid "tutorial_proposal_show_new_discussion"
+msgstr "Geef uw reactie op het voorstel of reageer op andere reacties."
+
+msgid "tutorial_proposal_show_propose_variant"
+msgstr "U kunt actief deelnemen door zelf een variant op een reglement toe te voegen."
+
+msgid "This proposal is not assigned to any category"
+msgstr "Dit voorstel is niet toegekend aan een categorie"
+
+#, python-format
+msgid "This proposal relates to the deleted milestone %s."
+msgstr "Dit voorstel is gerelateerd aan het verwijderde mijlpaal %s."
+
+#, python-format
+msgid "This proposal relates to the milestone %s."
+msgstr "Dit voorstel is gerelateerd aan mijlpaal %s"
+
+msgid "This proposal is not related to a milestone"
+msgstr "Dit voorstel is niet gerelateerd aan een mijlpaal"
+
+#, python-format
+msgid "by %s on %s, %s changes since then."
+msgstr "door %s op %s, %s veranderingen sindsdien."
+
+msgid "(new)"
+msgstr "(nieuw)"
+
+#, python-format
+msgid "%s%% approval"
+msgstr "%s%% goedkeuring"
+
+#, python-format
+msgid "%s:%s votes"
+msgstr "%s:%s stemmen"
+
+msgid "Information"
+msgstr "Informatie"
+
+#, python-format
+msgid "The proposal was created by %s on %s"
+msgstr "Dit voorstel is aangemaakt door %s op %s"
+
+msgid ""
+"This is a <b>joint proposal</b> that can be improved by anyone. Edit it to "
+"improve or refine the text."
+msgstr "Dit is een <b>gezamenlijk voorstel</b> dat door iedereen verbeterd kan worden. Bewerk het om de tekst de verbeteren of te verfijnen."
+
+msgid "Main page"
+msgstr "Hoofdpagina"
+
+msgid "Who is receiving delegations?"
+msgstr "Wie zijn er gemachtigd?"
+
+msgid "Support this proposal"
+msgstr "Steun dit voorstel."
+
+msgid "Oppose this proposal"
+msgstr "Tegen dit voorstel"
+
+#, python-format
+msgid "%s has been adopted %s."
+msgstr "%s is aangenomen %s."
+
+msgid "Adoption requirements:"
+msgstr "Aanname eisen:"
+
+#, python-format
+msgid "%s participators"
+msgstr "%s deelnemers"
+
+#, python-format
+msgid "stable majority for %s days"
+msgstr "stabiele meerderheid voor %s dagen"
+
+#, python-format
+msgid "Search in %s"
+msgstr "Zoek in %s"
+
+msgid "Search includes issues and proposals."
+msgstr "Zoeken omvat kwesties en voorstellen."
+
+msgid "You did not provide a search query."
+msgstr "U heeft geen zoekopdracht gegeven"
+
+#, python-format
+msgid "Delete: Implementation of %s"
+msgstr "Verwijder: Implementatie van %s"
+
+#, python-format
+msgid "Are you sure you want to delete the norm %s from this proposal?"
+msgstr "Weet u zeker dat u reglement %s van dit voorstel wilt verwijderen?"
+
+#, python-format
+msgid "Implementation: %s"
+msgstr "Implementatie: %s"
+
+msgid "Change an existing norm"
+msgstr "Pas een al bestaand reglement aan"
+
+msgid ""
+"Select a norm that you want to relate to. You can later propose a variant of"
+" this norm to effect a change."
+msgstr "Selecteer een reglement waaraan u zich wilt verbinden. U kunt later een variant voorstellen om het reglement aan te passen."
+
+msgid "Include"
+msgstr "Toevoegen"
+
+msgid "Can't find an appropriate norm?"
+msgstr "Kunt u geen geschikt reglement vinden?"
+
+msgid "Create a new norm instead"
+msgstr "Maak een nieuw reglement"
+
+msgid "Propose a new norm"
+msgstr "Stel een nieuw reglement voor"
+
+msgid ""
+"Create a new norm that you want to relate to. The norm will be created "
+"without any status quo. You can then add a text variant of that norm, "
+"specifying the change you want to implement."
+msgstr "Maak een nieuw reglement waar u zich aan wilt verbinden. Het reglement wordt zonder status quo aangemaakt. U kunt vervolgens een tekst variant op het reglement voorstellen waarin u de gewenste veranderingen kunt specificeren."
+
+msgid "New norm title"
+msgstr "Nieuw reglement titel"
+
+msgid "The new norm will be categorized under the specified parent page."
+msgstr "Dit nieuwe reglement zal worden ondergebracht bij het gespecificeerde reglement."
+
+msgid "Have you checked for exisiting norms?"
+msgstr "Heeft u de al bestaande reglementen bekeken?"
+
+msgid "Include an existing norm instead"
+msgstr "Gebruik anders een al bestaand reglement"
+
+msgid "Show Norm"
+msgstr "Toon Reglement"
+
+msgid "There is a tie between variants, thus none is included at the moment."
+msgstr "De varianten hebben een gelijk aantal stemmen, er wordt er op het moment dus geen één opgenomen."
+
+msgid ""
+"Status quo has the most votes, resulting in no proposed change to this norm."
+msgstr "De status quo heeft de meeste stemmen, dus de voorgestelde aanpassing zal niet worden doorgevoerd."
+
+msgid "Proposed by"
+msgstr "Voorgesteld door"
+
+msgid "Support this variant"
+msgstr "Steun deze variant"
+
+msgid "Oppose this variant"
+msgstr "Stem tegen deze variant"
+
+msgid "(this proposal should not change this norm)"
+msgstr "(dit voorstel zou dit reglement niet moeten aanpassen)"
+
+msgid "Currently selected for inclusion in this proposal"
+msgstr "Op dit moment geselecteerd voor opname in dit voorstel"
+
+msgid "view"
+msgstr "bekijk"
+
+msgid "compare"
+msgstr "vergelijken"
+
+msgid "Complete registration"
+msgstr "Voltooi registratie"
+
+msgid "Please complete the Shibboleth based user registration"
+msgstr "Voltooi alstublieft de op Shibboleth gebaseerde gebruikersregistratie"
+
+msgid "Username"
+msgstr ""
+
+msgid "Display name"
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+msgid "optional"
+msgstr "optioneel"
+
+#, python-format
+msgid "Edit %(key)s (%(langname)s)"
+msgstr "Bewerk %(key)s (%(langname)s)"
+
+msgid "Title:"
+msgstr "Titel:"
+
+msgid "Content of the page"
+msgstr "Inhoud van deze pagina"
+
+msgid "Change static page"
+msgstr "Wijzig statische pagina"
+
+msgid "Back to the list"
+msgstr "Terug naar de lijst"
+
+msgid "Key"
+msgstr "Key"
+
+msgid "Create new page"
+msgstr "Maak nieuwe pagina"
+
+msgid "New Static Page"
+msgstr "Nieuwe Statische Pagina"
+
+msgid "New static page"
+msgstr "Nieuwe statische pagina"
+
+msgid "Key:"
+msgstr "Key:"
+
+msgid "Add static page"
+msgstr "Voeg statische pagina toe"
+
+msgid "Edit this page"
+msgstr "Bewerk deze pagina"
+
+msgid ""
+"Tags are keywords used to find, sort and filter proposals and documents."
+msgstr "Tags zijn trefwoorden die gebruikt kunnen worden om voorstellen en documenten te vinden, sorteren en te filteren."
+
+msgid "Similar tags"
+msgstr "Soortgelijke tags"
+
+#, python-format
+msgid "used %s times"
+msgstr "%s keer gebruikt"
+
+msgid "more tags..."
+msgstr "meer tags..."
+
+msgid "Tagged with"
+msgstr "Getagged met"
+
+msgid "Not tagged yet"
+msgstr "Nog niet getagged"
+
+msgid "add tags"
+msgstr "voeg tags toe"
+
+msgid "Multiple tags can be separated by commas or spaces."
+msgstr "Meerdere tags kunnen door komma's of spaties gescheiden worden."
+
+msgid "Add tags"
+msgstr "Voeg tags toe"
+
+msgid "Cancel"
+msgstr "Annuleer"
+
+#, python-format
+msgid "by %s, "
+msgstr "door %s,"
+
+msgid "delete version"
+msgstr ""
+
+msgid "This revision has no text."
+msgstr "De revisie heeft geen tekst"
+
+msgid ""
+"This norm has not yet been decided and is thus no official position of this "
+"group."
+msgstr "Er is nog geen beslissing over dit reglement en het is dus geen officieel standpunt van deze groep."
+
+#, python-format
+msgid "discuss (%s comments) &raquo;"
+msgstr "discussieer (%s reacties) &raquo;"
+
+msgid "Variant:"
+msgstr "Variant:"
+
+msgid "see"
+msgstr "zie"
+
+#, python-format
+msgid "%s by %s"
+msgstr "%s door %s"
+
+msgid "Compare"
+msgstr "Vergelijken"
+
+msgid "Treatments"
+msgstr "Behandelingen"
+
+#, python-format
+msgid "User assignments of %(treatment_key)s"
+msgstr "Gebruiker toewijzingen van %(treatment_key)s"
+
+msgid "back to treatments"
+msgstr "terug naar behandelingen"
+
+msgid "Treatment"
+msgstr "Behandeling"
+
+msgid "Source Badges"
+msgstr "Bron Badges"
+
+msgid "Assign users"
+msgstr "Wijs gebruikers toe"
+
+msgid "See assigned users"
+msgstr "Bekijk toegewezen gebruikers"
+
+msgid "Create a new treatment"
+msgstr "Maak een nieuwe behandeling aan"
+
+msgid "Name:"
+msgstr "Naam:"
+
+msgid "Select users to treat by their badges:"
+msgstr "Selecteer de te behandelen gebruikers aan de hand van hun badges:"
+
+msgid "Number of variants:"
+msgstr "Aantal varianten:"
+
+msgid "Create treatment"
+msgstr "Maak behandeling aan"
+
+msgid "All Members on this Adhocracy Server"
+msgstr "Alle leden op deze Adhocracy Server"
+
+msgid "A listing of all users in all instance an this adhocracy server."
+msgstr "Een lijst van alle gebruikers in alle groepen op deze Adhocracy server"
+
+msgid ""
+"Are you sure you want to delete your profile? This step cannot be reversed."
+msgstr "Weet u zeker dat u uw profiel wilt verwijderen? Dit kan niet ongedaan gemaakt worden."
+
+#, python-format
+msgid "Edit Badges for %s"
+msgstr "Bewerk Badges voor %s"
+
+#, python-format
+msgid "Badges for %s"
+msgstr "Badges voor %s"
+
+msgid "all instances"
+msgstr "alle groepen"
+
+msgid "Example:"
+msgstr "Voorbeeld:"
+
+msgid "Startpage"
+msgstr "Startpagina"
+
+#, python-format
+msgid "Hi %s."
+msgstr "Hallo %s."
+
+#, python-format
+msgid ""
+"Start by reading some <b><a href=\"%s\">proposals</a></b> or <b><a "
+"href=\"%s\">norms</a></b>. Or take a look at some of the other <b><a "
+"href=\"%s\">instances</a></b>."
+msgstr "Begin met het lezen van enkele <b><a href=\"%s\">voorstellen</a></b> of <b><a href=\"%s\">reglementen</a></b>. Of neem een kijkje bij andere <b><a href=\"%s\">groepen</a></b>."
+
+#, python-format
+msgid ""
+"Start by exploring the <b><a href=\"%s\">instances</a></b> and read some of "
+"the proposals and norms in the instances."
+msgstr "Begin met verkennen van de <b><a href=\"%s\">groepen</a></b> en lees de voorstellen en reglementen in de groepen."
+
+msgid ""
+"If you join an instance, norms and proposals of the instance will be shown "
+"on your dashboard."
+msgstr "Als u lid wordt van een groep dan worden de reglementen en voorstellen van de groep op uw dashboard getoond."
+
+msgid ""
+"You can reach your dashboard anytime by clicking on your user name on the "
+"top of the page."
+msgstr "U kunt altijd terugkeren naar uw dashboard door bovenaan de pagina op uw naam te klikken."
+
+msgid ""
+"This is your Dashboard. Here you can find the list of instances your a "
+"member in, norms and proposals from these instance and a list of the pages "
+"you follow."
+msgstr "Dit is uw Dashboard. Hier vindt u een lijst met groepen waar u lid van bent, reglementen en voorstellen van deze groepen en een lijst met pagina's die u volgt."
+
+#, python-format
+msgid "You can also return to the <a href=\"%s\">Page you came from</a>."
+msgstr "U kunt ook terugkeren naar de <a href=\"%s\">pagina waar u vandaan kwam</a>."
+
+msgid "Proposals in your instances"
+msgstr "Voorstellen in uw groepen"
+
+msgid "List all proposals"
+msgstr "Toon alle voorstellen"
+
+msgid "list all"
+msgstr "toon alles"
+
+msgid "Norms in your instances"
+msgstr "Reglementen in uw groepen"
+
+msgid "List all pages"
+msgstr "Toon alle pagina's"
+
+msgid "tutorial_dashboard_username"
+msgstr "U kunt op elk moment terugkeren naar uw Dashboard door bovenaan de pagina op uw naam te klikken."
+
+msgid "tutorial_dashboard_proposals"
+msgstr "In uw Dashboard ziet u onder andere een lijst van alle reglementen die in uw groepen gelden."
+
+msgid "tutorial_dashboard_show_all"
+msgstr "Klik hier om de volledige lijst van alle voorstellen te tonen."
+
+msgid "tutorial_dashboard_instances"
+msgstr "Hier ziet u alle groepen waar u lid van bent. Als u op de naam van een groep klikt wordt u naar de groep doorgestuurd."
+
+msgid "tutorial_dashboard_watchlist"
+msgstr "De volglijst biedt een overzicht van de items die u volgt. Klik op \"toon alles\" voor een volledige lijst."
+
+msgid "Your Instances"
+msgstr "Uw Groepen"
+
+msgid "Your Watchlist"
+msgstr "Uw Volglijst"
+
+msgid "Current polls in your instances"
+msgstr "Huidige stemmingen in uw groepen"
+
+msgid "Topic"
+msgstr "Onderwerp"
+
+msgid "Given"
+msgstr "Gegeven"
+
+msgid "Received"
+msgstr "Ontvangen"
+
+msgid "There are no delegations."
+msgstr "Er zijn geen gemachtigden."
+
+#, python-format
+msgid "Settings: %s"
+msgstr "Instellingen: %s"
+
+msgid "Your User Details"
+msgstr "Uw Gebruikersgegevens"
+
+msgid "Display name for"
+msgstr "Weergavenaam voor"
+
+msgid "You can chose which name other users see."
+msgstr "U kunt kiezen welke naam de andere gebruikers zien."
+
+msgid "Password"
+msgstr "Wachtwoord"
+
+msgid "Select a new password or leave the fields blank to keep your old one."
+msgstr "Kies een nieuw wachtwoord of laat alle velden leeg om uw huidige wachtwoord te behouden."
+
+msgid "Password:"
+msgstr "Wachtwoord:"
+
+msgid "Password (confirm):"
+msgstr "Wachtwoord (bevestiging):"
+
+msgid "Gender"
+msgstr "Geslacht"
+
+msgid "I am..."
+msgstr "Ik ben..."
+
+msgid "Select how you would like to be notified of events."
+msgstr "Kies via welk e-mail adres en hoe vaak u op de hoogte wilt worden gehouden."
+
+msgid "Help."
+msgstr "Hulp."
+
+msgid "E-Mail:"
+msgstr "E-mail:"
+
+msgid "fewer"
+msgstr "minder"
+
+msgid "more notifications"
+msgstr "meer meldingen"
+
+msgid "Not confirmed."
+msgstr "Niet bevestigd."
+
+msgid "Re-send activation link"
+msgstr "Verstuur de activatie-link opnieuw"
+
+msgid "Receive occasional news from instance administrators:"
+msgstr "Ontvang af en toe berichten van de groepsbeheerders:"
+
+msgid "OpenID"
+msgstr "OpenID"
+
+msgid "OpenID allows you to use a single login on many web sites."
+msgstr "Met OpenID kunt u inloggen op vele websites."
+
+msgid "There are no associated OpenIDs."
+msgstr "Er zijn geen gekoppelde OpenIDs."
+
+msgid "remove"
+msgstr "verwijder"
+
+msgid "Short biography"
+msgstr "Korte biografie"
+
+msgid ""
+"A bio will allow others to learn about you and perhaps even get you a few "
+"delegations."
+msgstr "Door middel van een biografie kunnen andere wat over u te weten komen en misschien krijgt u er wel een aantal machtigingen door."
+
+msgid "Advanced Settings"
+msgstr "Geavanceerde Instellingen"
+
+msgid "The pre-set number of entries in listing pages:"
+msgstr "Het ingestelde aantal vermeldingen in lijsten:"
+
+msgid "Disable help messages and links to the documentation:"
+msgstr "Schakel hulpberichten en links naar de documentatie uit:"
+
+msgid "Change default sorting order for proposals:"
+msgstr "Verander de standaard sorteervolgorde van de voorstellen:"
+
+msgid "Find users"
+msgstr "Zoek gebruikers"
+
+msgid "tutorial_user_index_table"
+msgstr "Deze lijst toont u alle deelnemers van deze groep. U kunt de lijst ook sorteren."
+
+msgid "tutorial_user_index_facets"
+msgstr "De lijst is ook te filteren op gebruikersgroep."
+
+#, python-format
+msgid "Adhocracies: %s"
+msgstr "Adhocracies: %s"
+
+msgid "Adhocracies"
+msgstr "Adhocracies"
+
+#, python-format
+msgid "%s is a member in these Adhocracies"
+msgstr "%s is een lid in de volgende Adhocracies"
+
+msgid "Who are you, then?"
+msgstr "Wie bent u?"
+
+msgid "Email or username:"
+msgstr "E-mail of gebruikersnaam:"
+
+msgid "Login:"
+msgstr "Log in:"
+
+msgid "Email:"
+msgstr "E-mail:"
+
+msgid "Login via Shibboleth"
+msgstr "Log in via Shibboleth"
+
+msgid "Forgot your password?"
+msgstr "Wachtwoord vergeten?"
+
+msgid "Register new account"
+msgstr "Maak een nieuw account aan"
+
+msgid "What is your email address?"
+msgstr "Wat is uw e-mailadres?"
+
+msgid "My email:"
+msgstr "Mijn e-mailadres:"
+
+msgid "What is your user name?"
+msgstr "Wat is uw gebruikersnaam?"
+
+msgid "My user name:"
+msgstr "Mijn gebruikersnaam:"
+
+#, python-format
+msgid "Do you have a password for %s?"
+msgstr "Heeft u een wachtwoord voor %s?"
+
+msgid "No, I do not have a password, or I forgot it."
+msgstr "Nee, ik heb geen wachtwoord, of ik ben het vergeten."
+
+msgid "Yes, I do have a password:"
+msgstr "Ja, ik heb een wachtwoord:"
+
+msgid ""
+"Creating an account is easy; all you need is a user name, password and email"
+" address."
+msgstr "Een account aanmaken is eenvoudig, alles wat u nodig heeft is een gebruikersnaam, wachtwoord en e-mailadres."
+
+msgid ""
+"If you have an account but you've lost your password, <a href='/reset'>click"
+" here</a>."
+msgstr "Als u een account heeft, maar u bent uw wachtwoord vergeten, <a href='/reset'>klik dan hier</a>."
+
+msgid "Can only contain letters and numbers."
+msgstr "Mag enkel letters en cijfers bevatten."
+
+msgid "You can choose which name other users see."
+msgstr ""
+
+msgid "E-mail"
+msgstr "E-mail"
+
+msgid "Enter password:"
+msgstr "Voer wachtwoord in:"
+
+#, python-format
+msgid "By registering, you agree with the %s."
+msgstr "Door te registeren gaat u akkoord met de %s."
+
+msgid "Terms and Conditions"
+msgstr "Algemene Voorwaarden"
+
+msgid "leave empty"
+msgstr "laat leeg"
+
+msgid "Registration request sent"
+msgstr "Registratieverzoek verzonden"
+
+#, python-format
+msgid ""
+"Our support team has been notified of your registration request for %s.We "
+"will verify your request and contact you as soon as possible."
+msgstr "Ons supportteam is op de hoogte gesteld van uw registratieverzoek voor %s. We zullen zo snel mogelijk uw verzoek verifiëren en contact met u opnemen."
+
+msgid "Password reset"
+msgstr "Wachtwoord opnieuw instellen"
+
+msgid ""
+"You will be sent an activation link that, when opened, will cause the system"
+" to email you a new password."
+msgstr "Er wordt een activatielink naar u gestuurd en, zodra u die heeft geopend, zal het systeem uw nieuwe wachtwoord e-mailen."
+
+msgid ""
+"You will be sent an activation link that, when opened, will allow you pick a"
+" new password."
+msgstr "Er wordt een activatielink naar u toegestuurd waarmee, nadat het geopend is, u een nieuwe wachtwoord kunt kiezen."
+
+msgid ""
+"In order to retrieve your login, you will have to enter your email address."
+msgstr "Om uw inlog terug te krijgen moet u uw e-mailadres invoeren."
+
+msgid "Reset"
+msgstr "Opnieuw Instellen"
+
+msgid "Confirmation pending"
+msgstr "In afwachting van de bevestiging"
+
+msgid ""
+"You have recieved an email containing a link. Please open that link in order"
+" to reset you password"
+msgstr "U heeft een e-mail ontvangen met een link. Open die link om uw wachtwoord opnieuw in te stellen"
+
+msgid "User settings"
+msgstr ""
+
+msgid "Advanced settings"
+msgstr ""
+
+msgid "Default proposal sorting order"
+msgstr ""
+
+msgid "Pager size"
+msgstr ""
+
+msgid "Default number of entries in listing pages"
+msgstr ""
+
+msgid "Disable help messages"
+msgstr ""
+
+msgid "Disable help messages and links to the documentation"
+msgstr ""
+
+msgid "Login settings"
+msgstr ""
+
+msgid "Notification settings"
+msgstr ""
+
+msgid "News service"
+msgstr ""
+
+msgid "Receive occasional news from instance administrators"
+msgstr ""
+
+msgid "Optional attributes"
+msgstr ""
+
+msgid ""
+"The following attributes are only used for statistical evaluation. Your "
+"choices are not shown to other users."
+msgstr ""
+
+msgid "Personal settings"
+msgstr ""
+
+msgid "Prefered user interface language"
+msgstr ""
+
+msgid "Salutation"
+msgstr ""
+
+msgid "Select your prefered gender"
+msgstr ""
+
+#, python-format
+msgid "Signed up %s"
+msgstr "Registratiedatum %s"
+
+#, python-format
+msgid "%s does not yet have a bio."
+msgstr "%s heeft geen biografie"
+
+#, python-format
+msgid "joined %s"
+msgstr "lid geworden op %s"
+
+#, python-format
+msgid "signed up %s"
+msgstr "registratiedatum %s"
+
+msgid "send a message"
+msgstr "stuur een bericht"
+
+#, python-format
+msgid "make %s"
+msgstr "maak %s"
+
+msgid "Resign from this instance."
+msgstr "Verlaat deze groep."
+
+msgid "leave instance"
+msgstr "verlaat groep"
+
+msgid "un-ban"
+msgstr "verbanning opheffen"
+
+msgid "ban"
+msgstr "verbannen"
+
+msgid "Delete this user."
+msgstr "Verwijder deze gebruiker."
+
+msgid "Generate welcome link"
+msgstr "Genereer welkomlink"
+
+#, python-format
+msgid "Watchlist: %s"
+msgstr "Volglijst: %s"
+
+msgid ""
+"This is your watchlist. You will receive notifications for events concerning"
+" each of these items."
+msgstr "Dit is uw volglijst. U ontvangt meldingen voor gebeurtenissen van elk van deze items."
