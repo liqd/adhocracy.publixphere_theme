@@ -2611,13 +2611,13 @@ msgid "new proposal"
 msgstr "Neue Debatte"
 
 msgid "Join instance to create a new proposal."
-msgstr "Thema beitreten, um einen neuen Debatte anzulegen."
+msgstr "Thema beitreten, um eine neue Debatte anzulegen."
 
 msgid "Login to create a new proposal."
-msgstr "Anmelden, um einen neuen Debatte anzulegen."
+msgstr "Anmelden, um eine neue Debatte anzulegen."
 
 msgid "Validate email in order to create a new proposal."
-msgstr "Verifizieren Sie Ihre Email-Adresse, um einen neuen Debatte anzulegen."
+msgstr "Verifizieren Sie Ihre Email-Adresse, um eine neue Debatte anzulegen."
 
 msgid "show a list of proposals"
 msgstr "Eine Liste mit Debattenn anzeigen"
@@ -2924,7 +2924,7 @@ msgid "(supports this variant)"
 msgstr "(unterstützt diese Version)"
 
 msgid "Create a new proposal..."
-msgstr "Neuen Debatte anlegen..."
+msgstr "Neue Debatte anlegen..."
 
 msgid "Edit variant"
 msgstr "Version bearbeiten"
@@ -3219,7 +3219,7 @@ msgid "Allow others to edit this proposal."
 msgstr "Anderen erlauben, diese Debatte zu bearbeiten."
 
 msgid "Create new proposal"
-msgstr "Neuen Debatte anlegen"
+msgstr "Neue Debatte anlegen"
 
 msgid "Find proposals"
 msgstr "Debatten suchen"
@@ -3234,7 +3234,7 @@ msgid "tutorial_proposal_overview_facets"
 msgstr "Sie können mit Hilfe des Suchfeldes Debatten nach Titel oder Inhalt durchsuchen und entsprechende Treffer nach verschiedenen Kategorien sortieren, z.B. größte Unterstützung, neuste Debatten oder alphabetisch."
 
 msgid "tutorial_proposal_overview_new"
-msgstr "Ist Ihre Idee noch nicht vorhanden, können Sie einen eigenen, neuen Debatte anlegen."
+msgstr "Ist Ihre Idee noch nicht vorhanden, können Sie eine eigene, neue Debatte anlegen."
 
 msgid "New proposal"
 msgstr "Neue Debatte"

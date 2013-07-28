@@ -5,8 +5,9 @@ sed -i de/LC_MESSAGES/adhocracy.po \
 -e "s/Vorschläge/Debatten/g" \
 -e "s/es Vorschlags/er Debatte/g" \
 -e "s/den Vorschlag/die Debatte/g" \
--e "s/einen Vorschlag/eine Debatte/g" \
--e "s/diesen Vorschlag/diese Debatte/g" \
+-e "s/einen neuen Vorschlag/eine neue Debatte/g" \
+-e "s/einen eigenen, neuen Vorschlag/eine eigene, neue Debatte/g" \
+-e "s/en Vorschlag/e Debatte/g" \
 -e "s/er Vorschlag/e Debatte/g" \
 -e "s/Vorschlag/Debatte/g" \
 -e "s/die Gruppe/das Thema/g" \
