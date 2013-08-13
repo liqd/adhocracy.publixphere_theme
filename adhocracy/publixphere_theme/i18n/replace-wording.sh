@@ -1,5 +1,6 @@
 # Vorschlag -> Debatte
 # Gruppe -> Thema
+# Argument -> Kommentar
 
 # Sometimes it is not easyto decide. In those cases we should
 # replace the string with `CHECK/possibility1/.../` so we can
@@ -24,6 +25,7 @@ sed -i de/LC_MESSAGES/adhocracy.po \
 -e 's/en Vorschlag\([ ".,;:!?<]\)/e Debatte\1/g' \
 -e 's/er Vorschlag\([ ".,;:!?<]\)/e Debatte\1/g' \
 -e 's/Vorschlag/Debatte/g' \
+\
 -e 's/von einer anderen Gruppe/von einem anderen Thema/g' \
 -e 's/Beschreiben Sie die Ziele dieser Gruppe und wer ihre Mitglieder sind./Beschreiben Sie die Ziele dieses Themas und wer die Mitglieder sind./g' \
 -e 's/von der Gruppe\([ ".,;:!?<]\)/von dem Thema\1/g' \
@@ -46,4 +48,13 @@ sed -i de/LC_MESSAGES/adhocracy.po \
 -e 's/zur Gruppe\([ ".,;:!?<]\)/zum Thema\1/g' \
 -e 's/Gruppe/Thema/g' \
 -e 's/verteilte, offene Themen/verteilte, offene Gruppen/' \
-
+\
+-e 's/Argumente/Kommentare/g' \
+-e 's/des Arguments/des Kommentars/g' \
+-e 's/n Argument/nen Kommentar/g' \
+-e 's/s Argument\([":]\)/r Kommentar\1/g' \
+-e 's/s Argument \(wurde\)/r Kommentar \1/g' \
+-e 's/s Argument \(entfernen\|bearbeiten\)/n Kommentar \1/g' \
+-e 's/\([^%]\)s Argument/\1CHECK\/r Kommentar\/n Kommentar\//g' \
+-e 's/Argument/Kommentar/g' \
+-e 's/msgid \(.*\)Kommentar\(.*\)/msgid \1Argument\2/g'

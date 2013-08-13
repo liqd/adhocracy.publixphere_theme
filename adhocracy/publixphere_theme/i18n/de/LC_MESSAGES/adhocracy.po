@@ -310,7 +310,7 @@ msgid "Successfully created new user account %s"
 msgstr "Erfolgreich neuen Nutzer/innen-Zugang %s angelegt"
 
 msgid "tutorial_norms_overview_tab"
-msgstr "Übersichtseite über die Beschlüsse des Themas. Die Liste zeigt nicht nur alle zu dem Thema eingebrachten Beschlüsse an, sondern unter dem Titel der Beschlüsse wird auch die Anzahl der momentan dazugehörigen Debatten und Argumente angezeigt"
+msgstr "Übersichtseite über die Beschlüsse des Themas. Die Liste zeigt nicht nur alle zu dem Thema eingebrachten Beschlüsse an, sondern unter dem Titel der Beschlüsse wird auch die Anzahl der momentan dazugehörigen Debatten und Kommentare angezeigt"
 
 msgid "No proposal has been specified"
 msgstr "Es wurde keine Debatte angegeben."
@@ -1104,7 +1104,7 @@ msgstr "Kommentar zu %s"
 
 #, python-format
 msgid "argument on %s"
-msgstr "Argument zu %s"
+msgstr "Kommentar zu %s"
 
 msgid "(Undefined)"
 msgstr "(nicht definiert)"
@@ -1257,7 +1257,7 @@ msgstr "Neuester Kommentar: in %(topic)s"
 
 #, python-format
 msgid "New argument: in %(topic)s"
-msgstr "Neues Argument: unter %(topic)s"
+msgstr "Neuer Kommentar: unter %(topic)s"
 
 #, python-format
 msgid "commented on %(topic)s"
@@ -1273,7 +1273,7 @@ msgstr "Bearbeiteter Kommentar: unter %(topic)s"
 
 #, python-format
 msgid "Edited argument: in %(topic)s"
-msgstr "Bearbeitetes Argument: unter %(topic)s"
+msgstr "Bearbeiteter Kommentar: unter %(topic)s"
 
 #, python-format
 msgid "edited comment on %(topic)s"
@@ -1281,7 +1281,7 @@ msgstr "bearbeitete Kommentare zu %(topic)s"
 
 #, python-format
 msgid "edited argument about %(topic)s"
-msgstr "bearbeitete Argumente zu %(topic)s"
+msgstr "bearbeitete Kommentare zu %(topic)s"
 
 #, python-format
 msgid "Deleted comment: in %(topic)s"
@@ -1289,7 +1289,7 @@ msgstr "Gelöschter Kommentar: unter %(topic)s"
 
 #, python-format
 msgid "Deleted argument: in %(topic)s"
-msgstr "Gelöschtes Argument: unter %(topic)s"
+msgstr "Gelöschter Kommentar: unter %(topic)s"
 
 #, python-format
 msgid "deleted comment from %(topic)s"
@@ -1297,7 +1297,7 @@ msgstr "Kommentar zu %(topic)s gelöscht"
 
 #, python-format
 msgid "deleted argument from %(topic)s"
-msgstr "Argument zu %(topic)s gelöscht"
+msgstr "Kommentar zu %(topic)s gelöscht"
 
 #, python-format
 msgid "New Delegation: %(user)s delegated %(scope)s to %(agent)s"
@@ -2080,7 +2080,7 @@ msgid "Comment"
 msgstr "Kommentar"
 
 msgid "Argument"
-msgstr "Argument"
+msgstr "Kommentar"
 
 #, python-format
 msgid "Comment on %s"
@@ -2088,13 +2088,13 @@ msgstr "%s kommentieren"
 
 #, python-format
 msgid "Argument about %s"
-msgstr "Argument zu %s"
+msgstr "Kommentar zu %s"
 
 msgid "Are you sure you want to delete this comment?"
 msgstr "Sind Sie sicher, dass Sie diesen Kommentar entfernen möchten?"
 
 msgid "Are you sure you want to delete this argument?"
-msgstr "Sind Sie sicher, dass Sie dieses Argument entfernen möchten?"
+msgstr "Sind Sie sicher, dass Sie diesen Kommentar entfernen möchten?"
 
 msgid "Confirm"
 msgstr "Bestätigen"
@@ -2103,7 +2103,7 @@ msgid "Edit comment"
 msgstr "Kommentar bearbeiten"
 
 msgid "Edit argument"
-msgstr "Argument bearbeiten"
+msgstr "Kommentar bearbeiten"
 
 #, python-format
 msgid "Comment on: %s"
@@ -2111,19 +2111,19 @@ msgstr "%s kommentieren"
 
 #, python-format
 msgid "Argument about: %s"
-msgstr "Argument zu: %s"
+msgstr "Kommentar zu: %s"
 
 msgid "Comment History"
 msgstr "Kommentarhistorie"
 
 msgid "Argument History"
-msgstr "Historie des Arguments"
+msgstr "Historie des Kommentars"
 
 msgid "New comment"
 msgstr "Neuer Kommentar"
 
 msgid "New argument"
-msgstr "Neues Argument"
+msgstr "Neuer Kommentar"
 
 #, python-format
 msgid "created %s"
@@ -2147,7 +2147,7 @@ msgid "No comments were made yet."
 msgstr "Bisher wurden keine Kommentare hinzugefügt."
 
 msgid "No discussions were started yet."
-msgstr "\"Bisher wurden keine Argumente hinzugefügt."
+msgstr "\"Bisher wurden keine Kommentare hinzugefügt."
 
 msgid "Add comment"
 msgstr "Kommentar hinzufügen"
@@ -2162,7 +2162,7 @@ msgid "Join instance to discuss."
 msgstr "Treten Sie diesem Thema bei, um mitzumachen."
 
 msgid "Add argument"
-msgstr "Argument hinzufügen"
+msgstr "Kommentar hinzufügen"
 
 msgid "Login to comment."
 msgstr "Loggen Sie sich ein um einen Kommentar hinzuzufügen."
@@ -2174,7 +2174,7 @@ msgid "Validate email in order to comment."
 msgstr "Verifizieren Sie Ihre Email-Adresse, um zu kommentieren."
 
 msgid "Validate email in order to discuss."
-msgstr "Verifizieren Sie Ihre Email-Adresse, um Argumente hinzuzufügen."
+msgstr "Verifizieren Sie Ihre Email-Adresse, um Kommentare hinzuzufügen."
 
 msgid "is pro"
 msgstr "ist dafür"
@@ -2189,7 +2189,7 @@ msgid "This comment has been deleted."
 msgstr "Dieser Kommentar wurde gelöscht."
 
 msgid "This argument has been deleted."
-msgstr "Dieses Argument wurde gelöscht."
+msgstr "Dieser Kommentar wurde gelöscht."
 
 msgid "edit"
 msgstr "bearbeiten"
@@ -2198,7 +2198,7 @@ msgid "1 Comment"
 msgstr "1 Kommentar"
 
 msgid "1 Argument"
-msgstr "1 Argument"
+msgstr "1 Kommentar"
 
 #, python-format
 msgid "%s Comments"
@@ -2206,7 +2206,7 @@ msgstr "%s Kommentare"
 
 #, python-format
 msgid "%s Arguments"
-msgstr "%s Argumente"
+msgstr "%s Kommentare"
 
 msgid "reply"
 msgstr "antworten"
@@ -2221,13 +2221,13 @@ msgid "Login to reply"
 msgstr "Anmelden, um zu antworten"
 
 msgid "Login to argue"
-msgstr "Loggen Sie sich ein um ein Argument hinzuzufügen."
+msgstr "Loggen Sie sich ein um einen Kommentar hinzuzufügen."
 
 msgid "Validate email in order to reply"
 msgstr "Verifizieren Sie Ihre Email-Adresse, um zu antworten"
 
 msgid "Validate email in order to argue"
-msgstr "Verifizieren Sie Ihre Email-Adresse, um ein Argument hinzuzufügen."
+msgstr "Verifizieren Sie Ihre Email-Adresse, um einen Kommentar hinzuzufügen."
 
 msgid "report"
 msgstr "melden"
@@ -2247,7 +2247,7 @@ msgid "Comment is..."
 msgstr "Kommentar ist..."
 
 msgid "Argument is..."
-msgstr "Argument ist..."
+msgstr "Kommentar ist..."
 
 msgid "Pro"
 msgstr "zugunsten"
@@ -2268,7 +2268,7 @@ msgid "Allow others to edit this comment."
 msgstr "Andere dürfen diesen Kommentar bearbeiten."
 
 msgid "Allow others to edit this argument."
-msgstr "Andere dürfen dieses Argument bearbeiten."
+msgstr "Andere dürfen diesen Kommentar bearbeiten."
 
 #, python-format
 msgid "Comments on %s"
@@ -2661,7 +2661,7 @@ msgid "Close"
 msgstr "Schließen"
 
 msgid "tutorial_instance_numbers"
-msgstr "Hier finden Sie noch eine kurze Information über die aktuelle Mitgliederzahl des Themas, der Anzahl der eingebrachten Debatten und der geschriebenen Argumente."
+msgstr "Hier finden Sie noch eine kurze Information über die aktuelle Mitgliederzahl des Themas, der Anzahl der eingebrachten Debatten und der geschriebenen Kommentare."
 
 #, python-format
 msgid "%s proposal"
@@ -2961,7 +2961,7 @@ msgid "Popular tags"
 msgstr "Beliebte Tags"
 
 msgid "tutorial_norms_overview_table"
-msgstr "Die Liste zeigt nicht nur alle zu dem Thema eingebrachten Beschlüsse. Unter dem Titel der Beschlüsse wird auch die Anzahl der momentan dazugehörigen Debatten und Argumente angezeigt."
+msgstr "Die Liste zeigt nicht nur alle zu dem Thema eingebrachten Beschlüsse. Unter dem Titel der Beschlüsse wird auch die Anzahl der momentan dazugehörigen Debatten und Kommentare angezeigt."
 
 msgid "tutorial_norms_overview_facets"
 msgstr "Für eine bessere Übersicht können Sie die Auswahl der Beschlüsse nach Schlagworten filtern."
@@ -3315,10 +3315,10 @@ msgid "tutorial_proposal_show_answers"
 msgstr "...sondern auch dazu verfasste Antworten einsehen..."
 
 msgid "tutorial_proposal_show_answer"
-msgstr "...selbst eine Antwort zu einem Argument schreiben..."
+msgstr "...selbst eine Antwort zu einem Kommentar schreiben..."
 
 msgid "tutorial_proposal_show_new_discussion"
-msgstr "... und neue Argumente einbringen."
+msgstr "... und neue Kommentare einbringen."
 
 msgid "tutorial_proposal_show_propose_variant"
 msgstr "Oder aktiv die Debatte mitgestalten und Alternativen einbringen."
