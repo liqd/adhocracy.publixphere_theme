@@ -56,6 +56,10 @@
 // overwrite
 @import "overwrite";
 
+a {
+    color: saturate($primary-color, 20%);
+}
+
 #share {
     background-color: #f7dd00;
 }
