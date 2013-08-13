@@ -56,6 +56,11 @@ body {
     }
 }
 
+#welcome_message .info_box, .alert {
+    margin-left: 0;
+    margin-right: 0;
+}
+
 .vote {
     border: 1px solid #d9d9d9;
 
