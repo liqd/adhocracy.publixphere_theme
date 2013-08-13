@@ -133,6 +133,9 @@
     @include border-bottom-right-radius(0.4em);
     @include border-bottom-left-radius(0.4em);
 
+    // HACK: fix top spacing
+    border-top: 7px solid $header-color;
+
     li {
         font-size: 16px;
         line-height: 36px;
