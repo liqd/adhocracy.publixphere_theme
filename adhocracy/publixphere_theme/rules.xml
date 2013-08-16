@@ -40,7 +40,11 @@
     <drop theme="/html/body/*" if-content="/html/body"/>
     <append theme="/html/body" content="/html/body/*" />
 
-    <drop css:content="li#nav_home"/>
+    <replace css:content="li#nav_home">
+        <li class="only-europa">
+            <a href="http://salon.publixphere.de/">Startseite</a>
+        </li>
+    </replace>
     <drop css:content="li#nav_watchlist"/>
     <replace css:content="li#nav_about a">
         <a href="http://www2.publixphere.de/page/%C3%BCber-uns" class="staticlink_about">About</a>
