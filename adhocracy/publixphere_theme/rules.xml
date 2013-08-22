@@ -47,11 +47,11 @@
     </replace>
     <drop css:content="li#nav_watchlist"/>
     <replace css:content="li#nav_about a">
-        <a href="http://www2.publixphere.de/page/%C3%BCber-uns" class="staticlink_about">About</a>
+        <a href="http://www.publixphere.de/page/%C3%BCber-uns" class="staticlink_about">About</a>
     </replace>
     <drop css:content="li#nav_dummy"/>
     <replace css:content="li#nav_help a">
-        <a href="http://www2.publixphere.de/page/Hilfe">Help</a>
+        <a href="http://www.publixphere.de/page/Hilfe">Help</a>
     </replace>
     <drop attributes="class" css:content="li#user_menu a"/>
 
@@ -75,7 +75,7 @@
           <div id="publixphere-scroll-back"></div>
           <div id="publixphere-scroll-top"></div>
           <div id="publixphere-scroll-down">
-            <a id="publixphere-logo" href="http://www2.publixphere.de">
+            <a id="publixphere-logo" href="http://www.publixphere.de">
               <img src="/static_theme/static/images/logo.png" alt="publixphere" />
             </a>
           </div>
