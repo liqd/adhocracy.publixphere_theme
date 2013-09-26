@@ -1429,10 +1429,10 @@ msgid "Click to change you vote to neutral"
 msgstr "Klicken Sie hier, um mit \"neutral\" abzustimmen"
 
 msgid "Click to vote pro"
-msgstr "Zugunsten abstimmen"
+msgstr "Das finde ich relevant"
 
 msgid "Click to vote con"
-msgstr "Dagegen abstimmen"
+msgstr "Das finde ich nicht relevant"
 
 msgid "Your current vote is already con"
 msgstr "Sie haben bereits mit \"dagegen\" abgestimmt"
