@@ -57,4 +57,6 @@ sed -i de/LC_MESSAGES/adhocracy.po \
 -e 's/s Argument \(entfernen\|bearbeiten\)/n Kommentar \1/g' \
 -e 's/\([^%]\)s Argument/\1CHECK\/r Kommentar\/n Kommentar\//g' \
 -e 's/Argument/Kommentar/g' \
--e 's/msgid \(.*\)Kommentar\(.*\)/msgid \1Argument\2/g'
+-e 's/msgid \(.*\)Kommentar\(.*\)/msgid \1Argument\2/g' \
+-e 's/Zugunsten abstimmen/Das finde ich relevant/g' \
+-e 's/Dagegen abstimmen/Das finde ich nicht relevant/g' \

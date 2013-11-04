@@ -47,11 +47,11 @@
     </replace>
     <drop css:content="li#nav_watchlist"/>
     <replace css:content="li#nav_about a">
-        <a href="http://www2.publixphere.de/page/%C3%BCber-uns" class="staticlink_about">About</a>
+        <a href="http://www.publixphere.de/page/%C3%BCber-uns" class="staticlink_about">About</a>
     </replace>
     <drop css:content="li#nav_dummy"/>
     <replace css:content="li#nav_help a">
-        <a href="http://www2.publixphere.de/page/Hilfe">Help</a>
+        <a href="http://www.publixphere.de/page/Hilfe">Help</a>
     </replace>
     <drop attributes="class" css:content="li#user_menu a"/>
 
@@ -75,65 +75,19 @@
           <div id="publixphere-scroll-back"></div>
           <div id="publixphere-scroll-top"></div>
           <div id="publixphere-scroll-down">
-            <a id="publixphere-logo" href="http://www2.publixphere.de">
+            <a id="publixphere-logo" href="http://www.publixphere.de">
               <img src="/static_theme/static/images/logo.png" alt="publixphere" />
             </a>
           </div>
         </div>
         <div id="share">
             <a target="_blank" href="http://www.facebook.com/sharer.php?u=http://partizipation.publixphere.de" id="fb_share"></a>
-            <a target="_blank" href="http://twitter.com/home?status=publixphere partizipation partizipation.publixphere.de" id="tw_share"></a>
+            <a target="_blank" href="http://twitter.com/home?status=Politik diskutieren und Debattenagenda mitbestimmen: auf Publixphere - unabhängig, überparteilich, nichtkommerziell. http://bit.ly/Z0KcQi" id="tw_share"></a>
             <a target="_blank" href="https://plus.google.com/share?url=http://partizipation.publixphere.de" id="gp_share"></a>
         </div>
       </replace>
 
-    <!-- Footer -->
-    <replace css:content="footer">
-      
-        <footer>
-            <div id="footer">
-                <div class="page_margins">
-                    <div class="page_wrapper">
-                        <div id="footer_line">
-                            <div id="second_footer_line" class="subcolumns" role="complementary">
-                                <div class="c33l footer_content">
-                                    <ul>
-                                        <li><a class="staticlink_codex" href="http://www2.publixphere.de/page/netiquette-0">
-                                                Netiquette
-                                        </a></li>
-                                        <li><a class="staticlink_privacy" href="http://www2.publixphere.de/page/datenschutzerkl%C3%A4rung-0">
-                                                Datenschutz
-                                        </a></li>
-                                        <li><a class="staticlink_imprint" href="http://www2.publixphere.de/page/impressum-0">
-                                                Impressum
-                                        </a></li>
-                                    </ul>
-                                </div>
-                                <div class="c33l footer_content">
-                                </div>
-
-                                <div class="c33r footer_content">
-                                    <div class="subcr">
-                                        <div class="footer_box">
-                                            <div class="subcolumns">
-                                                <h3>Diese Plattform wird betrieben mit</h3>
-                                                <p><a href="https://github.com/liqd/adhocracy/" title="AdhocracyCode" id="link_footer_logo"><img src="/images/logo_adhocracy_code_footer.png" alt="AdhocracyCode" /></a></p>
-                                                <p>
-                                                    <a href="http://creativecommons.org/licenses/by/3.0/de/" rel="license"><img src="/images/80x15.png" alt="Creative Commons License" /></a>
-                                                    <a href="http://www.opendefinition.org/" rel="license"><img src="/images/oc_80x15_blue.png" alt="Open Definition" /></a>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-    </replace>
+      <drop css:content="#sidebar_box_watchlist" />
 
   </rules>
 </rules>
