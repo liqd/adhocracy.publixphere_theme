@@ -179,7 +179,7 @@ msgid ""
 "This instance is not active for use and is archived. It isn't possible to "
 "perform any changes to the instance, but all content is available to be "
 "read."
-msgstr "Diese Thema wird nicht aktiv genutzt und ist archiviert. Es ist nicht möglich, Änderungen an diesCHECK/em Thema/es Themas/ zu machen. Alle Inhalte können aber weiterhin angesehen werden."
+msgstr "Diese Thema wird nicht aktiv genutzt und ist archiviert. Es ist nicht möglich, Änderungen an diesem Thema zu machen. Alle Inhalte können aber weiterhin angesehen werden."
 
 msgid "The logo has been deleted."
 msgstr "Das Logo wurde entfernt."
@@ -1087,7 +1087,7 @@ msgid "Badge"
 msgstr "Badge"
 
 msgid "Instance hidden state"
-msgstr "Sichtbarkeitsstatus dCHECK/em Thema/es Themas/"
+msgstr "Sichtbarkeitsstatus des Themas"
 
 msgid "hidden"
 msgstr "versteckt"
@@ -1096,7 +1096,7 @@ msgid "visible"
 msgstr "sichtbar"
 
 msgid "Instance state"
-msgstr "Status dCHECK/em Thema/es Themas/"
+msgstr "Status des Themas"
 
 msgid "frozen"
 msgstr "eingefroren"
@@ -3857,7 +3857,7 @@ msgid "Example:"
 msgstr "Beispiel:"
 
 msgid "Badges in instance"
-msgstr "Badges in dCHECK/em Thema/es Themas/"
+msgstr "Badges in dem Thema"
 
 msgid "Topic"
 msgstr "Thema"

@@ -30,6 +30,9 @@ sed -i de/LC_MESSAGES/adhocracy.po \
 -e 's/Beschreiben Sie die Ziele dieser Gruppe und wer ihre Mitglieder sind./Beschreiben Sie die Ziele dieses Themas und wer die Mitglieder sind./g' \
 -e 's/von der Gruppe\([ ".,;:!?<]\)/von dem Thema\1/g' \
 -e 's/erlaubte Gruppe\([ ".,;:!?<]\)/erlaubtes Thema\1/g' \
+-e 's/Änderungen an dieser Gruppe/Änderungen an diesem Thema/g' \
+-e 's/tatus der Gruppe/tatus des Themas/g' \
+-e 's/adges in der Gruppe/adges in dem Thema/g' \
 -e 's/Gruppen/Themen/g' \
 -e 's/die Gruppe\([ ".,;:!?<]\)/das Thema\1/g' \
 -e 's/Die Gruppe\([ ".,;:!?<]\)/Das Thema\1/g' \
