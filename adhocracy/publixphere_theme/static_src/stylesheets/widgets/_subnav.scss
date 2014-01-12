@@ -9,9 +9,9 @@
     font-size: 0;
 
     li {
-        font-size: 15px;
+        font-size: $large;
         a {
-            line-height: 40px;
+            line-height: 2.5;
             @include button-base();
             color: $secondary-color;
             padding: 0 1.5em;
@@ -20,7 +20,7 @@
             border: 1px solid hsl(hue($primary-color), 34%, 77%);
             border-bottom-width: 0;
 
-            &:hover {
+            &:hover, &:focus {
                 border-color: $primary-color;
             }
         }

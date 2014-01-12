@@ -7,7 +7,7 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: herlvetica, arial, sans-serif;
+    font-family: helvetica, arial, sans-serif;
 }
 
 body {
@@ -19,7 +19,7 @@ body {
     background-size: 100% auto;
     margin: 0;
     padding: 0;
-    font-size: 13px;
+    font-size: $medium;
     min-width: 1000px;
 
     html.overlay & {
@@ -27,48 +27,29 @@ body {
         border-bottom: none;
     }
 }
-#main {
-    background: transparent;
-}
 .page_wrapper {
     background: white;
-    #welcome_message & {
-        padding: 1em 24px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+#main {
+    background: none;
+    margin-top: 0;
+
+    .page_wrapper {
+        padding-top: 1em;
+        padding-bottom: 1em;
     }
 }
 
 .tile.event {
     border-top: none;
 }
-#main {
-    margin: 0;
-    .page_wrapper {
-        padding: 1em 24px 2em;
-    }
-    #col1_content {
-        padding-left: 0;
-    }
-    #col3_content {
-        margin-right: 0;
-    }
-    .full_teaser {
-        padding: 0;
-    }
-}
-html.overlay #main .page_wrapper {
-    padding: 0;
-}
-
 #flash_message {
     background: none;
     .page_wrapper {
         background: $flash;
     }
-}
-
-#welcome_message .info_box, .alert {
-    margin-left: 0;
-    margin-right: 0;
 }
 
 .vote {
@@ -81,4 +62,8 @@ html.overlay #main .page_wrapper {
 
 a.new_comment {
     color: $primary-color;
+}
+
+#instance_settings {
+    clear: both;
 }

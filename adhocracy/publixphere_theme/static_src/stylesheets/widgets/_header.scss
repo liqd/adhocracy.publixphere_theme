@@ -1,15 +1,15 @@
 #header {
     background: transparent;
     padding-top: 50px;
-    font-size: 14px;
-    line-height: 3em;
+    font-size: $medium;
+    line-height: 3;
     font-family: Georgia, "Times New Roman", serif;
     font-style: italic;
     color: $primary-color;
 
     .page_wrapper {
         background: $header-color;
-        padding: 0 24px;
+        padding: 0 2em;
         position: relative;
         text-align: right;
 
@@ -64,7 +64,7 @@
         padding-right: 29px;
         padding-bottom: 20px;
         text-align: center;
-        line-height: 3em;
+        line-height: 3;
     }
 }
 
@@ -80,7 +80,7 @@
     li:after {
         content: " | ";
     }
-    li:nth-last-child(2):after, 
+    li:nth-last-child(2):after,
     li:last-child:after {
         content: "";
     }
@@ -122,14 +122,14 @@
 #nav ul.children {
     display: none;
     position: absolute;
+    font-size: $large;
     background-color: rgba($header-color3, 0.9);
-    margin: 0px;
-    min-width: 200px;
+    margin: 0;
+    min-width: 12em;
     text-align: center;
-    padding: 10px 26px;
-    right: 0px;
+    padding: 0.8em 1.5em;
+    right: 0;
     z-index: 100;
-    font-size: 14px;
     @include border-bottom-right-radius(0.4em);
     @include border-bottom-left-radius(0.4em);
 
@@ -137,8 +137,7 @@
     border-top: 7px solid $header-color;
 
     li {
-        font-size: 16px;
-        line-height: 36px;
+        line-height: 2.4;
         display: block;
 
         border-bottom: 1px solid darken($header-color3, 10%);
@@ -159,7 +158,7 @@
             height: auto;
             padding: 0;
         }
-        a:hover, &.current a {
+        a:hover, a:focus, &.current a {
             color: lighten(desaturate($header-color3, 50%), 50%);
         }
         &:after {

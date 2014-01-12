@@ -7,8 +7,8 @@
         text-align: center;
         text-transform: uppercase;
         font-weight: bold;
-        font-size: 1.1em;
-        line-height: 3em;
+        font-size: 110%;
+        line-height: 3;
         padding: 0;
 
         background-color: $secondary-color;
@@ -30,13 +30,13 @@
 
     h4, h6 {
         color: $tertiary-color;
-        font-size: 1.1em;
+        font-size: 110%;
         margin: 1.5em 0 0.2em;
     }
 }
 
 /* Sidebar content summary */
-#col3 summary ol {
+#col3 .summary ol {
     list-style-type: none;
     margin-left: 0;
 }

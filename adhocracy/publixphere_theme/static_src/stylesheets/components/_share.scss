@@ -6,7 +6,7 @@
     left: -30px;
     @include border-top-left-radius(5px);
     @include border-bottom-left-radius(5px);
-    
+
     background-color: $primary-color;
     background-image: url(/static_theme/static/images/socialbglines.png);
     background-position: center center;
@@ -20,7 +20,7 @@
         display: block;
         clear: both;
 
-        &:hover {
+        &:hover, &:focus {
             background-position: center bottom;
         }
 
