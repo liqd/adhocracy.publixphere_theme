@@ -25,11 +25,6 @@ body {
     margin: 0;
     padding: 0;
     font-size: $medium;
-
-    html.overlay & {
-        min-width: 665px;
-        border-bottom: none;
-    }
 }
 .page_wrapper {
     background: white;

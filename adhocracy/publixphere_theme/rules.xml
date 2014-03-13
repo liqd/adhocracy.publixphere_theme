@@ -69,17 +69,6 @@
       </rules>
 
       <replace css:content="#logo">
-        <h2>~ Politik diskutieren, online und offline</h2>
-
-        <div id="publixphere-scroll">
-          <div id="publixphere-scroll-back"></div>
-          <div id="publixphere-scroll-top"></div>
-          <div id="publixphere-scroll-down">
-            <a id="publixphere-logo" href="http://www.publixphere.de">
-              <img src="/static_theme/static/images/logo.png" alt="publixphere" />
-            </a>
-          </div>
-        </div>
         <div id="share">
             <a target="_blank" href="http://www.facebook.com/sharer.php?u=http://partizipation.publixphere.de" id="fb_share"></a>
             <a target="_blank" href="http://twitter.com/home?status=Politik diskutieren und Debattenagenda mitbestimmen: auf Publixphere - unabhängig, überparteilich, nichtkommerziell. http://bit.ly/Z0KcQi" id="tw_share"></a>
