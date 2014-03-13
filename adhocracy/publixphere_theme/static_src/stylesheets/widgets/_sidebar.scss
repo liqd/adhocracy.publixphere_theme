@@ -1,3 +1,14 @@
+#sidebar {
+    > .button,
+    > .button_round,
+    > .message_button,
+    > .follow_paper,
+    > .follow_proposal {
+        display: block;
+        margin-bottom: 1em;
+    }
+}
+
 .sidebar_box {
     background: $bg1;
     padding-bottom: 1em;
