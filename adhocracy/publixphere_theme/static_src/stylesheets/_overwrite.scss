@@ -1,5 +1,11 @@
-#footer .page_wrapper {
-    background-image: none;
+#footer {
+    background: none;
+
+    .page_wrapper {
+        background-color: $bg1;
+        background-image: none;
+        border-bottom: 3em solid $tertiary-color;
+    }
 }
 
 .content_list > * {
@@ -12,7 +18,6 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
     background-image: url("/static_theme/static/images/background.jpg");
-    border-bottom: 5px solid  $tertiary-color;
     background-color: white;
     background-repeat: no-repeat;
     background-position: center top;
