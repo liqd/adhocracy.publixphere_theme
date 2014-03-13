@@ -3,9 +3,9 @@
     top: 42px;
     width: 30px;
     height: 100px;
-    left: -30px;
-    @include border-top-left-radius(5px);
-    @include border-bottom-left-radius(5px);
+    right: -30px;
+    @include border-top-right-radius(5px);
+    @include border-bottom-right-radius(5px);
 
     background-color: $primary-color;
     background-image: url(/static_theme/static/images/socialbglines.png);
