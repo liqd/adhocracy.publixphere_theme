@@ -1,35 +1,20 @@
 #subnav {
     font-weight: bold;
     text-transform: uppercase;
-    margin: 0 20px;
     float: left;
-
-    // HACK hide spaces between li elements.
-    // Set a reasonable font-size in child elements
-    font-size: 0;
+    font-size: $large;
+    margin: 0;
 
     li {
-        font-size: $large;
         a {
             line-height: 2.5;
-            @include button-base();
-            color: $secondary-color;
-            padding: 0 1.5em;
-            @include border-radius(6px 6px 0 0);
-
-            border: 1px solid hsl(hue($primary-color), 34%, 77%);
-            border-bottom-width: 0;
-
-            &:hover, &:focus {
-                border-color: $primary-color;
-            }
+            color: white;
+            padding: 0 0.5em;
         }
 
-        &.current {
-            a {
-                color: $primary-color;
-                border-color: $primary-color;
-            }
+        &.current a, a:focus, a:hover{
+            color: $black;
+            text-decoration: none;
         }
     }
 }
