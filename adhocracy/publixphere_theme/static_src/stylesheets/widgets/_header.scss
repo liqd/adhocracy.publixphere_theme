@@ -1,3 +1,5 @@
+$header-fg: #ddd;
+
 #header {
     background: transparent;
     padding-top: 50px;
@@ -5,11 +7,10 @@
     line-height: 3;
     font-family: Georgia, "Times New Roman", serif;
     font-style: italic;
-    color: $primary-color;
+    color: $header-fg;
 
     .page_wrapper {
-        background: $header-color;
-        padding: 0 2em;
+        background: none;
         position: relative;
         text-align: right;
 
@@ -18,7 +19,7 @@
             line-height: inherit;
             font-family: inherit;
             margin: inherit;
-            color: $primary-color;
+            color: $header-fg;
             font-weight: inherit;
             font-style: inherit;
             text-indent: 256px;
@@ -30,10 +31,9 @@
 // navigation
 #nav {
     clear: none;
-    color: white;
 
     a {
-        color: white;
+        color: $header-fg;
     }
 
     li:after {
@@ -48,23 +48,29 @@
 #nav_login, #user_menu {
     padding-left: 1em;
     margin-left: 0.5em;
-    border-left: 1px solid $header-color2;
+    border-left: 1px solid rgba($header-fg, 0.5);
 
     > a {
-        display: block;
-        width: 100px;
+        display: inline-block;
+        width: 80px;
         @include border-radius(10px);
-        border: thin solid $header-color2;
+        border: thin solid rgba($header-fg, 0.5);
 
         background-image: url(/static_theme/static/images/pfeil.png);
         background-position: 80px center;
         background-repeat: no-repeat;
+        padding-right: 20px;
+
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
 
         text-indent: 5px;
-        color: white;
+        color: $header-fg;
         line-height: 25px;
         cursor: pointer;
         text-align: left;
+        vertical-align: -6px;
     }
 
     &:hover > a {
@@ -93,7 +99,7 @@
     @include border-bottom-left-radius(0.4em);
 
     // HACK: fix top spacing
-    border-top: 7px solid $header-color;
+    border-top: 7px solid transparent;
 
     li {
         line-height: 2.4;
