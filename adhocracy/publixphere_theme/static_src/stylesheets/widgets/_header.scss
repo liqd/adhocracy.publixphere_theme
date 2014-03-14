@@ -2,35 +2,39 @@ $header-fg: #ddd;
 
 #header {
     background: transparent;
-    padding-top: 50px;
-    font-size: $medium;
-    line-height: 3;
-    font-family: Georgia, "Times New Roman", serif;
-    font-style: italic;
+    padding: 2em 0 1em;
     color: $header-fg;
 
     .page_wrapper {
         background: none;
         position: relative;
         text-align: right;
+    }
+}
 
-        h2 {
-            font-size: inherit;
-            line-height: inherit;
-            font-family: inherit;
-            margin: inherit;
-            color: $header-fg;
-            font-weight: inherit;
-            font-style: inherit;
-            text-indent: 256px;
-            float: left;
-        }
+#logo {
+    float: left;
+    color: white;
+
+    h1 {
+        color: white;
+        display: inline-block;
+        margin: 0;
+        font-size: 300%;
+    }
+    .tag-line {
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: $large;
+        font-style: italic;
+        color: $header-fg;
+        margin-left: 0.5em;
     }
 }
 
 // navigation
 #nav {
     clear: none;
+    padding-top: 1.2em;
 
     a {
         color: $header-fg;
@@ -46,9 +50,7 @@ $header-fg: #ddd;
 }
 
 #nav_login, #user_menu {
-    padding-left: 1em;
     margin-left: 0.5em;
-    border-left: 1px solid rgba($header-fg, 0.5);
 
     > a {
         display: inline-block;
@@ -70,7 +72,7 @@ $header-fg: #ddd;
         line-height: 25px;
         cursor: pointer;
         text-align: left;
-        vertical-align: -6px;
+        vertical-align: -9px;
     }
 
     &:hover > a {
