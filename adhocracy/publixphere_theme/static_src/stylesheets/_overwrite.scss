@@ -27,7 +27,6 @@ body {
     font-size: $medium;
 }
 .page_wrapper {
-    background: white;
     padding-top: 1px;
     padding-bottom: 1px;
 }
@@ -65,4 +64,27 @@ a.new_comment {
 
 #instance_settings {
     clear: both;
+}
+.page_wrapper {
+    padding: 0;
+}
+#main {
+    margin-bottom: 0;
+
+    .page_wrapper {
+        background-color: rgba(white, 0.8);
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-bottom: 2em;
+    }
+}
+
+html.overlay {
+    body {
+        background: none;
+    }
+    #main .page_wrapper {
+        background: none;
+        padding: 0;
+    }
 }
