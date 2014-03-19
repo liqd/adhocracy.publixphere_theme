@@ -68,7 +68,7 @@
         </div>
       </div>
     </replace>
-    <replace css:content="#logo" if-content="//body[contains(@class, 'instance-europa')]">
+    <replace css:content="#logo" if-content="//body[contains(@class, 'instance-salon')]">
       <div id="logo">
         <h1>Europäische Salon</h1>
 
