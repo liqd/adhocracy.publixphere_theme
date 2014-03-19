@@ -33,6 +33,7 @@ body {
 #main {
     background: none;
     margin-top: 0;
+    margin-bottom: 0;
 
     .page_wrapper {
         padding-top: 1em;
@@ -65,12 +66,8 @@ a.new_comment {
 #instance_settings {
     clear: both;
 }
-.page_wrapper {
-    padding: 0;
-}
+#welcome_message,
 #main {
-    margin-bottom: 0;
-
     .page_wrapper {
         background-color: rgba(white, 0.8);
         padding-left: 1em;

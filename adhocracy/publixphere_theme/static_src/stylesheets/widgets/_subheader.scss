@@ -1,8 +1,8 @@
-#nav_row {
-    background-color: $primary-color;
-    @include clearfix;
-    padding: 0 1em;
-
+#subheader {
+    .page_wrapper {
+        background-color: $primary-color;
+        @include clearfix;
+    }
     #searchbox {
         padding-top: 0.4em !important;
 
@@ -10,7 +10,7 @@
             margin: 0;
         }
     }
-}
-#logo_row {
-    display: none;
+    #logo_row {
+        display: none;
+    }
 }
