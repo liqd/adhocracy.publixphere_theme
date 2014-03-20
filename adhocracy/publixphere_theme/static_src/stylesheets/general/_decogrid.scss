@@ -1,0 +1,59 @@
+/* SASS implementation of the Deco Grid System
+ * For the original, see <http://limi.net/deco.gs>
+  */
+
+// Modify these to your needs.
+$prefix: '';  // e.g. 'deco-'
+$cols: 12;
+$margin: 2.08333%;
+
+@mixin row {
+    float: left;
+    width: 100%;
+    display: block;
+    position: relative;
+    clear: both;
+}
+@mixin cell {
+    position: relative;
+    float: left;
+    left: 100%;
+}
+
+// Width mixin.
+@mixin width($n) {
+    width: $n * (100% + $margin) / $cols - $margin;
+}
+
+// Positioning mixin, this is subtracting from a rightmost
+// position, which is why it seem the wrong way around
+@mixin position($n) {
+    margin-left: -100% + $n * (100% + $margin) / $cols;
+}
+
+@include desktop {
+    // map 16 grid to 12 grid
+    .row {
+        @include row;
+    }
+    .cell {
+        @include cell;
+    }
+
+    .width-5 {
+        @include width(4);
+    }
+    .width-16 {
+        @include width(12);
+    }
+
+    .position-0 {
+        @include position(0);
+    }
+    .position-5 {
+        @include position(4);
+    }
+    .position-10 {
+        @include position(8);
+    }
+}
