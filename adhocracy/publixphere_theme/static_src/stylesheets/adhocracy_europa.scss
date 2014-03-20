@@ -17,6 +17,7 @@
 @import "general/misc";
 @import "general/fonts";
 @import "general/html5";
+@import "general/decogrid";
 
 // components
 @import "components/adhocracy_icons";
@@ -56,6 +57,7 @@
 @import "widgets/sectionpage";
 @import "widgets/dashboard";
 @import "widgets/event_carousel";
+@import "widgets/frontpage";
 
 // overwrite
 @import "overwrite";
