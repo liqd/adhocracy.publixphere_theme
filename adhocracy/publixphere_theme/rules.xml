@@ -40,6 +40,7 @@
     <drop theme="/html/body/*" if-content="/html/body"/>
     <append theme="/html/body" content="/html/body/*" />
     <merge attributes="class" css:theme="body" css:content="body" />
+    <merge attributes="class" css:theme="html" css:content="html" />
 
     <replace css:content="li#nav_home">
         <li class="only-europa">
