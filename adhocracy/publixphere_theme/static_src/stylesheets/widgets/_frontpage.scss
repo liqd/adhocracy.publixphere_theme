@@ -1,3 +1,4 @@
+.subsection-salon-startpage,
 .subsection-de-startpage {
     #welcome_message,
     #main {
@@ -10,7 +11,9 @@
     }
 }
 
+.subsection-salon-startpage #main,
 .subsection-de-startpage #main {
+    .page_title,
     #instance_list,
     #stats {
         display: none;
@@ -99,6 +102,7 @@
             }
         }
     }
+    #galleria-9558eb947b2a44e5bd06f9a492e01c01,
     #galleria-aef93412aeb1495f95035c1e8eb0fecb {
         .galleria-item {
             position: relative;
