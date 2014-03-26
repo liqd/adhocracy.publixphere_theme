@@ -71,13 +71,13 @@ msgid "User Badges"
 msgstr "Benutzerbadges"
 
 msgid "Proposal Badges"
-msgstr "Badges für Debatten"
+msgstr "Badges für Diskussionen"
 
 msgid "Categories"
-msgstr "Kategorien"
+msgstr "Themen"
 
 msgid "Instance Badges"
-msgstr "Themen-Badges"
+msgstr "Gruppen-Badges"
 
 msgid "Status Badges"
 msgstr "Status-Badges"
@@ -187,16 +187,16 @@ msgid "Delegations are disabled."
 msgstr "Delegationen sind inaktiv."
 
 msgid "tutorial_instance_show_intro"
-msgstr "Willkommen auf der Startseite des Themas."
+msgstr "Willkommen auf der Startseite der Gruppe."
 
 msgid "This instance is not yet open for public participation."
-msgstr "Diese Thema ist noch nicht für öffentliche Beteiligung geöffnet."
+msgstr "Diese Gruppe ist noch nicht für öffentliche Beteiligung geöffnet."
 
 msgid ""
 "This instance is not active for use and is archived. It isn't possible to "
 "perform any changes to the instance, but all content is available to be "
 "read."
-msgstr "Diese Thema wird nicht aktiv genutzt und ist archiviert. Es ist nicht möglich, Änderungen an diesem Thema zu machen. Alle Inhalte können aber weiterhin angesehen werden."
+msgstr "Diese Gruppe wird nicht aktiv genutzt und ist archiviert. Es ist nicht möglich, Änderungen an dieser Gruppe zu machen. Alle Inhalte können aber weiterhin angesehen werden."
 
 msgid "The logo has been deleted."
 msgstr "Das Logo wurde entfernt."
@@ -204,11 +204,11 @@ msgstr "Das Logo wurde entfernt."
 msgid ""
 "Instance created successfully. You can now configure it in greater detail if"
 " you wish."
-msgstr "Thema erfolgreich angelegt. Sie können dieses, falls gewünscht, noch genauer konfigurieren."
+msgstr "Gruppe erfolgreich angelegt. Sie können diese, falls gewünscht, noch genauer konfigurieren."
 
 #, python-format
 msgid "The instance %s has been deleted."
-msgstr "Das Thema %s wurde gelöscht."
+msgstr "Die Gruppe %s wurde gelöscht."
 
 #, python-format
 msgid "Welcome to %(instance)s"
@@ -220,14 +220,14 @@ msgstr "Sie sind kein Mitglied von %(instance)s."
 
 #, python-format
 msgid "You're the founder of %s, cannot leave."
-msgstr "Als Gründer von %s können Sie das Thema nicht verlassen."
+msgstr "Als Gründer von %s können Sie die Gruppe nicht verlassen."
 
 #, python-format
 msgid "You've left %(instance)s."
 msgstr "Sie haben %(instance)s verlassen."
 
 msgid "You cannot manipulate one instance from within another instance."
-msgstr "Sie können ein Thema nicht von einem anderen Thema aus bearbeiten."
+msgstr "Sie können eine Gruppe nicht von einer anderen Gruppe aus bearbeiten."
 
 msgid "Sorry, but you're not allowed to set these message options"
 msgstr "Leider ist es Ihnen nicht erlaubt diese Nachrichten Einstellungen zu setzen."
@@ -253,7 +253,7 @@ msgid "Your message has been sent. Thanks."
 msgstr "Ihre Nachricht wurde versandt. Danke."
 
 msgid "tutorial_milestones_tab"
-msgstr "Diese Seite bietet Ihnen eine Übersicht über die Termine des Themas."
+msgstr "Diese Seite bietet Ihnen eine Übersicht über die Termine der Gruppe."
 
 msgid "tutorial_milestone_details_tab"
 msgstr "Die Termin-Detailansicht zeigt weitere Informationen zu dem Termin an."
@@ -325,10 +325,10 @@ msgid "Successfully created new user account %s"
 msgstr "Erfolgreich neuen Nutzer/innen-Zugang %s angelegt"
 
 msgid "tutorial_norms_overview_tab"
-msgstr "Übersichtseite über die Beschlüsse des Themas. Die Liste zeigt nicht nur alle zu dem Thema eingebrachten Beschlüsse an, sondern unter dem Titel der Beschlüsse wird auch die Anzahl der momentan dazugehörigen Debatten und Kommentare angezeigt"
+msgstr "Übersichtseite über die Beschlüsse der Gruppe. Die Liste zeigt nicht nur alle von der Gruppe eingebrachten Beschlüsse an, sondern unter dem Titel der Beschlüsse wird auch die Anzahl der momentan dazugehörigen Diskussionen und Argumente angezeigt"
 
 msgid "No proposal has been specified"
-msgstr "Es wurde keine Debatte angegeben."
+msgstr "Es wurde keine Diskussion angegeben."
 
 msgid "You cannot create a new norm"
 msgstr "Sie können keinen Beschluss anlegen."
@@ -419,32 +419,32 @@ msgid "The poll has ended."
 msgstr "Die Abstimmung ist beendet."
 
 msgid "The proposal is not undergoing a poll."
-msgstr "Über diese Debatte wird noch nicht abgestimmt."
+msgstr "Über diese Diskussion wird noch nicht abgestimmt."
 
 msgid "tutorial_proposal_overview_tab"
-msgstr "Übersicht über alle bisher eingebrachten Debatten. Hier haben Sie nicht nur die Möglichkeit neue Debatten zu verfassen..."
+msgstr "Übersicht über alle bisher eingebrachten Diskussionen. Hier haben Sie nicht nur die Möglichkeit neue Diskussionen zu verfassen..."
 
 msgid "Please select norm and propose a change to it."
 msgstr "Bitte wählen Sie einen Beschluss aus und schlagen Sie eine Änderung vor."
 
 msgid "tutorial_proposal_show_tab"
-msgstr "Auf der Detailseite einer Debatte finden Sie nicht nur die wichtigen Informationen, sondern auch viele Möglichkeiten sich aktiv zu beteiligen."
+msgstr "Auf der Detailseite einer Diskussion finden Sie nicht nur die wichtigen Informationen, sondern auch viele Möglichkeiten sich aktiv zu beteiligen."
 
 #, python-format
 msgid "Proposal: %s"
-msgstr "Debatte: %s"
+msgstr "Diskussion: %s"
 
 #, python-format
 msgid "Activity on the %s proposal"
-msgstr "Aktivität bei Debatte %s"
+msgstr "Aktivität bei der Diskussion %s"
 
 #, python-format
 msgid "The proposal %s has been deleted."
-msgstr "Die Debatte %s wurde gelöscht."
+msgstr "Die Diskussion %s wurde gelöscht."
 
 #, python-format
 msgid "Proposal: %(proposal)s"
-msgstr "Debatte: %(proposal)s"
+msgstr "Diskussion: %(proposal)s"
 
 #, python-format
 msgid "You are not allowed to edit badge %i"
@@ -525,7 +525,7 @@ msgid "Optional"
 msgstr "Optional"
 
 msgid "tutorial_user_index_intro"
-msgstr "Mitgliederliste des Themas."
+msgstr "Mitgliederliste der Gruppe."
 
 msgid "Sorry, registration has been disabled by administrator."
 msgstr "Es tut uns leid - Registrierung ist in dieser Installation deaktiviert."
@@ -796,13 +796,13 @@ msgid ""
 msgstr "Bitte gib einen Farbcode wie '#f0f0f0' ein. '%(value)s' ist kein gültiger Farbcode."
 
 msgid "No instance key is given"
-msgstr "Keine Themen-Kennung angegeben."
+msgstr "Keine Gruppen-Kennung angegeben."
 
 msgid "The instance key is invalid"
-msgstr "Diese Themen-Kennung ist ungültig."
+msgstr "Diese Gruppen-Kennung ist ungültig."
 
 msgid "An instance with that key already exists"
-msgstr "Eine Thema mit dieser Kennung existiert bereits."
+msgstr "Eine Gruppe mit dieser Kennung existiert bereits."
 
 msgid "No static key is given"
 msgstr "Keine statische Kennung angegeben"
@@ -816,15 +816,15 @@ msgstr "Kein Eintrag mit der ID '%s' vorhanden."
 
 #, python-format
 msgid "No proposal with ID '%s' exists"
-msgstr "Es gibt keine Debatte mit der ID '%s'."
+msgstr "Es gibt keine Diskussion mit der ID '%s'."
 
 #, python-format
 msgid "No group with ID '%s' exists"
-msgstr "Es gibt kein Thema mit der ID '%s'."
+msgstr "Es gibt keine Gruppe mit der ID '%s'."
 
 #, python-format
 msgid "Group '%s' is no instance group"
-msgstr "Thema '%s' ist kein Instanz-Thema."
+msgstr "Gruppe '%s' ist keine Instanz-Gruppe."
 
 msgid "At least one character is required"
 msgstr "Mindestens ein Zeichen wird benötigt"
@@ -851,14 +851,14 @@ msgstr "Duplikate bei der Eingabe von Userbadge labels"
 
 #, python-format
 msgid "Cannot use global category %s in this instance"
-msgstr "Die globale Kategorie %s kann in diesem Thema nicht verwendet werden."
+msgstr "Das globale Thema %s kann in dieser Gruppe nicht verwendet werden."
 
 #, python-format
 msgid "Badge with ID '%s' not valid in this instance"
-msgstr "Badge mit ID '%s' ist nicht gültig in diesem Thema."
+msgstr "Badge mit ID '%s' ist nicht gültig in dieser Gruppe."
 
 msgid "Parent and child category instance have to match"
-msgstr "Die Eltern- und Kindkategorie Themen müssen zusammenpassen"
+msgstr "Die Eltern- und Kindthema Gruppen müssen zusammenpassen"
 
 msgid "You shall not create cycles!"
 msgstr "Du sollst keine Zyklen anlegen!"
@@ -975,10 +975,10 @@ msgid "The file is too big (>1MB)"
 msgstr "Die Datei ist zu groß (>1MB)"
 
 msgid "Please select at least one instance"
-msgstr "Bitte wählen Sie zumindest ein Thema"
+msgstr "Bitte wählen Sie zumindest eine Gruppe"
 
 msgid "Disallowed instance selected"
-msgstr "Unerlaubtes Thema ausgewählt"
+msgstr "Unerlaubte Gruppe ausgewählt"
 
 msgid "Invalid value"
 msgstr "Ungültiger Wert"
@@ -1021,7 +1021,7 @@ msgid ""
 "A liquid democracy platform for making decisions in distributed, open groups"
 " by cooperatively creating proposals and voting on them to establish their "
 "support."
-msgstr "Eine Liquid Democracy-Plattform, auf der verteilte, offene Gruppen kooperativ Debatten erarbeiten und abstimmen können."
+msgstr "Eine Liquid Democracy-Plattform, auf der verteilte, offene Gruppen kooperativ Diskussionen erarbeiten und abstimmen können."
 
 msgid ""
 "adhocracy, direct democracy, liquid democracy, liqd, democracy, wiki, "
@@ -1108,32 +1108,32 @@ msgid "Controversy"
 msgstr "Kontroversität"
 
 msgid "Sort by proposal creation date"
-msgstr "Sortiere nach Erstellungsdatum der Debatte"
+msgstr "Sortiere nach Erstellungsdatum der Diskussion"
 
 msgid "Sort by date of the last comment"
 msgstr "Sortiere nach Zeitpunkt des letzten Kommentars"
 
 msgid "Sort by number of votes for the proposal"
-msgstr "Sortiere nach der Anzahl der Stimmen für diese Debatte"
+msgstr "Sortiere nach der Anzahl der Stimmen für diese Diskussion"
 
 msgid ""
 "First sort by proposals with important badges, then by the difference "
 "between number of votes for and against and also prefer newer proposals"
-msgstr "Sortiere zuerst nach wichtigen Badges, dann nach der Differenz der Stimmen für und gegen die Debatte und bevorzuge außerdem neuere Debatten"
+msgstr "Sortiere zuerst nach wichtigen Badges, dann nach der Differenz der Stimmen für und gegen die Diskussion und bevorzuge außerdem neuere Diskussionen"
 
 msgid ""
 "Prefer proposals where the gap between votes for and against is close, also "
 "proposals with more absolut votes are rated slightly higher"
-msgstr "Bevorzuge Debatten, bei denen der Abstand zwischen Pro- und Contra-Stimmen knapp ist; auch werden Debatten mit mehr absoluten Stimmen etwas höher bewertet"
+msgstr "Bevorzuge Diskussionen, bei denen der Abstand zwischen Pro- und Contra-Stimmen knapp ist; auch werden Diskussionen mit mehr absoluten Stimmen etwas höher bewertet"
 
 msgid "Sort by the characters of the proposal title"
-msgstr "Sortiere nach den Buchstaben des Debattentitels"
+msgstr "Sortiere nach den Buchstaben des Diskussionstitels"
 
 msgid "by date"
 msgstr "Früheste"
 
 msgid "most proposals"
-msgstr "meiste Debatten"
+msgstr "meiste Diskussionen"
 
 msgid "hierarchical"
 msgstr "Hierarchisch"
@@ -1145,7 +1145,7 @@ msgid "Badge"
 msgstr "Badge"
 
 msgid "Instance hidden state"
-msgstr "Sichtbarkeitsstatus des Themas"
+msgstr "Sichtbarkeitsstatus der Gruppe"
 
 msgid "hidden"
 msgstr "versteckt"
@@ -1154,7 +1154,7 @@ msgid "visible"
 msgstr "sichtbar"
 
 msgid "Instance state"
-msgstr "Status des Themas"
+msgstr "Status der Gruppe"
 
 msgid "frozen"
 msgstr "eingefroren"
@@ -1214,7 +1214,7 @@ msgid "Support"
 msgstr "Unterstützung"
 
 msgid "Newest Proposals"
-msgstr "Neueste Debatten"
+msgstr "Neueste Diskussionen"
 
 msgid "Support by"
 msgstr "Unterstützung durch"
@@ -1263,7 +1263,7 @@ msgstr "Kommentar zu %s"
 
 #, python-format
 msgid "argument on %s"
-msgstr "Kommentar zu %s"
+msgstr "Argument zu %s"
 
 msgid "(Undefined)"
 msgstr "(nicht definiert)"
@@ -1292,19 +1292,19 @@ msgstr "Profil wurde von %(admin)s geändert"
 
 #, python-format
 msgid "New instance: %(instance)s"
-msgstr "Neues Thema: %(instance)s"
+msgstr "Neue Gruppe: %(instance)s"
 
 #, python-format
 msgid "founded the %(instance)s instance"
-msgstr "gründete das Thema %(instance)s"
+msgstr "gründete die Gruppe %(instance)s"
 
 #, python-format
 msgid "%(instance)s: instance was updated"
-msgstr "%(instance)s: Thema wurde aktualisiert"
+msgstr "%(instance)s: Gruppe wurde aktualisiert"
 
 #, python-format
 msgid "updated the %(instance)s instance"
-msgstr "änderte das Thema %(instance)s"
+msgstr "änderte die Gruppe %(instance)s"
 
 #, python-format
 msgid "Deleted Adhocracy: %(instance)s"
@@ -1312,7 +1312,7 @@ msgstr "Adhocracy gelöscht: %(instance)s"
 
 #, python-format
 msgid "deleted the %(instance)s instance"
-msgstr "löschte das Thema %(instance)s"
+msgstr "löschte die Gruppe %(instance)s"
 
 #, python-format
 msgid "%(instance)s: %(user)s joined"
@@ -1348,23 +1348,23 @@ msgstr "ist jetzt ein %(group)s in %(instance)s"
 
 #, python-format
 msgid "New proposal: %(proposal)s"
-msgstr "Neue Debatte: %(proposal)s"
+msgstr "Neue Diskussion: %(proposal)s"
 
 #, python-format
 msgid "created %(proposal)s"
-msgstr "legte die Debatte %(proposal)s an"
+msgstr "legte die Diskussion %(proposal)s an"
 
 #, python-format
 msgid "Edit proposal: %(proposal)s"
-msgstr "Geänderte Debatte: %(proposal)s"
+msgstr "Geänderte Diskussion: %(proposal)s"
 
 #, python-format
 msgid "edited %(proposal)s"
-msgstr "bearbeitete die Debatte %(proposal)s"
+msgstr "bearbeitete die Diskussion %(proposal)s"
 
 #, python-format
 msgid "Proposal badged: %(proposal)s"
-msgstr "Debatte mit Badge versehen. %(proposal)s"
+msgstr "Diskussion mit Badge versehen. %(proposal)s"
 
 #, python-format
 msgid "badged %(proposal)s"
@@ -1376,7 +1376,7 @@ msgstr "Abstimmung abgebrochen: %(proposal)s"
 
 #, python-format
 msgid "re-drafted %(proposal)s"
-msgstr "brach die Abstimmung zur Debatte %(proposal)s ab"
+msgstr "brach die Abstimmung zu der Diskussion %(proposal)s ab"
 
 #, python-format
 msgid "New Poll: %(proposal)s"
@@ -1384,15 +1384,15 @@ msgstr "Neue Abstimmung: %(proposal)s"
 
 #, python-format
 msgid "called a vote on %(proposal)s"
-msgstr "rief zu einer Abstimmung zur Debatte %(proposal)s auf"
+msgstr "rief zu einer Abstimmung zu der Diskussion %(proposal)s auf"
 
 #, python-format
 msgid "Deleted proposal: %(proposal)s"
-msgstr "Debatte gelöscht: %(proposal)s"
+msgstr "Diskussion gelöscht: %(proposal)s"
 
 #, python-format
 msgid "deleted %(proposal)s"
-msgstr "löschte die Debatte %(proposal)s"
+msgstr "löschte die Diskussion %(proposal)s"
 
 #, python-format
 msgid "New amendment to %(page)s: %(proposal)s"
@@ -1448,7 +1448,7 @@ msgstr "Neuester Kommentar: in %(topic)s"
 
 #, python-format
 msgid "New argument: in %(topic)s"
-msgstr "Neuer Kommentar: unter %(topic)s"
+msgstr "Neues Argument: unter %(topic)s"
 
 #, python-format
 msgid "commented on %(topic)s"
@@ -1464,7 +1464,7 @@ msgstr "Bearbeiteter Kommentar: unter %(topic)s"
 
 #, python-format
 msgid "Edited argument: in %(topic)s"
-msgstr "Bearbeiteter Kommentar: unter %(topic)s"
+msgstr "Bearbeitetes Argument: unter %(topic)s"
 
 #, python-format
 msgid "edited comment on %(topic)s"
@@ -1472,7 +1472,7 @@ msgstr "bearbeitete Kommentare zu %(topic)s"
 
 #, python-format
 msgid "edited argument about %(topic)s"
-msgstr "bearbeitete Kommentare zu %(topic)s"
+msgstr "bearbeitete Argumente zu %(topic)s"
 
 #, python-format
 msgid "Deleted comment: in %(topic)s"
@@ -1480,7 +1480,7 @@ msgstr "Gelöschter Kommentar: unter %(topic)s"
 
 #, python-format
 msgid "Deleted argument: in %(topic)s"
-msgstr "Gelöschter Kommentar: unter %(topic)s"
+msgstr "Gelöschtes Argument: unter %(topic)s"
 
 #, python-format
 msgid "deleted comment from %(topic)s"
@@ -1488,7 +1488,7 @@ msgstr "Kommentar zu %(topic)s gelöscht"
 
 #, python-format
 msgid "deleted argument from %(topic)s"
-msgstr "Kommentar zu %(topic)s gelöscht"
+msgstr "Argument zu %(topic)s gelöscht"
 
 #, python-format
 msgid "New Delegation: %(user)s delegated %(scope)s to %(agent)s"
@@ -1579,13 +1579,13 @@ msgid "Message from %(sender)s: %(message)s"
 msgstr "Mitteilung von %(sender)s: %(message)s"
 
 msgid "This proposal is currently being voted on and cannot be modified."
-msgstr "Über diese Debatte wird gerade abgestimmt, sie kann daher nicht verändert werden."
+msgstr "Über diese Diskussion wird gerade abgestimmt, sie kann daher nicht verändert werden."
 
 msgid "Settings"
 msgstr "Einstellungen"
 
 msgid "Proposals"
-msgstr "Debatten"
+msgstr "Diskussionen"
 
 msgid "Norms"
 msgstr "Beschlüsse"
@@ -1616,7 +1616,7 @@ msgid "Dashboard"
 msgstr "Dashboard"
 
 msgid "This action is only available in an instance context."
-msgstr "Die Handlung ist nur innerhalb eines Themas verfügbar."
+msgstr "Die Handlung ist nur innerhalb einer Gruppe verfügbar."
 
 msgid "show more"
 msgstr "mehr anzeigen"
@@ -1634,10 +1634,10 @@ msgid "Click to change you vote to neutral"
 msgstr "Klicken Sie hier, um mit \"neutral\" abzustimmen"
 
 msgid "Click to vote pro"
-msgstr "Das finde ich relevant"
+msgstr "Zugunsten abstimmen"
 
 msgid "Click to vote con"
-msgstr "Das finde ich nicht relevant"
+msgstr "Dagegen abstimmen"
 
 msgid "Your current vote is already con"
 msgstr "Sie haben bereits mit \"dagegen\" abgestimmt"
@@ -1646,7 +1646,7 @@ msgid "Topic is frozen. Click to view the list of votes."
 msgstr "Thema ist eingefroren. Klicken Sie hier für eine Übersicht über die abgegebenen Stimmen."
 
 msgid "Instance is frozen. Click to view the list of votes."
-msgstr "Das Thema ist eingefroren. Klicke hier für eine Übersicht über die abgegebenen Stimmen"
+msgstr "Die Gruppe ist eingefroren. Klicke hier für eine Übersicht über die abgegebenen Stimmen"
 
 msgid "Voting has ended. Click to view the list of votes"
 msgstr "Die Abstimmung ist beendet. Klicken Sie hier für eine Übersicht über die abgegebenen Stimmen"
@@ -1656,7 +1656,7 @@ msgstr "Bitte melden Sie sich an oder registrieren Sie sich, um abzustimmen"
 
 #, python-format
 msgid "Please join the instance \"%s\" to vote."
-msgstr "Bitte treten Sie dem \"%s\" Thema bei, um abzustimmen."
+msgstr "Bitte treten Sie der Gruppe \"%s\" bei, um abzustimmen."
 
 msgid "Click to see the list of votes"
 msgstr "Klicken Sie hier für eine Übersicht über die abgegebenen Stimmen"
@@ -1665,13 +1665,13 @@ msgid "User badge"
 msgstr "Nutzerbadge"
 
 msgid "Instance badge"
-msgstr "Themenbadge"
+msgstr "Gruppenbadge"
 
 msgid "Proposal badge"
-msgstr "Debattesbadge"
+msgstr "Diskussionsbadge"
 
 msgid "Category"
-msgstr "Kategorie"
+msgstr "Thema"
 
 msgid "Status badge"
 msgstr "Status Badge"
@@ -1716,10 +1716,10 @@ msgid "Follow Norm"
 msgstr "Beschluss folgen"
 
 msgid "Follow Instance"
-msgstr "Thema folgen"
+msgstr "Gruppe folgen"
 
 msgid "Follow Proposal"
-msgstr "Debatte folgen"
+msgstr "Diskussion folgen"
 
 msgid "Follow Milestone"
 msgstr "Termin folgen"
@@ -1776,16 +1776,16 @@ msgid "Feedback"
 msgstr "Feedback"
 
 msgid "Proposal Category"
-msgstr "Kategorie"
+msgstr "Thema"
 
 msgid "No Category"
-msgstr "Keine zugewiesene Kategorie"
+msgstr "Kein zugewiesenes Thema"
 
 msgid "Others"
 msgstr "Andere"
 
 msgid "Default proposal sort order"
-msgstr "Standard-Sortierreihenfolge von Debattenn"
+msgstr "Standard-Sortierreihenfolge von Diskussionen"
 
 msgid "Register"
 msgstr "Registrieren"
@@ -1800,7 +1800,7 @@ msgid "join"
 msgstr "beitreten"
 
 msgid "Join this instance to start contributing."
-msgstr "Treten Sie diesem Thema bei, um mitzumachen."
+msgstr "Treten Sie dieser Gruppe bei, um mitzumachen."
 
 msgid "Edit profile"
 msgstr "Profil editieren"
@@ -1808,7 +1808,7 @@ msgstr "Profil editieren"
 msgid ""
 "You need to set an email in your profile in order to contribute to this "
 "instance."
-msgstr "Sie müssen in Ihren Profileinstellungen eine Email-Adresse eintragen, um bei diesem Thema mitzumachen."
+msgstr "Sie müssen in Ihren Profileinstellungen eine Email-Adresse eintragen, um bei dieser Gruppe mitzumachen."
 
 #, python-format
 msgid "Resend validation email to %s"
@@ -1819,7 +1819,7 @@ msgstr "Aktivierungslink senden"
 
 msgid ""
 "Please validate your email address in order to contribute to this instance."
-msgstr "Bitte verifizieren Sie Ihre Email-Adresse, damit Sie bei diesem Thema mitmachen können."
+msgstr "Bitte verifizieren Sie Ihre Email-Adresse, damit Sie bei dieser Gruppe mitmachen können."
 
 msgid "Your registered email address is:"
 msgstr "Ihre eingestellte Email-Adresse ist:"
@@ -1856,7 +1856,7 @@ msgstr "<b>%s</b> Mitglieder"
 
 #, python-format
 msgid "<b>%s</b> proposals"
-msgstr "<b>%s</b> Debatten"
+msgstr "<b>%s</b> Diskussionen"
 
 #, python-format
 msgid "<b>%s</b> comments"
@@ -1867,7 +1867,7 @@ msgid "<b>%s</b> votes"
 msgstr "<b>%s</b> Stimmen"
 
 msgid "Instances"
-msgstr "Themen"
+msgstr "Gruppen"
 
 msgid "Watchlist"
 msgstr "Beobachtungsliste"
@@ -1965,7 +1965,7 @@ msgid "Validate email to start contributing."
 msgstr "Verifizieren Sie Ihre Email-Adresse, um mitzumachen."
 
 msgid "This instance has been frozen - you can not edit or post anything."
-msgstr "Diese Thema ist eingefroren - Bearbeiten oder Hinzufügen von neuen Beiträgen ist nicht möglich."
+msgstr "Diese Gruppe ist eingefroren - Bearbeiten oder Hinzufügen von neuen Beiträgen ist nicht möglich."
 
 msgid "Next"
 msgstr "Weiter"
@@ -2038,16 +2038,16 @@ msgid "Export badges"
 msgstr "Badges exportieren"
 
 msgid "Export content (instances)"
-msgstr "Inhalte exportieren (Themen)"
+msgstr "Inhalte exportieren (Gruppen)"
 
 msgid "Include proposals"
-msgstr "Debatten hinzufügen"
+msgstr "Diskussionen hinzufügen"
 
 msgid "Include comments"
 msgstr "Kommentar hinzufügen"
 
 msgid "Include proposal creator badges"
-msgstr "Badges für Urheber von Debattenn hinzufügen"
+msgstr "Badges für Urheber von Diskussionen hinzufügen"
 
 msgid "Include ratings"
 msgstr "Bewertungen hinzufügen"
@@ -2092,7 +2092,7 @@ msgid "Import badges"
 msgstr "Badges importieren"
 
 msgid "Import content (instances)"
-msgstr "Inhalte importieren (Themen)"
+msgstr "Inhalte importieren (Gruppen)"
 
 msgid "Import static pages"
 msgstr "Importiere statische Seiten"
@@ -2125,18 +2125,18 @@ msgid "Site administration"
 msgstr "Seiteneinstellungen"
 
 msgid "Admin: Group Permissions"
-msgstr "Verwaltung: Themenrechte"
+msgstr "Verwaltung: Gruppenrechte"
 
 msgid "Admin &raquo; Group Permissions"
-msgstr "Verwaltung &raquo; Themenrechte"
+msgstr "Verwaltung &raquo; Gruppenrechte"
 
 msgid "Group Permissions"
-msgstr "Themenrechte"
+msgstr "Gruppenrechte"
 
 msgid ""
 "WARNING: This allows you to shut yourself out of your adhocracy. Handle with"
 " care!"
-msgstr "ACHTUNG: Hiermit können Sie sich aus Ihrer eigenen Thema ausschließen. Seien Sie vorsichtig!"
+msgstr "ACHTUNG: Hiermit können Sie sich aus Ihrer eigenen Gruppe ausschließen. Seien Sie vorsichtig!"
 
 msgid "Permissions"
 msgstr "Rechte"
@@ -2219,7 +2219,7 @@ msgstr "Sie haben erfolgreich die folgenden Benutzer erstellt:"
 msgid ""
 "You successfully created the following users and added them as Members to "
 "the instance \"%s\":"
-msgstr "Sie haben erfolgreich die folgenden Benutzer erstellt und sie als Mitglieder des Themas \"%s\" hinzugefügt:"
+msgstr "Sie haben erfolgreich die folgenden Benutzer erstellt und sie als Mitglieder der Gruppe \"%s\" hinzugefügt:"
 
 msgid "The following errors happend while creating the users"
 msgstr "Die folgenden Fehler traten während der Erstellung der Benutzer auf"
@@ -2244,26 +2244,26 @@ msgid "Confirm"
 msgstr "Bestätigen"
 
 msgid "Category title"
-msgstr "Titel der Kategorie"
+msgstr "Titel des Themas"
 
 msgid "Badge title"
 msgstr "Titel des Badges"
 
 msgid "Category description"
-msgstr "Beschreibung der Kategorie"
+msgstr "Beschreibung des Themas"
 
 msgid "Badge description"
 msgstr "Beschreibung des Badges"
 
 msgid "Long category description"
-msgstr "Ausführliche Beschreibung der Kategorie"
+msgstr "Ausführliche Beschreibung des Themas"
 
 msgid ""
 "Here you can add a more detailed description of your category with markdown."
-msgstr "Hier können Sie eine detaillierte Beschreibung der Kategorie mit markdown Formatierung vornehmen. Sie können auch Bilder und Links einbetten."
+msgstr "Hier können Sie eine detaillierte Beschreibung des Themas mit markdown Formatierung vornehmen. Sie können auch Bilder und Links einbetten."
 
 msgid "The color that is used to show the category"
-msgstr "Die Farbe dieser Kategorie."
+msgstr "Die Farbe dieses Themas."
 
 msgid "The color that is used to show the badge"
 msgstr "Die Farbe dieser Badge."
@@ -2287,13 +2287,13 @@ msgid "Delete current thumbnail image"
 msgstr "Lösche aktuelles Miniaturbild"
 
 msgid "Upload category image"
-msgstr "Laden Sie ein Bild für diese Kategorie hoch."
+msgstr "Laden Sie ein Bild für dieses Thema hoch."
 
 msgid "Delete current category image"
-msgstr "Aktuelles Bild der Kategorie löschen"
+msgstr "Aktuelles Bild des Themas löschen"
 
 msgid "Check to hide category in user interface"
-msgstr "Hier klicken, um die Kategorie vor Teilnehmer*innen zu verbergen."
+msgstr "Hier klicken, um das Thema vor Teilnehmer*innen zu verbergen."
 
 msgid "Check to hide badge in user interface"
 msgstr "Auswählen, um Badge im User Interface zu verstecken"
@@ -2307,39 +2307,39 @@ msgstr "Keine Benutzerrolle"
 msgid ""
 "Automatically assign all users with this badge to the selected group for all"
 " instances in the adhocracy site."
-msgstr "Ordne alle Nutzer*innen mit diesem Badge automatisch der gewählten Thema zu, für alle Instanzen in Adhocracy."
+msgstr "Ordne alle Nutzer*innen mit diesem Badge automatisch der gewählten Gruppe zu, für alle Instanzen in Adhocracy."
 
 msgid "Automatically assign all users with this badge to the selected group."
-msgstr "Ordne alle Nutzer*innen mit diesem Badge automatisch der gewählten Thema zu."
+msgstr "Ordne alle Nutzer*innen mit diesem Badge automatisch der gewählten Gruppe zu."
 
 msgid "Display group in instances"
-msgstr "Nutzerrollen in den Themen anzeigen"
+msgstr "Nutzerrollen in den Gruppen anzeigen"
 
 msgid "Display this badge instead of the normal user group."
-msgstr "Zeige dieses Badge an, anstatt der normalen Thema des Nutzers."
+msgstr "Zeige dieses Badge an, anstatt der normalen Gruppe des Nutzers."
 
 msgid "Global"
 msgstr "Global"
 
 msgid "Parent Category"
-msgstr "Elternkategorie"
+msgstr "Elternthema"
 
 msgid "Link this category to a superordinate category"
 msgstr "Diese Kategorie mit einer übergeordneten Kategorie verknüpfen"
 
 msgid "No Parent Category"
-msgstr "Keine Elternkategorie"
+msgstr "Keine Elternthema"
 
 msgid "Global categories"
-msgstr "Globale Kategorien"
+msgstr "Globale Themen"
 
 msgid "Local instance categories"
-msgstr "Lokale Themenkategorien"
+msgstr "Lokale Gruppenthemen"
 
 msgid ""
 "Description to select children of this category (irrelevant if this category"
 " doesn't have any children)"
-msgstr "Angabe um die Kinder dieser Kategorie auszuwählen (irrelevant falls diese Kategorie keine Kinder hat)"
+msgstr "Angabe um die Kinder dieses Themas auszuwählen (irrelevant falls dieses Thema keine Kinder hat)"
 
 msgid "Impact"
 msgstr "Einfluss"
@@ -2351,11 +2351,11 @@ msgid "New"
 msgstr "Neu"
 
 msgid "In all instances"
-msgstr "In allen Themen"
+msgstr "In allen Gruppen"
 
 #, python-format
 msgid "In instance \"%s\""
-msgstr "In Thema „%s“"
+msgstr "In Gruppe „%s“"
 
 msgid "No badges added yet."
 msgstr "Bisher wurden noch keine Badges hinzugefügt."
@@ -2367,18 +2367,18 @@ msgstr "Benutzerbadges ermöglichen es Mitglieder zu gruppieren."
 msgid ""
 "Proposal badges may be used to link different attributes to a proposal (e.g."
 " official, first phase, etc.)."
-msgstr "Durch diese Badges können Debattenn bestimmte Eigenschaften zugeordnet werden."
+msgstr "Durch diese Badges können Diskussionen bestimmte Eigenschaften zugeordnet werden."
 
 msgid ""
 "Add new categories to allow your users to categorize their proposals "
 "according to a topic."
-msgstr "Fügen Sie eine neue Kategorie hinzu, um den Nutzern die Möglichkeit zu geben ihre Debatten bestimmten Themen zuzuordnen."
+msgstr "Fügen Sie ein neues Thema hinzu, um den Nutzern die Möglichkeit zu geben ihre Diskussionen bestimmten Themen zuzuordnen."
 
 msgid ""
 "Status badges may be used to indicate different statuses of proposals in "
 "your participation process (e.g. accepted, rejected, in discussion, etc.) "
 "with an image."
-msgstr "Mit Hilfe von Status-Badges kann mit einem Bild beispielsweise der Stand verschiedener Debatten im Beteiligungsprozess angegeben werden (z.B. akzeptiert, abgelehnt, wird diskutiert, etc.)."
+msgstr "Mit Hilfe von Status-Badges kann mit einem Bild beispielsweise der Stand verschiedener Diskussionen im Beteiligungsprozess angegeben werden (z.B. akzeptiert, abgelehnt, wird diskutiert, etc.)."
 
 msgid "Preview"
 msgstr "Vorschau"
@@ -2423,28 +2423,28 @@ msgid "Introduce a new idea to debate."
 msgstr "Schlagen Sie eine neue Idee vor."
 
 msgid "Create new proposal"
-msgstr "Neue Debatte anlegen"
+msgstr "Neue Diskussion anlegen"
 
 msgid "Join instance to create a new proposal."
-msgstr "Thema beitreten, um eine neue Debatte anzulegen."
+msgstr "Gruppe beitreten, um eine neue Diskussion anzulegen."
 
 msgid "Login to create a new proposal."
-msgstr "Anmelden, um eine neue Debatte anzulegen."
+msgstr "Anmelden, um eine neue Diskussion anzulegen."
 
 msgid "Validate email in order to create a new proposal."
-msgstr "Verifizieren Sie Ihre Email-Adresse, um eine neue Debatte anzulegen."
+msgstr "Verifizieren Sie Ihre Email-Adresse, um eine neue Diskussion anzulegen."
 
 msgid "Find proposals"
-msgstr "Debatten suchen"
+msgstr "Diskussionen suchen"
 
 msgid "Go"
 msgstr "Los"
 
 msgid "new proposal"
-msgstr "Neue Debatte"
+msgstr "Neue Diskussion"
 
 msgid "Norms in this Category"
-msgstr "Beschlüsse in dieser Kategorie"
+msgstr "Beschlüsse in diesem Thema"
 
 msgid "Comment"
 msgid_plural "Comments"
@@ -2452,7 +2452,7 @@ msgstr[0] "Kommentar"
 msgstr[1] "Kommentare"
 
 msgid "Argument"
-msgstr "Kommentar"
+msgstr "Argument"
 
 #, python-format
 msgid "Comment on %s"
@@ -2460,19 +2460,19 @@ msgstr "%s kommentieren"
 
 #, python-format
 msgid "Argument about %s"
-msgstr "Kommentar zu %s"
+msgstr "Argument zu %s"
 
 msgid "Are you sure you want to delete this comment?"
 msgstr "Sind Sie sicher, dass Sie diesen Kommentar entfernen möchten?"
 
 msgid "Are you sure you want to delete this argument?"
-msgstr "Sind Sie sicher, dass Sie diesen Kommentar entfernen möchten?"
+msgstr "Sind Sie sicher, dass Sie dieses Argument entfernen möchten?"
 
 msgid "Edit comment"
 msgstr "Kommentar bearbeiten"
 
 msgid "Edit argument"
-msgstr "Kommentar bearbeiten"
+msgstr "Argument bearbeiten"
 
 #, python-format
 msgid "Comment on: %s"
@@ -2480,19 +2480,19 @@ msgstr "%s kommentieren"
 
 #, python-format
 msgid "Argument about: %s"
-msgstr "Kommentar zu: %s"
+msgstr "Argument zu: %s"
 
 msgid "Comment History"
 msgstr "Kommentarhistorie"
 
 msgid "Argument History"
-msgstr "Historie des Kommentars"
+msgstr "Historie des Arguments"
 
 msgid "New comment"
 msgstr "Neuer Kommentar"
 
 msgid "New argument"
-msgstr "Neuer Kommentar"
+msgstr "Neues Argument"
 
 #, python-format
 msgid "created %s"
@@ -2519,10 +2519,10 @@ msgid "Start new discussion"
 msgstr "Neue Diskussion anlegen"
 
 msgid "Join instance to comment."
-msgstr "Treten Sie diesem Thema bei, um mitzumachen."
+msgstr "Treten Sie dieser Gruppe bei, um mitzumachen."
 
 msgid "Join instance to discuss."
-msgstr "Treten Sie diesem Thema bei, um mitzumachen."
+msgstr "Treten Sie dieser Gruppe bei, um mitzumachen."
 
 msgid "Login to comment."
 msgstr "Loggen Sie sich ein um einen Kommentar hinzuzufügen."
@@ -2534,13 +2534,13 @@ msgid "Validate email in order to comment."
 msgstr "Verifizieren Sie Ihre Email-Adresse, um zu kommentieren."
 
 msgid "Validate email in order to discuss."
-msgstr "Verifizieren Sie Ihre Email-Adresse, um Kommentare hinzuzufügen."
+msgstr "Verifizieren Sie Ihre Email-Adresse, um Argumente hinzuzufügen."
 
 msgid "No comments were made yet."
 msgstr "Bisher wurden keine Kommentare hinzugefügt."
 
 msgid "No discussions were started yet."
-msgstr "Bisher wurden keine Kommentare hinzugefügt."
+msgstr "Bisher wurden keine Argumente hinzugefügt."
 
 msgid "is pro"
 msgstr "ist dafür"
@@ -2555,7 +2555,7 @@ msgid "This comment has been deleted."
 msgstr "Dieser Kommentar wurde gelöscht."
 
 msgid "This argument has been deleted."
-msgstr "Dieser Kommentar wurde gelöscht."
+msgstr "Dieses Argument wurde gelöscht."
 
 #, python-format
 msgid "deleted %s"
@@ -2575,31 +2575,31 @@ msgid "reply"
 msgstr "antworten"
 
 msgid "Add argument"
-msgstr "Kommentar hinzufügen"
+msgstr "Argument hinzufügen"
 
 msgid "Join instance to reply"
-msgstr "Thema beitreten um zu antworten"
+msgstr "Gruppe beitreten um zu antworten"
 
 msgid "Join instance to argue"
-msgstr "Treten Sie diesem Thema bei, um mitzumachen."
+msgstr "Treten Sie dieser Gruppe bei, um mitzumachen."
 
 msgid "Login to reply"
 msgstr "Anmelden, um zu antworten"
 
 msgid "Login to argue"
-msgstr "Loggen Sie sich ein um einen Kommentar hinzuzufügen."
+msgstr "Loggen Sie sich ein um ein Argument hinzuzufügen."
 
 msgid "Validate email in order to reply"
 msgstr "Verifizieren Sie Ihre Email-Adresse, um zu antworten"
 
 msgid "Validate email in order to argue"
-msgstr "Verifizieren Sie Ihre Email-Adresse, um einen Kommentar hinzuzufügen."
+msgstr "Verifizieren Sie Ihre Email-Adresse, um ein Argument hinzuzufügen."
 
 msgid "Comment is..."
 msgstr "Kommentar ist..."
 
 msgid "Argument is..."
-msgstr "Kommentar ist..."
+msgstr "Argument ist..."
 
 msgid "Pro"
 msgstr "zugunsten"
@@ -2614,7 +2614,7 @@ msgid "Allow others to edit this comment."
 msgstr "Andere dürfen diesen Kommentar bearbeiten."
 
 msgid "Allow others to edit this argument."
-msgstr "Andere dürfen diesen Kommentar bearbeiten."
+msgstr "Andere dürfen dieses Argument bearbeiten."
 
 #, python-format
 msgid "Comments on %s"
@@ -2752,7 +2752,7 @@ msgid "All current events."
 msgstr "Alle aktuellen Ereignisse."
 
 msgid "Show full proposal"
-msgstr "Zeige ganze Debatte"
+msgstr "Zeige ganze Diskussion"
 
 msgid "Show full amendment"
 msgstr "Zeige ganzen Änderungsvorschlag"
@@ -2764,16 +2764,16 @@ msgid "Show full message"
 msgstr "Ganze Mitteilung anzeigen"
 
 msgid "created new proposal"
-msgstr "legte eine neue Debatte an"
+msgstr "legte eine neue Diskussion an"
 
 msgid "display all events"
 msgstr "alle Ereignisse anzeigen"
 
 msgid "Delete instance"
-msgstr "Thema löschen"
+msgstr "Gruppe löschen"
 
 msgid "Are you sure you want to delete this instance?"
-msgstr "Sind Sie sicher, dass Sie dieses Thema entfernen möchten?"
+msgstr "Sind Sie sicher, dass Sie diese Gruppe entfernen möchten?"
 
 #, python-format
 msgid "Join %s"
@@ -2783,11 +2783,11 @@ msgid "Join"
 msgstr "Beitreten"
 
 msgid "Join instance"
-msgstr "Thema beitreten"
+msgstr "Gruppe beitreten"
 
 msgid ""
 "In order to perform the requested action, you need to join this instance."
-msgstr "Um fortzufahren, müssen Sie diesem Thema beitreten."
+msgstr "Um fortzufahren, müssen Sie dieser Gruppe beitreten."
 
 msgid "Leave"
 msgstr "verlassen"
@@ -2795,7 +2795,7 @@ msgstr "verlassen"
 msgid ""
 "Are you sure you want to leave this instance? You will no longer be able to "
 "write contributions or to vote."
-msgstr "Sind Sie sicher, dass Sie dieses Thema verlassen wollen? Sie werden keine Beiträge und Stimmen mehr abgeben können."
+msgstr "Sind Sie sicher, dass Sie diese Gruppe verlassen wollen? Sie werden keine Beiträge und Stimmen mehr abgeben können."
 
 #, python-format
 msgid "Edit badges for %s"
@@ -2808,13 +2808,13 @@ msgid "No badges"
 msgstr "Keine Badges"
 
 msgid "Create new instance"
-msgstr "Neues Thema erstellen"
+msgstr "Neue Gruppe erstellen"
 
 msgid "Instances are little democracies that are ran by their community."
-msgstr "Übersichtsliste über alle registrierten Themen. Treten Sie einem Thema bei um aktiv an den Diskussionen teilzunehmen."
+msgstr "Übersichtsliste über alle registrierten Gruppen. Treten Sie einer Gruppe bei um aktiv an den Diskussionen teilzunehmen."
 
 msgid "new instance"
-msgstr "Neues Thema"
+msgstr "Neue Gruppe"
 
 #, python-format
 msgid "Manage: %s"
@@ -2824,23 +2824,23 @@ msgid "Manage"
 msgstr "Verwalten"
 
 msgid "New Instance"
-msgstr "Neues Thema"
+msgstr "Neue Gruppe"
 
 msgid "Instance name"
-msgstr "Name des Themas"
+msgstr "Name der Gruppe"
 
 msgid "Instance URL"
-msgstr "URL des Themas"
+msgstr "URL der Gruppe"
 
 msgid ""
 "The address may only contain alpha-numeric characters. Please note that this"
 " key cannot be changed after the instance has been created."
-msgstr "Die Adresse darf nur alphanumerische Zeichen enthalten. Bitte beachten Sie, dass die Adresse nicht mehr geändert werden kann, nachdem das Thema erstellt wurde."
+msgstr "Die Adresse darf nur alphanumerische Zeichen enthalten. Bitte beachten Sie, dass die Adresse nicht mehr geändert werden kann, nachdem die Gruppe erstellt wurde."
 
 msgid ""
 "Describe what the goals of this instance are and who constitutes its "
 "community."
-msgstr "Beschreiben Sie die Ziele dieses Themas und wer die Mitglieder sind."
+msgstr "Beschreiben Sie die Ziele dieser Gruppe und wer ihre Mitglieder sind."
 
 msgid "(Both Markdown and HTML are allowed here.)"
 msgstr "(Markdown und HTML sind hier erlaubt.)"
@@ -2849,12 +2849,12 @@ msgid ""
 "Please select one or more of the following presets for the preliminary "
 "configuration of your instance. If necessary you can adapt individual "
 "options later."
-msgstr "Bitte wählen Sie einen oder mehrere dieser voreingestellten Prozesse für die erstmalige und vorläufige Konfiguration IhrCHECK/em Thema/es Themas/. Falls benötigt, können die einzelnen Optionen später genau angepasst werden."
+msgstr "Bitte wählen Sie einen oder mehrere dieser voreingestellten Prozesse für die erstmalige und vorläufige Konfiguration Ihrer Gruppe. Falls benötigt, können die einzelnen Optionen später genau angepasst werden."
 
 msgid ""
 "You can select one or more of these presets to reset your instance "
 "configuration. Note that any manual configuration will be lost."
-msgstr "Sie können einen oder mehrere dieser voreingestellten Prozesse auswählen um die Einstellung ihrCHECK/em Thema/es Themas/ zurückzustellen. Bitte beachten Sie, dass jegliche individuellen Anpassungen dabei verloren gehen."
+msgstr "Sie können einen oder mehrere dieser voreingestellten Prozesse auswählen um die Einstellung ihrer Gruppe zurückzustellen. Bitte beachten Sie, dass jegliche individuellen Anpassungen dabei verloren gehen."
 
 msgid "Collecting ideas"
 msgstr "Ideen sammeln"
@@ -2863,7 +2863,7 @@ msgid ""
 "The participants can make proposals and discuss these. This option enables "
 "everything from an open dialogue to formulating and organizing concrete "
 "ideas and goals."
-msgstr "Die Teilnehmer*innen können Debatten erstellen, diskutieren und so beispielsweise vom offenen Dialogverfahren bis zur offenen Ideensammlung ihre gemeinsamen Absichten formulieren und organisieren."
+msgstr "Die Teilnehmer*innen können Diskussionen erstellen, diskutieren und so beispielsweise vom offenen Dialogverfahren bis zur offenen Ideensammlung ihre gemeinsamen Absichten formulieren und organisieren."
 
 msgid "Planning Ideas"
 msgstr "Ideen planen"
@@ -2871,7 +2871,7 @@ msgstr "Ideen planen"
 msgid ""
 "The participants can make, discuss and plan proposals in connection to "
 "concrete dates through a calendar function."
-msgstr "Alle Teilnehmer*innen können Debatten erstellen, diskutieren und Tagesordnungen/Themenprogramm konkret mit Terminen verbinden."
+msgstr "Alle Teilnehmer*innen können Diskussionen erstellen, diskutieren und Tagesordnungen/Themenprogramm konkret mit Terminen verbinden."
 
 msgid "Collaboratively drafting texts"
 msgstr "Texte gemeinsam bearbeiten"
@@ -2892,10 +2892,10 @@ msgid "Allow editing of comments by default"
 msgstr "Erlaube Bearbeiten von Kommentaren standardmäßig"
 
 msgid "Allow editing of proposals by default"
-msgstr "Erlaube Bearbeiten von Debattenn standardmäßig"
+msgstr "Erlaube Bearbeiten von Diskussionen standardmäßig"
 
 msgid "Require to propose a variant"
-msgstr "Debatten müssen mindestens eine Änderung an einem Beschluss einbringen."
+msgstr "Diskussionen müssen mindestens eine Änderung an einem Beschluss einbringen."
 
 msgid ""
 "If norms are activated, this option will ensure that users change at least "
@@ -2903,27 +2903,27 @@ msgid ""
 msgstr "Wenn Beschlüsse verwendet werden, stellt diese Option sicher, dass Nutzer*innen mindestens eine Änderung des Beschlusses vorschlagen müssen."
 
 msgid "Hide global categories"
-msgstr "Verstecke globale Kategorien"
+msgstr "Verstecke globale Themen"
 
 msgid "Members of your instance only see the catagories you created."
-msgstr "Die Mitglieder dieser Instanz sehen nur die Kategorien, die Sie erstellt haben."
+msgstr "Die Mitglieder dieser Instanz sehen nur die Themen, die Sie erstellt haben."
 
 msgid "Display page index as tiles"
 msgstr "Beschlussliste als Kacheln anzeigen"
 
 msgid "Hide this instance"
-msgstr "Diese Thema verbergen"
+msgstr "Diese Gruppe verbergen"
 
 msgid "Select whether this instance will be shown in public listings."
-msgstr "Bitte wählen Sie aus, ob dieses Thema öffentlich gemacht werden soll."
+msgstr "Bitte wählen Sie aus, ob diese Gruppe öffentlich gemacht werden soll."
 
 msgid "Freeze this instance"
-msgstr "Die Arbeit in diesem Thema einfrieren"
+msgstr "Die Arbeit in dieser Gruppe einfrieren"
 
 msgid ""
 "This will prevent members from making any more changes or contributions to "
 "the existing discussion."
-msgstr "Dies verhindert das weitere Verändern und Kommentieren der bestehenden Debatten und Beschlüsse."
+msgstr "Dies verhindert das weitere Verändern und Kommentieren der bestehenden Diskussionen und Beschlüsse."
 
 msgid "Break down Voting Result by Badge"
 msgstr "Abstimmungsresultat nach Badge aufteilen"
@@ -2938,13 +2938,13 @@ msgstr "Neuste Ereignisse einbetten"
 msgid ""
 "To display the latest events from your %(site_name)s instance you can add "
 "this embed code to your website."
-msgstr "Um die neusten Ereignisse von Ihrer %(site_name)s-Thema anzuzeigen können sie diesen Einbett-Code auf ihrer Webseite hinzufügen."
+msgstr "Um die neusten Ereignisse von Ihrer %(site_name)s-Gruppe anzuzeigen können sie diesen Einbett-Code auf ihrer Webseite hinzufügen."
 
 msgid "Extra CSS"
 msgstr "Extra CSS"
 
 msgid "You can add css that will be used to style the instance."
-msgstr "Sie können CSS-Regeln angeben, um das Aussehen des Themas zu verändern."
+msgstr "Sie können CSS-Regeln angeben, um das Aussehen der Gruppe zu verändern."
 
 msgid "Status badge image width"
 msgstr "Verändern Sie die Breite des Status-Badge Bildes."
@@ -2953,10 +2953,10 @@ msgid "Status badge image height"
 msgstr "Verändern Sie die Höhe des Status-Badge Bildes."
 
 msgid "Authenticate this instance"
-msgstr "Diese Thema authentifizieren"
+msgstr "Diese Gruppe authentifizieren"
 
 msgid "Activates additional feature, e.g. massinvite und massmessage"
-msgstr "Dies aktiviert weitere Optionen, wie z.B. Themen-Einladungen und -Nachrichten."
+msgstr "Dies aktiviert weitere Optionen, wie z.B. Gruppen-Einladungen und -Nachrichten."
 
 msgid "Language"
 msgstr "Sprache"
@@ -2977,10 +2977,10 @@ msgid ""
 msgstr "Mit der Termin Funktion können die online Diskussionen mit offline Events durch einen Kalender verbunden werden."
 
 msgid "Display category pages"
-msgstr "Kategorienseiten anzeigen"
+msgstr "Themenseiten anzeigen"
 
 msgid "categories"
-msgstr "Kategorien"
+msgstr "Themen"
 
 msgid "Themes"
 msgstr "Designs"
@@ -2988,7 +2988,7 @@ msgstr "Designs"
 msgid ""
 "You can select one of several themes to customize the appearance of this "
 "instance."
-msgstr "Sie können aus verschieden Designs auswählen, um ihre Thema individuell zu gestalten."
+msgstr "Sie können aus verschieden Designs auswählen, um ihre Gruppe individuell zu gestalten."
 
 msgid "default"
 msgstr "Standard"
@@ -2997,13 +2997,13 @@ msgid "preview"
 msgstr "Vorschau"
 
 msgid "Delete this instance"
-msgstr "Diese Thema löschen"
+msgstr "Diese Gruppe löschen"
 
 msgid "Require email validation"
 msgstr "Setze Email-Verifikation voraus"
 
 msgid "Require instance members to validate their email address."
-msgstr "Setze Verifikation der Email-Adressen der Themenmitglieder voraus."
+msgstr "Setze Verifikation der Email-Adressen der Gruppenmitglieder voraus."
 
 msgid "Default group for new members"
 msgstr "Voreingestellte Nutzerrolle für neue Mitglieder"
@@ -3018,13 +3018,13 @@ msgid "user badges"
 msgstr "Nutzerbadges"
 
 msgid "Name of the instance"
-msgstr "Name des Themas"
+msgstr "Name der Gruppe"
 
 msgid "Give your instance a name."
 msgstr "Geben Sie der Instanz einen Namen."
 
 msgid "Description of the instance"
-msgstr "Beschreibung dCHECK/em Thema/es Themas/"
+msgstr "Beschreibung der Gruppe"
 
 msgid ""
 "This is what appears on the overview-page of your instance. Describe the "
@@ -3048,13 +3048,13 @@ msgid "Use logo as background image"
 msgstr "Logo als Hintergrundbild verwenden"
 
 msgid "Show proposals navigation item"
-msgstr "Zeige \"Debatte\"-Reiter"
+msgstr "Zeige \"Diskussion\"-Reiter"
 
 msgid "Show proposals as an extra tab"
-msgstr "Zeige \"Debatte\"-ReiterSie können den \"Debatte\"-Reiter in der Themen Navigationsleiste verbergen, sodass Debatten nicht auf einer eigenen Seite angezeigt werden. Die Debattes-Funktion bleibt weiterhin aktiv."
+msgstr "Zeige \"Diskussion\"-ReiterSie können den \"Diskussion\"-Reiter in der Gruppen Navigationsleiste verbergen, sodass Diskussionen nicht auf einer eigenen Seite angezeigt werden. Die Diskussions-Funktion bleibt weiterhin aktiv."
 
 msgid "proposal badges"
-msgstr "Debattesbadges"
+msgstr "Diskussionsbadges"
 
 msgid "status badges"
 msgstr "Status-Badges"
@@ -3065,13 +3065,13 @@ msgstr "Beschlüsse aktivieren"
 msgid ""
 "Unlike proposals, norms are documents that you introduce to be discussed on "
 "the platform."
-msgstr "Im Gegensatz zu Debattenn, sind Beschlüsse von Ihnen zur Diskussion eingereichte Dokumente."
+msgstr "Im Gegensatz zu Diskussionen, sind Beschlüsse von Ihnen zur Diskussion eingereichte Dokumente."
 
 msgid "Allow members to propose norms"
 msgstr "Mitgliedern erlauben, Beschlüsse vorzuschlagen."
 
 msgid "Allow members to change norms from within proposals"
-msgstr "Mitgliedern erlauben, Beschlüsse aus Debattenn heraus zu verändern."
+msgstr "Mitgliedern erlauben, Beschlüsse aus Diskussionen heraus zu verändern."
 
 msgid "Members will be able to propose changes of the norms you introduce."
 msgstr "Mitglieder können Änderungsvorschläge zu den von Ihnen zur Diskussion freigegebenen Beschlüssen machen."
@@ -3080,16 +3080,16 @@ msgid "Show norms navigation item"
 msgstr "Zeige \"Beschluss\"-Reiter"
 
 msgid "Show norms as an extra tab"
-msgstr "Sie können den \"Beschlüsse\"-Reiter in der Themen Navigationsleiste verbergen, sodass Beschlüsse nicht auf einer eigenen Seite angezeigt werden. Die Beschluss-Funktion bleibt weiterhin aktiv."
+msgstr "Sie können den \"Beschlüsse\"-Reiter in der Gruppen Navigationsleiste verbergen, sodass Beschlüsse nicht auf einer eigenen Seite angezeigt werden. Die Beschluss-Funktion bleibt weiterhin aktiv."
 
 msgid "Home"
-msgstr "Thema"
+msgstr "Gruppe"
 
 msgid "show a list of proposals"
-msgstr "Eine Liste mit Debattenn anzeigen"
+msgstr "Eine Liste mit Diskussionen anzeigen"
 
 msgid "more proposals"
-msgstr "Weitere Debatten"
+msgstr "Weitere Diskussionen"
 
 msgid "Next milestone"
 msgstr "Nächster Termin"
@@ -3121,22 +3121,22 @@ msgid "<b>%s</b> community members"
 msgstr "<b>%s</b> Mitglieder"
 
 msgid "tutorial_instance_proposals_table"
-msgstr "Hier finden Sie eine Liste der neuesten Debatten."
+msgstr "Hier finden Sie eine Liste der neuesten Diskussionen."
 
 msgid "tutorial_instance_proposal_button"
-msgstr "Sie können hier direkt neue Debatten einbringen oder sich weitere anzeigen lassen."
+msgstr "Sie können hier direkt neue Diskussionen einbringen oder sich weitere anzeigen lassen."
 
 msgid "Close"
 msgstr "Schließen"
 
 msgid "tutorial_instance_numbers"
-msgstr "Hier finden Sie noch eine kurze Information über die aktuelle Mitgliederzahl des Themas, der Anzahl der eingebrachten Debatten und der geschriebenen Kommentare."
+msgstr "Hier finden Sie noch eine kurze Information über die aktuelle Mitgliederzahl der Gruppe, der Anzahl der eingebrachten Diskussionen und der geschriebenen Argumente."
 
 #, python-format
 msgid "%s proposal"
 msgid_plural "%s proposals"
-msgstr[0] "%s Debatte"
-msgstr[1] "%s Debatten"
+msgstr[0] "%s Diskussion"
+msgstr[1] "%s Diskussionen"
 
 #, python-format
 msgid "%s norm"
@@ -3156,7 +3156,7 @@ msgid "Filter users ..."
 msgstr "Benutzer filtern ..."
 
 msgid "... by instance:"
-msgstr ".. nach Thema:"
+msgstr ".. nach Gruppe:"
 
 msgid "... by badge:"
 msgstr ".. nach Badge:"
@@ -3294,10 +3294,10 @@ msgid "Please use the DD.MM.YYYY format."
 msgstr "Bitte nutzen Sie folgendes Datumsformat: TT.MM.JJJJ"
 
 msgid "Show all proposals"
-msgstr "Zeige alle Debatten"
+msgstr "Zeige alle Diskussionen"
 
 msgid "Show all open proposals if milestone is in the future."
-msgstr "Zeige alle offenen Debatten falls der Termin in der Zukunft liegt."
+msgstr "Zeige alle offenen Diskussionen falls der Termin in der Zukunft liegt."
 
 msgid "Create new milestone"
 msgstr "Einen neuen Termin anlegen"
@@ -3330,10 +3330,10 @@ msgid "(unknown)"
 msgstr "(unbekannt)"
 
 msgid "Associated Proposals"
-msgstr "Verknüpfte Debatten"
+msgstr "Verknüpfte Diskussionen"
 
 msgid "No proposals are connected to this milestone"
-msgstr "Mit diesem Termin sind keine Debatten verknüpft"
+msgstr "Mit diesem Termin sind keine Diskussionen verknüpft"
 
 msgid "Associated Norms"
 msgstr "Verknüpfte Beschlüsse"
@@ -3348,7 +3348,7 @@ msgid "tutorial_milestone_details_description"
 msgstr "Und Informationen über das Ziel bzw. den Zweck des Termins einsehen – ob es sich z.B. um ein Treffen einer Arbeitsgruppe, oder um eine Abstimmung handelt."
 
 msgid "tutorial_milestone_details_listing"
-msgstr "Hier finden Sie eine Liste aller Debatten und Beschlüsse, die für den Termin relevant sind."
+msgstr "Hier finden Sie eine Liste aller Diskussionen und Beschlüsse, die für den Termin relevant sind."
 
 msgid "See more"
 msgstr "Mehr erfahren"
@@ -3394,12 +3394,12 @@ msgstr "Sind Sie sicher, dass Sie diese Seite entfernen möchten?"
 
 #, python-format
 msgid "Are you sure you want to purge variant %s?"
-msgstr "Sind Sie sicher, dass Sie die Debatte %s entfernen möchten?"
+msgstr "Sind Sie sicher, dass Sie die Diskussion %s entfernen möchten?"
 
 msgid ""
 "WARNING: This will remove all revisions of the variant from any proposals "
 "that might support it."
-msgstr "ACHTUNG: Dieser Schritt entfernt alle Überarbeitungen dieser Version von allen Debattenn, die diese unterstützen."
+msgstr "ACHTUNG: Dieser Schritt entfernt alle Überarbeitungen dieser Version von allen Diskussionen, die diese unterstützen."
 
 msgid "Are you sure you want to purge the following version:"
 msgstr "Sind Sie sicher, dass Sie die folgende Version löschen wollen:"
@@ -3412,13 +3412,13 @@ msgid "This variant has no text."
 msgstr "Diese Version hat keinen Text."
 
 msgid "Related Proposals"
-msgstr "Ähnliche Debatten"
+msgstr "Ähnliche Diskussionen"
 
 msgid "(supports this variant)"
 msgstr "(unterstützt diese Version)"
 
 msgid "Create a new proposal..."
-msgstr "Neue Debatte anlegen..."
+msgstr "Neue Diskussion anlegen..."
 
 msgid "Edit variant"
 msgstr "Version bearbeiten"
@@ -3478,7 +3478,7 @@ msgid "new norm"
 msgstr "neuer Beschluss"
 
 msgid "tutorial_norms_overview_table"
-msgstr "Die Liste zeigt nicht nur alle zu dem Thema eingebrachten Beschlüsse. Unter dem Titel der Beschlüsse wird auch die Anzahl der momentan dazugehörigen Debatten und Kommentare angezeigt."
+msgstr "Die Liste zeigt nicht nur alle von der Gruppe eingebrachten Beschlüsse. Unter dem Titel der Beschlüsse wird auch die Anzahl der momentan dazugehörigen Diskussionen und Argumente angezeigt."
 
 msgid "tutorial_norms_overview_facets"
 msgstr "Für eine bessere Übersicht können Sie die Auswahl der Beschlüsse nach Schlagworten filtern."
@@ -3530,7 +3530,7 @@ msgid "Propose New Amendment"
 msgstr "Neue Änderung vorschlagen"
 
 msgid "New Proposal"
-msgstr "Neue Debatte"
+msgstr "Neue Diskussion"
 
 msgid "Information about the norm"
 msgstr "Informationen über den Beschluss"
@@ -3539,7 +3539,7 @@ msgid "Last Activity"
 msgstr "Letzte Aktivität"
 
 msgid "This page is not assigned to any category"
-msgstr "Dieser Beschluss ist keiner Kategorie zugewiesen"
+msgstr "Dieser Beschluss ist keinem Thema zugewiesen"
 
 #, python-format
 msgid "This norm relates to the milestone %s."
@@ -3549,7 +3549,7 @@ msgid "Subnorms"
 msgstr "Unterbeschlüsse"
 
 msgid "View Proposal"
-msgstr "Debatte anzeigen"
+msgstr "Diskussion anzeigen"
 
 #, python-format
 msgid "Created by %(creator)s on %(datetime)s"
@@ -3569,7 +3569,7 @@ msgid "Reasoning"
 msgstr "Begründung"
 
 msgid "Proposal"
-msgstr "Debatte"
+msgstr "Diskussion"
 
 msgid "tutorial_norm_show_vote"
 msgstr "Bewerten Sie die Original- und die eingebrachten Versionen eines Beschlusses, indem Sie über die Pfeile Ihre Zustimmung (hoch) oder Ablehnung (runter) ausdrücken. Sie können dabei auch mehreren Versionen zustimmen oder diese ablehnen."
@@ -3662,7 +3662,7 @@ msgid ""
 "You are about to cancel this poll. This means that the proposal will become "
 "editable again but that all votes that have been cast at this time "
 "<strong>will be invalidated</strong>."
-msgstr "Sie sind im Begriff, diese Abstimmung abzubrechen. Dies bedeutet, dass die Debatte wieder editierbar sein wird, bereits abgegebene Stimmen jedoch <strong>ungültig</strong> werden."
+msgstr "Sie sind im Begriff, diese Abstimmung abzubrechen. Dies bedeutet, dass die Diskussion wieder editierbar sein wird, bereits abgegebene Stimmen jedoch <strong>ungültig</strong> werden."
 
 msgid "to abstain"
 msgstr "Enthaltung bei"
@@ -3719,7 +3719,7 @@ msgid "Latest Events"
 msgstr "Letzte Ereignisse."
 
 msgid "This is a record of all recent actions concerning this proposal."
-msgstr "Dies ist eine Übersicht aller Aktivitäten in diesem Thema."
+msgstr "Dies ist eine Übersicht aller Aktivitäten in dieser Gruppe."
 
 msgid "Call a poll"
 msgstr "Zur Abstimmung aufrufen."
@@ -3728,10 +3728,10 @@ msgid ""
 "You are about to call for a vote. When you do this, you will lose the "
 "ability to <strong>change the proposal's wording</strong> unless you cancel "
 "the vote."
-msgstr "Sie sind im Begriff, eine Abstimmung zu beginnen. Während der Abstimmung kann die Debatte <strong>nicht bearbeitet</strong> werden, es sei denn diese wird abgebrochen."
+msgstr "Sie sind im Begriff, eine Abstimmung zu beginnen. Während der Abstimmung kann die Diskussion <strong>nicht bearbeitet</strong> werden, es sei denn diese wird abgebrochen."
 
 msgid "Are you sure you want to delete this proposal?"
-msgstr "Sind Sie sicher, dass Sie diese Debatte entfernen möchten?"
+msgstr "Sind Sie sicher, dass Sie diese Diskussion entfernen möchten?"
 
 msgid "Status badges"
 msgstr "Status-Badges"
@@ -3750,7 +3750,7 @@ msgid "Propose new Variant"
 msgstr "Neue Version anlegen"
 
 msgid "Join instance to propose a new variant."
-msgstr "Thema beitreten, um eine Änderung einzubringen."
+msgstr "Gruppe beitreten, um eine Änderung einzubringen."
 
 msgid "Login to propose a new variant."
 msgstr "Anmelden, um eine Änderung einzubringen."
@@ -3781,13 +3781,13 @@ msgid "Amendment title"
 msgstr "Titel des Änderungsvorschlags"
 
 msgid "Proposal title"
-msgstr "Titel der Debatte"
+msgstr "Titel der Diskussion"
 
 msgid "New amendment"
 msgstr "Neuer Änderungsvorschlag"
 
 msgid "New proposal"
-msgstr "Neue Debatte"
+msgstr "Neue Diskussion"
 
 msgid "Proposal goals"
 msgstr "Beschreibung"
@@ -3796,13 +3796,13 @@ msgid "Give a brief explanation of the idea behind your amendment."
 msgstr "Erkläre knapp die Idee hinter deinem Änderungsvorschlag."
 
 msgid "Give a brief description of <b>the goals</b> of your proposal."
-msgstr "Eine kurze Beschreibung Ihrer Debatte."
+msgstr "Eine kurze Beschreibung Ihrer Diskussion."
 
 msgid "The amendment would..."
 msgstr "Diese Änderung würde..."
 
 msgid "The proposal would..."
-msgstr "Bitte geben Sie hier die Beschreibung Ihrer Debatte ein und benennen und verlinken Sie gegebenenfalls Zitate und Quellen. "
+msgstr "Bitte geben Sie hier die Beschreibung Ihrer Diskussion ein und benennen und verlinken Sie gegebenenfalls Zitate und Quellen. "
 
 msgid "Status Badge"
 msgstr "Status Badge"
@@ -3817,16 +3817,16 @@ msgid "Allow modifications by other users"
 msgstr "Änderungen von anderen erlauben"
 
 msgid "Freeze proposal"
-msgstr "Debatte einfrieren"
+msgstr "Diskussion einfrieren"
 
 msgid "tutorial_proposal_overview_table"
-msgstr "Die Liste bietet einen Überblick aller bisher eingebrachter Debatten, welche nach mehreren Kriterien sortiert werden können."
+msgstr "Die Liste bietet einen Überblick aller bisher eingebrachter Diskussionen, welche nach mehreren Kriterien sortiert werden können."
 
 msgid "tutorial_proposal_overview_facets"
-msgstr "Sie können mit Hilfe des Suchfeldes Debatten nach Titel oder Inhalt durchsuchen und entsprechende Treffer nach verschiedenen Kategorien sortieren, z.B. größte Unterstützung, neuste Debatten oder alphabetisch."
+msgstr "Sie können mit Hilfe des Suchfeldes Diskussionen nach Titel oder Inhalt durchsuchen und entsprechende Treffer nach verschiedenen Kategorien sortieren, z.B. größte Unterstützung, neuste Diskussionen oder alphabetisch."
 
 msgid "tutorial_proposal_overview_new"
-msgstr "Ist Ihre Idee noch nicht vorhanden, können Sie eine eigene, neue Debatte anlegen."
+msgstr "Ist Ihre Idee noch nicht vorhanden, können Sie eine eigene, neue Diskussion anlegen."
 
 msgid "Create new amendment"
 msgstr "Neuen Änderungsvorschlag erstellen"
@@ -3835,14 +3835,14 @@ msgid "Proposed changes"
 msgstr "Vorgeschlagene Änderungen"
 
 msgid "Change norms with this proposal"
-msgstr "Ändere Beschlüsse mit diesem Debatte"
+msgstr "Ändere Beschlüsse mit dieser Diskussion"
 
 msgid ""
 "Proposals are implemented by including changes towards new or existing norm."
 " Norms are fixed documents that represent the consensus of this instance and"
 " can only be changed through a vote. Amend the proposal to change or create "
 "a norm."
-msgstr "Debatten enthalten Änderungen, die sich auf neue oder bereits existierende Beschlüsse beziehen. Beschlüsse sind Dokumente, welche die beschlossene und derzeitige Arbeitsgrundlage des Themas beschreiben und die durch eine Abstimmung verändert werden können. Ergänzen Sie die Debatte, um einen Beschluss zu bearbeiten oder zu erstellen."
+msgstr "Diskussionen enthalten Änderungen, die sich auf neue oder bereits existierende Beschlüsse beziehen. Beschlüsse sind Dokumente, welche die beschlossene und derzeitige Arbeitsgrundlage der Gruppe beschreiben und die durch eine Abstimmung verändert werden können. Ergänzen Sie die Diskussion, um einen Beschluss zu bearbeiten oder zu erstellen."
 
 msgid "Select a norm to change:"
 msgstr "Wählen Sie einen Beschluss aus, den Sie ändern wollen:"
@@ -3851,7 +3851,7 @@ msgid "Multiple tags can be separated by commas."
 msgstr "Mehrere Tags können durch Kommas oder Leerzeichen getrennt werden."
 
 msgid "Delete this proposal."
-msgstr "Löschen Sie diese Debatte"
+msgstr "Löschen Sie diese Diskussion"
 
 #, python-format
 msgid "%s Discussions"
@@ -3874,25 +3874,25 @@ msgid "Login to propose to change a norm"
 msgstr "Anmelden, um eine Änderung eines Beschlusses vorzuschlagen."
 
 msgid "Join instance to propose to change a norm"
-msgstr "Thema beitreten, um die Änderung eines Beschlusses vorzuschlagen."
+msgstr "Gruppe beitreten, um die Änderung eines Beschlusses vorzuschlagen."
 
 msgid "Validate email in order to propose to change a norm"
 msgstr "Verifizieren Sie Ihre Email-Adresse, um eine Änderung eines Beschlusses vorzuschlagen."
 
 msgid "tutorial_proposal_show_vote"
-msgstr "Sie können eine Debatte unterstützen oder ablehnen."
+msgstr "Sie können eine Diskussion unterstützen oder ablehnen."
 
 msgid "tutorial_proposal_show_follow"
 msgstr "Und ihn in Ihre Beobachtungsliste aufnehmen."
 
 msgid "tutorial_proposal_show_information"
-msgstr "Informationen über die Debatte einsehen..."
+msgstr "Informationen über die Diskussion einsehen..."
 
 msgid "tutorial_proposal_show_tags"
-msgstr "...Schlagworte für diese Debatte hinzufügen..."
+msgstr "...Schlagworte für diese Diskussion hinzufügen..."
 
 msgid "tutorial_proposal_show_share"
-msgstr "...oder die Debatte mit anderen per Facebook, Google+ oder Twitter teilen."
+msgstr "...oder die Diskussion mit anderen per Facebook, Google+ oder Twitter teilen."
 
 msgid "tutorial_proposal_show_vote_comment"
 msgstr "Kommentare können Sie nicht nur bewerten..."
@@ -3901,27 +3901,27 @@ msgid "tutorial_proposal_show_answers"
 msgstr "...sondern auch dazu verfasste Antworten einsehen..."
 
 msgid "tutorial_proposal_show_answer"
-msgstr "...selbst eine Antwort zu einem Kommentar schreiben..."
+msgstr "...selbst eine Antwort zu einem Argument schreiben..."
 
 msgid "tutorial_proposal_show_new_discussion"
-msgstr "... und neue Kommentare einbringen."
+msgstr "... und neue Argumente einbringen."
 
 msgid "tutorial_proposal_show_propose_variant"
-msgstr "Oder aktiv die Debatte mitgestalten und Alternativen einbringen."
+msgstr "Oder aktiv die Diskussion mitgestalten und Alternativen einbringen."
 
 msgid "This proposal is not assigned to any category"
-msgstr "Diese Debatte ist keiner Kategorie zugewiesen"
+msgstr "Diese Diskussion ist keinem Thema zugewiesen"
 
 #, python-format
 msgid "This proposal relates to the deleted milestone %s."
-msgstr "Diese Debatte bezieht sich auf den gelöschten Termin %s."
+msgstr "Diese Diskussion bezieht sich auf den gelöschten Termin %s."
 
 #, python-format
 msgid "This proposal relates to the milestone %s."
-msgstr "Diese Debatte bezieht sich auf den Termin %s."
+msgstr "Diese Diskussion bezieht sich auf den Termin %s."
 
 msgid "This proposal is not related to a milestone"
-msgstr "Diese Debatte bezieht sich auf keinen Termin"
+msgstr "Diese Diskussion bezieht sich auf keinen Termin"
 
 #, python-format
 msgid "by %s on %s, %s changes since then."
@@ -3943,12 +3943,12 @@ msgstr "Zur Diskussion"
 
 #, python-format
 msgid "The proposal was created by %s on %s"
-msgstr "Die Debatte wurde von %s am %s angelegt."
+msgstr "Die Diskussion wurde von %s am %s angelegt."
 
 msgid ""
 "This is a <b>joint proposal</b> that can be improved by anyone. Edit it to "
 "improve or refine the text."
-msgstr "Dies ist ein <b>gemeinsame Debatte</b> der von jedem verbessert werden kann."
+msgstr "Dies ist eine <b>gemeinsame Diskussion</b> die von jedem verbessert werden kann."
 
 msgid "Main page"
 msgstr "Hauptseite"
@@ -3976,7 +3976,7 @@ msgid "Search in %s"
 msgstr "In %s suchen"
 
 msgid "Search includes issues and proposals."
-msgstr "Die Suche umfasst Beschlüsse und Debatten."
+msgstr "Die Suche umfasst Beschlüsse und Diskussionen."
 
 msgid "You did not provide a search query."
 msgstr "Bitte geben Sie einen Suchbegriff ein"
@@ -3987,7 +3987,7 @@ msgstr "Löschen: Umsetzung von %s"
 
 #, python-format
 msgid "Are you sure you want to delete the norm %s from this proposal?"
-msgstr "Sind Sie sicher, dass Sie den Beschluss %s aus diesem Debatte entfernen wollen?"
+msgstr "Sind Sie sicher, dass Sie den Beschluss %s aus dieser Diskussion entfernen wollen?"
 
 #, python-format
 msgid "Implementation: %s"
@@ -4051,10 +4051,10 @@ msgid "Oppose this variant"
 msgstr "Diese Version ablehnen"
 
 msgid "(this proposal should not change this norm)"
-msgstr "(diese Debatte soll diesen Beschluss nicht ändern)"
+msgstr "(dieser Diskussion soll diesen Beschluss nicht ändern)"
 
 msgid "Currently selected for inclusion in this proposal"
-msgstr "Aktuell zur Einbindung in diese Debatte ausgewählt"
+msgstr "Aktuell zur Einbindung in diese Diskussion ausgewählt"
 
 msgid "view"
 msgstr "ansehen"
@@ -4119,7 +4119,7 @@ msgstr "Seite bearbeiten"
 
 msgid ""
 "Tags are keywords used to find, sort and filter proposals and documents."
-msgstr "Tags sind Stichwörter, die helfen, Debatten und Beschlüsse zu finden, zu sortieren und zu filtern."
+msgstr "Tags sind Stichwörter, die helfen, Diskussionen und Beschlüsse zu finden, zu sortieren und zu filtern."
 
 msgid "Similar tags"
 msgstr "Ähnliche Tags"
@@ -4162,7 +4162,7 @@ msgstr "Diese Version hat keinen Text."
 msgid ""
 "This norm has not yet been decided and is thus no official position of this "
 "group."
-msgstr "Ihre Thema hat zu diesem Beschluss noch keine Regelung getroffen."
+msgstr "Ihre Gruppe hat zu diesem Beschluss noch keine Regelung getroffen."
 
 #, python-format
 msgid "discuss (%s comments) &raquo;"
@@ -4222,7 +4222,7 @@ msgid "All Members on this Adhocracy Server"
 msgstr "Alle Benutzer auf diesem Adhocracy-Server"
 
 msgid "A listing of all users in all instance an this adhocracy server."
-msgstr "Eine Liste aller Benutzer in diesem Thema und auf diesem Adhocracy-Server."
+msgstr "Eine Liste aller Benutzer in dieser Gruppe und auf diesem Adhocracy-Server."
 
 msgid "Validate email address"
 msgstr "Email-Adresse verifizieren"
@@ -4257,7 +4257,7 @@ msgstr "Globale Badges"
 
 #, python-format
 msgid "Badges in instance %s"
-msgstr "Badges in Thema %s"
+msgstr "Badges in Gruppe %s"
 
 msgid "Topic"
 msgstr "Thema"
@@ -4278,7 +4278,7 @@ msgid "Find users"
 msgstr "Benutzer suchen"
 
 msgid "tutorial_user_index_table"
-msgstr "Die Liste zeigt Ihnen alle Mitglieder des Themas an. Sie können die Liste sortieren."
+msgstr "Die Liste zeigt Ihnen alle Mitglieder der Gruppe an. Sie können die Liste sortieren."
 
 msgid "tutorial_user_index_facets"
 msgstr "Oder filtern Sie die Liste nach Nutzergruppen."
@@ -4292,7 +4292,7 @@ msgstr "Adhocracies"
 
 #, python-format
 msgid "%s is a member in these Adhocracies"
-msgstr "%s ist Mitglied in den folgenden Themen"
+msgstr "%s ist Mitglied in den folgenden Gruppen"
 
 msgid "Who are you, then?"
 msgstr "Und wer sind Sie? "
@@ -4386,7 +4386,7 @@ msgstr "Nutzungsbedingungen"
 msgid ""
 "We'll occasionally inform you about important events such as the start of a "
 "new participation process via email."
-msgstr "Wir werden Sie gelegentlich über wichtige Ereignisse wie den Beteiligungsstart einzelner Themen per E-Mail informieren."
+msgstr "Wir werden Sie gelegentlich über wichtige Ereignisse wie den Beteiligungsstart einzelner Gruppen per E-Mail informieren."
 
 msgid "leave empty"
 msgstr "frei lassen"
@@ -4480,7 +4480,7 @@ msgid "No notifications via email."
 msgstr "Keine Benachrichtigungen via E-Mail."
 
 msgid "Send email for new proposals or norms in my watched instances"
-msgstr "E-Mail senden für neue Debatten und Beschlüsse in den Themen, die ich beobachte,"
+msgstr "E-Mail senden für neue Diskussionen und Beschlüsse in den Gruppen, die ich beobachte,"
 
 msgid "and when a watched object is edited or deleted"
 msgstr "und wenn ein beobachtetes Objekt bearbeitet oder gelöscht wird"
@@ -4495,7 +4495,7 @@ msgid "and when a watched object is rated"
 msgstr "und wenn ein beobachtetes Objekt bewertet wird"
 
 msgid "and when new members join my watched instances"
-msgstr "und wenn neue Mitglieder den Themen, die ich beobachte, beitreten"
+msgstr "und wenn neue Mitglieder den Gruppen, die ich beobachte, beitreten"
 
 msgid "Not confirmed."
 msgstr "Nicht bestätigt."
@@ -4563,13 +4563,13 @@ msgid "Activity in"
 msgstr "Aktivität in"
 
 msgid "All instances"
-msgstr "Alle Themen"
+msgstr "Alle Gruppen"
 
 msgid "Delete this user."
 msgstr "Benutzer löschen"
 
 msgid "Resign from this instance."
-msgstr "Das Thema verlassen."
+msgstr "Die Gruppe verlassen."
 
 msgid "leave"
 msgstr "verlassen"
@@ -4610,7 +4610,7 @@ msgid "User group"
 msgstr "Nutzergruppe"
 
 msgid "change group"
-msgstr "Thema ändern"
+msgstr "Gruppe ändern"
 
 msgid "User badges"
 msgstr "Nutzerbadges"
@@ -4619,10 +4619,10 @@ msgid "Most recent activity"
 msgstr "Letzte Aktivität"
 
 msgid "Member in the following instances"
-msgstr "Mitglied in folgenden Themen"
+msgstr "Mitglied in folgenden Gruppen"
 
 msgid "Member in other instances"
-msgstr "Mitglied in anderen Themen"
+msgstr "Mitglied in anderen Gruppen"
 
 #, python-format
 msgid "joined %s"
@@ -4642,7 +4642,7 @@ msgstr "Beobachtungsliste: %s"
 msgid ""
 "This is your watchlist. You will receive notifications for events concerning"
 " each of these items."
-msgstr "Dies ist Ihre Beobachtungsliste. Sie erhalten eine Benachrichtigung bei Ereignissen in diesen Themen."
+msgstr "Dies ist Ihre Beobachtungsliste. Sie erhalten eine Benachrichtigung bei Ereignissen in diesen Gruppen."
 
 msgid "Logging in"
 msgstr "Einloggen"
