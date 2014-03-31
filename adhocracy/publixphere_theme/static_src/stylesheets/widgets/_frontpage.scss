@@ -18,6 +18,15 @@
     #stats {
         display: none;
     }
+    a:not([href]) {
+        &:hover, &:focus {
+            text-decoration: none;
+        }
+    }
+    h2, h3 {
+        text-transform: uppercase;
+        color: $primary-color
+    }
     h2 {
         border-bottom: 1px solid $border;
         text-align: center;
