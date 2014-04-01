@@ -52,6 +52,40 @@ s/Vorschlag/Diskussion/g
 s/Vorschlägen/Diskussionen/g
 s/Vorschläge/Diskussionen/g
 
+s/Sie können später eine eigene Version dieses Beschlusses vorschlagen, um ihn zu ändern./Sie können später eine eigene Version dieser Position vorschlagen, um sie zu ändern./g
+s/dem angegebenen Elternbeschluss/der angegebenen Elternposition/g
+s/einen Beschluss aus, auf den/eine Position aus, auf die/g
+s/einen Beschluss aus, den/eine Position aus, die/g
+s/einen neuen Beschluss, auf den/eine neue Position, auf die/g
+s/Beschlussabstimmung/Positionsabstimmung/g
+s/Beschlussliste/Positionsliste/g
+s/Beschlussübersicht/Positionsübersicht/g
+s/einen vorhandenen Beschluss/eine vorhandene Position/g
+s/einen bestehenden Beschluss/eine bestehende Position/g
+s/ein ähnlicher Beschluss/eine ähnliche Position/g
+s/Der neue Beschluss/Die neue Position/g
+s/keinen passenden Beschluss/keine passende Position/g
+s/einen neuen Beschluss/eine neue Position/g
+s/den Beschluss/die Position/g
+s/dieses Beschlusses/dieser Position/g
+s/Dieser Beschluss/Diese Position/g
+s/diesem Beschluss/dieser Position/g
+s/neuer Beschluss/neue Position/g
+s/Neuer Beschluss/Neue Position/g
+s/einen Beschluss/eine Position/g
+s/diesen Beschluss/diese Position/g
+s/eines Beschlusses/einer Position/g
+s/Einen neuen Beschluss/Eine neue Position/g
+s/einem Beschluss/einer Position/g
+s/des Beschlusses/der Position/g
+s/dem Beschluss/der Position/g
+s/Der Beschluss/Die Position/g
+s/der Beschluss/die Position/g
+s/Elternbeschluss/Elternposition/g
+s/Beschluss/Position/g
+s/Beschlüssen/Positionen/g
+s/Beschlüsse/Positionen/g
+
 p
 
 EOF

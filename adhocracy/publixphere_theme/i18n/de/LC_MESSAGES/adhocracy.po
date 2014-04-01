@@ -323,13 +323,13 @@ msgid "Successfully created new user account %s"
 msgstr "Erfolgreich neuen Nutzer*innen-Zugang %s angelegt"
 
 msgid "tutorial_norms_overview_tab"
-msgstr "Übersichtseite über die Beschlüsse der Gruppe. Die Liste zeigt nicht nur alle von der Gruppe eingebrachten Beschlüsse an, sondern unter dem Titel der Beschlüsse wird auch die Anzahl der momentan dazugehörigen Diskussionen und Argumente angezeigt"
+msgstr "Übersichtseite über die Positionen der Gruppe. Die Liste zeigt nicht nur alle von der Gruppe eingebrachten Positionen an, sondern unter dem Titel der Positionen wird auch die Anzahl der momentan dazugehörigen Diskussionen und Argumente angezeigt"
 
 msgid "No proposal has been specified"
 msgstr "Es wurde keine Diskussion angegeben."
 
 msgid "You cannot create a new norm"
-msgstr "Sie können keinen Beschluss anlegen."
+msgstr "Sie können keine Position anlegen."
 
 #, python-format
 msgid "errors while uploading image: %s"
@@ -364,7 +364,7 @@ msgstr "Originalversion"
 
 #, python-format
 msgid "Page %s does not allow selections"
-msgstr "Beschluss %s kann nicht selektiert werden"
+msgstr "Position %s kann nicht selektiert werden"
 
 #, python-format
 msgid "Variant %s does not exist!"
@@ -374,20 +374,20 @@ msgid "alphabetically"
 msgstr "alphabetisch"
 
 msgid "tutorial_norm_show_tab"
-msgstr "Auf der Detailseite finden Sie die momentan gültige Originalversion des Beschlusses und alle Versionen, die bisher zu dem Beschluss eingebracht wurden."
+msgstr "Auf der Detailseite finden Sie die momentan gültige Originalversion der Position und alle Versionen, die bisher zu der Position eingebracht wurden."
 
 msgid "No such text revision."
 msgstr "Diese Textversion existiert nicht."
 
 #, python-format
 msgid "Page %s does not allow comments"
-msgstr "Der Beschluss %s lässt keine Kommentare zu"
+msgstr "Die Position %s lässt keine Kommentare zu"
 
 msgid "Cannot compare identical text revisions."
 msgstr "Identische Texte können nicht verglichen werden. "
 
 msgid "Cannot compare versions of different texts."
-msgstr "Texte von unterschiedlichen Beschlüssen können nicht verglichen werden."
+msgstr "Texte von unterschiedlichen Positionen können nicht verglichen werden."
 
 #, python-format
 msgid "The variant %s has been deleted."
@@ -408,7 +408,7 @@ msgid "Invalid text ID %s for this page/variant!"
 msgstr "Ungültige Text-ID %s für diese Seite oder diese Version!"
 
 msgid "This is not an adoption poll."
-msgstr "Dies ist keine Beschlussabstimmung."
+msgstr "Dies ist keine Positionsabstimmung."
 
 msgid "This is not a rating poll."
 msgstr "Dies ist keine Bewertungsabstimmung."
@@ -423,7 +423,7 @@ msgid "tutorial_proposal_overview_tab"
 msgstr "Übersicht über alle bisher eingebrachten Diskussionen. Hier haben Sie nicht nur die Möglichkeit neue Diskussionen zu verfassen..."
 
 msgid "Please select norm and propose a change to it."
-msgstr "Bitte wählen Sie einen Beschluss aus und schlagen Sie eine Änderung vor."
+msgstr "Bitte wählen Sie eine Position aus und schlagen Sie eine Änderung vor."
 
 msgid "tutorial_proposal_show_tab"
 msgstr "Auf der Detailseite einer Diskussion finden Sie nicht nur die wichtigen Informationen, sondern auch viele Möglichkeiten sich aktiv zu beteiligen."
@@ -1586,7 +1586,7 @@ msgid "Proposals"
 msgstr "Diskussionen"
 
 msgid "Norms"
-msgstr "Beschlüsse"
+msgstr "Positionen"
 
 msgid "Members"
 msgstr "Mitglieder"
@@ -1711,7 +1711,7 @@ msgid "Notify me of updates."
 msgstr "Ich möchte über Neuigkeiten informiert werden."
 
 msgid "Follow Norm"
-msgstr "Beschluss folgen"
+msgstr "Position folgen"
 
 msgid "Follow Instance"
 msgstr "Gruppe folgen"
@@ -2442,7 +2442,7 @@ msgid "new proposal"
 msgstr "Neue Diskussion"
 
 msgid "Norms in this Category"
-msgstr "Beschlüsse in diesem Thema"
+msgstr "Positionen in diesem Thema"
 
 msgid "Comment"
 msgid_plural "Comments"
@@ -2893,12 +2893,12 @@ msgid "Allow editing of proposals by default"
 msgstr "Erlaube Bearbeiten von Diskussionen standardmäßig"
 
 msgid "Require to propose a variant"
-msgstr "Diskussionen müssen mindestens eine Änderung an einem Beschluss einbringen."
+msgstr "Diskussionen müssen mindestens eine Änderung an einer Position einbringen."
 
 msgid ""
 "If norms are activated, this option will ensure that users change at least "
 "one norm with each proposal."
-msgstr "Wenn Beschlüsse verwendet werden, stellt diese Option sicher, dass Nutzer*innen mindestens eine Änderung des Beschlusses vorschlagen müssen."
+msgstr "Wenn Positionen verwendet werden, stellt diese Option sicher, dass Nutzer*innen mindestens eine Änderung der Position vorschlagen müssen."
 
 msgid "Hide global categories"
 msgstr "Verstecke globale Themen"
@@ -2907,7 +2907,7 @@ msgid "Members of your instance only see the catagories you created."
 msgstr "Die Mitglieder dieser Instanz sehen nur die Themen, die Sie erstellt haben."
 
 msgid "Display page index as tiles"
-msgstr "Beschlussliste als Kacheln anzeigen"
+msgstr "Positionsliste als Kacheln anzeigen"
 
 msgid "Hide this instance"
 msgstr "Diese Gruppe verbergen"
@@ -2921,7 +2921,7 @@ msgstr "Die Arbeit in dieser Gruppe einfrieren"
 msgid ""
 "This will prevent members from making any more changes or contributions to "
 "the existing discussion."
-msgstr "Dies verhindert das weitere Verändern und Kommentieren der bestehenden Diskussionen und Beschlüsse."
+msgstr "Dies verhindert das weitere Verändern und Kommentieren der bestehenden Diskussionen und Positionen."
 
 msgid "Break down Voting Result by Badge"
 msgstr "Abstimmungsresultat nach Badge aufteilen"
@@ -3058,27 +3058,27 @@ msgid "status badges"
 msgstr "Status-Badges"
 
 msgid "Enable norms"
-msgstr "Beschlüsse aktivieren"
+msgstr "Positionen aktivieren"
 
 msgid ""
 "Unlike proposals, norms are documents that you introduce to be discussed on "
 "the platform."
-msgstr "Im Gegensatz zu Diskussionen sind Beschlüsse von Ihnen zur Diskussion eingereichte Dokumente."
+msgstr "Im Gegensatz zu Diskussionen sind Positionen von Ihnen zur Diskussion eingereichte Dokumente."
 
 msgid "Allow members to propose norms"
-msgstr "Mitgliedern erlauben, Beschlüsse vorzuschlagen."
+msgstr "Mitgliedern erlauben, Positionen vorzuschlagen."
 
 msgid "Allow members to change norms from within proposals"
-msgstr "Mitgliedern erlauben, Beschlüsse aus Diskussionen heraus zu verändern."
+msgstr "Mitgliedern erlauben, Positionen aus Diskussionen heraus zu verändern."
 
 msgid "Members will be able to propose changes of the norms you introduce."
-msgstr "Mitglieder können Änderungsvorschläge zu den von Ihnen zur Diskussion freigegebenen Beschlüssen machen."
+msgstr "Mitglieder können Änderungsvorschläge zu den von Ihnen zur Diskussion freigegebenen Positionen machen."
 
 msgid "Show norms navigation item"
-msgstr "Zeige \"Beschluss\"-Reiter"
+msgstr "Zeige \"Position\"-Reiter"
 
 msgid "Show norms as an extra tab"
-msgstr "Sie können den \"Beschlüsse\"-Reiter in der Gruppen Navigationsleiste verbergen, sodass Beschlüsse nicht auf einer eigenen Seite angezeigt werden. Die Beschluss-Funktion bleibt weiterhin aktiv."
+msgstr "Sie können den \"Positionen\"-Reiter in der Gruppen Navigationsleiste verbergen, sodass Positionen nicht auf einer eigenen Seite angezeigt werden. Die Position-Funktion bleibt weiterhin aktiv."
 
 msgid "Home"
 msgstr "Gruppe"
@@ -3139,8 +3139,8 @@ msgstr[1] "%s Diskussionen"
 #, python-format
 msgid "%s norm"
 msgid_plural "%s norms"
-msgstr[0] "%s Beschluss"
-msgstr[1] "%s Beschlüsse"
+msgstr[0] "%s Position"
+msgstr[1] "%s Positionen"
 
 msgid "Send mass message"
 msgstr "Benachrichtigung versenden"
@@ -3334,10 +3334,10 @@ msgid "No proposals are connected to this milestone"
 msgstr "Mit diesem Termin sind keine Diskussionen verknüpft"
 
 msgid "Associated Norms"
-msgstr "Verknüpfte Beschlüsse"
+msgstr "Verknüpfte Positionen"
 
 msgid "No norms are connected to this milestone"
-msgstr "Mit diesem Termin sind keine Beschlüsse verknüpft"
+msgstr "Mit diesem Termin sind keine Positionen verknüpft"
 
 msgid "tutorial_milestone_details_follow"
 msgstr "Ist der Termin wichtig für Sie, können Sie ihn auch Ihrer Beobachtungsliste hinzufügen."
@@ -3346,7 +3346,7 @@ msgid "tutorial_milestone_details_description"
 msgstr "Und Informationen über das Ziel bzw. den Zweck des Termins einsehen – ob es sich z.B. um ein Treffen einer Arbeitsgruppe, oder um eine Abstimmung handelt."
 
 msgid "tutorial_milestone_details_listing"
-msgstr "Hier finden Sie eine Liste aller Diskussionen und Beschlüsse, die für den Termin relevant sind."
+msgstr "Hier finden Sie eine Liste aller Diskussionen und Positionen, die für den Termin relevant sind."
 
 msgid "See more"
 msgstr "Mehr erfahren"
@@ -3426,7 +3426,7 @@ msgstr "Abschnitt bearbeiten"
 
 #, python-format
 msgid "Norm: %s"
-msgstr "Beschluss: %s"
+msgstr "Position: %s"
 
 msgid "Variant Name"
 msgstr "Name der Version"
@@ -3438,7 +3438,7 @@ msgid "Abstract"
 msgstr "Abriss"
 
 msgid "Page abstract. This is only used if a page is displayed as a tile."
-msgstr "Abriss des Beschlusses. Wird nur verwendet, wenn der Beschluss als Kachel angezeigt wird."
+msgstr "Abriss der Position. Wird nur verwendet, wenn die Position als Kachel angezeigt wird."
 
 msgid "Display subnorms as sections"
 msgstr "Stelle Unterbeschlüsse als Abschnitte dar"
@@ -3455,7 +3455,7 @@ msgstr "Nutze markdown zur Formatierung"
 msgid ""
 "Upload a logo for this page. Please note that the logo will only be "
 "displayed in the pages index."
-msgstr "Ein Bild für diesen Beschluss hochladen. Bitte beachten Sie, dass das Bild nur auf der Beschlussübersicht angezeigt wird."
+msgstr "Ein Bild für diese Position hochladen. Bitte beachten Sie, dass das Bild nur auf der Positionsübersicht angezeigt wird."
 
 msgid "Parent page:"
 msgstr "Elternseite:"
@@ -3467,19 +3467,19 @@ msgid "Popular tags"
 msgstr "Beliebte Tags"
 
 msgid "Create new norm"
-msgstr "Einen neuen Beschluss anlegen"
+msgstr "Eine neue Position anlegen"
 
 msgid "Create a new norm."
-msgstr "Einen neuen Beschluss anlegen."
+msgstr "Eine neue Position anlegen."
 
 msgid "new norm"
-msgstr "neuer Beschluss"
+msgstr "neue Position"
 
 msgid "tutorial_norms_overview_table"
-msgstr "Die Liste zeigt nicht nur alle von der Gruppe eingebrachten Beschlüsse. Unter dem Titel der Beschlüsse wird auch die Anzahl der momentan dazugehörigen Diskussionen und Argumente angezeigt."
+msgstr "Die Liste zeigt nicht nur alle von der Gruppe eingebrachten Positionen. Unter dem Titel der Positionen wird auch die Anzahl der momentan dazugehörigen Diskussionen und Argumente angezeigt."
 
 msgid "tutorial_norms_overview_facets"
-msgstr "Für eine bessere Übersicht können Sie die Auswahl der Beschlüsse nach Schlagworten filtern."
+msgstr "Für eine bessere Übersicht können Sie die Auswahl der Positionen nach Schlagworten filtern."
 
 msgid "New page"
 msgstr "Neue Seite"
@@ -3489,31 +3489,31 @@ msgid "Add section to %s"
 msgstr "Abschnitt zu %s hinzufügen"
 
 msgid "Create norm"
-msgstr "Einen neuen Beschluss anlegen."
+msgstr "Eine neue Position anlegen."
 
 msgid "Norm title"
-msgstr "Titel des Beschlusses"
+msgstr "Titel der Position"
 
 msgid "New norm"
-msgstr "Neuer Beschluss"
+msgstr "Neue Position"
 
 msgid "Section content"
 msgstr "Inhalt des Abschnitts"
 
 msgid "Norm content"
-msgstr "Inhalt des Beschlusses"
+msgstr "Inhalt der Position"
 
 msgid "Use as a container for other norms"
-msgstr "Als Container für andere Beschlüsse verwenden"
+msgstr "Als Container für andere Positionen verwenden"
 
 msgid "Upload a logo for this page"
-msgstr "Ein Bild für diesen Beschluss hochladen"
+msgstr "Ein Bild für diese Position hochladen"
 
 msgid "Tag and classify"
 msgstr "Tags und Eigenschaften"
 
 msgid "The new norm will be categorized under the specified parent theme."
-msgstr "Der neue Beschluss wird unter dem angegebenen Elternbeschluss eingeordnet."
+msgstr "Die neue Position wird unter der angegebenen Elternposition eingeordnet."
 
 msgid "Highlight Changes"
 msgstr "Änderungen hervorheben"
@@ -3531,17 +3531,17 @@ msgid "New Proposal"
 msgstr "Neue Diskussion"
 
 msgid "Information about the norm"
-msgstr "Informationen über den Beschluss"
+msgstr "Informationen über die Position"
 
 msgid "Last Activity"
 msgstr "Letzte Aktivität"
 
 msgid "This page is not assigned to any category"
-msgstr "Dieser Beschluss ist keinem Thema zugewiesen"
+msgstr "Diese Position ist keinem Thema zugewiesen"
 
 #, python-format
 msgid "This norm relates to the milestone %s."
-msgstr "Dieser Beschluss bezieht sich auf den Termin %s."
+msgstr "Diese Position bezieht sich auf den Termin %s."
 
 msgid "Subnorms"
 msgstr "Unterbeschlüsse"
@@ -3570,13 +3570,13 @@ msgid "Proposal"
 msgstr "Diskussion"
 
 msgid "tutorial_norm_show_vote"
-msgstr "Bewerten Sie die Original- und die eingebrachten Versionen eines Beschlusses, indem Sie über die Pfeile Ihre Zustimmung (hoch) oder Ablehnung (runter) ausdrücken. Sie können dabei auch mehreren Versionen zustimmen oder diese ablehnen."
+msgstr "Bewerten Sie die Original- und die eingebrachten Versionen einer Position, indem Sie über die Pfeile Ihre Zustimmung (hoch) oder Ablehnung (runter) ausdrücken. Sie können dabei auch mehreren Versionen zustimmen oder diese ablehnen."
 
 msgid "tutorial_norm_show_diff"
 msgstr "Wählen Sie, ob Änderungen im Vergleich zur Originalversion hervorgehoben werden sollen."
 
 msgid "tutorial_norm_show_new"
-msgstr "Sie können hier auch eine neue Version des Beschlusses einbringen."
+msgstr "Sie können hier auch eine neue Version der Position einbringen."
 
 msgid "Comments"
 msgstr "Kommentare"
@@ -3601,7 +3601,7 @@ msgid "Add section"
 msgstr "Abschnitt hinzufügen"
 
 msgid "This norm has been split into several sections."
-msgstr "Dieser Beschluss ist in mehrere Abschnitte aufgeteilt worden."
+msgstr "Diese Position ist in mehrere Abschnitte aufgeteilt worden."
 
 msgid ""
 "You can propose amendments and comment each section individually by using "
@@ -3833,17 +3833,17 @@ msgid "Proposed changes"
 msgstr "Vorgeschlagene Änderungen"
 
 msgid "Change norms with this proposal"
-msgstr "Ändere Beschlüsse mit dieser Diskussion"
+msgstr "Ändere Positionen mit dieser Diskussion"
 
 msgid ""
 "Proposals are implemented by including changes towards new or existing norm."
 " Norms are fixed documents that represent the consensus of this instance and"
 " can only be changed through a vote. Amend the proposal to change or create "
 "a norm."
-msgstr "Diskussionen enthalten Änderungen, die sich auf neue oder bereits existierende Beschlüsse beziehen. Beschlüsse sind Dokumente, welche die beschlossene und derzeitige Arbeitsgrundlage der Gruppe beschreiben und die durch eine Abstimmung verändert werden können. Ergänzen Sie die Diskussion, um einen Beschluss zu bearbeiten oder zu erstellen."
+msgstr "Diskussionen enthalten Änderungen, die sich auf neue oder bereits existierende Positionen beziehen. Positionen sind Dokumente, welche die beschlossene und derzeitige Arbeitsgrundlage der Gruppe beschreiben und die durch eine Abstimmung verändert werden können. Ergänzen Sie die Diskussion, um eine Position zu bearbeiten oder zu erstellen."
 
 msgid "Select a norm to change:"
-msgstr "Wählen Sie einen Beschluss aus, den Sie ändern wollen:"
+msgstr "Wählen Sie eine Position aus, die Sie ändern wollen:"
 
 msgid "Multiple tags can be separated by commas."
 msgstr "Mehrere Tags können durch Kommas oder Leerzeichen getrennt werden."
@@ -3866,16 +3866,16 @@ msgid "Proposed Implementations"
 msgstr "Versionen"
 
 msgid "Propose to change a norm"
-msgstr "Änderung eines Beschlusses vorschlagen"
+msgstr "Änderung einer Position vorschlagen"
 
 msgid "Login to propose to change a norm"
-msgstr "Anmelden, um eine Änderung eines Beschlusses vorzuschlagen."
+msgstr "Anmelden, um eine Änderung einer Position vorzuschlagen."
 
 msgid "Join instance to propose to change a norm"
-msgstr "Gruppe beitreten, um die Änderung eines Beschlusses vorzuschlagen."
+msgstr "Gruppe beitreten, um die Änderung einer Position vorzuschlagen."
 
 msgid "Validate email in order to propose to change a norm"
-msgstr "Verifizieren Sie Ihre Email-Adresse, um eine Änderung eines Beschlusses vorzuschlagen."
+msgstr "Verifizieren Sie Ihre Email-Adresse, um eine Änderung einer Position vorzuschlagen."
 
 msgid "tutorial_proposal_show_vote"
 msgstr "Sie können eine Diskussion unterstützen oder ablehnen."
@@ -3974,7 +3974,7 @@ msgid "Search in %s"
 msgstr "In %s suchen"
 
 msgid "Search includes issues and proposals."
-msgstr "Die Suche umfasst Beschlüsse und Diskussionen."
+msgstr "Die Suche umfasst Positionen und Diskussionen."
 
 msgid "You did not provide a search query."
 msgstr "Bitte geben Sie einen Suchbegriff ein"
@@ -3985,59 +3985,59 @@ msgstr "Löschen: Umsetzung von %s"
 
 #, python-format
 msgid "Are you sure you want to delete the norm %s from this proposal?"
-msgstr "Sind Sie sicher, dass Sie den Beschluss %s aus dieser Diskussion entfernen wollen?"
+msgstr "Sind Sie sicher, dass Sie die Position %s aus dieser Diskussion entfernen wollen?"
 
 #, python-format
 msgid "Implementation: %s"
 msgstr "Umsetzung: %s"
 
 msgid "Change an existing norm"
-msgstr "Ändern Sie einen bestehenden Beschluss"
+msgstr "Ändern Sie eine bestehende Position"
 
 msgid ""
 "Select a norm that you want to relate to. You can later propose a variant of"
 " this norm to effect a change."
-msgstr "Wählen Sie einen Beschluss aus, auf den Sie sich beziehen. Sie können später eine eigene Version dieses Beschlusses vorschlagen, um ihn zu ändern."
+msgstr "Wählen Sie eine Position aus, auf die Sie sich beziehen. Sie können später eine eigene Version dieser Position vorschlagen, um sie zu ändern."
 
 msgid "Include"
 msgstr "Aufnehmen"
 
 msgid "Can't find an appropriate norm?"
-msgstr "Können Sie keinen passenden Beschluss finden?"
+msgstr "Können Sie keine passende Position finden?"
 
 msgid "Create a new norm instead"
-msgstr "Stattdessen einen Beschluss anlegen"
+msgstr "Stattdessen eine Position anlegen"
 
 msgid "Propose a new norm"
-msgstr "Einen neuen Beschluss anlegen"
+msgstr "Eine neue Position anlegen"
 
 msgid ""
 "Create a new norm that you want to relate to. The norm will be created "
 "without any status quo. You can then add a text variant of that norm, "
 "specifying the change you want to implement."
-msgstr "Erstellen Sie einen neuen Beschluss, auf den Sie sich beziehen wollen. Sie können dann eine Textvariante dieses Beschlusses hinzufügen, das die von Ihnen gewünschten Änderungen darstellt."
+msgstr "Erstellen Sie eine neue Position, auf die Sie sich beziehen wollen. Sie können dann eine Textvariante dieser Position hinzufügen, das die von Ihnen gewünschten Änderungen darstellt."
 
 msgid "New norm title"
-msgstr "Neuer Titel des Beschlusses"
+msgstr "Neuer Titel der Position"
 
 msgid "The new norm will be categorized under the specified parent page."
-msgstr "Der neue Beschluss wird unter der angegebenen Elternseite eingeordnet."
+msgstr "Die neue Position wird unter der angegebenen Elternseite eingeordnet."
 
 msgid "Have you checked for exisiting norms?"
-msgstr "Haben Sie nachgeschaut, ob ein ähnlicher Beschluss eventuell bereits besteht?"
+msgstr "Haben Sie nachgeschaut, ob eine ähnliche Position eventuell bereits besteht?"
 
 msgid "Include an existing norm instead"
-msgstr "Stattdessen einen vorhandenen Beschluss einfügen"
+msgstr "Stattdessen eine vorhandene Position einfügen"
 
 msgid "Show Norm"
-msgstr "Beschluss anzeigen"
+msgstr "Position anzeigen"
 
 msgid "There is a tie between variants, thus none is included at the moment."
 msgstr "Mehrere Versionen haben die gleiche Unterstützung, daher wird aktuell keine eingebunden."
 
 msgid ""
 "Status quo has the most votes, resulting in no proposed change to this norm."
-msgstr "Die Originalversion hat die meisten Stimmen, daher wird keine Änderung des Beschlusses angestrebt."
+msgstr "Die Originalversion hat die meisten Stimmen, daher wird keine Änderung der Position angestrebt."
 
 msgid "Proposed by"
 msgstr "Vorgeschlagen von"
@@ -4049,7 +4049,7 @@ msgid "Oppose this variant"
 msgstr "Diese Version ablehnen"
 
 msgid "(this proposal should not change this norm)"
-msgstr "(diese Diskussion soll diesen Beschluss nicht ändern)"
+msgstr "(diese Diskussion soll diese Position nicht ändern)"
 
 msgid "Currently selected for inclusion in this proposal"
 msgstr "Aktuell zur Einbindung in diese Diskussion ausgewählt"
@@ -4117,7 +4117,7 @@ msgstr "Seite bearbeiten"
 
 msgid ""
 "Tags are keywords used to find, sort and filter proposals and documents."
-msgstr "Tags sind Stichwörter, die helfen, Diskussionen und Beschlüsse zu finden, zu sortieren und zu filtern."
+msgstr "Tags sind Stichwörter, die helfen, Diskussionen und Positionen zu finden, zu sortieren und zu filtern."
 
 msgid "Similar tags"
 msgstr "Ähnliche Tags"
@@ -4160,7 +4160,7 @@ msgstr "Diese Version hat keinen Text."
 msgid ""
 "This norm has not yet been decided and is thus no official position of this "
 "group."
-msgstr "Ihre Gruppe hat zu diesem Beschluss noch keine Regelung getroffen."
+msgstr "Ihre Gruppe hat zu dieser Position noch keine Regelung getroffen."
 
 #, python-format
 msgid "discuss (%s comments) &raquo;"
@@ -4478,7 +4478,7 @@ msgid "No notifications via email."
 msgstr "Keine Benachrichtigungen via E-Mail."
 
 msgid "Send email for new proposals or norms in my watched instances"
-msgstr "E-Mail senden für neue Diskussionen und Beschlüsse in den Gruppen, die ich beobachte,"
+msgstr "E-Mail senden für neue Diskussionen und Positionen in den Gruppen, die ich beobachte,"
 
 msgid "and when a watched object is edited or deleted"
 msgstr "und wenn ein beobachtetes Objekt bearbeitet oder gelöscht wird"
