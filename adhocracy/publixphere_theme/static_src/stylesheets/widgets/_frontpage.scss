@@ -141,7 +141,10 @@
             color: white;
         }
         .item-link {
+            font-size: $large;
             @include button($tertiary-color);
+            @include border-radius(0.3em);
+            line-height: 2.5;
         }
     }
     .galleria {
