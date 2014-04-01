@@ -27,6 +27,10 @@
         text-transform: uppercase;
         color: $primary-color;
         text-align: center;
+
+        a {
+            color: inherit;
+        }
     }
     h2 {
         font-size: 180%;
