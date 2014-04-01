@@ -34,6 +34,7 @@ s/kein Vorschlag/keine Diskussion/g
 s/diesen Vorschlag/diese Diskussion/g
 s/diesem Vorschlag/dieser Diskussion/g
 s/Dieser Vorschlag/Diese Diskussion/g
+s/dieser Vorschlag/diese Diskussion/g
 s/eines Vorschlags/einer Diskussion/g
 s/beim Vorschlag/bei der Diskussion/g
 s/zum Vorschlag/zu der Diskussion/g

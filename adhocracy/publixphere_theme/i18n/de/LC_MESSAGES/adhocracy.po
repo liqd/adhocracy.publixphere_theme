@@ -4049,7 +4049,7 @@ msgid "Oppose this variant"
 msgstr "Diese Version ablehnen"
 
 msgid "(this proposal should not change this norm)"
-msgstr "(dieser Diskussion soll diesen Beschluss nicht ändern)"
+msgstr "(diese Diskussion soll diesen Beschluss nicht ändern)"
 
 msgid "Currently selected for inclusion in this proposal"
 msgstr "Aktuell zur Einbindung in diese Diskussion ausgewählt"
