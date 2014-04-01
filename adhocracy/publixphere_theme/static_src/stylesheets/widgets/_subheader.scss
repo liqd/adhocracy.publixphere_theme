@@ -10,7 +10,15 @@
             margin: 0;
         }
     }
-    #logo_row {
+    #organisation_logo {
         display: none;
+    }
+    #instance_settings a {
+        background: none;
+        padding: 0 0.5em;
+
+        &:hover, &:focus {
+            color: $black;
+        }
     }
 }
