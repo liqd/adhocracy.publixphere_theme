@@ -74,8 +74,21 @@ a {
 #footer .page_wrapper {
     border-bottom-color: $yellow;
 }
+#subheader #instance_settings,
 #subnav li {
     &.current a, a:focus, a:hover {
         color: $yellow;
+    }
+}
+
+.subsection-salon-startpage #main {
+    font-family: serif;
+
+    h2 {
+        border-bottom-color: $yellow;
+        color: $fg1;
+    }
+    h2, h3 {
+        font-family: Arial, sans-serif;
     }
 }
