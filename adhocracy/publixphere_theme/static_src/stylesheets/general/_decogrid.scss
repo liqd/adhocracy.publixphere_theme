@@ -43,6 +43,9 @@ $margin: 2.08333%;
     .width-5 {
         @include width(4);
     }
+    .width-8 {
+        @include width(6);
+    }
     .width-16 {
         @include width(12);
     }
@@ -52,6 +55,9 @@ $margin: 2.08333%;
     }
     .position-5 {
         @include position(4);
+    }
+    .position-8 {
+        @include position(6);
     }
     .position-10 {
         @include position(8);
