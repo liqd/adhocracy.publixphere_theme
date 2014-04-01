@@ -1,0 +1,11 @@
+//********************************//
+// plone event page specific css  //
+//********************************//
+
+.eventDetails {
+    max-width: 35em;
+
+    .hCalendar-hidden, .timezone {
+        display: none;
+    }
+}
