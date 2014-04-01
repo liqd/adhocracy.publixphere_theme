@@ -71,7 +71,7 @@
     </replace>
     <replace css:content="#logo" if-content="//body[contains(@class, 'instance-salon')]">
       <div id="logo">
-        <h1><a href="/i/salon">Europäische Salon</a></h1>
+        <h1><a href="/i/salon"><img src="/static_theme/static/images/logo_salon.png" alt="Europäischer Salon" /></a></h1>
 
         <div id="share">
           <a target="_blank" href="http://www.facebook.com/sharer.php?u=http://partizipation.publixphere.de" id="fb_share"></a>
