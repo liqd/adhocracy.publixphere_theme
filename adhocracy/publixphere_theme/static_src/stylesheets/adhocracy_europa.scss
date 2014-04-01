@@ -84,11 +84,14 @@ a {
 .subsection-salon-startpage #main {
     font-family: serif;
 
+    h2, h3 {
+        font-family: Arial, sans-serif;
+    }
     h2 {
         border-bottom-color: $yellow;
         color: $fg1;
     }
-    h2, h3 {
-        font-family: Arial, sans-serif;
+    h3 {
+        color: $primary-color;
     }
 }
