@@ -64,6 +64,10 @@
 // overwrite
 @import "overwrite";
 
+.only-publixphere {
+    display: none;
+}
+
 a {
     color: saturate($primary-color, 20%);
 }
