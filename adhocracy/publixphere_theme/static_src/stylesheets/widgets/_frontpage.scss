@@ -168,6 +168,9 @@
         }
     }
     .galleria {
+        position: relative;
+        @include pie-clearfix;
+
         .galleria-inner {
             @include row;
             overflow: hidden;

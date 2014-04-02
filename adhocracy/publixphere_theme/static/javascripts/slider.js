@@ -229,4 +229,12 @@ $(document).ready(function () {
     scrollable_init($('#galleria-aef93412aeb1495f95035c1e8eb0fecb')[0], {'items': '.galleria-inner', 'interval': 8000, 'navigation': '.navigation'});
     scrollable_init($('#galleria-5f9a6cc463d14fa798c604d173d8fc77')[0], {'items': '.galleria-inner', 'count': 5, 'margin': 2, 'interval': false});
     scrollable_init($('#galleria-9558eb947b2a44e5bd06f9a492e01c01')[0], {'items': '.galleria-inner', 'interval': 8000});
+
+    $('#galleria-aef93412aeb1495f95035c1e8eb0fecb').append($('<img src="/static_theme/static/images/badge_pp_claim.png" alt="unabhängig, überparteilich, unkommerziell">').css({
+        'position': 'absolute',
+        'bottom': '-53px',
+        'right': '7px',
+    })).css({
+        'margin-bottom': '32px',
+    });
 });
