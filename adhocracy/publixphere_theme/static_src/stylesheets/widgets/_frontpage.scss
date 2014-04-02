@@ -138,6 +138,9 @@
     }
     #galleria-9558eb947b2a44e5bd06f9a492e01c01,
     #galleria-aef93412aeb1495f95035c1e8eb0fecb {
+        img {
+            max-height: 450px;
+        }
         .galleria-item {
             position: relative;
         }
