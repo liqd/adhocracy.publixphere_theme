@@ -86,11 +86,6 @@ a {
 }
 
 .subsection-salon-startpage #main {
-    font-family: serif;
-
-    h2, h3 {
-        font-family: Arial, sans-serif;
-    }
     h2 {
         border-bottom-color: $yellow;
         color: $fg1;
@@ -104,7 +99,6 @@ a {
         .item-link {
             @include button-background($yellow);
             color: $fg1;
-            font-family: Arial, sans-serif;
         }
     }
 }

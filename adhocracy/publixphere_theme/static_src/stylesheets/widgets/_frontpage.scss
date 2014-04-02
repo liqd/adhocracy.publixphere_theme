@@ -13,7 +13,11 @@
 
 .subsection-salon-startpage #main,
 .subsection-de-startpage #main {
+    font-family: serif;
+
     h1, h2, h3, h4, h5, h6 {
+        font-family: Arial, sans-serif;
+
         a {
             color: inherit;
         }
@@ -159,6 +163,7 @@
             @include button($tertiary-color);
             @include border-radius(0.3em);
             line-height: 2.5;
+            font-family: Arial, sans-serif;
         }
     }
     .galleria {
