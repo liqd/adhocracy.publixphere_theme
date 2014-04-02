@@ -14,6 +14,7 @@ $(document).ready(function () {
         var container = $(element);
         var inner = container.find(settings.items);
         var lock = false;
+        var next, prev
 
         var position = function(i) {
             return (-100 + (100 + settings.margin) / settings.count * i) + '%';
@@ -32,38 +33,6 @@ $(document).ready(function () {
             });
         }
 
-        var next = function() {
-            if (lock) {
-                return;
-            }
-            lock = true;
-            var pos = position(inner.children().length - 1);
-            var n = $(inner.children()[settings.count]);
-            n.show()
-            update_items(-1, function() {
-                inner.children().first().hide().css({'margin-left': pos});
-                inner.append(inner.children().first());
-                lock = false;
-            });
-        }
-        var prev = function() {
-            if (lock) {
-                return;
-            }
-            lock = true;
-            var pos = position(-1);
-            inner.prepend(inner.children().last());
-            inner.children().first().css({'margin-left': pos}).show();
-            update_items(0, function() {
-                $(inner.children()[settings.count]).hide();
-                lock = false;
-            });
-        }
-
-        for (var i=inner.children().length; i < settings.count + 1; i++) {
-            inner.append($('<div>'));
-        }
-
         inner.children().each(function(i, e) {
             var item = $(e);
             item.css({
@@ -76,37 +45,69 @@ $(document).ready(function () {
                 item.hide();
             }
         });
-        container.attr('tabindex', 0);
 
-        container.on('keydown', function(e) {
-            console.log(e.keyCode);
-
-            // do nothing with CTRL / ALT buttons
-            if (e.altKey || e.ctrlKey) {
-                return;
+        // this is only a slider if there are at least count+1 items
+        if (inner.children().length > settings.count) {
+            next = function() {
+                if (lock) {
+                    return;
+                }
+                lock = true;
+                var pos = position(inner.children().length - 1);
+                var n = $(inner.children()[settings.count]);
+                n.show()
+                update_items(-1, function() {
+                    inner.children().first().hide().css({'margin-left': pos});
+                    inner.append(inner.children().first());
+                    lock = false;
+                });
+            }
+            prev = function() {
+                if (lock) {
+                    return;
+                }
+                lock = true;
+                var pos = position(-1);
+                inner.prepend(inner.children().last());
+                inner.children().first().css({'margin-left': pos}).show();
+                update_items(0, function() {
+                    $(inner.children()[settings.count]).hide();
+                    lock = false;
+                });
             }
 
-            if (e.keyCode == 39) {
+            container.attr('tabindex', 0);
+
+            container.on('keydown', function(e) {
+                console.log(e.keyCode);
+
+                // do nothing with CTRL / ALT buttons
+                if (e.altKey || e.ctrlKey) {
+                    return;
+                }
+
+                if (e.keyCode == 39) {
+                    next();
+                    return e.preventDefault();
+                } else if (e.keyCode == 37) {
+                    prev();
+                    return e.preventDefault();
+                }
+            });
+
+            container.on('click', settings.next, function(e) {
                 next();
                 return e.preventDefault();
-            } else if (e.keyCode == 37) {
+            });
+            container.on('click', settings.prev, function(e) {
                 prev();
                 return e.preventDefault();
+            });
+            if (settings.interval) {
+                setInterval(function() {
+                    next();
+                }, settings.interval);
             }
-        });
-
-        container.on('click', settings.next, function(e) {
-            next();
-            return e.preventDefault();
-        });
-        container.on('click', settings.prev, function(e) {
-            prev();
-            return e.preventDefault();
-        });
-        if (settings.interval) {
-            setInterval(function() {
-                next();
-            }, settings.interval);
         }
     }
 
