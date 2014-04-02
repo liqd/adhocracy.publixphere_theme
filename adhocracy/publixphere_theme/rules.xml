@@ -45,11 +45,7 @@
     <merge attributes="class" css:theme="body" css:content="body" />
     <merge attributes="class" css:theme="html" css:content="html" />
 
-    <replace css:content="li#nav_home">
-        <li class="only-europa">
-            <a href="http://salon.publixphere.de/">Startseite</a>
-        </li>
-    </replace>
+    <drop css:content="li#nav_home" />
     <drop css:content="li#nav_watchlist"/>
     <replace css:content="li#nav_about a">
         <a href="http://www.publixphere.de/page/%C3%BCber-uns" class="staticlink_about">About</a>
