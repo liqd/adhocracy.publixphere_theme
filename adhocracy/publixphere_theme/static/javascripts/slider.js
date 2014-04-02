@@ -125,6 +125,7 @@ $(document).ready(function () {
             var title = img.data('title');
 
             details.append($(title).wrap($('<h3>')).parent());
+            details.append($('<p>').text(img.data('description')));
             details.append($('<a>')
                 .attr('href', link)
                 .text(linkName)
