@@ -172,6 +172,33 @@
                 font-weight: bold;
             }
         }
+        .navigation {
+            // reset
+            margin: 0;
+            list-style: none;
+
+            position: absolute;
+            bottom: 1em;
+            left: 0;
+            width: 100%;
+            text-align: center;
+
+            li {
+                display: inline-block;
+            }
+            a {
+                display: inline-block;
+                margin: 0 0.5em;
+                width: 1.5em;
+                height: 1.5em;
+                background-color: white;
+                border: 1px solid white;
+                @include border-radius(50%);
+            }
+            .current a {
+                background-color: $primary-color;
+            }
+        }
     }
 }
 
