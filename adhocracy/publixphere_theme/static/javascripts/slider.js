@@ -173,9 +173,22 @@ $(document).ready(function () {
                 });
             }
             if (settings.interval) {
-                setInterval(function() {
-                    next();
-                }, settings.interval);
+                var intervalID;
+                var startInterval = function() {
+                    intervalID = setInterval(function() {
+                        next();
+                    }, settings.interval);
+                };
+
+                // do not change on mouseover
+                container.mouseover(function() {
+                    clearInterval(intervalID);
+                    intervalID = null;
+                });
+                container.mouseout(function() {
+                    startInterval();
+                });
+                startInterval();
             }
         }
     }
