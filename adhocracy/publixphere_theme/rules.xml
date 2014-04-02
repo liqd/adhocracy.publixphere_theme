@@ -62,9 +62,9 @@
         <span class="tag-line">~ Politik diskutieren, online und offline</span>
 
         <div id="share">
-          <a target="_blank" href="http://www.facebook.com/sharer.php?u=http://partizipation.publixphere.de" id="fb_share"></a>
-          <a target="_blank" href="http://twitter.com/home?status=Politik diskutieren und Debattenagenda mitbestimmen: auf Publixphere - unabhängig, überparteilich, nichtkommerziell. http://bit.ly/Z0KcQi" id="tw_share"></a>
-          <a target="_blank" href="https://plus.google.com/share?url=http://partizipation.publixphere.de" id="gp_share"></a>
+          <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://publixphere.de" id="fb_share"></a>
+          <a target="_blank" href="http://twitter.com/home?status=Politik diskutieren und Debattenagenda mitbestimmen: auf Publixphere - unabhängig, überparteilich, unkommerziell. https://publixphere.de" id="tw_share"></a>
+          <a target="_blank" href="https://plus.google.com/share?url=https://publixphere.de" id="gp_share"></a>
         </div>
       </div>
     </replace>
