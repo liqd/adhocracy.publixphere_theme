@@ -47,6 +47,9 @@ $header-fg: #ddd;
         color: $header-fg;
     }
 
+    li {
+        position: relative;
+    }
     li:after {
         content: " | ";
     }
