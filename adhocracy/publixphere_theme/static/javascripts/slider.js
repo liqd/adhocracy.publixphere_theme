@@ -215,7 +215,7 @@ $(document).ready(function () {
             );
         });
     });
-    $('#galleria-aef93412aeb1495f95035c1e8eb0fecb').each(function(i, e) {
+    $('#galleria-aef93412aeb1495f95035c1e8eb0fecb').add('#galleria-9558eb947b2a44e5bd06f9a492e01c01').each(function(i, e) {
         var galleria = $(e);
         var navigation = $('<ul class="navigation">');
         galleria.append(navigation);
@@ -228,7 +228,7 @@ $(document).ready(function () {
     $('#galleria-5f9a6cc463d14fa798c604d173d8fc77').prepend('<a class="prev" href="#" title="prev"></a>');
     scrollable_init($('#galleria-aef93412aeb1495f95035c1e8eb0fecb')[0], {'items': '.galleria-inner', 'interval': 8000, 'navigation': '.navigation'});
     scrollable_init($('#galleria-5f9a6cc463d14fa798c604d173d8fc77')[0], {'items': '.galleria-inner', 'count': 5, 'margin': 2, 'interval': false});
-    scrollable_init($('#galleria-9558eb947b2a44e5bd06f9a492e01c01')[0], {'items': '.galleria-inner', 'interval': 8000});
+    scrollable_init($('#galleria-9558eb947b2a44e5bd06f9a492e01c01')[0], {'items': '.galleria-inner', 'interval': 8000, 'navigation': '.navigation'});
 
     $('#galleria-aef93412aeb1495f95035c1e8eb0fecb').append($('<img src="/static_theme/static/images/badge_pp_claim.png" alt="unabhängig, überparteilich, unkommerziell">').css({
         'position': 'absolute',
