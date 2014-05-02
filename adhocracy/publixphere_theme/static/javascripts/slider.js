@@ -68,6 +68,7 @@ $(document).ready(function () {
                 if (lock) {
                     return;
                 }
+                self.container.trigger('move');
                 lock = true;
                 var pos = position(inner.children().length - 1);
                 var n = $(inner.children()[settings.count]);
@@ -90,6 +91,7 @@ $(document).ready(function () {
                     return;
                 }
                 lock = true;
+                self.container.trigger('move');
                 var pos = position(-1);
                 inner.prepend(inner.children().last());
                 inner.children().first().css({'margin-left': pos}).show();
