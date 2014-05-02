@@ -182,15 +182,24 @@ $(document).ready(function () {
                     }, settings.interval);
                 };
 
-                // do not change on mouseover
-                container.mouseover(function() {
+                this.lock = function() {
                     clearInterval(intervalID);
                     intervalID = null;
-                });
-                container.mouseout(function() {
+                }
+                this.unlock = function() {
                     startInterval();
+                }
+                // do not change on mouseover
+                self.container.mouseover(function() {
+                    self.lock();
+                });
+                self.container.mouseout(function() {
+                    self.unlock();
                 });
                 startInterval();
+            } else {
+                this.lock = function() {};
+                this.unlock = function() {};
             }
         }
     }
