@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    scrollable_init = function(element, settings) {
+    var Scrollable = function(element, settings) {
         settings = $.extend({
             'items': '.items',
             'next': '.next',
@@ -12,10 +12,10 @@ $(document).ready(function () {
             'navigation': false,
         }, settings);
 
-        var container = $(element);
-        var inner = container.find(settings.items);
-        var lock = false;
-        var next, prev, goto_index;
+        var self = this;
+        this.container = $(element);
+        var inner = self.container.find(settings.items);
+        var lock = false;  // essential to avoid breakage
 
         var current_index;
         var update_current_index = function(value) {
@@ -64,7 +64,7 @@ $(document).ready(function () {
 
         // this is only a slider if there are at least count+1 items
         if (inner.children().length > settings.count) {
-            next = function(success) {
+            this.next = function(success) {
                 if (lock) {
                     return;
                 }
@@ -85,7 +85,7 @@ $(document).ready(function () {
                     }
                 });
             }
-            prev = function(success) {
+            this.prev = function(success) {
                 if (lock) {
                     return;
                 }
@@ -105,7 +105,7 @@ $(document).ready(function () {
                     }
                 });
             }
-            goto_index = function(index) {
+            this.goto_index = function(index) {
                 var step,
                     distance,
                     distance_prev,
@@ -121,53 +121,53 @@ $(document).ready(function () {
                     distance_next += inner.children().length;
                 }
                 if (distance_next <= distance_prev) {
-                    step = next;
+                    step = this.next;
                     distance = distance_next;
                 } else {
-                    step = prev;
+                    step = this.prev;
                     distance = distance_prev;
                 }
 
                 // step until we have reached index
                 var _step = function() {
                     if (current_index !== index % inner.children().length) {
-                        step(_step);
+                        step.apply(self, [_step]);
                     }
                 };
                 _step();
             }
-            container.attr('tabindex', 0);
+            self.container.attr('tabindex', 0);
 
-            container.on('keydown', function(e) {
+            self.container.on('keydown', function(e) {
                 // do nothing with CTRL / ALT buttons
                 if (e.altKey || e.ctrlKey) {
                     return;
                 }
 
                 if (e.keyCode == 39) {
-                    next();
+                    self.next();
                     return e.preventDefault();
                 } else if (e.keyCode == 37) {
-                    prev();
+                    self.prev();
                     return e.preventDefault();
                 }
             });
 
-            container.on('click', settings.next, function(e) {
-                next();
+            self.container.on('click', settings.next, function(e) {
+                self.next();
                 return e.preventDefault();
             });
-            container.on('click', settings.prev, function(e) {
-                prev();
+            self.container.on('click', settings.prev, function(e) {
+                self.prev();
                 return e.preventDefault();
             });
             if (settings.navigation) {
-                var navigation = container.find(settings.navigation);
+                var navigation = self.container.find(settings.navigation);
                 navigation.on('click', function(e) {
                     var direct_child = $(e.target).parentsUntil(settings.navigation).last();
                     var index = navigation.children().index(direct_child);
                     if (index >= 0) {
-                        goto_index(index);
+                        self.goto_index(index);
                     }
                     return e.preventDefault();
                 });
@@ -176,7 +176,7 @@ $(document).ready(function () {
                 var intervalID;
                 var startInterval = function() {
                     intervalID = setInterval(function() {
-                        next();
+                        self.next();
                     }, settings.interval);
                 };
 
@@ -226,9 +226,9 @@ $(document).ready(function () {
     });
     $('#galleria-5f9a6cc463d14fa798c604d173d8fc77').append('<a class="next" href="#" title="next"></a>');
     $('#galleria-5f9a6cc463d14fa798c604d173d8fc77').prepend('<a class="prev" href="#" title="prev"></a>');
-    scrollable_init($('#galleria-aef93412aeb1495f95035c1e8eb0fecb')[0], {'items': '.galleria-inner', 'interval': 8000, 'navigation': '.navigation'});
-    scrollable_init($('#galleria-5f9a6cc463d14fa798c604d173d8fc77')[0], {'items': '.galleria-inner', 'count': 5, 'margin': 2, 'interval': false});
-    scrollable_init($('#galleria-9558eb947b2a44e5bd06f9a492e01c01')[0], {'items': '.galleria-inner', 'interval': 8000, 'navigation': '.navigation'});
+    new Scrollable($('#galleria-aef93412aeb1495f95035c1e8eb0fecb')[0], {'items': '.galleria-inner', 'interval': 8000, 'navigation': '.navigation'});
+    new Scrollable($('#galleria-9558eb947b2a44e5bd06f9a492e01c01')[0], {'items': '.galleria-inner', 'interval': 8000, 'navigation': '.navigation'});
+    small_scrollable = new Scrollable($('#galleria-5f9a6cc463d14fa798c604d173d8fc77')[0], {'items': '.galleria-inner', 'count': 5, 'margin': 2, 'interval': false});
 
     $('#galleria-aef93412aeb1495f95035c1e8eb0fecb').append($('<img src="/static_theme/static/images/badge_pp_claim.png" alt="unabhängig, überparteilich, unkommerziell">').css({
         'position': 'absolute',
