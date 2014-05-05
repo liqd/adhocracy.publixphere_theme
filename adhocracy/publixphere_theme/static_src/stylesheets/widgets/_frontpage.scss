@@ -95,6 +95,41 @@
         background: $bg-extra;
         clear: both;
         padding: 2em 1em;
+        @include row;
+
+        h2 {
+            color: $tertiary-color;
+            border-bottom: none;
+            font-size: 150%;
+        }
+        h3 {
+            color: #6d120d;
+        }
+        iframe {
+            width: 100%;
+        }
+        .category-events,
+        .category-description,
+        .category-milestones {
+            @include cell;
+            @include width(4);
+        }
+        .category-events,
+        .category-milestones {
+            h3 {
+                border-bottom: none;
+                margin-bottom: 0;
+            }
+        }
+        .category-events {
+            @include position(0);
+        }
+        .category-description {
+            @include position(4);
+        }
+        .category-milestones {
+            @include position(8);
+        }
     }
     #galleria-5f9a6cc463d14fa798c604d173d8fc77 {
         .galleria-inner {
