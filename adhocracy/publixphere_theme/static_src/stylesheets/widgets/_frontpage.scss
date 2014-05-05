@@ -13,6 +13,9 @@
 
 .subsection-salon-startpage #main,
 .subsection-de-startpage #main {
+    $bg-active: #d8c9b7;
+    $bg-extra: #f4f0eb;
+
     font-family: 'Georgia', serif;
     font-size: 105%;
 
@@ -88,12 +91,43 @@
     .cover-list-tile .list-item {
         border-bottom: 1px dotted $border;
     }
+    .galleria-extra-detail {
+        background: $bg-extra;
+        clear: both;
+        padding: 2em 1em;
+    }
     #galleria-5f9a6cc463d14fa798c604d173d8fc77 {
         .galleria-inner {
             position: relative;
             left: 3em;
             width: 90%;
             width: calc(100% - 2*3em);
+        }
+        .galleria-item {
+            padding: 0.5em 0.5em 1.5em;
+            @include box-sizing(border-box);
+
+            &.has-body {
+                cursor: pointer;
+            }
+            &.active {
+                background-color: $bg-active;
+                cursor: auto;
+
+                &::after {
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    bottom: 0;
+                    left: 43%;
+                    left: calc(50% - 1.2em);
+                    height: 0;
+                    width: 0;
+                    border: 1.2em solid transparent;
+                    border-bottom-color: $bg-extra;
+                    border-top: 0;
+                }
+            }
         }
         .prev,
         .next {

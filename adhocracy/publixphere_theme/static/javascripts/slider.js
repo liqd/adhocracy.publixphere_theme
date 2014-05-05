@@ -1,4 +1,12 @@
 $(document).ready(function () {
+    var uuid = function() {
+        return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+            var r = Math.random()*16|0, v = c == 'x' ? r : (r&0x3|0x8);
+            return v.toString(16);
+        });
+    }
+
+
     var Scrollable = function(element, settings) {
         settings = $.extend({
             'items': '.items',
@@ -214,9 +222,15 @@ $(document).ready(function () {
             var details = $('<div class="galleria-details">');
             item.append(details);
 
+            item.attr('id', uuid());
             var link = img.data('link');
             var linkName = img.data('link-name');
             var title = img.data('title');
+
+            if (img.data('body')) {
+                item.addClass('has-body');
+                item.append($('<div class="body">').html(img.data('body')).hide().attr('id', item.attr('id') + '-body'))
+            }
 
             details.append($(title).wrap($('<h3>')).parent());
             details.append($('<p>').text(img.data('description')));
@@ -259,7 +273,10 @@ $(document).ready(function () {
     // setup small slider
     $('#galleria-5f9a6cc463d14fa798c604d173d8fc77').each(function(i, e) {
         var galleria = $(e),
-            small_scollable;
+            small_scollable,
+            extra_detail,
+            showBody,
+            hideBody;
 
         // controls
         galleria.append('<a class="next" href="#" title="next"></a>');
@@ -270,6 +287,58 @@ $(document).ready(function () {
             'count': 5,
             'margin': 0.5,
             'interval': false,
+        });
+
+        // extra detail
+        extra_detail = $('<div class="galleria-extra-detail">')
+            .hide()
+            .insertAfter(galleria);
+
+        showBody = function(item) {
+            extra_detail.find('#' + item.attr('id') + '-body').show();
+            item.addClass('active');
+        };
+        hideBody = function(item) {
+            extra_detail.find('#' + item.attr('id') + '-body').hide();
+            item.removeClass('active');
+        };
+
+        galleria.find('.galleria-item.has-body').each(function(i, el) {
+            // move body from item into extra_detail
+            var item = $(el);
+            extra_detail.append(item.find('.body'));
+        });
+
+        galleria.on('move', function() {
+            extra_detail.slideUp(function() {
+                hideBody(galleria.find('.galleria-item.active'));
+                small_scrollable.unlock();
+            });
+        });
+
+        galleria.on('click', '.galleria-item', function() {
+            var item = $(this);
+
+            if (!item.hasClass('active') && item.hasClass('has-body')) {
+                // full height
+                var heights = $.map(galleria.find('.galleria-item'), function(el) {return $(el).outerHeight()});
+                var max_height = Math.max.apply(Math, heights);
+                item.height(max_height);
+
+                small_scrollable.lock();
+
+                var current = galleria.find('.galleria-item.active');
+                if (current) {
+                    extra_detail.slideUp(function() {
+                        hideBody(current);
+                        showBody(item);
+                        extra_detail.slideDown();
+                    });
+                } else {
+                    showBody(item);
+                    extra_detail.slideDown();
+                }
+            }
         });
     });
 });
