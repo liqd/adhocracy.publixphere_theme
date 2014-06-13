@@ -64,9 +64,15 @@
             padding: 0;
         }
         .tileHeadline {
+            line-height: inherit !important;
+            text-align: inherit !important;
+            text-transform: inherit !important;
+            font-weight: inherit !important;
+            letter-spacing: inherit !important;
+            border: none !important;
+            font-size: 100% !important;
+
             color: $black;
-            line-height: inherit;
-            font-size: 100%;
             margin: 0;
             padding: 0;
 
