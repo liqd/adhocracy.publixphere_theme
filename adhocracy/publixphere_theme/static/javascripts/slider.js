@@ -342,3 +342,11 @@ $(document).ready(function () {
         });
     });
 });
+$(window).load(function() {
+    $('#galleria-5f9a6cc463d14fa798c604d173d8fc77').each(function(i, e) {
+        var galleria = $(e);
+
+        // activate first item
+        galleria.find('.galleria-item').first().click();
+    });
+});
