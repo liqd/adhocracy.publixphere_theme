@@ -88,6 +88,8 @@ s/Beschlüsse/Positionen/g
 
 s/Sie können sich mit verschiedenen externen Benutzerkonten anmelden. Bitte beachten Sie, dass die Anmeldung durch externe Anbieter riskant für Ihre Privatsphäre und Sicherheit sein kann./Du kannst dich mit verschiedenen externen Benutzerkonten anmelden. Bitte beachte, dass die Anmeldung durch externe Anbieter riskant für Deine Privatsphäre und Sicherheit sein kann./g
 s/Um einen Account anzulegen, brauchen Sie nur einen Benutzernamen, ein Passwort und eine E-Mail-Adresse./Um einen Account anzulegen, brauchst du nur einen Benutzernamen, ein Passwort und eine E-Mail-Adresse./g
+s/Bitte geben Sie Ihr Passwort ein:/Bitte gib Dein Passwort ein:/g
+s/Bitte tragen Sie die Zeichen im folgenden Bild in das unten stehende Feld ein./Bitte trage die Zeichen im folgenden Bild in das unten stehende Feld ein./g
 
 p
 
