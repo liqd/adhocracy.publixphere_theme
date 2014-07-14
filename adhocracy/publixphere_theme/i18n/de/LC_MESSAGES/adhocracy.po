@@ -4524,7 +4524,7 @@ msgid "Password"
 msgstr "Passwort"
 
 msgid "Enter password:"
-msgstr "Bitte geben Sie Ihr Passwort ein:"
+msgstr "Bitte gib Dein Passwort ein:"
 
 msgid "Password (confirm):"
 msgstr "Passwort (bestätigen):"
@@ -4533,7 +4533,7 @@ msgid "Security query"
 msgstr "Sicherheitsabfrage"
 
 msgid "Please enter the letters in the following image in the field below."
-msgstr "Bitte tragen Sie die Zeichen im folgenden Bild in das unten stehende Feld ein."
+msgstr "Bitte trage die Zeichen im folgenden Bild in das unten stehende Feld ein."
 
 msgid "Terms and conditions"
 msgstr "Nutzungsbedingungen"
