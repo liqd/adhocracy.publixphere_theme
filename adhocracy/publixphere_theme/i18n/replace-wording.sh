@@ -86,6 +86,9 @@ s/Beschluss/Position/g
 s/Beschlüssen/Positionen/g
 s/Beschlüsse/Positionen/g
 
+s/Sie können sich mit verschiedenen externen Benutzerkonten anmelden. Bitte beachten Sie, dass die Anmeldung durch externe Anbieter riskant für Ihre Privatsphäre und Sicherheit sein kann./Du kannst dich mit verschiedenen externen Benutzerkonten anmelden. Bitte beachte, dass die Anmeldung durch externe Anbieter riskant für Deine Privatsphäre und Sicherheit sein kann./g
+s/Um einen Account anzulegen, brauchen Sie nur einen Benutzernamen, ein Passwort und eine E-Mail-Adresse./Um einen Account anzulegen, brauchst du nur einen Benutzernamen, ein Passwort und eine E-Mail-Adresse./g
+
 p
 
 EOF

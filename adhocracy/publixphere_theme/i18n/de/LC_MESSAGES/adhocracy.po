@@ -2161,7 +2161,7 @@ msgid ""
 "You can log in using various external user accounts. Please be aware that "
 "the login via external providers may cause security and privacy related "
 "risks."
-msgstr "Sie können sich mit verschiedenen externen Benutzerkonten anmelden. Bitte beachten Sie, dass die Anmeldung durch externe Anbieter riskant für Ihre Privatsphäre und Sicherheit sein kann."
+msgstr "Du kannst dich mit verschiedenen externen Benutzerkonten anmelden. Bitte beachte, dass die Anmeldung durch externe Anbieter riskant für Deine Privatsphäre und Sicherheit sein kann."
 
 msgid "Login with Facebook"
 msgstr "Mit Facebook einloggen"
@@ -4504,7 +4504,7 @@ msgstr "Eine Email wurde an Sie versendet. Bitte klicken Sie auf den Verifikatio
 msgid ""
 "Creating an account is easy; all you need is a user name, password and email"
 " address."
-msgstr "Um einen Account anzulegen, brauchen Sie nur einen Benutzernamen, ein Passwort und eine E-Mail-Adresse."
+msgstr "Um einen Account anzulegen, brauchst du nur einen Benutzernamen, ein Passwort und eine E-Mail-Adresse."
 
 msgid ""
 "If you have an account but you've lost your password, <a href='/reset'>click"
