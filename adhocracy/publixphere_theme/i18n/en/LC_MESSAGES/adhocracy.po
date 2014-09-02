@@ -1,0 +1,4777 @@
+# Translations template for adhocracy.
+# Copyright (C) 2014 ORGANIZATION
+# This file is distributed under the same license as the adhocracy project.
+# 
+# Translators:
+# Alexander O <alex-obi@hotmail.de>, 2013
+# Alex <xanderbattaglia@gmail.com>, 2013
+# rosangela <rosangelabochicchio@gmail.com>, 2013
+# Rouven.B <rouven.brues@liqd.de>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: Adhocracy\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2014-07-18 11:10+0200\n"
+"PO-Revision-Date: 2014-06-13 16:35+0000\n"
+"Last-Translator: Nicolas Dietrich <nicodietrich@gmail.com>\n"
+"Language-Team: English (United Kingdom) (http://www.transifex.com/projects/p/adhocracy/language/en_GB/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 1.3\n"
+"Language: en_GB\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Not specified"
+msgstr "Not specified"
+
+msgid "Thank you for helping."
+msgstr "Thank you for helping."
+
+msgid "Please insert a subject for the mail we will send to the users."
+msgstr "Please insert a subject for the mail we will send to the users."
+
+msgid "Please insert a template for the mail we will send to the users."
+msgstr "Please insert a template for the mail we will send to the users."
+
+msgid "Solr index updated."
+msgstr "Solr index updated."
+
+#, python-format
+msgid "Autojoin fixed - added %s memberships."
+msgstr "Autojoin fixed - added %s memberships."
+
+msgid "No need to fix autojoin."
+msgstr ""
+
+msgid ""
+"Requested generation of welcome codes, but welcome "
+"functionality(adhocracy.enable_welcome) is not enabled."
+msgstr "Requested generation of welcome codes, but welcome functionality(adhocracy.enable_welcome) is not enabled."
+
+msgid "No such badge type"
+msgstr ""
+
+#, python-format
+msgid "We cannot find the badge with the id %s"
+msgstr "We cannot find the badge with the id %s"
+
+msgid "User Badges"
+msgstr "User badges"
+
+msgid "Proposal Badges"
+msgstr "Proposal badges"
+
+msgid "Categories"
+msgstr "Categories"
+
+msgid "Instance Badges"
+msgstr "Instance badges"
+
+msgid "Status Badges"
+msgstr ""
+
+msgid "Badge changed successfully"
+msgstr "Badge changed successfully"
+
+msgid "The image has been deleted."
+msgstr ""
+
+msgid "Badge deleted successfully"
+msgstr ""
+
+msgid "oldest"
+msgstr "oldest"
+
+msgid "newest"
+msgstr "newest"
+
+#, python-format
+msgid "Topic %s does not allow comments"
+msgstr ""
+
+#, python-format
+msgid "Comment topic has no variant %s"
+msgstr "Comment topic has no variant %s"
+
+msgid "The comment has been deleted."
+msgstr "The comment has been deleted."
+
+msgid ""
+"You're trying to revert to a revision which is not part of this comment's "
+"history"
+msgstr "You're trying to revert to a revision which is not part of this comment's history"
+
+msgid "The comment has been reverted."
+msgstr "The comment has been reverted."
+
+msgid ""
+"You're trying to purge a revision which is not part of this comment's "
+"history"
+msgstr "You're trying to purge a revision which is not part of this comment's history"
+
+msgid "The comment revision has been deleted."
+msgstr "The comment revision has been deleted."
+
+msgid "Wrong topic"
+msgstr "Wrong topic"
+
+msgid "Invalid delegation recipient"
+msgstr "Invalid delegation recipient"
+
+#, python-format
+msgid "You have already delegated voting to %s in %s"
+msgstr "You have already delegated voting to %s in %s"
+
+#, python-format
+msgid "Cannot access delegation %(id)s"
+msgstr "Cannot access delegation %(id)s"
+
+msgid "The delegation is now revoked."
+msgstr "The delegation is now revoked."
+
+msgid "The requested page could not be found."
+msgstr ""
+
+msgid "The system is currently down for maintenance. Please check back soon!"
+msgstr ""
+
+msgid "Bad Request"
+msgstr ""
+
+msgid "Unauthorized"
+msgstr ""
+
+msgid "Forbidden"
+msgstr ""
+
+msgid "Not Found"
+msgstr ""
+
+msgid "I'm a teapot"
+msgstr ""
+
+msgid "Internal Server Error"
+msgstr ""
+
+msgid "Service Unavailable"
+msgstr ""
+
+#, python-format
+msgid "%s News"
+msgstr "%s News"
+
+#, python-format
+msgid "News from %s"
+msgstr "News from %s"
+
+msgid "Overview"
+msgstr ""
+
+msgid "General settings"
+msgstr ""
+
+msgid "Process settings"
+msgstr ""
+
+msgid "Manage members"
+msgstr ""
+
+msgid "Advanced settings"
+msgstr "Advanced settings"
+
+msgid "Process presets"
+msgstr ""
+
+msgid "Please select at least one preset"
+msgstr ""
+
+msgid "The requested page was not found"
+msgstr "The requested page was not found"
+
+msgid "Intro"
+msgstr ""
+
+msgid "Delegations are enabled."
+msgstr "Delegations are enabled."
+
+msgid "Delegations are disabled."
+msgstr "Delegations are disabled."
+
+msgid "tutorial_instance_show_intro"
+msgstr "Welcome to the homepage of the instance."
+
+msgid "This instance is not yet open for public participation."
+msgstr ""
+
+msgid ""
+"This instance is not active for use and is archived. It isn't possible to "
+"perform any changes to the instance, but all content is available to be "
+"read."
+msgstr ""
+
+msgid "The logo has been deleted."
+msgstr "The logo has been deleted."
+
+msgid ""
+"Instance created successfully. You can now configure it in greater detail if"
+" you wish."
+msgstr ""
+
+#, python-format
+msgid "The instance %s has been deleted."
+msgstr "The instance %s has been deleted."
+
+#, python-format
+msgid "Welcome to %(instance)s"
+msgstr "Welcome to %(instance)s"
+
+#, python-format
+msgid "You're not a member of %(instance)s."
+msgstr "You're not a member of %(instance)s."
+
+#, python-format
+msgid "You're the founder of %s, cannot leave."
+msgstr "You're the founder of %s, cannot leave."
+
+#, python-format
+msgid "You've left %(instance)s."
+msgstr "You've left %(instance)s."
+
+msgid "You cannot manipulate one instance from within another instance."
+msgstr "You cannot manipulate one instance from within another instance."
+
+msgid "Sorry, but you're not allowed to set these message options"
+msgstr "Sorry, but you're not allowed to set these message options"
+
+msgid "Email isn't activated"
+msgstr "Email isn't activated"
+
+msgid "Not permitted in system settings"
+msgstr "Not permitted in system settings"
+
+msgid "adhocracy.registration_support_email not set"
+msgstr ""
+
+#, python-format
+msgid "Could not render message: %s"
+msgstr "Could not render message: %s"
+
+#, python-format
+msgid "Message sent to %d users."
+msgstr "Message sent to %d users."
+
+msgid "Your message has been sent. Thanks."
+msgstr "Your message has been sent. Thanks."
+
+msgid "tutorial_milestones_tab"
+msgstr "This page provides you an overview of upcoming milestones of the instance."
+
+msgid "tutorial_milestone_details_tab"
+msgstr "The detailed view provides further informations about the milestone."
+
+#, python-format
+msgid "The milestone %s has been deleted."
+msgstr "The milestone %s has been deleted."
+
+msgid "Invalid input."
+msgstr "Invalid input."
+
+msgid "No OpenID given!"
+msgstr "No OpenID given!"
+
+msgid ""
+"Connection not allowed, single sign-on has been disabled on this "
+"installation"
+msgstr ""
+
+msgid "No OpenID was entered."
+msgstr "No OpenID was entered."
+
+msgid "Removal not allowed, OpenID has been disabled on this installation"
+msgstr "Removal not allowed, OpenID has been disabled on this installation"
+
+#, python-format
+msgid "No OpenID with ID '%s' exists."
+msgstr "No OpenID with ID '%s' exists."
+
+#, python-format
+msgid "You're not authorized to change %s's settings."
+msgstr "You're not authorized to change %s's settings."
+
+msgid "Successfully removed OpenID from account"
+msgstr "Successfully removed OpenID from account"
+
+msgid "OpenID login has been disabled on this installation"
+msgstr "OpenID login has been disabled on this installation"
+
+msgid "OpenID login failed."
+msgstr "OpenID login failed."
+
+msgid "You have already claimed this OpenID."
+msgstr "You have already claimed this OpenID."
+
+#, python-format
+msgid "OpenID %s is already connected to an account."
+msgstr ""
+
+msgid "Successfully added OpenID to user account."
+msgstr "Successfully added OpenID to user account."
+
+#, python-format
+msgid ""
+"OpenID %s doesn't belong to an existing user account and user registration "
+"is disabled in this installation."
+msgstr "OpenID %s doesn't belong to an existing user account and user registration is disabled in this installation."
+
+#, python-format
+msgid ""
+"The email address %s which was returned by the OpenID provider already "
+"belongs to a different user account. Please login with that account or use "
+"the forgot password functionality, and add the OpenID in your user profile "
+"settings afterwards. Sorry for the inconvenience."
+msgstr "The email address %s which was returned by the OpenID provider already belongs to a different user account. Please login with that account or use the forgot password functionality, and add the OpenID in your user profile settings afterwards. Sorry for the inconvenience."
+
+#, python-format
+msgid "Successfully created new user account %s"
+msgstr "Successfully created new user account %s"
+
+msgid "tutorial_norms_overview_tab"
+msgstr "Overview page of norms made by the group. The list shows not only the norms made by the group, but also the number of the current proposals and arguments which have been currently suggested."
+
+msgid "No proposal has been specified"
+msgstr "No proposal has been specified"
+
+msgid "You cannot create a new norm"
+msgstr "You cannot create a new norm"
+
+#, python-format
+msgid "errors while uploading image: %s"
+msgstr ""
+
+#, python-format
+msgid "Variant %s is already present, cannot branch."
+msgstr "Variant %s is already present, cannot branch."
+
+msgid ""
+"You're trying to update to a text which is not part of this pages history"
+msgstr "You're trying to update to a text which is not part of this pages history"
+
+msgid "<i>(No text)</i>"
+msgstr "<i>(No text)</i>"
+
+msgid "<i>(No title)</i>"
+msgstr ""
+
+msgid "<i>(No differences)</i>"
+msgstr "<i>(No differences)</i>"
+
+msgid "Original version"
+msgstr "Original version"
+
+#, python-format
+msgid "Variant: \"%s\""
+msgstr "Variant: \"%s\""
+
+msgid "Original Version"
+msgstr "Original Version"
+
+#, python-format
+msgid "Page %s does not allow selections"
+msgstr ""
+
+#, python-format
+msgid "Variant %s does not exist!"
+msgstr "Variant %s does not exist!"
+
+msgid "alphabetically"
+msgstr "alphabetically"
+
+msgid "tutorial_norm_show_tab"
+msgstr "On the details page you will find the current valid original version of the proposal and every version which have been introduced for the proposal."
+
+msgid "No such text revision."
+msgstr "No such text revision."
+
+#, python-format
+msgid "Page %s does not allow comments"
+msgstr ""
+
+msgid "Cannot compare identical text revisions."
+msgstr "Cannot compare identical text revisions."
+
+msgid "Cannot compare versions of different texts."
+msgstr "Cannot compare versions of different texts."
+
+#, python-format
+msgid "The variant %s has been deleted."
+msgstr "The variant %s has been deleted."
+
+msgid "Cannot delete, if there's only one version"
+msgstr "Cannot delete, if there's only one version"
+
+msgid "The selected version has been deleted."
+msgstr "The selected version has been deleted."
+
+#, python-format
+msgid "The page %s has been deleted."
+msgstr "The page %s has been deleted."
+
+#, python-format
+msgid "Invalid text ID %s for this page/variant!"
+msgstr "Invalid text ID %s for this page/variant!"
+
+msgid "This is not an adoption poll."
+msgstr "This is not an adoption poll."
+
+msgid "This is not a rating poll."
+msgstr "This is not a rating poll."
+
+msgid "The poll has ended."
+msgstr "The poll has ended."
+
+msgid "The proposal is not undergoing a poll."
+msgstr "The proposal is not undergoing a poll."
+
+msgid "tutorial_proposal_overview_tab"
+msgstr "Overview of all previously submitted proposals. Here you will have the opportunity to write new proposals..."
+
+msgid "Please select norm and propose a change to it."
+msgstr "Please select norm and propose a change to it."
+
+msgid "tutorial_proposal_show_tab"
+msgstr "On the details page of the proposal you will find not only all useful informations, but also a range of opportunities to be actively involved."
+
+#, python-format
+msgid "Proposal: %s"
+msgstr "Proposal: %s"
+
+#, python-format
+msgid "Activity on the %s proposal"
+msgstr "Activity on the %s proposal"
+
+#, python-format
+msgid "The proposal %s has been deleted."
+msgstr "The proposal %s has been deleted."
+
+#, python-format
+msgid "Proposal: %(proposal)s"
+msgstr "Proposal: %(proposal)s"
+
+#, python-format
+msgid "You are not allowed to edit badge %i"
+msgstr ""
+
+msgid "relevance"
+msgstr "relevance"
+
+#, python-format
+msgid "The inclusion of %s has been deleted."
+msgstr "The inclusion of %s has been deleted."
+
+msgid "Page not Found"
+msgstr "Page not Found"
+
+msgid "Shibboleth authentication not enabled"
+msgstr "Shibboleth authentication not enabled"
+
+msgid "This URL shouldn't be called directly"
+msgstr "This URL shouldn't be called directly"
+
+#, python-format
+msgid "User %s has been undeleted"
+msgstr "User %s has been undeleted"
+
+msgid "Page does already exist. Select another key or language."
+msgstr "Page does already exist. Select another key or language."
+
+msgid "Page updated"
+msgstr "Page updated"
+
+msgid "Cannot find static page to edit"
+msgstr "Cannot find static page to edit"
+
+#, python-format
+msgid "Tag \"%s\" has been removed from %s \"%s\"."
+msgstr "Tag \"%s\" has been removed from %s \"%s\"."
+
+msgid "Treatment has been created."
+msgstr "Treatment has been created."
+
+#, python-format
+msgid "Could not find the entity '%s'"
+msgstr "Could not find the entity '%s'"
+
+msgid "All users have been assigned to their respective treatment badges."
+msgstr "All users have been assigned to their respective treatment badges."
+
+msgid "All users are already assigned to their respective treatment badges."
+msgstr "All users are already assigned to their respective treatment badges."
+
+msgid ""
+"You have been logged out while authenticating at twitter. Please try again."
+msgstr "You have been logged out while authenticating at twitter. Please try again."
+
+#, python-format
+msgid ""
+"You're now following %s on twitter so we can send you notifications as "
+"direct messages"
+msgstr "You're now following %s on twitter so we can send you notifications as direct messages"
+
+msgid "You have no twitter association."
+msgstr "You have no twitter association."
+
+msgid "Personal"
+msgstr "Personal"
+
+msgid "Login"
+msgstr "Login"
+
+msgid "Notifications"
+msgstr "Notifications"
+
+msgid "Advanced"
+msgstr "Advanced"
+
+msgid "Optional"
+msgstr "Optional"
+
+msgid "tutorial_user_index_intro"
+msgstr "Member list of the instance."
+
+msgid "Sorry, registration has been disabled by administrator."
+msgstr "Sorry, registration has been disabled by administrator."
+
+#, python-format
+msgid ""
+"I agree with the %s. We'll occasionally inform you about important events "
+"such as the start of a new participation process via email."
+msgstr ""
+
+msgid "Terms and Conditions"
+msgstr "Terms and conditions"
+
+msgid "Sorry, but we don't accept registrations with this email address."
+msgstr "Sorry, but we don't accept registrations with this email address."
+
+#, python-format
+msgid ""
+"Welcome to %(site_name)s! Please activate your account by clicking on the "
+"activation link we just sent to you by email. If you can't find it in your "
+"inbox, please check your spam folder."
+msgstr ""
+
+msgid "Gender-neutral"
+msgstr "Gender-neutral"
+
+msgid "Female"
+msgstr "Female"
+
+msgid "Male"
+msgstr "Male"
+
+msgid "The avatar has been deleted."
+msgstr ""
+
+msgid "No optional attributes defined."
+msgstr "No optional attributes defined."
+
+msgid "Password has been set. Have fun!"
+msgstr "Password has been set. Have fun!"
+
+msgid "There is no user registered with that email address."
+msgstr "There is no user registered with that email address."
+
+msgid ""
+"you have requested that your password be reset. In order to confirm the "
+"validity of your claim, please open the link below in your browser:"
+msgstr "You have requested that your password be reset. In order to confirm the validity of your claim, please open the link below in your browser:"
+
+#, python-format
+msgid "Login for %s"
+msgstr "Login for %s"
+
+#, python-format
+msgid "Your user name to login is: %s"
+msgstr "Your user name to login is: %s"
+
+msgid "Reset your password"
+msgstr "Reset your password"
+
+msgid "your password has been reset. It is now:"
+msgstr "your password has been reset. It is now:"
+
+msgid "Please login and change the password in your user settings."
+msgstr "Please login and change the password in your user settings."
+
+msgid "Your new password"
+msgstr "Your new password"
+
+msgid "Success. You have been sent an email with your new password."
+msgstr "Success. You have been sent an email with your new password."
+
+msgid ""
+"The reset code is invalid. Please repeat the password recovery procedure."
+msgstr "The reset code is invalid. Please repeat the password recovery procedure."
+
+msgid "The activation code is invalid. Please have it resent."
+msgstr "The activation code is invalid. Please have it resent."
+
+msgid "Thank you, The address is already activated."
+msgstr "Thank you, The address is already activated."
+
+#, python-format
+msgid "Welcome to %s"
+msgstr "Welcome to %s"
+
+msgid "Your email has been confirmed."
+msgstr "Your email has been confirmed."
+
+msgid ""
+"The activation link has been re-sent to your email address. Please check "
+"your spam folder if you can't find it in your inbox."
+msgstr ""
+
+msgid "About us"
+msgstr ""
+
+msgid "About me"
+msgstr ""
+
+msgid "Newest events"
+msgstr ""
+
+msgid "Contributions"
+msgstr ""
+
+msgid "Votes"
+msgstr "Votes"
+
+msgid "Delegations"
+msgstr "Delegations"
+
+msgid "All Events"
+msgstr "All events"
+
+msgid "Messages"
+msgstr ""
+
+msgid "Invalid login"
+msgstr "Invalid login"
+
+msgid "Invalid email / user name or password"
+msgstr "Invalid email / user name or password"
+
+msgid "Invalid user name or password"
+msgstr "Invalid user name or password"
+
+msgid "Invalid email or password"
+msgstr "Invalid email or password"
+
+#, python-format
+msgid "You can finish that session <a href='%s'>here</a>."
+msgstr "You can finish that session <a href='%s'>here</a>."
+
+#, python-format
+msgid ""
+"<p>You have successfully logged out of Adhocracy. However you might still be"
+" logged in at the central identity provider. %s</p><p>If you're on a public "
+"computer, please close your browser to complete the logout.</p>"
+msgstr "<p>You have successfully logged out of Adhocracy. However you might still be logged in at the central identity provider. %s</p><p>If you're on a public computer, please close your browser to complete the logout.</p>"
+
+msgid ""
+"You have successfully logged out of Adhocracy. However you might still be "
+"logged in through your OpenID provider. "
+msgstr "You have successfully logged out of Adhocracy. However you might still be logged in through your OpenID provider. "
+
+msgid "Successfully logged out"
+msgstr "Successfully logged out"
+
+msgid "Please use a valid email address."
+msgstr "Please use a valid email address."
+
+#, python-format
+msgid ""
+"A user tried to register on %s with the email address %s. Please contact "
+"them at %s ."
+msgstr "A user tried to register on %s with the email address %s. Please contact them at %s ."
+
+#, python-format
+msgid "Registration attempt on %s"
+msgstr "Registration attempt on %s"
+
+msgid "The account has been suspended."
+msgstr "The account has been suspended."
+
+msgid "The account has been re-activated."
+msgstr "The account has been re-activated."
+
+msgid "The account has been deleted."
+msgstr "The account has been deleted."
+
+msgid "Invalid badge choice."
+msgstr "Invalid badge choice."
+
+msgid "Added badges"
+msgstr ""
+
+msgid "Added badge"
+msgstr ""
+
+msgid "Removed badges"
+msgstr ""
+
+msgid "Removed badge"
+msgstr ""
+
+#, python-format
+msgid "%(user)s is using Adhocracy, a democratic decision-making tool."
+msgstr "%(user)s is using Adhocracy, a democratic decision-making tool."
+
+#, python-format
+msgid "%(user)ss Activity"
+msgstr "%(user)ss Activity"
+
+#, python-format
+msgid "%s is not a member of %s"
+msgstr "%s is not a member of %s"
+
+#, python-format
+msgid "%s is banned from the system."
+msgstr "%s is banned from the system."
+
+msgid "You already have a password - use that to log in."
+msgstr "You already have a password - use that to log in."
+
+#, python-format
+msgid "The user can now log in via %s"
+msgstr "The user can now log in via %s"
+
+msgid "Internal server error:velruse service not available."
+msgstr ""
+
+msgid "Login failed: "
+msgstr ""
+
+msgid ""
+"You have to give Adhocracy permission to connect to your Facebook account."
+msgstr ""
+
+#, python-format
+msgid "Logging in with %s is not allowed on this installation."
+msgstr ""
+
+msgid "Error"
+msgstr ""
+
+#, python-format
+msgid "This %(provider)s account is already connected."
+msgstr ""
+
+#, python-format
+msgid "Your %(provider)s account is locked."
+msgstr ""
+
+#, python-format
+msgid "You successfully connected to %s."
+msgstr ""
+
+#, python-format
+msgid "Your %s account is already connected."
+msgstr ""
+
+msgid ""
+"You are trying to disconnect from a provider you are disconnected from "
+"already."
+msgstr ""
+
+#, python-format
+msgid "You successfully disconnected from %(provider)s."
+msgstr ""
+
+msgid "A watchlist entry for this entity already exists."
+msgstr "A watchlist entry for this entity already exists."
+
+#, python-format
+msgid "You're not authorized to delete %s's watchlist entries."
+msgstr "You're not authorized to delete %s's watchlist entries."
+
+msgid "No username is given"
+msgstr "No username is given"
+
+msgid "Username is too short"
+msgstr "Username is too short"
+
+msgid "The username is invalid"
+msgstr "The username is invalid"
+
+msgid "That username already exists"
+msgstr "That username already exists"
+
+msgid "That email is already registered"
+msgstr "That email is already registered"
+
+msgid "That email is already used by another account"
+msgstr "That email is already used by another account"
+
+msgid "Invalid locale choice"
+msgstr "Invalid locale choice"
+
+msgid "Invalid date, expecting DD.MM.YYYY"
+msgstr "Invalid date, expecting DD.MM.YYYY"
+
+msgid ""
+"Please enter a html color code like '#f0f0f0'. '%(value)' is not a valid "
+"color code."
+msgstr "Please enter a html color code like '#f0f0f0'. '%(value)' is not a valid color code."
+
+msgid "No instance key is given"
+msgstr "No instance key is given"
+
+msgid "The instance key is invalid"
+msgstr "The instance key is invalid"
+
+msgid "An instance with that key already exists"
+msgstr "An instance with that key already exists"
+
+msgid "No static key is given"
+msgstr "No static key is given"
+
+msgid "The static key is invalid"
+msgstr "The static key is invalid"
+
+#, python-format
+msgid "No entity with ID '%s' exists"
+msgstr "No entity with ID '%s' exists"
+
+#, python-format
+msgid "No proposal with ID '%s' exists"
+msgstr "No proposal with ID '%s' exists"
+
+#, python-format
+msgid "No group with ID '%s' exists"
+msgstr "No group with ID '%s' exists"
+
+#, python-format
+msgid "Group '%s' is no instance group"
+msgstr "Group '%s' is no instance group"
+
+msgid "At least one character is required"
+msgstr "At least one character is required"
+
+msgid "You're not allowed to edit global badges"
+msgstr "You're not allowed to edit global badges"
+
+#, python-format
+msgid "No Badge ID '%s' exists"
+msgstr "No Badge ID '%s' exists"
+
+msgid "No badges selected"
+msgstr "No badges selected"
+
+msgid "Duplicates in input set of user badge IDs"
+msgstr "Duplicates in input set of user badge IDs"
+
+#, python-format
+msgid "Could not find badges %s"
+msgstr "Could not find badges %s"
+
+msgid "Duplicates in input set of user badge labels"
+msgstr ""
+
+#, python-format
+msgid "Cannot use global category %s in this instance"
+msgstr "Cannot use global category %s in this instance"
+
+#, python-format
+msgid "Badge with ID '%s' not valid in this instance"
+msgstr "Badge with ID '%s' not valid in this instance"
+
+msgid "Parent and child category instance have to match"
+msgstr "Parent and child category instance have to match"
+
+msgid "You shall not create cycles!"
+msgstr "You shall not create cycles!"
+
+#, python-format
+msgid "No revision with ID '%s' exists"
+msgstr "No revision with ID '%s' exists"
+
+#, python-format
+msgid "No comment with ID '%s' exists"
+msgstr "No comment with ID '%s' exists"
+
+#, python-format
+msgid "No watchlist entry with ID '%s' exists"
+msgstr "No watchlist entry with ID '%s' exists"
+
+msgid "Invalid reference"
+msgstr "Invalid reference"
+
+#, python-format
+msgid "No user with the user name '%s' exists"
+msgstr "No user with the user name '%s' exists"
+
+#, python-format
+msgid "No tagging with ID '%s' exists"
+msgstr "No tagging with ID '%s' exists"
+
+#, python-format
+msgid "No tag with ID '%s' exists"
+msgstr "No tag with ID '%s' exists"
+
+#, python-format
+msgid "No text with ID '%s' exists"
+msgstr "No text with ID '%s' exists"
+
+#, python-format
+msgid "No page '%s' exists"
+msgstr "No page '%s' exists"
+
+#, python-format
+msgid "Invalid page function: %s"
+msgstr "Invalid page function: %s"
+
+msgid "No name is given."
+msgstr ""
+
+#, python-format
+msgid "Invalid name: %s"
+msgstr ""
+
+#, python-format
+msgid "Name cannot be purely numeric: %s"
+msgstr ""
+
+msgid "An entry with this title already exists"
+msgstr "An entry with this title already exists"
+
+msgid "No page name is given."
+msgstr "No page name is given."
+
+#, python-format
+msgid "Invalid page name: %s"
+msgstr "Invalid page name: %s"
+
+#, python-format
+msgid "Variant name cannot be purely numeric: %s"
+msgstr "Variant name cannot be purely numeric: %s"
+
+msgid "Please select at least one recipient group"
+msgstr ""
+
+#, python-format
+msgid "Error \"%(error)s\" while reading line <pre><i>%(line_content)s</i></pre>"
+msgstr "Error \"%(error)s\" while reading line <pre><i>%(line_content)s</i></pre>"
+
+#, python-format
+msgid "The following errors occured while reading the list of users: <br />%s"
+msgstr "The following errors occured while reading the list of users: <br />%s"
+
+#, python-format
+msgid "Line %s: %s"
+msgstr "Line %s: %s"
+
+#, python-format
+msgid "Email %s is used multiple times"
+msgstr "Email %s is used multiple times"
+
+#, python-format
+msgid "Username %s is used multiple times"
+msgstr "Username %s is used multiple times"
+
+#, python-format
+msgid "Lines %s: %s"
+msgstr "Lines %s: %s"
+
+#, python-format
+msgid ""
+"You need to insert the following placeholders into the email text so we can "
+"insert enough information for the user: %s"
+msgstr "You need to insert the following placeholders into the email text so we can insert enough information for the user: %s"
+
+msgid "This is not a valid image file"
+msgstr "This is not a valid image file"
+
+msgid "The file is too big (>1MB)"
+msgstr "The file is too big (>1MB)"
+
+msgid "Please select at least one instance"
+msgstr "Please select at least one instance"
+
+msgid "Disallowed instance selected"
+msgstr "Disallowed instance selected"
+
+msgid "Invalid value"
+msgstr "Invalid value"
+
+msgid "Invalid choice"
+msgstr "Invalid choice"
+
+msgid "Incorrect. Try again."
+msgstr ""
+
+msgid "Please accept the terms of service"
+msgstr ""
+
+#, python-format
+msgid "%d days"
+msgstr "%d days"
+
+msgid "Voter"
+msgstr "Voter"
+
+msgid "Observer"
+msgstr "Observer"
+
+msgid "Supervisor"
+msgstr "Supervisor"
+
+msgid "Administrator"
+msgstr "Administrator"
+
+msgid "Default"
+msgstr "Default"
+
+msgid "Advisor"
+msgstr "Advisor"
+
+msgid "Draft"
+msgstr "Draft"
+
+msgid "Polling"
+msgstr "Polling"
+
+msgid "Adopted"
+msgstr "Adopted"
+
+msgid ""
+"A liquid democracy platform for making decisions in distributed, open groups"
+" by cooperatively creating proposals and voting on them to establish their "
+"support."
+msgstr "A liquid democracy platform for making decisions in distributed, open groups by cooperatively creating proposals and voting on them to establish their support."
+
+msgid ""
+"adhocracy, direct democracy, liquid democracy, liqd, democracy, wiki, "
+"voting,participation, group decisions, decisions, decision-making"
+msgstr "adhocracy, direct democracy, liquid democracy, liqd, democracy, wiki, voting,participation, group decisions, decisions, decision-making"
+
+msgid "Invalid request. Please go back and try again."
+msgstr "Invalid request. Please go back and try again."
+
+msgid "The method you used is not implemented."
+msgstr "The method you used is not implemented."
+
+msgid "Start"
+msgstr "Start"
+
+#, python-format
+msgid "Abuse report: %s"
+msgstr "Abuse report: %s"
+
+#, python-format
+msgid ""
+"%(user)s has reported abuse on the page %(url)s:\r\n"
+"\r\n"
+"%(message)s"
+msgstr "%(user)s has reported abuse on the page %(url)s:\r\n\r\n%(message)s"
+
+#, python-format
+msgid "Hi %s,"
+msgstr "Hi %s,"
+
+#, python-format
+msgid ""
+"Cheers,\r\n"
+"\r\n"
+"    the %s Team\r\n"
+msgstr "Cheers,\r\n\r\n    the %s Team\r\n"
+
+#, python-format
+msgid "%s <%s>"
+msgstr "%s <%s>"
+
+msgid ""
+"this email is to check the email address you have provided. In order to "
+"confirm this email address, please open the link below in your browser:"
+msgstr "this email is to check the email address you have provided. In order to confirm this email address, please open the link below in your browser:"
+
+msgid "Confirm your email address"
+msgstr "Confirm your email address"
+
+msgid "Dear Ms."
+msgstr "Dear Ms."
+
+msgid "Dear Mr."
+msgstr "Dear Mr."
+
+msgid "Dear"
+msgstr "Dear"
+
+msgid "[{site_name}] Message from {sender_name}: {subject}"
+msgstr ""
+
+msgid "Oldest"
+msgstr "Oldest"
+
+msgid "Newest"
+msgstr "Brand new"
+
+msgid "Activity"
+msgstr "Activity"
+
+msgid "Alphabetically"
+msgstr "Alphabetically"
+
+msgid "Newest Comment"
+msgstr "Brand new comment"
+
+msgid "Most Support"
+msgstr "Most of support"
+
+msgid "Mixed"
+msgstr "Mixed"
+
+msgid "Controversy"
+msgstr "Controversy"
+
+msgid "Sort by proposal creation date"
+msgstr "Sort by proposal creation date"
+
+msgid "Sort by date of the last comment"
+msgstr "Sort by date of the last comment"
+
+msgid "Sort by number of votes for the proposal"
+msgstr "Sort by number of votes for the proposal"
+
+msgid ""
+"First sort by proposals with important badges, then by the difference "
+"between number of votes for and against and also prefer newer proposals"
+msgstr ""
+
+msgid ""
+"Prefer proposals where the gap between votes for and against is close, also "
+"proposals with more absolut votes are rated slightly higher"
+msgstr ""
+
+msgid "Sort by the characters of the proposal title"
+msgstr "Sort by the characters of the proposal title"
+
+msgid "by date"
+msgstr "by date"
+
+msgid "most proposals"
+msgstr "most proposals"
+
+msgid "hierarchical"
+msgstr "hierarchical"
+
+msgid "activity"
+msgstr "activity"
+
+msgid "Badge"
+msgstr "Badge"
+
+msgid "Instance hidden state"
+msgstr ""
+
+msgid "hidden"
+msgstr ""
+
+msgid "visible"
+msgstr "visible"
+
+msgid "Instance state"
+msgstr ""
+
+msgid "frozen"
+msgstr ""
+
+msgid "open"
+msgstr ""
+
+msgid "Instance"
+msgstr "Instance"
+
+msgid "Status"
+msgstr ""
+
+msgid "Badges"
+msgstr "Badges"
+
+msgid "Created by"
+msgstr "Created by"
+
+msgid "Tags"
+msgstr "Tags"
+
+msgid "Milestones"
+msgstr "Milestones"
+
+msgid "Yays - nays"
+msgstr "Yays - nays"
+
+msgid "Most Votes"
+msgstr "Most votes"
+
+msgid "Yays + nays"
+msgstr "Yays + nays"
+
+msgid "Most Ayes"
+msgstr "Most Ayes"
+
+msgid "Most Nays"
+msgstr "Most Nays"
+
+msgid "Support with impact"
+msgstr ""
+
+msgid "Age and Support"
+msgstr "Age and support"
+
+msgid "Rating"
+msgstr "Rating"
+
+msgid "Date"
+msgstr "Date"
+
+msgid "User behavior"
+msgstr "User behavior"
+
+msgid "Other"
+msgstr "Other"
+
+msgid "Support"
+msgstr "Support"
+
+msgid "Newest Proposals"
+msgstr "Brand new proposals"
+
+msgid "Support by"
+msgstr "Support by"
+
+msgid "The changes were saved."
+msgstr "The changes were saved."
+
+msgid "No update required."
+msgstr "No update required."
+
+msgid "The image is not avaliable in that size"
+msgstr ""
+
+msgid "We're sorry, but it seems that you lack the permissions to continue."
+msgstr "We're sorry, but it seems that you lack the permissions to continue."
+
+msgid ""
+"The requested action could not be performed, because the session which was "
+"active when you visited the previous page has expired."
+msgstr ""
+
+msgid "Back to your current session"
+msgstr ""
+
+#, python-format
+msgid "variant %(variant)s of %(page)s"
+msgstr "variant %(variant)s of %(page)s"
+
+msgid "is for"
+msgstr "is for"
+
+msgid "abstains on"
+msgstr "abstains on"
+
+msgid "is against"
+msgstr "is against"
+
+msgid "is"
+msgstr ""
+
+msgid "for"
+msgstr "for"
+
+msgid "against"
+msgstr "against"
+
+#, python-format
+msgid "comment on %s"
+msgstr "comment on %s"
+
+#, python-format
+msgid "argument on %s"
+msgstr "argument on %s"
+
+msgid "(Undefined)"
+msgstr "(Undefined)"
+
+#, python-format
+msgid "New user: %(user)s"
+msgstr "New user: %(user)s"
+
+msgid "signed up"
+msgstr "signed up"
+
+#, python-format
+msgid "%(user)s: profile updated"
+msgstr "%(user)s: profile updated"
+
+msgid "edited their profile"
+msgstr "edited their profile"
+
+#, python-format
+msgid "%(user)s: profile was edited by %(admin)s"
+msgstr "%(user)s: profile was edited by %(admin)s"
+
+#, python-format
+msgid "had their profile updated by %(admin)s"
+msgstr "had their profile updated by %(admin)s"
+
+#, python-format
+msgid "New instance: %(instance)s"
+msgstr "New instance: %(instance)s"
+
+#, python-format
+msgid "founded the %(instance)s instance"
+msgstr "founded the %(instance)s instance"
+
+#, python-format
+msgid "%(instance)s: instance was updated"
+msgstr "%(instance)s: instance was updated"
+
+#, python-format
+msgid "updated the %(instance)s instance"
+msgstr "updated the %(instance)s instance"
+
+#, python-format
+msgid "Deleted Adhocracy: %(instance)s"
+msgstr "Deleted Adhocracy: %(instance)s"
+
+#, python-format
+msgid "deleted the %(instance)s instance"
+msgstr "deleted the %(instance)s instance"
+
+#, python-format
+msgid "%(instance)s: %(user)s joined"
+msgstr "%(instance)s: %(user)s joined"
+
+#, python-format
+msgid "joined %(instance)s"
+msgstr "joined %(instance)s"
+
+#, python-format
+msgid "%(instance)s: %(user)s left"
+msgstr "%(instance)s: %(user)s left"
+
+#, python-format
+msgid "left %(instance)s"
+msgstr "left %(instance)s"
+
+#, python-format
+msgid "%(instance)s: %(user)s was forced to leave"
+msgstr "%(instance)s: %(user)s was forced to leave"
+
+#, python-format
+msgid "was forced to leave %(instance)s by %(admin)s"
+msgstr "was forced to leave %(instance)s by %(admin)s"
+
+#, python-format
+msgid "%(instance)s: %(user)s is now a %(group)s"
+msgstr "%(instance)s: %(user)s is now a %(group)s"
+
+#, python-format
+msgid "now is a %(group)s within %(instance)s"
+msgstr "now is a %(group)s within %(instance)s"
+
+#, python-format
+msgid "New proposal: %(proposal)s"
+msgstr "New proposal: %(proposal)s"
+
+#, python-format
+msgid "created %(proposal)s"
+msgstr "created %(proposal)s"
+
+#, python-format
+msgid "Edit proposal: %(proposal)s"
+msgstr "Edit proposal: %(proposal)s"
+
+#, python-format
+msgid "edited %(proposal)s"
+msgstr "edited %(proposal)s"
+
+#, python-format
+msgid "Proposal badged: %(proposal)s"
+msgstr ""
+
+#, python-format
+msgid "badged %(proposal)s"
+msgstr ""
+
+#, python-format
+msgid "Poll cancelled: %(proposal)s"
+msgstr "Poll cancelled: %(proposal)s"
+
+#, python-format
+msgid "re-drafted %(proposal)s"
+msgstr "re-drafted %(proposal)s"
+
+#, python-format
+msgid "New Poll: %(proposal)s"
+msgstr "New poll: %(proposal)s"
+
+#, python-format
+msgid "called a vote on %(proposal)s"
+msgstr "called a vote on %(proposal)s"
+
+#, python-format
+msgid "Deleted proposal: %(proposal)s"
+msgstr "Deleted proposal: %(proposal)s"
+
+#, python-format
+msgid "deleted %(proposal)s"
+msgstr "deleted %(proposal)s"
+
+#, python-format
+msgid "New amendment to %(page)s: %(proposal)s"
+msgstr ""
+
+#, python-format
+msgid "created amendment %(proposal)s to %(page)s"
+msgstr ""
+
+#, python-format
+msgid "Edit amendment to %(page)s: %(proposal)s"
+msgstr ""
+
+#, python-format
+msgid "edited amendment %(proposal)s to %(page)s"
+msgstr ""
+
+#, python-format
+msgid "Deleted amendment to %(page)s: %(proposal)s"
+msgstr ""
+
+#, python-format
+msgid "deleted amendment %(proposal)s to %(page)s"
+msgstr ""
+
+#, python-format
+msgid "New page: %(page)s"
+msgstr "New page: %(page)s"
+
+#, python-format
+msgid "created %(page)s"
+msgstr "created %(page)s"
+
+#, python-format
+msgid "Edit page: %(page)s"
+msgstr "Edit page: %(page)s"
+
+#, python-format
+msgid "edited %(page)s"
+msgstr "edited %(page)s"
+
+#, python-format
+msgid "Deleted page: %(page)s"
+msgstr "Deleted page: %(page)s"
+
+#, python-format
+msgid "deleted %(page)s"
+msgstr "deleted %(page)s"
+
+#, python-format
+msgid "New comment: in %(topic)s"
+msgstr "New comment: in %(topic)s"
+
+#, python-format
+msgid "New argument: in %(topic)s"
+msgstr "New argument: in %(topic)s"
+
+#, python-format
+msgid "commented on %(topic)s"
+msgstr "commented on %(topic)s"
+
+#, python-format
+msgid "discussed %(topic)s"
+msgstr "discussed %(topic)s"
+
+#, python-format
+msgid "Edited comment: in %(topic)s"
+msgstr "Edited comment: in %(topic)s"
+
+#, python-format
+msgid "Edited argument: in %(topic)s"
+msgstr "Edited argument: in %(topic)s"
+
+#, python-format
+msgid "edited comment on %(topic)s"
+msgstr "edited comment on %(topic)s"
+
+#, python-format
+msgid "edited argument about %(topic)s"
+msgstr "edited argument about %(topic)s"
+
+#, python-format
+msgid "Deleted comment: in %(topic)s"
+msgstr "Deleted comment: in %(topic)s"
+
+#, python-format
+msgid "Deleted argument: in %(topic)s"
+msgstr "Deleted argument: in %(topic)s"
+
+#, python-format
+msgid "deleted comment from %(topic)s"
+msgstr "deleted comment from %(topic)s"
+
+#, python-format
+msgid "deleted argument from %(topic)s"
+msgstr "deleted argument from %(topic)s"
+
+#, python-format
+msgid "New Delegation: %(user)s delegated %(scope)s to %(agent)s"
+msgstr "New delegation: %(user)s delegated %(scope)s to %(agent)s"
+
+#, python-format
+msgid "delegated voting on %(scope)s to %(agent)s"
+msgstr "delegated voting on %(scope)s to %(agent)s"
+
+#, python-format
+msgid "Revoked Delegation: %(user)s revoked delegation to %(agent)s"
+msgstr "Revoked delegation: %(user)s revoked delegation to %(agent)s"
+
+#, python-format
+msgid "revoked their delegation on %(scope)s to %(agent)s"
+msgstr "revoked their delegation on %(scope)s to %(agent)s"
+
+#, python-format
+msgid "Vote: %(user)s %(vote)s %(poll)s"
+msgstr "Vote: %(user)s %(vote)s %(poll)s"
+
+#, python-format
+msgid "%(vote)s %(poll)s"
+msgstr "%(vote)s %(poll)s"
+
+#, python-format
+msgid "Rating: %(user)s %(vote)s %(poll)s"
+msgstr "Rating: %(user)s %(vote)s %(poll)s"
+
+#, python-format
+msgid "Variants: %(user)s %(vote)s %(poll)s"
+msgstr "Variants: %(user)s %(vote)s %(poll)s"
+
+#, python-format
+msgid "Message sent: %(message)s"
+msgstr ""
+
+#, python-format
+msgid "sent message: \"%(message)s\""
+msgstr ""
+
+#, python-format
+msgid "Adhocracy says hello: %(test)s"
+msgstr "Adhocracy says hello: %(test)s"
+
+#, python-format
+msgid "test %(test)s"
+msgstr "test %(test)s"
+
+#, python-format
+msgid "You received %(user)ss delegation on %(scope)s"
+msgstr "You received %(user)ss delegation on %(scope)s"
+
+#, python-format
+msgid "You lost %(user)ss delegation on %(scope)s"
+msgstr "You lost %(user)ss delegation on %(scope)s"
+
+#, python-format
+msgid "Membership: You've been kicked from %(instance)s"
+msgstr "Membership: You've been kicked from %(instance)s"
+
+#, python-format
+msgid "Membership: you're now a %(group)s in %(instance)s"
+msgstr "Membership: you're now a %(group)s in %(instance)s"
+
+#, python-format
+msgid "Your vote %(vote)s %(poll)s"
+msgstr "Your vote %(vote)s %(poll)s"
+
+#, python-format
+msgid "Your delegate %(agent)s %(vote)s %(poll)s"
+msgstr "Your delegate %(agent)s %(vote)s %(poll)s"
+
+#, python-format
+msgid "Delegation conflict regarding %(poll)s"
+msgstr "Delegation conflict regarding %(poll)s"
+
+#, python-format
+msgid "Comment Reply: %(topic)s"
+msgstr "Comment reply: %(topic)s"
+
+#, python-format
+msgid "Comment Edit: %(topic)s"
+msgstr "Comment edit: %(topic)s"
+
+#, python-format
+msgid "Message from %(sender)s: %(message)s"
+msgstr ""
+
+msgid "User"
+msgstr ""
+
+msgid "Membership"
+msgstr ""
+
+msgid "Proposal"
+msgstr "Proposal"
+
+msgid "Amendment"
+msgid_plural "Amendments"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Page"
+msgstr ""
+
+msgid "Comment"
+msgid_plural "Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Delegation"
+msgstr "Delegation"
+
+msgid "Vote"
+msgstr "Vote"
+
+msgid "Variant"
+msgstr ""
+
+msgid "Message"
+msgstr ""
+
+msgid "Massmessage"
+msgstr ""
+
+msgid "Test"
+msgstr ""
+
+msgid "created"
+msgstr ""
+
+msgid "edited"
+msgstr ""
+
+msgid "delete"
+msgstr "delete"
+
+msgid "joined"
+msgstr ""
+
+msgid "left"
+msgstr ""
+
+msgid "updated"
+msgstr ""
+
+msgid "badged"
+msgstr ""
+
+msgid "changed state"
+msgstr ""
+
+msgid "deleted"
+msgstr ""
+
+msgid "revoked"
+msgstr ""
+
+msgid "casted"
+msgstr ""
+
+msgid "selected"
+msgstr ""
+
+msgid "sent"
+msgstr ""
+
+msgid "tested"
+msgstr ""
+
+msgid "received"
+msgstr ""
+
+msgid "lost"
+msgstr ""
+
+msgid "conflicted"
+msgstr ""
+
+msgid "replied"
+msgstr ""
+
+msgid "This proposal is currently being voted on and cannot be modified."
+msgstr "This proposal is currently being voted on and cannot be modified."
+
+msgid "Settings"
+msgstr "Settings"
+
+msgid "Proposals"
+msgstr "Proposals"
+
+msgid "Norms"
+msgstr "Norms"
+
+msgid "Members"
+msgstr "Members"
+
+msgid "(Unknown)"
+msgstr "(Unknown)"
+
+msgid "Implementation"
+msgstr "Implementation"
+
+#, python-format
+msgid "%s (deleted user)"
+msgstr "%s (deleted user)"
+
+msgid "Dashboard"
+msgstr "Dashboard"
+
+msgid "This action is only available in an instance context."
+msgstr "This action is only available in an instance context."
+
+msgid "show more"
+msgstr "show more"
+
+msgid "show less"
+msgstr "show less"
+
+msgid "(no milestone)"
+msgstr "(no milestone)"
+
+msgid "Your current vote is already pro"
+msgstr "Your current vote is already pro"
+
+msgid "Click to change you vote to neutral"
+msgstr "Click to change you vote to neutral"
+
+msgid "Click to vote pro"
+msgstr "Click to vote pro"
+
+msgid "Click to vote con"
+msgstr "Click to vote con"
+
+msgid "Your current vote is already con"
+msgstr "Your current vote is already \"against\""
+
+msgid "Topic is frozen. Click to view the list of votes."
+msgstr ""
+
+msgid "Instance is frozen. Click to view the list of votes."
+msgstr ""
+
+msgid "Voting has ended. Click to view the list of votes"
+msgstr "Voting has ended. Click to view the list of votes"
+
+msgid "Please login or register to vote."
+msgstr "Please login or register to vote."
+
+#, python-format
+msgid "Please join the instance \"%s\" to vote."
+msgstr "Please join the instance \"%s\" to vote."
+
+msgid "Click to see the list of votes"
+msgstr "Click to see the list of votes"
+
+msgid "User badge"
+msgstr ""
+
+msgid "Instance badge"
+msgstr ""
+
+msgid "Proposal badge"
+msgstr ""
+
+msgid "Category"
+msgstr "Category"
+
+msgid "Status badge"
+msgstr ""
+
+#, python-format
+msgid ""
+"\r\n"
+"\r\n"
+"More info: %(url)s"
+msgstr "\r\n\r\nMore info: %(url)s"
+
+msgid "(Untitled)"
+msgstr "(Untitled)"
+
+#, python-format
+msgid "%s (section %s)"
+msgstr ""
+
+msgid "Status Quo"
+msgstr "Status Quo"
+
+#, python-format
+msgid "The random username %s has been assigned to you."
+msgstr "The random username %s has been assigned to you."
+
+msgid "formatting hints"
+msgstr "formatting hints"
+
+msgid "Save"
+msgstr "Save"
+
+msgid "or"
+msgstr "or"
+
+msgid "cancel"
+msgstr "cancel"
+
+msgid "Notify me of updates."
+msgstr "Notify me of updates."
+
+msgid "Follow Norm"
+msgstr "Follow norm"
+
+msgid "Follow Instance"
+msgstr "Follow instance"
+
+msgid "Follow Proposal"
+msgstr "Follow proposal"
+
+msgid "Follow Milestone"
+msgstr "Follow milestone"
+
+msgid "Follow User"
+msgstr "Follow user"
+
+msgid "Follow Comment"
+msgstr "Follow comment"
+
+msgid "Follow Tag"
+msgstr "Follow Tag"
+
+msgid "Following"
+msgstr "Following"
+
+msgid "Unfollow"
+msgstr "Unfollow"
+
+msgid "Disable email notifications."
+msgstr "Disable email notifications."
+
+msgid "Receive email notifications if changes occur."
+msgstr "Receive email notifications if changes occur."
+
+msgid "Message to Members"
+msgstr ""
+
+msgid "Send us your feedback"
+msgstr "Send us your feedback"
+
+msgid "Title"
+msgstr "Title"
+
+msgid "One line summary"
+msgstr "One line summary"
+
+msgid "Description"
+msgstr "Description"
+
+msgid "Please enter your feedback in here and help us to improve our website"
+msgstr ""
+
+msgid "Submit"
+msgstr "Submit"
+
+msgid "List existing feedback"
+msgstr "List existing feedback"
+
+msgid "Feedback"
+msgstr "Feedback"
+
+msgid "Proposal Category"
+msgstr "Proposal category"
+
+msgid "No Category"
+msgstr "No category"
+
+msgid "Others"
+msgstr "Others"
+
+msgid "Default proposal sort order"
+msgstr ""
+
+msgid "Register"
+msgstr "Register"
+
+msgid "Get an account to participate in the discussion."
+msgstr "Get an account to participate in the discussion."
+
+msgid "Log in to participate in the discussion."
+msgstr "Log in to participate in the discussion."
+
+msgid "join"
+msgstr "join"
+
+msgid "Join this instance to start contributing."
+msgstr "Join this instance to start contributing."
+
+msgid "Edit profile"
+msgstr "Edit profile"
+
+msgid ""
+"You need to set an email in your profile in order to contribute to this "
+"instance."
+msgstr "You need to set an email in your profile in order to contribute to this instance."
+
+#, python-format
+msgid "Resend validation email to %s"
+msgstr "Resend validation email to %s"
+
+msgid "Send activation link"
+msgstr "Send activation link"
+
+msgid ""
+"Please validate your email address in order to contribute to this instance."
+msgstr "Please validate your email address in order to contribute to this instance."
+
+msgid "Your registered email address is:"
+msgstr "Your registered email address is:"
+
+msgid "Provide information"
+msgstr "Provide information"
+
+msgid "Please provide statistical information to help scientific evaluation!"
+msgstr "Please provide statistical information to help scientific evaluation!"
+
+#, python-format
+msgid "Hide %s"
+msgstr ""
+
+#, python-format
+msgid "Show %s"
+msgstr ""
+
+msgid "code of conduct"
+msgstr "code of conduct"
+
+msgid "terms and conditions"
+msgstr "terms and conditions"
+
+msgid "privacy"
+msgstr "privacy"
+
+msgid "imprint"
+msgstr "imprint"
+
+msgid "Search"
+msgstr "Search"
+
+#, python-format
+msgid "<b>%s</b> members"
+msgstr "<b>%s</b> members"
+
+#, python-format
+msgid "<b>%s</b> proposals"
+msgstr "<b>%s</b> proposals"
+
+#, python-format
+msgid "<b>%s</b> comments"
+msgstr "<b>%s</b> comments"
+
+#, python-format
+msgid "<b>%s</b> votes"
+msgstr "<b>%s</b> votes"
+
+msgid "Menu"
+msgstr ""
+
+msgid "Instances"
+msgstr "Instances"
+
+msgid "Watchlist"
+msgstr "Watchlist"
+
+msgid "About"
+msgstr "About"
+
+msgid "Help"
+msgstr "Help"
+
+msgid "Edit Profile"
+msgstr "Edit Profile"
+
+msgid "View Profile"
+msgstr "View profile"
+
+msgid "Administrate Site"
+msgstr "Administrate site"
+
+msgid "Logout"
+msgstr "Logout"
+
+#, python-format
+msgid "Search in \"%s\""
+msgstr ""
+
+#, python-format
+msgid "%(start)s-%(end)s out of %(total)s"
+msgstr "%(start)s-%(end)s out of %(total)s"
+
+msgid "No entries."
+msgstr "No entries."
+
+msgid "previous"
+msgstr "previous"
+
+msgid "next"
+msgstr "next"
+
+msgid "entries"
+msgstr "entries"
+
+msgid "Filter list"
+msgstr "Filter list"
+
+msgid "reset"
+msgstr "reset"
+
+msgid "Edit"
+msgstr "Edit"
+
+#, python-format
+msgid "%i item"
+msgid_plural "%i items"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "None"
+msgstr ""
+
+msgid "Sort:"
+msgstr "Sort:"
+
+msgid "You are using an outdated web browser. Click here to update."
+msgstr "You are using an outdated web browser. Click here to update."
+
+msgid "Adhocracy works best with JavaScript enabled."
+msgstr "Adhocracy works best with JavaScript enabled."
+
+#, python-format
+msgid ""
+"We could not display an overlay. See <a href=\"%s\">here</a> what it would "
+"have displayed."
+msgstr ""
+
+msgid ""
+"This installation of adhocracy has been frozen. You can look at all content "
+"but editing is disabled."
+msgstr ""
+
+msgid "Welcome back!"
+msgstr "Welcome back!"
+
+#, python-format
+msgid "Welcome to %s!"
+msgstr "Welcome to %s!"
+
+msgid "Please choose a password:"
+msgstr "Please choose a password:"
+
+msgid "Please pick a secure password"
+msgstr "Please pick a secure password"
+
+msgid "Set Password"
+msgstr "Set Password"
+
+msgid "Validate email to start contributing."
+msgstr "Validate email to start contributing."
+
+msgid "This instance has been frozen - you can not edit or post anything."
+msgstr "This instance has been frozen - you can not edit or post anything."
+
+msgid "Skip to the navigation"
+msgstr ""
+
+msgid "Skip to the content"
+msgstr ""
+
+msgid "Next"
+msgstr "Next"
+
+msgid "Previous"
+msgstr "Previous"
+
+msgid "start_this_tutorial"
+msgstr "Start this tutorial"
+
+msgid "disable_this_tutorial"
+msgstr "Disable this tutorial"
+
+msgid "disable_all_tutorials"
+msgstr "Disable all tutorials"
+
+#, python-format
+msgid ""
+"A total of <a href=\"%(url)s\">%(votes)s votes</a>, thereof %(for)s ayes and"
+" %(against)s nays"
+msgstr "A total of <a href=\"%(url)s\">%(votes)s votes</a>, thereof %(for)s ayes and %(against)s nays"
+
+#, python-format
+msgid "A total of %(votes)s votes, thereof %(for)s ayes and %(against)s nays"
+msgstr "A total of %(votes)s votes, thereof %(for)s ayes and %(against)s nays"
+
+msgid "Votes by User Group"
+msgstr "Votes by user group"
+
+msgid "Shortlink"
+msgstr "Shortlink"
+
+msgid ""
+"You can log in using various external user accounts. Please be aware that "
+"the login via external providers may cause security and privacy related "
+"risks."
+msgstr ""
+
+msgid "Login with Facebook"
+msgstr ""
+
+msgid "Report abuse"
+msgstr "Report abuse"
+
+msgid "Link:"
+msgstr "Link:"
+
+msgid "Reason to report this page..."
+msgstr "Reason to report this page..."
+
+msgid "Send"
+msgstr "Send"
+
+msgid "Export"
+msgstr "Export"
+
+msgid "Export users"
+msgstr "Export users"
+
+msgid "Include personal data"
+msgstr "Include personal data"
+
+msgid "Include password hashes"
+msgstr "Include password hashes"
+
+msgid "Export badges"
+msgstr "Export badges"
+
+msgid "Export content (instances)"
+msgstr "Export content (instances)"
+
+msgid "Include proposals"
+msgstr "Include proposals"
+
+msgid "Include comments"
+msgstr "Include comments"
+
+msgid "Include proposal creator badges"
+msgstr "Include proposal creator badges"
+
+msgid "Include ratings"
+msgstr "Include ratings"
+
+msgid "Export request log"
+msgstr "Export request log"
+
+msgid "Export static pages"
+msgstr "Export static pages"
+
+msgid "Export format:"
+msgstr "Export format:"
+
+msgid "JSON"
+msgstr "JSON"
+
+msgid "JSON file"
+msgstr "JSON file"
+
+msgid "JSON file, compressed with gzip"
+msgstr "JSON file, compressed with gzip"
+
+msgid "Tar file, compressed with bz2"
+msgstr "Tar file, compressed with bz2"
+
+msgid "Zip file"
+msgstr "Zip file"
+
+msgid "Export Now"
+msgstr "Export Now"
+
+msgid "Import"
+msgstr "Import"
+
+msgid "Import users"
+msgstr "Import users"
+
+msgid "Generate welcome codes"
+msgstr "Generate welcome codes"
+
+msgid "Import badges"
+msgstr "Import badges"
+
+msgid "Import content (instances)"
+msgstr "Import content (instances)"
+
+msgid "Import static pages"
+msgstr "Import static pages"
+
+msgid "Replacement strategy"
+msgstr "Replacement strategy"
+
+msgid "Update duplicate entries"
+msgstr "Update duplicate entries"
+
+msgid "Skip duplicate entries"
+msgstr "Skip duplicate entries"
+
+msgid "Detect"
+msgstr "Detect"
+
+msgid "ZIP"
+msgstr "ZIP"
+
+msgid "Import Now"
+msgstr "Import now"
+
+msgid "Import successfully performed."
+msgstr "Import successfully performed."
+
+msgid "back to main page"
+msgstr "back to main page"
+
+msgid "Site administration"
+msgstr "Site administration"
+
+msgid "Admin: Group Permissions"
+msgstr "Admin: Group permissions"
+
+msgid "Admin &raquo; Group Permissions"
+msgstr "Admin &raquo; Group permissions"
+
+msgid "Group Permissions"
+msgstr "Group permissions"
+
+msgid ""
+"WARNING: This allows you to shut yourself out of your adhocracy. Handle with"
+" care!"
+msgstr "WARNING: This allows you to shut yourself out of your adhocracy. Handle with care!"
+
+msgid "Permissions"
+msgstr "Permissions"
+
+msgid "Users"
+msgstr "Users"
+
+msgid "Import Users"
+msgstr "Import users"
+
+msgid "Update Search Index"
+msgstr "Update search index"
+
+msgid "Fix autojoin"
+msgstr "Fix autojoin"
+
+msgid "Static Pages"
+msgstr "Static pages"
+
+msgid "Send a message to users"
+msgstr ""
+
+msgid "Assign treatment badges"
+msgstr "Assign treatment badges"
+
+msgid "Admin: Import Users"
+msgstr "Admin: Import users"
+
+msgid "Users CSV"
+msgstr "Users CSV"
+
+msgid ""
+"Paste the content of a CSV file, e.g. exported from Excel, with the 4 "
+"columns username, display name, email and badges (badges are optional, comma"
+" separated and with quotes around the list)"
+msgstr ""
+
+msgid "Email Subject"
+msgstr "Email subject"
+
+msgid "Email Template"
+msgstr "Email template"
+
+msgid "The name with which the user can log in."
+msgstr "The name with which the user can log in."
+
+msgid "The initial password for the user."
+msgstr "The initial password for the user."
+
+msgid "An URL for the user to activate his account."
+msgstr "An URL for the user to activate his account."
+
+msgid "The name that will be displayed to other users."
+msgstr "The name that will be displayed to other users."
+
+msgid "The email address of the user."
+msgstr "The email address of the user."
+
+msgid "for additional columns."
+msgstr ""
+
+msgid ""
+"The template for the mail to the users. You need to insert some placeholders"
+" into the email text."
+msgstr "The template for the mail to the users. You need to insert some placeholders into the email text."
+
+msgid "Required"
+msgstr "Required"
+
+msgid "Imported Users"
+msgstr "Imported users"
+
+msgid "But some errors occured"
+msgstr "But some errors occured"
+
+msgid "You successfully created the following users:"
+msgstr "You successfully created the following users:"
+
+#, python-format
+msgid ""
+"You successfully created the following users and added them as Members to "
+"the instance \"%s\":"
+msgstr "You successfully created the following users and added them as Members to the instance \"%s\":"
+
+msgid "The following errors happend while creating the users"
+msgstr "The following errors happend while creating the users"
+
+msgid "These users could not be created:"
+msgstr "These users could not be created:"
+
+msgid "These users were created, but we could not send out mails:"
+msgstr ""
+
+msgid ""
+"Note that the following entities will be unbadged if this badge is deleted:"
+msgstr ""
+
+msgid "This badge is not in use, so it can be removed safely."
+msgstr ""
+
+msgid "Are you sure you want to delete this badge?"
+msgstr ""
+
+msgid "Confirm"
+msgstr "Confirm"
+
+msgid "Category title"
+msgstr ""
+
+msgid "Badge title"
+msgstr "Badge title"
+
+msgid "Category description"
+msgstr ""
+
+msgid "Badge description"
+msgstr "Badge description"
+
+msgid "Long category description"
+msgstr ""
+
+msgid ""
+"Here you can add a more detailed description of your category with markdown."
+msgstr "Here you can add a more detailed description of your category with markdown. You can add pictures and links."
+
+msgid "The color that is used to show the category"
+msgstr ""
+
+msgid "The color that is used to show the badge"
+msgstr ""
+
+msgid "Like '#a4a4a4'"
+msgstr "Like '#a4a4a4'"
+
+msgid "Preview:"
+msgstr "Preview:"
+
+msgid "Image upload does not work in your browser. Please update."
+msgstr ""
+
+msgid "Image"
+msgstr ""
+
+msgid "Upload image. This is used instead of color to show the badge"
+msgstr ""
+
+msgid "Delete current thumbnail image"
+msgstr "Delete current thumbnail image"
+
+msgid "Upload category image"
+msgstr ""
+
+msgid "Delete current category image"
+msgstr ""
+
+msgid "Check to hide category in user interface"
+msgstr ""
+
+msgid "Check to hide badge in user interface"
+msgstr "Check to hide badge in user interface"
+
+msgid "Group"
+msgstr "Group"
+
+msgid "No Group"
+msgstr "No Group"
+
+msgid ""
+"Automatically assign all users with this badge to the selected group for all"
+" instances in the adhocracy site."
+msgstr "Automatically assign all users with this badge to the selected group for all instances in the adhocracy site."
+
+msgid "Automatically assign all users with this badge to the selected group."
+msgstr "Automatically assign all users with this badge to the selected group."
+
+msgid "Display group in instances"
+msgstr "Display group in instances"
+
+msgid "Display this badge instead of the normal user group."
+msgstr "Display this badge instead of the normal user group."
+
+msgid "Global"
+msgstr "Global"
+
+msgid "Parent Category"
+msgstr ""
+
+msgid "Link this category to a superordinate category"
+msgstr ""
+
+msgid "No Parent Category"
+msgstr ""
+
+msgid "Global categories"
+msgstr "Global categories"
+
+msgid "Local instance categories"
+msgstr "Local instance categories"
+
+msgid ""
+"Description to select children of this category (irrelevant if this category"
+" doesn't have any children)"
+msgstr ""
+
+msgid "Impact"
+msgstr ""
+
+msgid "Delete"
+msgstr "Delete"
+
+msgid "New"
+msgstr "New"
+
+msgid "In all instances"
+msgstr "In every instances"
+
+#, python-format
+msgid "In instance \"%s\""
+msgstr "In the instance \"%s\""
+
+msgid "No badges added yet."
+msgstr "No badges added yet."
+
+msgid ""
+"User badges allow you to organize your members according to certain groups."
+msgstr ""
+
+msgid ""
+"Proposal badges may be used to link different attributes to a proposal (e.g."
+" official, first phase, etc.)."
+msgstr ""
+
+msgid ""
+"Add new categories to allow your users to categorize their proposals "
+"according to a topic."
+msgstr ""
+
+msgid ""
+"Status badges may be used to indicate different statuses of proposals in "
+"your participation process (e.g. accepted, rejected, in discussion, etc.) "
+"with an image."
+msgstr ""
+
+msgid "Preview"
+msgstr "Preview"
+
+msgid "Assigned Group"
+msgstr "Assigned Group"
+
+msgid "Display"
+msgstr "Display"
+
+msgid "Actions"
+msgstr "Actions"
+
+msgid "yes"
+msgstr "yes"
+
+msgid "no"
+msgstr "no"
+
+msgid "Parent"
+msgstr "Parent"
+
+msgid "Global badges"
+msgstr ""
+
+msgid "No Badge"
+msgstr ""
+
+msgid "invisible"
+msgstr ""
+
+msgid "No Badges"
+msgstr ""
+
+msgid "more"
+msgstr ""
+
+msgid "View and discuss"
+msgstr ""
+
+msgid "edit"
+msgstr "edit"
+
+msgid "Introduce a new idea to debate."
+msgstr "Introduce a new idea to debate."
+
+msgid "Create new proposal"
+msgstr "Create new proposal"
+
+msgid "Join instance to create a new proposal."
+msgstr "Join instance to create a new proposal."
+
+msgid "Login to create a new proposal."
+msgstr "Login to create a new proposal."
+
+msgid "Validate email in order to create a new proposal."
+msgstr "Validate email in order to create a new proposal."
+
+msgid "Find proposals"
+msgstr "Find proposals"
+
+msgid "new proposal"
+msgstr "new proposal"
+
+msgid "Norms in this Category"
+msgstr ""
+
+msgid "Argument"
+msgstr "Argument"
+
+#, python-format
+msgid "Comment on %s"
+msgstr "Comment on %s"
+
+#, python-format
+msgid "Argument about %s"
+msgstr "Argument about %s"
+
+msgid "Are you sure you want to delete this comment?"
+msgstr "Are you sure you want to delete this comment?"
+
+msgid "Are you sure you want to delete this argument?"
+msgstr "Are you sure you want to delete this argument?"
+
+msgid "Edit comment"
+msgstr "Edit comment"
+
+msgid "Edit argument"
+msgstr "Edit argument"
+
+#, python-format
+msgid "Comment on: %s"
+msgstr "Comment on: %s"
+
+#, python-format
+msgid "Argument about: %s"
+msgstr "Argument about: %s"
+
+msgid "Comment History"
+msgstr "Comment History"
+
+msgid "Argument History"
+msgstr "Argument history"
+
+msgid "New comment"
+msgstr "New comment"
+
+msgid "New argument"
+msgstr "New argument"
+
+#, python-format
+msgid "created %s"
+msgstr "created %s"
+
+msgid "revert here"
+msgstr "revert here"
+
+msgid "delete version permanently"
+msgstr "delete version permanently"
+
+#, python-format
+msgid "on %s"
+msgstr "on %s"
+
+#, python-format
+msgid "edited %s"
+msgstr "edited %s"
+
+msgid "Add comment"
+msgstr "Add comment"
+
+msgid "Start new discussion"
+msgstr "Start new discussion"
+
+msgid "Join instance to comment."
+msgstr "Join instance to comment."
+
+msgid "Join instance to discuss."
+msgstr "Join instance to discuss."
+
+msgid "Login to comment."
+msgstr "Login to comment."
+
+msgid "Login to discuss."
+msgstr "Login to discuss."
+
+msgid "Validate email in order to comment."
+msgstr "Validate email in order to comment."
+
+msgid "Validate email in order to discuss."
+msgstr "Validate email in order to discuss."
+
+msgid "No comments were made yet."
+msgstr "No comments were made yet."
+
+msgid "No discussions were started yet."
+msgstr "No discussions were started yet."
+
+msgid "is pro"
+msgstr "is pro"
+
+msgid "is con"
+msgstr "is con"
+
+msgid "(deleted)"
+msgstr "(deleted)"
+
+msgid "This comment has been deleted."
+msgstr "This comment has been deleted."
+
+msgid "This argument has been deleted."
+msgstr "This argument has been deleted."
+
+#, python-format
+msgid "deleted %s"
+msgstr "deleted %s"
+
+#, python-format
+msgid "edited %s by %s"
+msgstr "edited %s by %s"
+
+msgid "history"
+msgstr "history"
+
+msgid "report"
+msgstr "report"
+
+msgid "reply"
+msgstr "reply"
+
+msgid "Add argument"
+msgstr "Add argument"
+
+msgid "Join instance to reply"
+msgstr "Join instance to reply"
+
+msgid "Join instance to argue"
+msgstr "Join instance to argue"
+
+msgid "Login to reply"
+msgstr "Login to reply"
+
+msgid "Login to argue"
+msgstr "Login to argue"
+
+msgid "Validate email in order to reply"
+msgstr "Validate email in order to reply"
+
+msgid "Validate email in order to argue"
+msgstr "Validate email in order to argue"
+
+msgid "Comment is..."
+msgstr "Comment is..."
+
+msgid "Argument is..."
+msgstr "Argument is..."
+
+msgid "Pro"
+msgstr "Pro"
+
+msgid "Neutral"
+msgstr "Neutral"
+
+msgid "Con"
+msgstr "Con"
+
+msgid "Allow others to edit this comment."
+msgstr "Allow others to edit this comment."
+
+msgid "Allow others to edit this argument."
+msgstr "Allow others to edit this argument."
+
+#, python-format
+msgid "Comments on %s"
+msgstr "Comments on %s"
+
+#, python-format
+msgid "Discussion on %s"
+msgstr "Discussion on %s"
+
+msgid "Context"
+msgstr "Context"
+
+msgid "History"
+msgstr "History"
+
+msgid "abstained"
+msgstr "abstained"
+
+msgid "undecided"
+msgstr "undecided"
+
+msgid ""
+"The user's delegates have voted, but no consensus wasreached among them. The"
+" decision is deferred."
+msgstr "The user's delegates have voted, but no consensus wasreached among them. The decision is deferred."
+
+msgid "The decision was made without delegations."
+msgstr "The decision was made without delegations."
+
+msgid "The decision was determined as a result of the following delegations:"
+msgstr "The decision was determined as a result of the following delegations:"
+
+msgid "on"
+msgstr "on"
+
+msgid "review"
+msgstr "review"
+
+#, python-format
+msgid "Delegate: %s"
+msgstr "Delegate: %s"
+
+msgid ""
+"These people might be a good match for your delegation. Either select one of"
+" the listed delegates, or enter another user name."
+msgstr "These people might be a good match for your delegation. Either select one of the listed delegates, or enter another user name."
+
+msgid "Start typing, you will receive suggestions to find the user."
+msgstr "Start typing, you will receive suggestions to find the user."
+
+msgid "Include decisions made before now."
+msgstr "Include decisions made before now."
+
+#, python-format
+msgid "Delegation: %s"
+msgstr "Delegation: %s"
+
+msgid "Cancel this delegation."
+msgstr "Cancel this delegation."
+
+msgid "revoke"
+msgstr "revoke"
+
+#, python-format
+msgid "from %s"
+msgstr "from %s"
+
+#, python-format
+msgid "to %s"
+msgstr "to %s"
+
+#, python-format
+msgid "established %s"
+msgstr "established %s"
+
+#, python-format
+msgid "revoked %s"
+msgstr "revoked %s"
+
+msgid "The delegation can be overridden or revoked at any time."
+msgstr "The delegation can be overridden or revoked at any time."
+
+msgid ""
+"No decisions have been based on this delegation yet. As soon as this "
+"delegation leads to any decisions, they will be listed here."
+msgstr "No decisions have been based on this delegation yet. As soon as this delegation leads to any decisions, they will be listed here."
+
+msgid "track record"
+msgstr "track record"
+
+#, python-format
+msgid "created <b>%s</b>"
+msgstr "created <b>%s</b>"
+
+msgid "Delegate voting"
+msgstr "Delegate voting"
+
+msgid "You have not delegated voting."
+msgstr "You have not delegated voting."
+
+msgid "You have delegated voting to:"
+msgstr "You have delegated voting to:"
+
+msgid "Delegate your say in this debate to another participant."
+msgstr "Delegate your say in this debate to another participant."
+
+msgid "delegate"
+msgstr "delegate"
+
+msgid "You hold an additional vote."
+msgstr "You hold an additional vote."
+
+#, python-format
+msgid "You hold %s additional votes."
+msgstr "You hold %s additional votes."
+
+#, python-format
+msgid "Error %d"
+msgstr ""
+
+#, python-format
+msgid ""
+"If this error continues to occur, please %snotify the developers%s with a "
+"description of what you were trying to do."
+msgstr ""
+
+msgid ""
+"An automated email message describing the situation has been sent to our "
+"developers."
+msgstr "An automated email message describing the situation has been sent to our developers."
+
+msgid "Latest events"
+msgstr ""
+
+msgid "All current events."
+msgstr "All current events."
+
+msgid "Show full proposal"
+msgstr ""
+
+msgid "Show full amendment"
+msgstr ""
+
+msgid "Show full comment"
+msgstr ""
+
+msgid "Show full message"
+msgstr ""
+
+msgid "created new proposal"
+msgstr ""
+
+msgid "display all events"
+msgstr ""
+
+msgid "Delete instance"
+msgstr "Delete instance"
+
+msgid "Are you sure you want to delete this instance?"
+msgstr "Are you sure you want to delete this instance?"
+
+#, python-format
+msgid "Join %s"
+msgstr ""
+
+msgid "Join"
+msgstr ""
+
+msgid "Join instance"
+msgstr ""
+
+msgid ""
+"In order to perform the requested action, you need to join this instance."
+msgstr ""
+
+msgid "Leave"
+msgstr "Leave"
+
+msgid ""
+"Are you sure you want to leave this instance? You will no longer be able to "
+"write contributions or to vote."
+msgstr "Are you sure you want to leave this instance? You will no longer be able to write contributions or to vote."
+
+#, python-format
+msgid "Edit badges for %s"
+msgstr "Edit badges for %s"
+
+msgid "Edit Badges"
+msgstr "Edit badges"
+
+msgid "No badges"
+msgstr ""
+
+msgid "Create new instance"
+msgstr "Create new instance"
+
+msgid "Instances are little democracies that are ran by their community."
+msgstr "Instances are little democracies that are ran by their community."
+
+msgid "participate"
+msgstr ""
+
+msgid "new instance"
+msgstr "new instance"
+
+#, python-format
+msgid "Manage: %s"
+msgstr "Manage: %s"
+
+msgid "Manage"
+msgstr "Manage"
+
+msgid "New Instance"
+msgstr "New instance"
+
+msgid "Instance name"
+msgstr "Instance name"
+
+msgid "Instance URL"
+msgstr "Instance URL"
+
+msgid ""
+"The address may only contain alpha-numeric characters. Please note that this"
+" key cannot be changed after the instance has been created."
+msgstr "The address may only contain alpha-numeric characters. Please note that this key cannot be changed after the instance has been created."
+
+msgid ""
+"Describe what the goals of this instance are and who constitutes its "
+"community."
+msgstr "Describe what the goals of this instance are and who constitutes its community."
+
+msgid "(Both Markdown and HTML are allowed here.)"
+msgstr "(Both Markdown and HTML are allowed here.)"
+
+msgid ""
+"Please select one or more of the following presets for the preliminary "
+"configuration of your instance. If necessary you can adapt individual "
+"options later."
+msgstr ""
+
+msgid ""
+"You can select one or more of these presets to reset your instance "
+"configuration. Note that any manual configuration will be lost."
+msgstr ""
+
+msgid "Collecting ideas"
+msgstr ""
+
+msgid ""
+"The participants can make proposals and discuss these. This option enables "
+"everything from an open dialogue to formulating and organizing concrete "
+"ideas and goals."
+msgstr ""
+
+msgid "Planning Ideas"
+msgstr ""
+
+msgid ""
+"The participants can make, discuss and plan proposals in connection to "
+"concrete dates through a calendar function."
+msgstr ""
+
+msgid "Collaboratively drafting texts"
+msgstr ""
+
+msgid ""
+"Whether you want to draft statutes, strategic papers or a manifesto – with "
+"this option the participants will have the chance to discuss, and "
+"collaboratively work on the texts you introduce to the platform."
+msgstr ""
+
+msgid "Configure"
+msgstr ""
+
+msgid "Reset"
+msgstr "Reset"
+
+msgid "Allow editing of comments by default"
+msgstr "Allow editing of comments by default"
+
+msgid "Allow editing of proposals by default"
+msgstr ""
+
+msgid "Require to propose a variant"
+msgstr "Require to propose a variant"
+
+msgid ""
+"If norms are activated, this option will ensure that users change at least "
+"one norm with each proposal."
+msgstr ""
+
+msgid "Hide global categories"
+msgstr "Hide global categories"
+
+msgid "Members of your instance only see the catagories you created."
+msgstr ""
+
+msgid "Display page index as tiles"
+msgstr ""
+
+msgid "Split proposal list to several pages."
+msgstr ""
+
+msgid ""
+"Disabling pagination might be useful if you want to be able to link to "
+"individual list rows."
+msgstr ""
+
+msgid "Hide this instance"
+msgstr "Hide this instance"
+
+msgid "Select whether this instance will be shown in public listings."
+msgstr "Select whether this instance will be shown in public listings."
+
+msgid "Freeze this instance"
+msgstr "Freeze this instance"
+
+msgid ""
+"This will prevent members from making any more changes or contributions to "
+"the existing discussion."
+msgstr ""
+
+msgid "Break down Voting Result by Badge"
+msgstr "Break down Voting Result by Badge"
+
+msgid "Display how the users with the selected badges feel about the issue."
+msgstr "Display how the users with the selected badges feel about the issue."
+
+msgid "Embed latest events"
+msgstr ""
+
+#, python-format
+msgid ""
+"To display the latest events from your %(site_name)s instance you can add "
+"this embed code to your website."
+msgstr ""
+
+msgid "Extra CSS"
+msgstr "Extra CSS"
+
+msgid "You can add css that will be used to style the instance."
+msgstr "You can add css that will be used to style the instance."
+
+msgid "Status badge image width"
+msgstr ""
+
+msgid "Status badge image height"
+msgstr ""
+
+msgid "Authenticate this instance"
+msgstr ""
+
+msgid "Activates additional feature, e.g. massinvite und massmessage"
+msgstr "Activates additional feature, e.g. massinvite und massmessage."
+
+msgid "Language"
+msgstr "Language"
+
+msgid ""
+"The language setting will be overridden by the user's personal setting."
+msgstr "The language setting will be overridden by the user's personal setting."
+
+msgid "Enable delegated voting"
+msgstr ""
+
+msgid "Enable milestones"
+msgstr ""
+
+msgid ""
+"Milestones link the online discussions with offline events through a "
+"calendar function."
+msgstr ""
+
+msgid "Display category pages"
+msgstr ""
+
+msgid "categories"
+msgstr ""
+
+msgid "Themes"
+msgstr ""
+
+msgid ""
+"You can select one of several themes to customize the appearance of this "
+"instance."
+msgstr ""
+
+msgid "default"
+msgstr ""
+
+msgid "preview"
+msgstr ""
+
+msgid "Delete this instance"
+msgstr ""
+
+msgid "Require email validation"
+msgstr "Require email validation"
+
+msgid "Require instance members to validate their email address."
+msgstr "Require instance members to validate their email address."
+
+msgid "Default group for new members"
+msgstr ""
+
+msgid ""
+"This will initially decide whether new members can actively participate in "
+"or simply read the discussions on your instance. You can change user groups "
+"of individual members later."
+msgstr ""
+
+msgid "user badges"
+msgstr ""
+
+msgid "Name of the instance"
+msgstr ""
+
+msgid "Give your instance a name."
+msgstr ""
+
+msgid "Description of the instance"
+msgstr ""
+
+msgid ""
+"This is what appears on the overview-page of your instance. Describe the "
+"participation process you have in mind. Clearly state the goals of this "
+"group and how its members can participate in reaching them."
+msgstr ""
+
+msgid "Logo"
+msgstr "Logo"
+
+msgid "Select the logo you would like to have as header of your group."
+msgstr ""
+
+msgid "Current logo"
+msgstr "Current logo"
+
+msgid "Delete current logo"
+msgstr "Delete current logo"
+
+msgid "Use logo as background image"
+msgstr ""
+
+msgid "Show proposals navigation item"
+msgstr ""
+
+msgid "Show proposals as an extra tab"
+msgstr "Show proposals as an extra tab."
+
+msgid "proposal badges"
+msgstr ""
+
+msgid "status badges"
+msgstr ""
+
+msgid "Enable norms"
+msgstr ""
+
+msgid ""
+"Unlike proposals, norms are documents that you introduce to be discussed on "
+"the platform."
+msgstr ""
+
+msgid "Allow members to propose norms"
+msgstr ""
+
+msgid "Allow members to change norms from within proposals"
+msgstr ""
+
+msgid "Members will be able to propose changes of the norms you introduce."
+msgstr ""
+
+msgid "Show norms navigation item"
+msgstr "Show norms navigation item"
+
+msgid "Show norms as an extra tab"
+msgstr "Show norms as an extra tab."
+
+msgid "show a list of proposals"
+msgstr "show a list of proposals"
+
+msgid "more proposals"
+msgstr "more proposals"
+
+msgid "Next milestone"
+msgstr "Next milestone"
+
+msgid "Next milestones"
+msgstr "Next milestones"
+
+msgid "Newest Events"
+msgstr "Brand new events"
+
+msgid "Information"
+msgstr "Information"
+
+msgid "Created"
+msgstr "Created"
+
+#, python-format
+msgid "by %s on %s"
+msgstr "by %s on %s"
+
+msgid "Votings"
+msgstr "Votings"
+
+msgid "By the numbers"
+msgstr "By the numbers"
+
+#, python-format
+msgid "<b>%s</b> community members"
+msgstr "<b>%s</b> community members"
+
+msgid "tutorial_instance_proposals_table"
+msgstr "Here you can find a list of the last proposals adopted."
+
+msgid "tutorial_instance_proposal_button"
+msgstr "You can here directly submit new proposals or you can display more informations."
+
+msgid "Close"
+msgstr "Close"
+
+msgid "tutorial_instance_numbers"
+msgstr "Here you will find a brief outline of the current instance membership, the number of the proposals submitted and of the arguments listed below."
+
+#, python-format
+msgid "%s proposal"
+msgid_plural "%s proposals"
+msgstr[0] "%s proposal"
+msgstr[1] "%s proposals"
+
+#, python-format
+msgid "%s norm"
+msgid_plural "%s norms"
+msgstr[0] "%s norm"
+msgstr[1] "%s norms"
+
+msgid "Send mass message"
+msgstr "Send mass message"
+
+msgid ""
+"Please note that users may not necessarily receive this message by email. "
+"The message will however show up in their dashboards."
+msgstr ""
+
+msgid "Filter users ..."
+msgstr "Filter users ..."
+
+msgid "... by instance:"
+msgstr "... by instance:"
+
+msgid "... by badge:"
+msgstr "... by badge:"
+
+msgid "Subject"
+msgstr "Subject"
+
+msgid "Body"
+msgstr "Body"
+
+msgid "Use {name} and {salutation} to address the user directly."
+msgstr ""
+
+msgid ""
+"Add a note about why the user got this message, and how to unsubscribe."
+msgstr "Add a note about why the user got this message, and how to unsubscribe."
+
+msgid "Uncheck if user management is centralized."
+msgstr "Uncheck if user management is centralized."
+
+msgid "Include footer"
+msgstr "Include footer"
+
+msgid "Sender identity"
+msgstr "Sender identity"
+
+msgid "Customize sender name: "
+msgstr ""
+
+msgid ""
+"Please note that your e-mail address may be included in this message to give"
+" the recipient a method to reply to you."
+msgstr ""
+
+msgid "Send to ..."
+msgstr ""
+
+msgid "Creators"
+msgstr ""
+
+#, python-format
+msgid "Users who have participated in writing \"%s\""
+msgstr ""
+
+msgid "Supporters"
+msgstr ""
+
+#, python-format
+msgid "Users who have voted in favour of \"%s\""
+msgstr ""
+
+msgid "Opponents"
+msgstr ""
+
+#, python-format
+msgid "Users who have voted against \"%s\""
+msgstr ""
+
+msgid "Mass Message Preview"
+msgstr "Mass message preview"
+
+#, python-format
+msgid "You're about to send the following message to %s recipients:"
+msgstr "You're about to send the following message to %s recipients:"
+
+msgid "The message will go to the following users:"
+msgstr "The message will go to the following users:"
+
+#, python-format
+msgid "The following message was sent to you by %s:"
+msgstr "The following message was sent to you by %s:"
+
+#, python-format
+msgid "You can reply to %s by sending mail to: %s"
+msgstr "You can reply to %s by sending mail to: %s"
+
+#, python-format
+msgid ""
+"You receive this message because you are signed in to the message service on"
+" %(site_name)s. You can change your subscription settings on the following "
+"page: %(url)s"
+msgstr ""
+
+#, python-format
+msgid "Message %s"
+msgstr "Message %s"
+
+#, python-format
+msgid "Dear %s, ..."
+msgstr "Dear %s, ..."
+
+msgid "Message sent"
+msgstr ""
+
+#, python-format
+msgid "by %(creator)s on %(datetime)s"
+msgstr ""
+
+msgid "Recipient"
+msgstr ""
+
+#, python-format
+msgid "%d recipients"
+msgstr ""
+
+msgid "Recipients"
+msgstr ""
+
+#, python-format
+msgid "You and %d others"
+msgstr ""
+
+#, python-format
+msgid "Delete: %s"
+msgstr "Delete: %s"
+
+msgid "Are you sure you want to delete this milestone?"
+msgstr "Are you sure you want to delete this milestone?"
+
+#, python-format
+msgid "Edit %s"
+msgstr "Edit %s"
+
+msgid "Edit milestone"
+msgstr "Edit milestone"
+
+msgid "Milestone title"
+msgstr "Milestone title"
+
+msgid "Milestone description"
+msgstr "Milestone description"
+
+msgid "Give a brief description of the milestone."
+msgstr "Give a brief description of the milestone."
+
+msgid "Date of the milestone"
+msgstr "Date of the milestone"
+
+msgid "Please use the DD.MM.YYYY format."
+msgstr "Please use the DD.MM.YYYY format."
+
+msgid "Show all proposals"
+msgstr ""
+
+msgid "Show all open proposals if milestone is in the future."
+msgstr ""
+
+msgid "Create new milestone"
+msgstr "Create new milestone"
+
+msgid "Upcoming Milestones"
+msgstr "Upcoming Milestones"
+
+msgid "Past Milestones"
+msgstr "Past milestones"
+
+msgid "Create a new milestone."
+msgstr "Create a new milestone."
+
+msgid "new milestone"
+msgstr "new milestone"
+
+msgid "tutorial_milestones_timeline"
+msgstr "Next to the interactive calender where milestones have been created  at approximately the same time..."
+
+msgid "tutorial_milestones_listing"
+msgstr "...find all milestones on the list below. By clicking you will reach the detailed page of the selected milestone."
+
+msgid "New milestone"
+msgstr "New milestone"
+
+msgid "Last Change"
+msgstr "Last change"
+
+msgid "(unknown)"
+msgstr "(unknown)"
+
+msgid "Associated Proposals"
+msgstr "Associated proposals"
+
+msgid "No proposals are connected to this milestone"
+msgstr "No proposals are connected to this milestone"
+
+msgid "Associated Norms"
+msgstr "Associated norms"
+
+msgid "No norms are connected to this milestone"
+msgstr "No norms are connected to this milestone"
+
+msgid "tutorial_milestone_details_follow"
+msgstr "Do you find the milestone relevant? Then you can add it to your watchlist."
+
+msgid "tutorial_milestone_details_description"
+msgstr "And having a look at informations related to the goal of the milestone - if it deals e.g. with a working group meeting or with a poll."
+
+msgid "tutorial_milestone_details_listing"
+msgstr "Here you will find a list of every proposals and norm which should be high related to the milestone."
+
+msgid "with an abstention on"
+msgstr "with an abstention on"
+
+#, python-format
+msgid "On %s, %s wrote:"
+msgstr "On %s, %s wrote:"
+
+msgid "Add a single sign-on service"
+msgstr ""
+
+msgid "Sign in"
+msgstr "Sign in"
+
+msgid "Continue"
+msgstr "Continue"
+
+msgid ""
+"Single sign-on services allow you to use a single login on many web sites."
+msgstr ""
+
+msgid "Select a user name"
+msgstr "Select a user name"
+
+msgid "User name"
+msgstr "User name"
+
+msgid "A unique user name is required for you to complete sign up and login."
+msgstr ""
+
+#, python-format
+msgid ""
+"The user name \"%s\" received from your OpenID provider is invalid or "
+"already used. Please provide a different, unique user name."
+msgstr ""
+
+msgid "Username:"
+msgstr "Username:"
+
+msgid "Are you sure you want to delete this page?"
+msgstr "Are you sure you want to delete this page?"
+
+#, python-format
+msgid "Are you sure you want to purge variant %s?"
+msgstr "Are you sure you want to purge variant %s?"
+
+msgid ""
+"WARNING: This will remove all revisions of the variant from any proposals "
+"that might support it."
+msgstr "WARNING: This will remove all revisions of the variant from any proposals that might support it."
+
+msgid "Are you sure you want to purge the following version:"
+msgstr "Are you sure you want to purge the following version:"
+
+#, python-format
+msgid "Variant: %s"
+msgstr "Variant: %s"
+
+msgid "This variant has no text."
+msgstr "This variant has no text."
+
+msgid "Related Proposals"
+msgstr "Related proposals"
+
+msgid "(supports this variant)"
+msgstr "(supports this variant)"
+
+msgid "Create a new proposal..."
+msgstr "Create a new proposal..."
+
+msgid "Edit variant"
+msgstr "Edit variant"
+
+msgid "Edit section"
+msgstr ""
+
+#, python-format
+msgid "Norm: %s"
+msgstr "Norm: %s"
+
+msgid "Variant Name"
+msgstr "Variant name"
+
+msgid "Text"
+msgstr "Text"
+
+msgid "Abstract"
+msgstr ""
+
+msgid "Page abstract. This is only used if a page is displayed as a tile."
+msgstr ""
+
+msgid "Display subnorms as sections"
+msgstr ""
+
+msgid "Allow Comments"
+msgstr ""
+
+msgid "Allow Amendments"
+msgstr ""
+
+msgid "Use markdown formatting."
+msgstr "Use markdown formatting."
+
+msgid ""
+"Upload a logo for this page. Please note that the logo will only be "
+"displayed in the pages index."
+msgstr ""
+
+msgid "Parent page:"
+msgstr "Parent page:"
+
+msgid "Relates to a milestone"
+msgstr "Relates to a milestone"
+
+msgid "Popular tags"
+msgstr "Popular tags"
+
+msgid "Create new norm"
+msgstr "Create new norm"
+
+msgid "Create a new norm."
+msgstr "Create a new norm."
+
+msgid "new norm"
+msgstr "new norm"
+
+msgid "tutorial_norms_overview_table"
+msgstr "The list shows not only decisions with have been introduced by the group. Under the decisions banner is also displayed the number of the currently associated proposals and arguments."
+
+msgid "tutorial_norms_overview_facets"
+msgstr "For a better overview you can filter the selection of proposals by using the field keywords."
+
+msgid "New page"
+msgstr "New page"
+
+#, python-format
+msgid "Add section to %s"
+msgstr ""
+
+msgid "Create norm"
+msgstr "Create norm"
+
+msgid "Norm title"
+msgstr "Norm title"
+
+msgid "New norm"
+msgstr "New norm"
+
+msgid "Section content"
+msgstr ""
+
+msgid "Norm content"
+msgstr "Norm content"
+
+msgid "Use as a container for other norms"
+msgstr ""
+
+msgid "Upload a logo for this page"
+msgstr ""
+
+msgid "Tag and classify"
+msgstr "Tag and classify"
+
+msgid "The new norm will be categorized under the specified parent theme."
+msgstr "The new norm will be categorized under the specified parent theme."
+
+msgid "Highlight Changes"
+msgstr "Highlight Changes"
+
+msgid "On"
+msgstr "On"
+
+msgid "Off"
+msgstr "Off"
+
+msgid "Propose New Amendment"
+msgstr ""
+
+msgid "New Proposal"
+msgstr ""
+
+msgid "Information about the norm"
+msgstr "Information about the norm"
+
+msgid "Last Activity"
+msgstr "Last activity"
+
+msgid "This page is not assigned to any category"
+msgstr "This page is not assigned to any category"
+
+#, python-format
+msgid "This norm relates to the milestone %s."
+msgstr "This norm relates to the milestone %s."
+
+msgid "Subnorms"
+msgstr "Subnorms"
+
+msgid "View Proposal"
+msgstr "View proposal"
+
+#, python-format
+msgid "Created by %(creator)s on %(datetime)s"
+msgstr ""
+
+#, python-format
+msgid "Proposed amendments for \"%s\""
+msgstr ""
+
+msgid "No text."
+msgstr "No text."
+
+msgid "Text compared to the original version"
+msgstr "Text compared to the original version"
+
+msgid "Reasoning"
+msgstr ""
+
+msgid "tutorial_norm_show_vote"
+msgstr "You can evaluate original and submitted variants of a proposal by clicking on the arrow below and by expressing your consent (high) or your refusal (down). In this case you can agree or refuse more than one version."
+
+msgid "tutorial_norm_show_diff"
+msgstr "Decide if changes should be emphasized in comparison to the original version."
+
+msgid "tutorial_norm_show_new"
+msgstr "Here you can also introduce a new variant of the norm."
+
+msgid "Comments"
+msgstr "Comments"
+
+msgid "Discussions"
+msgstr "Discussions"
+
+msgid "Discussion"
+msgid_plural "Discussions"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Amendments"
+msgstr ""
+
+msgid "Add section"
+msgstr ""
+
+msgid "This norm has been split into several sections."
+msgstr ""
+
+msgid ""
+"You can propose amendments and comment each section individually by using "
+"the controls on the right."
+msgstr ""
+
+msgid "hide sub-topics"
+msgstr "hide sub-topics"
+
+msgid "show sub-topics"
+msgstr "show sub-topics"
+
+#, python-format
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] "%s comment"
+msgstr[1] "%s comments"
+
+#, python-format
+msgid "latest <b>%s</b>"
+msgstr "latest <b>%s</b>"
+
+msgid "(none)"
+msgstr "(none)"
+
+msgid "Propose alternative language."
+msgstr "Propose alternative language."
+
+msgid "branch new variant"
+msgstr "branch new variant"
+
+msgid "Edit the status quo."
+msgstr "Edit the status quo."
+
+msgid "Edit this variant."
+msgstr "Edit this variant."
+
+msgid "Delete this variant."
+msgstr "Delete this variant."
+
+msgid "purge variant"
+msgstr "purge variant"
+
+#, python-format
+msgid "Variant %s of %s"
+msgstr "Variant %s of %s"
+
+#, python-format
+msgid "Variant of %s"
+msgstr "Variant of %s"
+
+msgid "End a poll"
+msgstr "End a poll"
+
+msgid ""
+"You are about to cancel this poll. This means that the proposal will become "
+"editable again but that all votes that have been cast at this time "
+"<strong>will be invalidated</strong>."
+msgstr "You are about to cancel this poll. This means that the proposal will become editable again but that all votes that have been cast at this time <strong>will be invalidated</strong>."
+
+msgid "to abstain"
+msgstr "to abstain"
+
+msgid "or:"
+msgstr "or:"
+
+msgid "Poll"
+msgstr "Poll"
+
+msgid "Option"
+msgstr "Option"
+
+msgid "Percent"
+msgstr "Percent"
+
+msgid "Affirm"
+msgstr "Affirm"
+
+msgid "Dissent"
+msgstr "Dissent"
+
+msgid "Abstain"
+msgstr "Abstain"
+
+msgid "vote"
+msgstr "vote"
+
+#, python-format
+msgid "%d votes"
+msgstr "%d votes"
+
+#, python-format
+msgid "ended %s"
+msgstr "ended %s"
+
+#, python-format
+msgid "began %s"
+msgstr "began %s"
+
+msgid "no enddate"
+msgstr "no enddate"
+
+#, python-format
+msgid "Votes: %s"
+msgstr "Votes: %s"
+
+msgid ""
+"Vote results are updated with a short delay. After casting your vote, expect"
+" a short delay before the tally updates."
+msgstr "Vote results are updated with a short delay. After casting your vote, expect a short delay before the tally updates."
+
+msgid "Latest Events"
+msgstr "Latest events"
+
+msgid "This is a record of all recent actions concerning this proposal."
+msgstr ""
+
+msgid "Call a poll"
+msgstr "Call a poll"
+
+msgid ""
+"You are about to call for a vote. When you do this, you will lose the "
+"ability to <strong>change the proposal's wording</strong> unless you cancel "
+"the vote."
+msgstr "You are about to call for a vote. When you do this, you will lose the ability to <strong>change the proposal's wording</strong> unless you cancel the vote."
+
+msgid "Are you sure you want to delete this proposal?"
+msgstr "Are you sure you want to delete this proposal?"
+
+msgid "Status badges"
+msgstr ""
+
+msgid "No status badges"
+msgstr ""
+
+msgid "No Status Badge"
+msgstr ""
+
+#, python-format
+msgid "Delegations: %s"
+msgstr "Delegations: %s"
+
+msgid "Propose new Variant"
+msgstr "Propose new Variant"
+
+msgid "Join instance to propose a new variant."
+msgstr "Join instance to propose a new variant."
+
+msgid "Login to propose a new variant."
+msgstr "Login to propose a new variant."
+
+msgid "Validate email in order to propose a new variant."
+msgstr "Validate email in order to propose a new variant."
+
+msgid "Get Involved"
+msgstr "Get Involved"
+
+msgid "Kein Text"
+msgstr "No text"
+
+msgid "History of this variant"
+msgstr "History of this variant"
+
+msgid "Votes for this variant"
+msgstr "Votes for this variant"
+
+#, python-format
+msgid "Edit &ldquo;%s&rdquo;"
+msgstr "Edit &ldquo;%s&rdquo;"
+
+msgid "Amendment title"
+msgstr ""
+
+msgid "Proposal title"
+msgstr "Proposal title"
+
+msgid "New amendment"
+msgstr ""
+
+msgid "New proposal"
+msgstr "New proposal"
+
+msgid "Proposal goals"
+msgstr "Proposal goals"
+
+msgid "Give a brief explanation of the idea behind your amendment."
+msgstr ""
+
+msgid "Give a brief description of <b>the goals</b> of your proposal."
+msgstr "Give a brief description of <b>the goals</b> of your proposal."
+
+msgid "The amendment would..."
+msgstr ""
+
+msgid "The proposal would..."
+msgstr "The proposal would..."
+
+msgid "Status Badge"
+msgstr ""
+
+msgid "No Status Badges"
+msgstr ""
+
+msgid "Collaboration and Notification"
+msgstr "Collaboration and notification"
+
+msgid "Allow modifications by other users"
+msgstr ""
+
+msgid "Freeze proposal"
+msgstr ""
+
+msgid "tutorial_proposal_overview_table"
+msgstr "The list provides a list of every proposal which has been introduced since now. Every proposal has been sorted according to several criteria."
+
+msgid "tutorial_proposal_overview_facets"
+msgstr "You can search, with the help of the search field, proposals by title or content and sort out relevant search hits according to different categories. For example you can sort by most of the support, brand new proposals or alphabetically."
+
+msgid "tutorial_proposal_overview_new"
+msgstr "Is your idea not yet available? Then you can lay your own proposal out."
+
+msgid "Create new amendment"
+msgstr ""
+
+msgid "Proposed changes"
+msgstr ""
+
+msgid "Change norms with this proposal"
+msgstr "Change norms with this proposal"
+
+msgid ""
+"Proposals are implemented by including changes towards new or existing norm."
+" Norms are fixed documents that represent the consensus of this instance and"
+" can only be changed through a vote. Amend the proposal to change or create "
+"a norm."
+msgstr "Proposals are implemented by including changes towards new or existing norm. Norms are fixed documents that represent the consensus of this instance and can only be changed through a vote. Amend the proposal to change or create a norm."
+
+msgid "Select a norm to change:"
+msgstr "Select a norm to change:"
+
+msgid "Multiple tags can be separated by commas."
+msgstr "Multiple tags can be separated by commas."
+
+msgid "Delete this proposal."
+msgstr "Delete this proposal."
+
+#, python-format
+msgid "%s Discussions"
+msgstr "%s Discussions"
+
+msgid "1 Proposed Implementation"
+msgstr ""
+
+#, python-format
+msgid "%s Proposed Implementations"
+msgstr "%s Proposed implementations"
+
+msgid "Proposed Implementations"
+msgstr "Proposed implementations"
+
+msgid "Propose to change a norm"
+msgstr "Propose to change a norm"
+
+msgid "Login to propose to change a norm"
+msgstr "Login to propose to change a norm"
+
+msgid "Join instance to propose to change a norm"
+msgstr "Join instance to propose to change a norm"
+
+msgid "Validate email in order to propose to change a norm"
+msgstr "Validate email in order to propose to change a norm"
+
+msgid "tutorial_proposal_show_vote"
+msgstr "You can either support a proposal or refuse it."
+
+msgid "tutorial_proposal_show_follow"
+msgstr "And you can take it down in your watch list."
+
+msgid "tutorial_proposal_show_information"
+msgstr "Have a look at the informations concerning the proposal..."
+
+msgid "tutorial_proposal_show_tags"
+msgstr "...add keywords for this proposal..."
+
+msgid "tutorial_proposal_show_share"
+msgstr "...or you can share the proposal with your friends on Facebook, Google+ or Twitter."
+
+msgid "tutorial_proposal_show_vote_comment"
+msgstr "It is not possible to evaluate just the comments."
+
+msgid "tutorial_proposal_show_answers"
+msgstr "...you can also have a look at the responses provided..."
+
+msgid "tutorial_proposal_show_answer"
+msgstr "...you can even write an answer to an argument..."
+
+msgid "tutorial_proposal_show_new_discussion"
+msgstr "...and introduce new arguments."
+
+msgid "tutorial_proposal_show_propose_variant"
+msgstr "Or you can play an active role in suggesting proposals or introducing alternatives."
+
+msgid "This proposal is not assigned to any category"
+msgstr "This proposal is not assigned to any category"
+
+#, python-format
+msgid "This proposal relates to the deleted milestone %s."
+msgstr "This proposal relates to the deleted milestone %s."
+
+#, python-format
+msgid "This proposal relates to the milestone %s."
+msgstr "This proposal relates to the milestone %s."
+
+msgid "This proposal is not related to a milestone"
+msgstr "This proposal is not related to a milestone"
+
+#, python-format
+msgid "by %s on %s, %s changes since then."
+msgstr "by %s on %s, %s changes since then."
+
+msgid "(new)"
+msgstr "(new)"
+
+#, python-format
+msgid "%s%% approval"
+msgstr "%s%% approval"
+
+#, python-format
+msgid "%s:%s votes"
+msgstr "%s:%s votes"
+
+msgid "Join the discussion"
+msgstr ""
+
+#, python-format
+msgid "The proposal was created by %s on %s"
+msgstr "The proposal was created by %s on %s"
+
+msgid ""
+"This is a <b>joint proposal</b> that can be improved by anyone. Edit it to "
+"improve or refine the text."
+msgstr "This is a <b>joint proposal</b> that can be improved by anyone. Edit it to improve or refine the text."
+
+msgid "Main page"
+msgstr "Main page"
+
+msgid "Who is receiving delegations?"
+msgstr "Who is receiving delegations?"
+
+#, python-format
+msgid "%s has been adopted %s."
+msgstr "%s has been adopted %s."
+
+msgid "Adoption requirements:"
+msgstr "Adoption requirements:"
+
+#, python-format
+msgid "%s participators"
+msgstr "%s participators"
+
+#, python-format
+msgid "stable majority for %s days"
+msgstr "stable majority for %s days"
+
+#, python-format
+msgid "Search in %s"
+msgstr "Search in %s"
+
+msgid "Search proposals and norms..."
+msgstr ""
+
+msgid "You did not provide a search query."
+msgstr "You did not provide a search query."
+
+#, python-format
+msgid "Delete: Implementation of %s"
+msgstr "Delete: implementation of %s"
+
+#, python-format
+msgid "Are you sure you want to delete the norm %s from this proposal?"
+msgstr "Are you sure you want to delete the norm %s from this proposal?"
+
+#, python-format
+msgid "Implementation: %s"
+msgstr "Implementation: %s"
+
+msgid "Change an existing norm"
+msgstr "Change an existing norm"
+
+msgid ""
+"Select a norm that you want to relate to. You can later propose a variant of"
+" this norm to effect a change."
+msgstr "Select a norm that you want to relate to. You can later propose a variant of this norm to effect a change."
+
+msgid "Include"
+msgstr "Include"
+
+msgid "Can't find an appropriate norm?"
+msgstr "Can't find an appropriate norm?"
+
+msgid "Create a new norm instead"
+msgstr "Create a new norm instead"
+
+msgid "Propose a new norm"
+msgstr "Propose a new norm"
+
+msgid ""
+"Create a new norm that you want to relate to. The norm will be created "
+"without any status quo. You can then add a text variant of that norm, "
+"specifying the change you want to implement."
+msgstr "Create a new norm that you want to relate to. The norm will be created without any status quo. You can then add a text variant of that norm, specifying the change you want to implement."
+
+msgid "New norm title"
+msgstr "New norm title"
+
+msgid "The new norm will be categorized under the specified parent page."
+msgstr "The new norm will be categorized under the specified parent page."
+
+msgid "Have you checked for exisiting norms?"
+msgstr "Have you checked for exisiting norms?"
+
+msgid "Include an existing norm instead"
+msgstr "Include an existing norm instead"
+
+msgid "Show Norm"
+msgstr "Show norm"
+
+msgid "There is a tie between variants, thus none is included at the moment."
+msgstr "There is a tie between variants, thus none is included at the moment."
+
+msgid ""
+"Status quo has the most votes, resulting in no proposed change to this norm."
+msgstr "Status quo has the most votes, resulting in no proposed change to this norm."
+
+msgid "Proposed by"
+msgstr "Proposed by"
+
+msgid "Support this variant"
+msgstr "Support this variant"
+
+msgid "Oppose this variant"
+msgstr "Oppose this variant"
+
+msgid "(this proposal should not change this norm)"
+msgstr "(this proposal should not change this norm)"
+
+msgid "Currently selected for inclusion in this proposal"
+msgstr "Currently selected for inclusion in this proposal"
+
+msgid "view"
+msgstr "view"
+
+msgid "compare"
+msgstr "compare"
+
+msgid "Complete registration"
+msgstr "Complete registration"
+
+msgid "Please complete the Shibboleth based user registration"
+msgstr "Please complete the Shibboleth based user registration"
+
+msgid "Username"
+msgstr "Username"
+
+msgid "Display name"
+msgstr "Display name"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "optional"
+msgstr "optional"
+
+#, python-format
+msgid "Edit %(key)s (%(langname)s)"
+msgstr "Edit %(key)s (%(langname)s)"
+
+msgid "Title:"
+msgstr "Title:"
+
+msgid "Content of the page"
+msgstr "Content of the page"
+
+msgid "Change static page"
+msgstr "Change static page"
+
+msgid "Back to the list"
+msgstr "Back to the list"
+
+msgid "Key"
+msgstr "Key"
+
+msgid "Create new page"
+msgstr "Create new page"
+
+msgid "New Static Page"
+msgstr "New Static Page"
+
+msgid "New static page"
+msgstr "New static page"
+
+msgid "Key:"
+msgstr "Key:"
+
+msgid "Add static page"
+msgstr "Add static page"
+
+msgid "Edit this page"
+msgstr "Edit this page"
+
+msgid ""
+"Tags are keywords used to find, sort and filter proposals and documents."
+msgstr "Tags are keywords used to find, sort and filter proposals and documents."
+
+msgid "Similar tags"
+msgstr "Similar tags"
+
+#, python-format
+msgid "used %s times"
+msgstr "used %s times"
+
+msgid "more tags..."
+msgstr "more tags..."
+
+msgid "Tagged with"
+msgstr "Tagged with"
+
+msgid "Not tagged yet"
+msgstr "Not tagged yet"
+
+msgid "add tags"
+msgstr "add tags"
+
+msgid "Multiple tags can be separated by commas or spaces."
+msgstr "Multiple tags can be separated by commas or spaces."
+
+msgid "Add tags"
+msgstr "Add tags"
+
+msgid "Cancel"
+msgstr "Cancel"
+
+#, python-format
+msgid "by %s, "
+msgstr "by %s, "
+
+msgid "delete version"
+msgstr "delete version"
+
+msgid "This revision has no text."
+msgstr "This revision has no text."
+
+msgid ""
+"This norm has not yet been decided and is thus no official position of this "
+"group."
+msgstr "This norm has not yet been decided and is thus no official position of this group."
+
+#, python-format
+msgid "discuss (%s comments) &raquo;"
+msgstr "discuss (%s comments) &raquo;"
+
+msgid "Variant:"
+msgstr "Variant:"
+
+msgid "see"
+msgstr "see"
+
+#, python-format
+msgid "%s by %s"
+msgstr "%s by %s"
+
+msgid "Compare"
+msgstr "Compare"
+
+msgid "Treatments"
+msgstr "Treatments"
+
+#, python-format
+msgid "User assignments of %(treatment_key)s"
+msgstr "User assignments of %(treatment_key)s"
+
+msgid "back to treatments"
+msgstr "back to treatments"
+
+msgid "Treatment"
+msgstr "Treatment"
+
+msgid "Source Badges"
+msgstr "Source Badges"
+
+msgid "Assign users"
+msgstr "Assign users"
+
+msgid "See assigned users"
+msgstr "See assigned users"
+
+msgid "Create a new treatment"
+msgstr "Create a new treatment"
+
+msgid "Name:"
+msgstr "Name:"
+
+msgid "Select users to treat by their badges:"
+msgstr "Select users to treat by their badges:"
+
+msgid "Number of variants:"
+msgstr "Number of variants:"
+
+msgid "Create treatment"
+msgstr "Create treatment"
+
+msgid "All Members on this Adhocracy Server"
+msgstr "All members on this Adhocracy Server"
+
+msgid "A listing of all users in all instances on this Adhocracy server."
+msgstr ""
+
+msgid "Validate email address"
+msgstr ""
+
+msgid "You have not yet validated your email address."
+msgstr ""
+
+#, python-format
+msgid ""
+"An email with a validation link has been sent to your email address (%s) "
+"right after registration. Please follow that link in order to proceed."
+msgstr ""
+
+msgid ""
+"If you click on the button below, the validation link will be resent to you."
+msgstr ""
+
+msgid ""
+"Are you sure you want to delete your profile? This step cannot be reversed."
+msgstr "Are you sure you want to delete your profile? This step cannot be reversed."
+
+#, python-format
+msgid "Edit Badges for %s"
+msgstr "Edit Badges for %s"
+
+#, python-format
+msgid "Badges for %s"
+msgstr "Badges for %s"
+
+msgid "Global Badges"
+msgstr ""
+
+#, python-format
+msgid "Badges in instance %s"
+msgstr ""
+
+msgid "Topic"
+msgstr "Topic"
+
+msgid "Given"
+msgstr "Given"
+
+msgid "Received"
+msgstr "Received"
+
+msgid "There are no delegations."
+msgstr "There are no delegations."
+
+msgid "Import Members"
+msgstr ""
+
+msgid "Find users"
+msgstr "Find users"
+
+msgid "tutorial_user_index_table"
+msgstr "The list shows you every member of the instance. You can even sort out the list."
+
+msgid "tutorial_user_index_facets"
+msgstr "Or you can filter the list by users instances."
+
+#, python-format
+msgid "Adhocracies: %s"
+msgstr "Adhocracies: %s"
+
+msgid "Adhocracies"
+msgstr "Adhocracies"
+
+#, python-format
+msgid "%s is a member in these Adhocracies"
+msgstr "%s is a member in these Adhocracies"
+
+msgid "Who are you, then?"
+msgstr "Who are you, then?"
+
+msgid "Email or username:"
+msgstr "Email or username:"
+
+msgid "Login:"
+msgstr "Login:"
+
+msgid "Email:"
+msgstr "Email:"
+
+msgid "Login via Shibboleth"
+msgstr "Login via Shibboleth"
+
+msgid "Password:"
+msgstr "Password:"
+
+msgid "Forgot your password?"
+msgstr "Forgot your password?"
+
+msgid "Register new account"
+msgstr "Register new account"
+
+msgid "What is your email address?"
+msgstr "What is your email address?"
+
+msgid "My email:"
+msgstr "My email:"
+
+msgid "What is your user name?"
+msgstr "What is your user name?"
+
+msgid "My user name:"
+msgstr "My user name:"
+
+#, python-format
+msgid "Do you have a password for %s?"
+msgstr "Do you have a password for %s?"
+
+msgid "No, I do not have a password, or I forgot it."
+msgstr "No, I do not have a password, or I forgot it."
+
+msgid "Yes, I do have a password:"
+msgstr "Yes, I do have a password:"
+
+msgid "Validation email sent"
+msgstr ""
+
+msgid ""
+"An email has been sent to you. Please click on the validation link in this "
+"email in order to proceed."
+msgstr ""
+
+msgid ""
+"Creating an account is easy; all you need is a user name, password and email"
+" address."
+msgstr "Creating an account is easy; all you need is a user name, password and email address."
+
+msgid ""
+"If you have an account but you've lost your password, <a href='/reset'>click"
+" here</a>."
+msgstr "If you have an account but you've lost your password, <a href='/reset'>click here</a>."
+
+msgid "Can only contain letters and numbers. Spaces aren't allowed."
+msgstr ""
+
+msgid "You can choose which name other users see."
+msgstr "You can choose which name other users see."
+
+msgid "E-mail"
+msgstr "E-mail"
+
+msgid "Password"
+msgstr "Password"
+
+msgid "Enter password:"
+msgstr "Enter password:"
+
+msgid "Password (confirm):"
+msgstr "Password (confirm):"
+
+msgid "Security query"
+msgstr ""
+
+msgid "Please enter the letters in the following image in the field below."
+msgstr ""
+
+msgid "Terms and conditions"
+msgstr ""
+
+msgid "leave empty"
+msgstr "leave empty"
+
+msgid "Registration request sent"
+msgstr "Registration request sent"
+
+#, python-format
+msgid ""
+"Our support team has been notified of your registration request for %s.We "
+"will verify your request and contact you as soon as possible."
+msgstr "Our support team has been notified of your registration request for %s.We will verify your request and contact you as soon as possible."
+
+msgid "Password reset"
+msgstr "Password reset"
+
+msgid ""
+"You will be sent an activation link that, when opened, will cause the system"
+" to email you a new password."
+msgstr "You will be sent an activation link that, when opened, will cause the system to email you a new password."
+
+msgid ""
+"You will be sent an activation link that, when opened, will allow you pick a"
+" new password."
+msgstr "You will be sent an activation link that, when opened, will allow you pick a new password."
+
+msgid ""
+"In order to retrieve your login, you will have to enter your email address."
+msgstr "In order to retrieve your login, you will have to enter your email address."
+
+msgid "E-Mail:"
+msgstr "E-Mail:"
+
+msgid "Confirmation pending"
+msgstr "Confirmation pending"
+
+msgid ""
+"You have received an email containing a link. Please open that link in order"
+" to reset you password"
+msgstr ""
+
+msgid "User settings"
+msgstr "User settings"
+
+msgid "Pager size"
+msgstr "Pager size"
+
+msgid "Default number of entries in listing pages"
+msgstr "Default number of entries in listing pages"
+
+msgid "Disable help messages"
+msgstr "Disable help messages"
+
+msgid "Disable help messages and links to the documentation"
+msgstr "Disable help messages and links to the documentation"
+
+msgid "Login settings"
+msgstr "Login settings"
+
+msgid "Select a new password or leave the fields blank to keep your old one."
+msgstr "Select a new password or leave the fields blank to keep your old one."
+
+msgid "Single sign-on services"
+msgstr ""
+
+msgid "There are no associated single sign-on services."
+msgstr ""
+
+msgid "OpenID:"
+msgstr ""
+
+msgid "remove"
+msgstr "remove"
+
+msgid "Connect to single sign-on service"
+msgstr ""
+
+msgid "Notification settings"
+msgstr "Notification settings"
+
+msgid "Select how you would like to be notified of events."
+msgstr "Select how you would like to be notified of events."
+
+msgid ""
+"Please select on which occasions you would like to receive an email. The "
+"options further down this list will allow you to receive email notifications"
+" for all the above points too."
+msgstr ""
+
+msgid "No notifications via email."
+msgstr ""
+
+msgid "Send email for new proposals or norms in my watched instances"
+msgstr ""
+
+msgid "and when a watched object is edited or deleted"
+msgstr ""
+
+msgid "Send email when a watched object is edited or deleted"
+msgstr ""
+
+msgid "and when a watched object is commented on"
+msgstr ""
+
+msgid "and when a watched object is rated"
+msgstr ""
+
+msgid "and when new members join my watched instances"
+msgstr ""
+
+msgid "Not confirmed."
+msgstr "Not confirmed."
+
+msgid "Re-send activation link"
+msgstr "Re-send activation link"
+
+msgid "Receive messages via email"
+msgstr ""
+
+msgid ""
+"Receive messages from administrators and other users via email. (These "
+"messages are always available on your dashboard)"
+msgstr ""
+
+msgid "Optional attributes"
+msgstr "Optional attributes"
+
+msgid ""
+"The following attributes are only used for statistical evaluation. Your "
+"choices are not shown to other users."
+msgstr "The following attributes are only used for statistical evaluation. Your choices are not shown to other users."
+
+msgid "Personal settings"
+msgstr "Personal settings"
+
+msgid "You can chose which name other users see."
+msgstr "You can chose which name other users see."
+
+msgid "Prefered user interface language"
+msgstr "Prefered user interface language"
+
+msgid "Salutation"
+msgstr "Salutation"
+
+msgid "Select your prefered gender"
+msgstr "Select your prefered gender"
+
+msgid "Avatar"
+msgstr ""
+
+msgid ""
+"Select a profile picture. The image should be square. If it is not it may be"
+" scaled accordingly."
+msgstr ""
+
+msgid "Current avatar"
+msgstr ""
+
+msgid "Delete current avatar"
+msgstr ""
+
+msgid "Short biography"
+msgstr "Short biography"
+
+msgid ""
+"A bio will allow others to learn about you and perhaps even get you a few "
+"delegations."
+msgstr "A bio will allow others to learn about you and perhaps even get you a few delegations."
+
+msgid "I am an organisation"
+msgstr ""
+
+msgid "Activity in"
+msgstr ""
+
+msgid "All instances"
+msgstr ""
+
+msgid "Delete this user."
+msgstr "Delete this user."
+
+msgid "Resign from this instance."
+msgstr "Resign from this instance."
+
+msgid "leave"
+msgstr ""
+
+msgid "un-ban"
+msgstr "un-ban"
+
+msgid "ban"
+msgstr "ban"
+
+msgid ""
+"In order to inform other users about your interests please create a personal"
+" bio."
+msgstr ""
+
+msgid "Create a bio"
+msgstr ""
+
+#, python-format
+msgid "%s does not yet have a bio."
+msgstr "%s does not yet have a bio."
+
+msgid "Upload avatar"
+msgstr ""
+
+msgid "Account created"
+msgstr ""
+
+#, python-format
+msgid "Member in \"%s\" since"
+msgstr ""
+
+#, python-format
+msgid "Not a member in \"%s\""
+msgstr ""
+
+msgid "User group"
+msgstr ""
+
+msgid "change group"
+msgstr ""
+
+msgid "User badges"
+msgstr ""
+
+msgid "Most recent activity"
+msgstr ""
+
+msgid "Member in the following instances"
+msgstr ""
+
+msgid "Member in other instances"
+msgstr ""
+
+#, python-format
+msgid "joined %s"
+msgstr "joined %s"
+
+#, python-format
+msgid "signed up %s"
+msgstr "signed up %s"
+
+msgid "Generate welcome link"
+msgstr "Generate welcome link"
+
+msgid "Phonetic spelling"
+msgstr ""
+
+#, python-format
+msgid "Watchlist: %s"
+msgstr "Watchlist: %s"
+
+msgid ""
+"This is your watchlist. You will receive notifications for events concerning"
+" each of these items."
+msgstr "This is your watchlist. You will receive notifications for events concerning each of these items."
+
+msgid "Logging in"
+msgstr ""
+
+msgid "You are being logged in."
+msgstr ""
