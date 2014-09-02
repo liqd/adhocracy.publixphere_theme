@@ -350,8 +350,8 @@ msgid "Original version"
 msgstr "Original version"
 
 #, python-format
-msgid "Variant: \"%s\"
-msgstr "Variant: \"%s\"
+msgid "Variant: \"%s\""
+msgstr "Variant: \"%s\""
 
 msgid "Original Version"
 msgstr "Original Version"
@@ -1496,8 +1496,8 @@ msgid "Message sent: %(message)s"
 msgstr "Message sent: %(message)s"
 
 #, python-format
-msgid "sent message: \"%(message)s\"
-msgstr "sent message: \"%(message)s\"
+msgid "sent message: \"%(message)s\""
+msgstr "sent message: \"%(message)s\""
 
 #, python-format
 msgid "Adhocracy says hello: %(test)s"
@@ -1556,14 +1556,18 @@ msgstr "Membership"
 msgid "Proposal"
 msgstr "Proposal"
 
-msgid "plural "Amendments"
-msgstr "1] "
+msgid "Amendment"
+msgid_plural "Amendments"
+msgstr[0] "Amendment"
+msgstr[1] "Amendments"
 
 msgid "Page"
 msgstr "Page"
 
-msgid "plural "Comments"
-msgstr "1] "
+msgid "Comment"
+msgid_plural "Comments"
+msgstr[0] "Comment"
+msgstr[1] "Comments"
 
 msgid "Delegation"
 msgstr "Delegation"
@@ -1690,7 +1694,7 @@ msgid "Click to vote con"
 msgstr "Click to vote con"
 
 msgid "Your current vote is already con"
-msgstr "Your current vote is already \"against\"
+msgstr "Your current vote is already \"against\""
 
 msgid "Topic is frozen. Click to view the list of votes."
 msgstr "Topic is frozen. Click to view the list of votes."
@@ -1938,8 +1942,8 @@ msgid "Logout"
 msgstr "Logout"
 
 #, python-format
-msgid "Search in \"%s\"
-msgstr "Search in \"%s\"
+msgid "Search in \"%s\""
+msgstr "Search in \"%s\""
 
 #, python-format
 msgid "%(start)s-%(end)s out of %(total)s"
@@ -1967,8 +1971,10 @@ msgid "Edit"
 msgstr "Edit"
 
 #, python-format
-msgid "plural "%i items"
-msgstr "1] "
+msgid "%i item"
+msgid_plural "%i items"
+msgstr[0] "%i item"
+msgstr[1] "%i items"
 
 msgid "None"
 msgstr "None"
@@ -2381,8 +2387,8 @@ msgid "In all instances"
 msgstr "In every instances"
 
 #, python-format
-msgid "In instance \"%s\"
-msgstr "In the instance \"%s\"
+msgid "In instance \"%s\""
+msgstr "In the instance \"%s\""
 
 msgid "No badges added yet."
 msgstr "No badges added yet."
@@ -3105,12 +3111,16 @@ msgid "tutorial_instance_numbers"
 msgstr "Here you will find a brief outline of the current instance membership, the number of the proposals submitted and of the arguments listed below."
 
 #, python-format
-msgid "plural "%s proposals"
-msgstr "1] "%s proposals"
+msgid "%s proposal"
+msgid_plural "%s proposals"
+msgstr[0] "%s proposal"
+msgstr[1] "%s proposals"
 
 #, python-format
-msgid "plural "%s norms"
-msgstr "1] "%s research"
+msgid "%s norm"
+msgid_plural "%s norms"
+msgstr[0] "%s research"
+msgstr[1] "%s research"
 
 msgid "Send mass message"
 msgstr "Send mass message"
@@ -3161,22 +3171,22 @@ msgid "Creators"
 msgstr "Creators"
 
 #, python-format
-msgid "Users who have participated in writing \"%s\"
-msgstr "Users who have participated in writing \"%s\"
+msgid "Users who have participated in writing \"%s\""
+msgstr "Users who have participated in writing \"%s\""
 
 msgid "Supporters"
 msgstr "Supporters"
 
 #, python-format
-msgid "Users who have voted in favour of \"%s\"
-msgstr "Users who have voted in favour of \"%s\"
+msgid "Users who have voted in favour of \"%s\""
+msgstr "Users who have voted in favour of \"%s\""
 
 msgid "Opponents"
 msgstr "Opponents"
 
 #, python-format
-msgid "Users who have voted against \"%s\"
-msgstr "Users who have voted against \"%s\"
+msgid "Users who have voted against \"%s\""
+msgstr "Users who have voted against \"%s\""
 
 msgid "Mass Message Preview"
 msgstr "Mass message preview"
@@ -3513,8 +3523,8 @@ msgid "Created by %(creator)s on %(datetime)s"
 msgstr "Created by %(creator)s on %(datetime)s"
 
 #, python-format
-msgid "Proposed amendments for \"%s\"
-msgstr "Proposed amendments for \"%s\"
+msgid "Proposed amendments for \"%s\""
+msgstr "Proposed amendments for \"%s\""
 
 msgid "No text."
 msgstr "No text."
@@ -3540,8 +3550,10 @@ msgstr "Comments"
 msgid "Discussions"
 msgstr "Discussions"
 
-msgid "plural "Discussions"
-msgstr "1] "
+msgid "Discussion"
+msgid_plural "Discussions"
+msgstr[0] "Discussion"
+msgstr[1] "Discussions"
 
 msgid "Amendments"
 msgstr "Amendments"
@@ -3562,8 +3574,10 @@ msgid "show sub-topics"
 msgstr "show sub-topics"
 
 #, python-format
-msgid "plural "%s comments"
-msgstr "1] "%s comments"
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] "%s comment"
+msgstr[1] "%s comments"
 
 #, python-format
 msgid "latest <b>%s</b>"
@@ -4485,8 +4499,8 @@ msgid "Member in \"%s\" since"
 msgstr "Member in \"%s\" since"
 
 #, python-format
-msgid "Not a member in \"%s\"
-msgstr "Not a member in \"%s\"
+msgid "Not a member in \"%s\""
+msgstr "Not a member in \"%s\""
 
 msgid "User group"
 msgstr "User group"
@@ -4530,3 +4544,5 @@ msgstr "This is your watchlist. You will receive notifications for events concer
 msgid "Logging in"
 msgstr "Logging in"
 
+msgid "You are being logged in."
+msgstr "You are being logged in."
