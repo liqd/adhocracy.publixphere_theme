@@ -3,7 +3,7 @@
 # Vorschlag -> Diskussion
 # Kategorie -> Thema
 
-exec sed -i -n -f - de/LC_MESSAGES/adhocracy.po << EOF
+sed -i -n -f - de/LC_MESSAGES/adhocracy.po << EOF
 
 s/Keine zugewiesene Kategorie/Kein zugewiesenes Thema/g
 s/keiner Kategorie/keinem Thema/g
@@ -90,6 +90,38 @@ s/Sie können sich mit verschiedenen externen Benutzerkonten anmelden. Bitte bea
 s/Um einen Account anzulegen, brauchen Sie nur einen Benutzernamen, ein Passwort und eine E-Mail-Adresse./Um einen Account anzulegen, brauchst du nur einen Benutzernamen, ein Passwort und eine E-Mail-Adresse./g
 s/Bitte geben Sie Ihr Passwort ein:/Bitte gib Dein Passwort ein:/g
 s/Bitte tragen Sie die Zeichen im folgenden Bild in das unten stehende Feld ein./Bitte trage die Zeichen im folgenden Bild in das unten stehende Feld ein./g
+
+p
+
+EOF
+
+# Intro -> Home
+# Milestones -> Sessions
+# Norms -> Research
+# members -> Community
+# categories -> events
+
+sed -i -n -f - en/LC_MESSAGES/adhocracy.po << EOF
+
+/msgstr/s/Intro/Home/g
+/msgstr/s/Homeduce/Introduce/g
+
+/msgstr/s/milestone/session/g
+/msgstr/s/Milestone/Session/g
+
+/msgstr/s/norms are/research is/g
+/msgstr/s/Norms are/Research is/g
+/msgstr/s/norms/research/g
+/msgstr/s/Norms/Research/g
+/msgstr/s/norm/research/g
+/msgstr/s/researchal/normal/g
+
+# /msgstr/s/Members/Community/g
+
+/msgstr/s/category/event/g
+/msgstr/s/Category/Event/g
+/msgstr/s/categories/events/g
+/msgstr/s/Categories/Events/g
 
 p
 
