@@ -262,7 +262,8 @@ $(document).ready(function () {
         'interval': 8000, 'navigation': '.navigation',
     });
 
-    $('#galleria-aef93412aeb1495f95035c1e8eb0fecb').append($('<img src="/static_theme/static/images/badge_pp_claim.png" alt="unabhängig, überparteilich, unkommerziell">').css({
+    var imgSrc = $('body').hasClass('instance-noc') ? 'badge_pp_claim_grey.png' : 'badge_pp_claim.png';
+    $('#galleria-aef93412aeb1495f95035c1e8eb0fecb').append($('<img src="/static_theme/static/images/' + imgSrc + '" alt="unabhängig, überparteilich, unkommerziell">').css({
         'position': 'absolute',
         'bottom': '-53px',
         'right': '7px',
