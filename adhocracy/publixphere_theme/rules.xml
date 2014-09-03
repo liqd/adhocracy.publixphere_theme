@@ -79,6 +79,18 @@
         </div>
       </div>
     </replace>
+    <replace css:content="#logo" if-content="//body[contains(@class, 'instance-noc')]">
+      <div id="logo">
+        <h1><a href="/i/salon"><img src="/static_theme/static/images/logo_noc.png" alt="" /></a></h1>
+        <span class="tag-line">Global Network of <em>Internet and Society</em> Research Centers</span>
+
+        <div id="share">
+          <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://publixphere.de" id="fb_share"></a>
+          <a target="_blank" href="http://twitter.com/home?status=Politik diskutieren und Debattenagenda mitbestimmen: auf Publixphere - unabhängig, überparteilich, unkommerziell. https://publixphere.de" id="tw_share"></a>
+          <a target="_blank" href="https://plus.google.com/share?url=https://publixphere.de" id="gp_share"></a>
+        </div>
+      </div>
+    </replace>
 
     <drop css:content="#sidebar_box_watchlist" />
 
