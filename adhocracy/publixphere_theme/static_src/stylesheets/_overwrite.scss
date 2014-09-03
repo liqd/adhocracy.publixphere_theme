@@ -89,3 +89,8 @@ html.overlay {
 #footer_1, #footer_2, #footer_3 {
     vertical-align: top;
 }
+
+// No clue why, but sometimes the content of sidebar boxes floats out of them
+.sidebar_box {
+    @include clearfix;
+}
