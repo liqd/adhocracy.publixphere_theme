@@ -1,0 +1,99 @@
+// mixins
+@import "compass/css3";
+@import "compass/utilities/general/clearfix";
+@import "compass/utilities/color/contrast";
+@import "general/mixins";
+@import "general/overwrite_mixins";
+
+// reset
+@import "general/normalize";
+
+// variables
+@import "variables";
+@import "variables_noc_overwrite";
+
+// global
+@import "general/utilities";
+@import "general/grid";
+@import "general/misc";
+@import "general/fonts";
+@import "general/html5";
+@import "general/decogrid";
+
+// components
+@import "components/adhocracy_icons";
+@import "components/bootstrap_forms";
+@import "components/forms";
+@import "components/type";
+@import "components/morelink";
+@import "components/showmore";
+@import "components/bootstrap_nav";
+@import "components/badge";
+@import "components/button";
+@import "components/modals";
+@import "components/vote";
+@import "components/pager";
+@import "components/tabnav";
+@import "components/facet";
+@import "components/tutorial";
+@import "components/ie_message";
+@import "components/tile";
+@import "components/share";
+
+// widgets
+@import "widgets/header";
+@import "widgets/subheader";
+@import "widgets/subnav";
+@import "widgets/sidebar";
+@import "widgets/paper";
+@import "widgets/footer";
+@import "widgets/comment";
+@import "widgets/feedback";
+@import "widgets/admin";
+@import "widgets/content_list";
+@import "widgets/milestone";
+@import "widgets/proposal";
+@import "widgets/profile_settings";
+@import "widgets/openid";
+@import "widgets/sectionpage";
+@import "widgets/dashboard";
+@import "widgets/event_carousel";
+@import "widgets/frontpage";
+@import "widgets/plone_event";
+@import "widgets/plone_static_pages";
+
+// overwrite
+@import "overwrite";
+
+.only-europa {
+    display: none !important;
+}
+
+a:hover, a:focus {
+    color: $secondary-color;
+}
+.button:hover, .button:focus {
+    color: white;
+}
+
+body {
+    background-image: url("/static_theme/static/images/noc_publixphere_bg.png");
+}
+
+#welcome_message,
+#main {
+    .page_wrapper {
+        background-color: rgba(white, 0.9);
+    }
+}
+
+#logo .tag-line {
+    font-family: inherit;
+    font-style: inherit;
+    text-transform: uppercase;
+
+    em {
+        font-style: inherit;
+        font-weight: bold;
+    }
+}
