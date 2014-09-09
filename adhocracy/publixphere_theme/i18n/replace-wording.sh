@@ -100,6 +100,7 @@ EOF
 # Norms -> Papers
 # members -> Community (only in subnav)
 # categories -> Issues
+# proposals -> discussions
 
 sed -i -n -f - en/LC_MESSAGES/adhocracy.po << EOF
 
@@ -124,6 +125,9 @@ sed -i -n -f - en/LC_MESSAGES/adhocracy.po << EOF
 /msgstr/s/Category/Issue/g
 /msgstr/s/categories/issues/g
 /msgstr/s/Categories/Issues/g
+
+/msgstr/s/Proposal/Discussion/g
+/msgstr/s/proposal/discussion/g
 
 p
 
