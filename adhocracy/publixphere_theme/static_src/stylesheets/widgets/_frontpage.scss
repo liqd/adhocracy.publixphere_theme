@@ -1,4 +1,5 @@
 .subsection-salon-startpage,
+.subsection-noc-startpage,
 .subsection-de-startpage {
     #welcome_message,
     #main {
@@ -12,6 +13,7 @@
 }
 
 .subsection-salon-startpage #main,
+.subsection-noc-startpage #main,
 .subsection-de-startpage #main {
     $bg-active: #d8c9b7;
     $bg-extra: #f4f0eb;
