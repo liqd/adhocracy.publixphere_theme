@@ -61,7 +61,7 @@ msgid "Proposal Badges"
 msgstr "Proposal badges"
 
 msgid "Categories"
-msgstr "Events"
+msgstr "Issues"
 
 msgid "Instance Badges"
 msgstr "Instance badges"
@@ -318,13 +318,13 @@ msgid "Successfully created new user account %s"
 msgstr "Successfully created new user account %s"
 
 msgid "tutorial_norms_overview_tab"
-msgstr "Overview page of research made by the group. The list shows not only the research made by the group, but also the number of the current proposals and arguments which have been currently suggested."
+msgstr "Overview page of papers made by the group. The list shows not only the papers made by the group, but also the number of the current proposals and arguments which have been currently suggested."
 
 msgid "No proposal has been specified"
 msgstr "No proposal has been specified"
 
 msgid "You cannot create a new norm"
-msgstr "You cannot create a new research"
+msgstr "You cannot create a new paper"
 
 #, python-format
 msgid "errors while uploading image: %s"
@@ -417,7 +417,7 @@ msgid "tutorial_proposal_overview_tab"
 msgstr "Overview of all previously submitted proposals. Here you will have the opportunity to write new proposals..."
 
 msgid "Please select norm and propose a change to it."
-msgstr "Please select research and propose a change to it."
+msgstr "Please select paper and propose a change to it."
 
 msgid "tutorial_proposal_show_tab"
 msgstr "On the details page of the proposal you will find not only all useful informations, but also a range of opportunities to be actively involved."
@@ -836,14 +836,14 @@ msgstr "Duplicates in input set of user badge labels"
 
 #, python-format
 msgid "Cannot use global category %s in this instance"
-msgstr "Cannot use global event %s in this instance"
+msgstr "Cannot use global issue %s in this instance"
 
 #, python-format
 msgid "Badge with ID '%s' not valid in this instance"
 msgstr "Badge with ID '%s' not valid in this instance"
 
 msgid "Parent and child category instance have to match"
-msgstr "Parent and child event instance have to match"
+msgstr "Parent and child issue instance have to match"
 
 msgid "You shall not create cycles!"
 msgstr "You shall not create cycles!"
@@ -1651,10 +1651,10 @@ msgid "Proposals"
 msgstr "Proposals"
 
 msgid "Norms"
-msgstr "Research"
+msgstr "Papers"
 
 msgid "Members"
-msgstr "Members"
+msgstr "Community"
 
 msgid "(Unknown)"
 msgstr "(Unknown)"
@@ -1725,7 +1725,7 @@ msgid "Proposal badge"
 msgstr "Proposal badge"
 
 msgid "Category"
-msgstr "Event"
+msgstr "Issue"
 
 msgid "Status badge"
 msgstr "Status badge"
@@ -1764,7 +1764,7 @@ msgid "Notify me of updates."
 msgstr "Notify me of updates."
 
 msgid "Follow Norm"
-msgstr "Follow research"
+msgstr "Follow paper"
 
 msgid "Follow Instance"
 msgstr "Follow instance"
@@ -1797,7 +1797,7 @@ msgid "Receive email notifications if changes occur."
 msgstr "Receive email notifications if changes occur."
 
 msgid "Message to Members"
-msgstr "Message to Members"
+msgstr "Message to Community"
 
 msgid "Send us your feedback"
 msgstr "Send us your feedback"
@@ -1824,10 +1824,10 @@ msgid "Feedback"
 msgstr "Feedback"
 
 msgid "Proposal Category"
-msgstr "Proposal event"
+msgstr "Proposal issue"
 
 msgid "No Category"
-msgstr "No event"
+msgstr "No issue"
 
 msgid "Others"
 msgstr "Others"
@@ -2282,25 +2282,25 @@ msgid "Confirm"
 msgstr "Confirm"
 
 msgid "Category title"
-msgstr "Event title"
+msgstr "Issue title"
 
 msgid "Badge title"
 msgstr "Badge title"
 
 msgid "Category description"
-msgstr "Event description"
+msgstr "Issue description"
 
 msgid "Badge description"
 msgstr "Badge description"
 
 msgid "Long category description"
-msgstr "Long event description"
+msgstr "Long issue description"
 
 msgid "Here you can add a more detailed description of your category with markdown."
-msgstr "Here you can add a more detailed description of your event with markdown. You can add pictures and links."
+msgstr "Here you can add a more detailed description of your issue with markdown. You can add pictures and links."
 
 msgid "The color that is used to show the category"
-msgstr "The color that is used to show the event"
+msgstr "The color that is used to show the issue"
 
 msgid "The color that is used to show the badge"
 msgstr "The color that is used to show the badge"
@@ -2324,13 +2324,13 @@ msgid "Delete current thumbnail image"
 msgstr "Delete current thumbnail image"
 
 msgid "Upload category image"
-msgstr "Upload event image"
+msgstr "Upload issue image"
 
 msgid "Delete current category image"
-msgstr "Delete current event image"
+msgstr "Delete current issue image"
 
 msgid "Check to hide category in user interface"
-msgstr "Check to hide event in user interface"
+msgstr "Check to hide issue in user interface"
 
 msgid "Check to hide badge in user interface"
 msgstr "Check to hide badge in user interface"
@@ -2357,22 +2357,22 @@ msgid "Global"
 msgstr "Global"
 
 msgid "Parent Category"
-msgstr "Parent Event"
+msgstr "Parent Issue"
 
 msgid "Link this category to a superordinate category"
-msgstr "Link this event to a superordinate event"
+msgstr "Link this issue to a superordinate issue"
 
 msgid "No Parent Category"
-msgstr "No Parent Event"
+msgstr "No Parent Issue"
 
 msgid "Global categories"
-msgstr "Global events"
+msgstr "Global issues"
 
 msgid "Local instance categories"
-msgstr "Local instance events"
+msgstr "Local instance issues"
 
 msgid "Description to select children of this category (irrelevant if this category doesn't have any children)"
-msgstr "Description to select children of this event (irrelevant if this event doesn't have any children)"
+msgstr "Description to select children of this issue (irrelevant if this issue doesn't have any children)"
 
 msgid "Impact"
 msgstr "Impact"
@@ -2400,7 +2400,7 @@ msgid "Proposal badges may be used to link different attributes to a proposal (e
 msgstr "Proposal badges may be used to link different attributes to a proposal (e.g. official, first phase, etc.)."
 
 msgid "Add new categories to allow your users to categorize their proposals according to a topic."
-msgstr "Add new events to allow your users to categorize their proposals according to a topic."
+msgstr "Add new issues to allow your users to categorize their proposals according to a topic."
 
 msgid "Status badges may be used to indicate different statuses of proposals in your participation process (e.g. accepted, rejected, in discussion, etc.) with an image."
 msgstr "Status badges may be used to indicate different statuses of proposals in your participation process (e.g. accepted, rejected, in discussion, etc.) with an image."
@@ -2469,7 +2469,7 @@ msgid "new proposal"
 msgstr "new proposal"
 
 msgid "Norms in this Category"
-msgstr "Research in this Event"
+msgstr "Papers in this Issue"
 
 msgid "Argument"
 msgstr "Argument"
@@ -2892,10 +2892,10 @@ msgid "Require to propose a variant"
 msgstr "Require to propose a variant"
 
 msgid "If norms are activated, this option will ensure that users change at least one norm with each proposal."
-msgstr "If research is activated, this option will ensure that users change at least one research with each proposal."
+msgstr "If papers are activated, this option will ensure that users change at least one paper with each proposal."
 
 msgid "Hide global categories"
-msgstr "Hide global events"
+msgstr "Hide global issues"
 
 msgid "Members of your instance only see the catagories you created."
 msgstr "Members of your instance only see the catagories you created."
@@ -2968,10 +2968,10 @@ msgid "Milestones link the online discussions with offline events through a cale
 msgstr "Sessions link the online discussions with offline events through a calendar function."
 
 msgid "Display category pages"
-msgstr "Display event pages"
+msgstr "Display issue pages"
 
 msgid "categories"
-msgstr "events"
+msgstr "issues"
 
 msgid "Themes"
 msgstr "Themes"
@@ -3043,25 +3043,25 @@ msgid "status badges"
 msgstr "status badges"
 
 msgid "Enable norms"
-msgstr "Enable research"
+msgstr "Enable papers"
 
 msgid "Unlike proposals, norms are documents that you introduce to be discussed on the platform."
-msgstr "Unlike proposals, research is documents that you introduce to be discussed on the platform."
+msgstr "Unlike proposals, papers are documents that you introduce to be discussed on the platform."
 
 msgid "Allow members to propose norms"
-msgstr "Allow members to propose research"
+msgstr "Allow members to propose papers"
 
 msgid "Allow members to change norms from within proposals"
-msgstr "Allow members to change research from within proposals"
+msgstr "Allow members to change papers from within proposals"
 
 msgid "Members will be able to propose changes of the norms you introduce."
-msgstr "Members will be able to propose changes of the research you introduce."
+msgstr "Members will be able to propose changes of the papers you introduce."
 
 msgid "Show norms navigation item"
-msgstr "Show research navigation item"
+msgstr "Show papers navigation item"
 
 msgid "Show norms as an extra tab"
-msgstr "Show research as an extra tab."
+msgstr "Show papers as an extra tab."
 
 msgid "show a list of proposals"
 msgstr "show a list of proposals"
@@ -3119,8 +3119,8 @@ msgstr[1] "%s proposals"
 #, python-format
 msgid "%s norm"
 msgid_plural "%s norms"
-msgstr[0] "%s research"
-msgstr[1] "%s research"
+msgstr[0] "%s paper"
+msgstr[1] "%s papers"
 
 msgid "Send mass message"
 msgstr "Send mass message"
@@ -3311,10 +3311,10 @@ msgid "No proposals are connected to this milestone"
 msgstr "No proposals are connected to this session"
 
 msgid "Associated Norms"
-msgstr "Associated research"
+msgstr "Associated papers"
 
 msgid "No norms are connected to this milestone"
-msgstr "No research is connected to this session"
+msgstr "No papers are connected to this session"
 
 msgid "tutorial_milestone_details_follow"
 msgstr "Do you find the session relevant? Then you can add it to your watchlist."
@@ -3323,7 +3323,7 @@ msgid "tutorial_milestone_details_description"
 msgstr "And having a look at informations related to the goal of the session - if it deals e.g. with a working group meeting or with a poll."
 
 msgid "tutorial_milestone_details_listing"
-msgstr "Here you will find a list of every proposals and research which should be high related to the session."
+msgstr "Here you will find a list of every proposals and paper which should be high related to the session."
 
 msgid "with an abstention on"
 msgstr "with an abstention on"
@@ -3397,7 +3397,7 @@ msgstr "Edit section"
 
 #, python-format
 msgid "Norm: %s"
-msgstr "Norm: %s"
+msgstr "Paper: %s"
 
 msgid "Variant Name"
 msgstr "Variant name"
@@ -3412,7 +3412,7 @@ msgid "Page abstract. This is only used if a page is displayed as a tile."
 msgstr "Page abstract. This is only used if a page is displayed as a tile."
 
 msgid "Display subnorms as sections"
-msgstr "Display subresearch as sections"
+msgstr "Display subpapers as sections"
 
 msgid "Allow Comments"
 msgstr "Allow Comments"
@@ -3436,13 +3436,13 @@ msgid "Popular tags"
 msgstr "Popular tags"
 
 msgid "Create new norm"
-msgstr "Create new research"
+msgstr "Create new paper"
 
 msgid "Create a new norm."
-msgstr "Create a new research."
+msgstr "Create a new paper."
 
 msgid "new norm"
-msgstr "new research"
+msgstr "new paper"
 
 msgid "tutorial_norms_overview_table"
 msgstr "The list shows not only decisions with have been introduced by the group. Under the decisions banner is also displayed the number of the currently associated proposals and arguments."
@@ -3458,22 +3458,22 @@ msgid "Add section to %s"
 msgstr "Add section to %s"
 
 msgid "Create norm"
-msgstr "Create research"
+msgstr "Create paper"
 
 msgid "Norm title"
-msgstr "Norm title"
+msgstr "Paper title"
 
 msgid "New norm"
-msgstr "New research"
+msgstr "New paper"
 
 msgid "Section content"
 msgstr "Section content"
 
 msgid "Norm content"
-msgstr "Norm content"
+msgstr "Paper content"
 
 msgid "Use as a container for other norms"
-msgstr "Use as a container for other research"
+msgstr "Use as a container for other papers"
 
 msgid "Upload a logo for this page"
 msgstr "Upload a logo for this page"
@@ -3482,7 +3482,7 @@ msgid "Tag and classify"
 msgstr "Tag and classify"
 
 msgid "The new norm will be categorized under the specified parent theme."
-msgstr "The new research will be categorized under the specified parent theme."
+msgstr "The new paper will be categorized under the specified parent theme."
 
 msgid "Highlight Changes"
 msgstr "Highlight Changes"
@@ -3500,20 +3500,20 @@ msgid "New Proposal"
 msgstr "New Proposal"
 
 msgid "Information about the norm"
-msgstr "Information about the research"
+msgstr "Information about the paper"
 
 msgid "Last Activity"
 msgstr "Last activity"
 
 msgid "This page is not assigned to any category"
-msgstr "This page is not assigned to any event"
+msgstr "This page is not assigned to any issue"
 
 #, python-format
 msgid "This norm relates to the milestone %s."
-msgstr "This research relates to the session %s."
+msgstr "This paper relates to the session %s."
 
 msgid "Subnorms"
-msgstr "Subresearch"
+msgstr "Subpapers"
 
 msgid "View Proposal"
 msgstr "View proposal"
@@ -3542,7 +3542,7 @@ msgid "tutorial_norm_show_diff"
 msgstr "Decide if changes should be emphasized in comparison to the original version."
 
 msgid "tutorial_norm_show_new"
-msgstr "Here you can also introduce a new variant of the research."
+msgstr "Here you can also introduce a new variant of the paper."
 
 msgid "Comments"
 msgstr "Comments"
@@ -3562,7 +3562,7 @@ msgid "Add section"
 msgstr "Add section"
 
 msgid "This norm has been split into several sections."
-msgstr "This research has been split into several sections."
+msgstr "This paper has been split into several sections."
 
 msgid "You can propose amendments and comment each section individually by using the controls on the right."
 msgstr "You can propose amendments and comment each section individually by using the controls on the right."
@@ -3769,7 +3769,7 @@ msgid "tutorial_proposal_overview_table"
 msgstr "The list provides a list of every proposal which has been introduced since now. Every proposal has been sorted according to several criteria."
 
 msgid "tutorial_proposal_overview_facets"
-msgstr "You can search, with the help of the search field, proposals by title or content and sort out relevant search hits according to different events. For example you can sort by most of the support, brand new proposals or alphabetically."
+msgstr "You can search, with the help of the search field, proposals by title or content and sort out relevant search hits according to different issues. For example you can sort by most of the support, brand new proposals or alphabetically."
 
 msgid "tutorial_proposal_overview_new"
 msgstr "Is your idea not yet available? Then you can lay your own proposal out."
@@ -3781,13 +3781,13 @@ msgid "Proposed changes"
 msgstr "Proposed changes"
 
 msgid "Change norms with this proposal"
-msgstr "Change research with this proposal"
+msgstr "Change papers with this proposal"
 
 msgid "Proposals are implemented by including changes towards new or existing norm. Norms are fixed documents that represent the consensus of this instance and can only be changed through a vote. Amend the proposal to change or create a norm."
-msgstr "Proposals are implemented by including changes towards new or existing research. Research is fixed documents that represent the consensus of this instance and can only be changed through a vote. Amend the proposal to change or create a research."
+msgstr "Proposals are implemented by including changes towards new or existing paper. Papers are fixed documents that represent the consensus of this instance and can only be changed through a vote. Amend the proposal to change or create a paper."
 
 msgid "Select a norm to change:"
-msgstr "Select a research to change:"
+msgstr "Select a paper to change:"
 
 msgid "Multiple tags can be separated by commas."
 msgstr "Multiple tags can be separated by commas."
@@ -3810,16 +3810,16 @@ msgid "Proposed Implementations"
 msgstr "Proposed implementations"
 
 msgid "Propose to change a norm"
-msgstr "Propose to change a research"
+msgstr "Propose to change a paper"
 
 msgid "Login to propose to change a norm"
-msgstr "Login to propose to change a research"
+msgstr "Login to propose to change a paper"
 
 msgid "Join instance to propose to change a norm"
-msgstr "Join instance to propose to change a research"
+msgstr "Join instance to propose to change a paper"
 
 msgid "Validate email in order to propose to change a norm"
-msgstr "Validate email in order to propose to change a research"
+msgstr "Validate email in order to propose to change a paper"
 
 msgid "tutorial_proposal_show_vote"
 msgstr "You can either support a proposal or refuse it."
@@ -3852,7 +3852,7 @@ msgid "tutorial_proposal_show_propose_variant"
 msgstr "Or you can play an active role in suggesting proposals or introducing alternatives."
 
 msgid "This proposal is not assigned to any category"
-msgstr "This proposal is not assigned to any event"
+msgstr "This proposal is not assigned to any issue"
 
 #, python-format
 msgid "This proposal relates to the deleted milestone %s."
@@ -3916,7 +3916,7 @@ msgid "Search in %s"
 msgstr "Search in %s"
 
 msgid "Search proposals and norms..."
-msgstr "Search proposals and research..."
+msgstr "Search proposals and papers..."
 
 msgid "You did not provide a search query."
 msgstr "You did not provide a search query."
@@ -3927,53 +3927,53 @@ msgstr "Delete: implementation of %s"
 
 #, python-format
 msgid "Are you sure you want to delete the norm %s from this proposal?"
-msgstr "Are you sure you want to delete the research %s from this proposal?"
+msgstr "Are you sure you want to delete the paper %s from this proposal?"
 
 #, python-format
 msgid "Implementation: %s"
 msgstr "Implementation: %s"
 
 msgid "Change an existing norm"
-msgstr "Change an existing research"
+msgstr "Change an existing paper"
 
 msgid "Select a norm that you want to relate to. You can later propose a variant of this norm to effect a change."
-msgstr "Select a research that you want to relate to. You can later propose a variant of this research to effect a change."
+msgstr "Select a paper that you want to relate to. You can later propose a variant of this paper to effect a change."
 
 msgid "Include"
 msgstr "Include"
 
 msgid "Can't find an appropriate norm?"
-msgstr "Can't find an appropriate research?"
+msgstr "Can't find an appropriate paper?"
 
 msgid "Create a new norm instead"
-msgstr "Create a new research instead"
+msgstr "Create a new paper instead"
 
 msgid "Propose a new norm"
-msgstr "Propose a new research"
+msgstr "Propose a new paper"
 
 msgid "Create a new norm that you want to relate to. The norm will be created without any status quo. You can then add a text variant of that norm, specifying the change you want to implement."
-msgstr "Create a new research that you want to relate to. The research will be created without any status quo. You can then add a text variant of that research, specifying the change you want to implement."
+msgstr "Create a new paper that you want to relate to. The paper will be created without any status quo. You can then add a text variant of that paper, specifying the change you want to implement."
 
 msgid "New norm title"
-msgstr "New research title"
+msgstr "New paper title"
 
 msgid "The new norm will be categorized under the specified parent page."
-msgstr "The new research will be categorized under the specified parent page."
+msgstr "The new paper will be categorized under the specified parent page."
 
 msgid "Have you checked for exisiting norms?"
-msgstr "Have you checked for exisiting research?"
+msgstr "Have you checked for exisiting papers?"
 
 msgid "Include an existing norm instead"
-msgstr "Include an existing research instead"
+msgstr "Include an existing paper instead"
 
 msgid "Show Norm"
-msgstr "Show research"
+msgstr "Show paper"
 
 msgid "There is a tie between variants, thus none is included at the moment."
 msgstr "There is a tie between variants, thus none is included at the moment."
 
 msgid "Status quo has the most votes, resulting in no proposed change to this norm."
-msgstr "Status quo has the most votes, resulting in no proposed change to this research."
+msgstr "Status quo has the most votes, resulting in no proposed change to this paper."
 
 msgid "Proposed by"
 msgstr "Proposed by"
@@ -3985,7 +3985,7 @@ msgid "Oppose this variant"
 msgstr "Oppose this variant"
 
 msgid "(this proposal should not change this norm)"
-msgstr "(this proposal should not change this research)"
+msgstr "(this proposal should not change this paper)"
 
 msgid "Currently selected for inclusion in this proposal"
 msgstr "Currently selected for inclusion in this proposal"
@@ -4093,7 +4093,7 @@ msgid "This revision has no text."
 msgstr "This revision has no text."
 
 msgid "This norm has not yet been decided and is thus no official position of this group."
-msgstr "This research has not yet been decided and is thus no official position of this group."
+msgstr "This paper has not yet been decided and is thus no official position of this group."
 
 #, python-format
 msgid "discuss (%s comments) &raquo;"
@@ -4386,7 +4386,7 @@ msgid "No notifications via email."
 msgstr "No notifications via email."
 
 msgid "Send email for new proposals or norms in my watched instances"
-msgstr "Send email for new proposals or research in my watched instances"
+msgstr "Send email for new proposals or papers in my watched instances"
 
 msgid "and when a watched object is edited or deleted"
 msgstr "and when a watched object is edited or deleted"

@@ -97,9 +97,9 @@ EOF
 
 # Intro -> Home
 # Milestones -> Sessions
-# Norms -> Research
-# members -> Community
-# categories -> events
+# Norms -> Papers
+# members -> Community (only in subnav)
+# categories -> Issues
 
 sed -i -n -f - en/LC_MESSAGES/adhocracy.po << EOF
 
@@ -109,19 +109,21 @@ sed -i -n -f - en/LC_MESSAGES/adhocracy.po << EOF
 /msgstr/s/milestone/session/g
 /msgstr/s/Milestone/Session/g
 
-/msgstr/s/norms are/research is/g
-/msgstr/s/Norms are/Research is/g
-/msgstr/s/norms/research/g
-/msgstr/s/Norms/Research/g
-/msgstr/s/norm/research/g
-/msgstr/s/researchal/normal/g
+/msgstr/s/Norm/Paper/g
+/msgstr/s/norm/paper/g
+/msgstr/s/paperal/normal/g
 
-# /msgstr/s/Members/Community/g
+/msgstr/s/Members/Community/g
+/msgstr/s/Communityhip/Membership/g
+/msgstr/s/as Community/as Members/g
+/msgstr/s/Community will/Members will/g
+/msgstr/s/Community of/Members of/g
+/msgstr/s/Import Community/Import Members/g
 
-/msgstr/s/category/event/g
-/msgstr/s/Category/Event/g
-/msgstr/s/categories/events/g
-/msgstr/s/Categories/Events/g
+/msgstr/s/category/issue/g
+/msgstr/s/Category/Issue/g
+/msgstr/s/categories/issues/g
+/msgstr/s/Categories/Issues/g
 
 p
 
