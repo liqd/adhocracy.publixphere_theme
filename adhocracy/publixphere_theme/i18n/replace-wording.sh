@@ -102,6 +102,8 @@ EOF
 # categories -> Issues
 # proposals -> discussions
 
+# The "%(discussion -> %(proposal" only works as there's initially no "%(discussion" in msgstr
+
 sed -i -n -f - en/LC_MESSAGES/adhocracy.po << EOF
 
 /msgstr/s/Intro/Home/g
@@ -128,6 +130,7 @@ sed -i -n -f - en/LC_MESSAGES/adhocracy.po << EOF
 
 /msgstr/s/Proposal/Discussion/g
 /msgstr/s/proposal/discussion/g
+/msgstr/s/%(discussion/%(proposal/g
 
 p
 

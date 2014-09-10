@@ -436,7 +436,7 @@ msgstr "The discussion %s has been deleted."
 
 #, python-format
 msgid "Proposal: %(proposal)s"
-msgstr "Discussion: %(discussion)s"
+msgstr "Discussion: %(proposal)s"
 
 #, python-format
 msgid "You are not allowed to edit badge %i"
@@ -1317,75 +1317,75 @@ msgstr "now is a %(group)s within %(instance)s"
 
 #, python-format
 msgid "New proposal: %(proposal)s"
-msgstr "New discussion: %(discussion)s"
+msgstr "New discussion: %(proposal)s"
 
 #, python-format
 msgid "created %(proposal)s"
-msgstr "created %(discussion)s"
+msgstr "created %(proposal)s"
 
 #, python-format
 msgid "Edit proposal: %(proposal)s"
-msgstr "Edit discussion: %(discussion)s"
+msgstr "Edit discussion: %(proposal)s"
 
 #, python-format
 msgid "edited %(proposal)s"
-msgstr "edited %(discussion)s"
+msgstr "edited %(proposal)s"
 
 #, python-format
 msgid "Proposal badged: %(proposal)s"
-msgstr "Discussion badged: %(discussion)s"
+msgstr "Discussion badged: %(proposal)s"
 
 #, python-format
 msgid "badged %(proposal)s"
-msgstr "badged %(discussion)s"
+msgstr "badged %(proposal)s"
 
 #, python-format
 msgid "Poll cancelled: %(proposal)s"
-msgstr "Poll cancelled: %(discussion)s"
+msgstr "Poll cancelled: %(proposal)s"
 
 #, python-format
 msgid "re-drafted %(proposal)s"
-msgstr "re-drafted %(discussion)s"
+msgstr "re-drafted %(proposal)s"
 
 #, python-format
 msgid "New Poll: %(proposal)s"
-msgstr "New poll: %(discussion)s"
+msgstr "New poll: %(proposal)s"
 
 #, python-format
 msgid "called a vote on %(proposal)s"
-msgstr "called a vote on %(discussion)s"
+msgstr "called a vote on %(proposal)s"
 
 #, python-format
 msgid "Deleted proposal: %(proposal)s"
-msgstr "Deleted discussion: %(discussion)s"
+msgstr "Deleted discussion: %(proposal)s"
 
 #, python-format
 msgid "deleted %(proposal)s"
-msgstr "deleted %(discussion)s"
+msgstr "deleted %(proposal)s"
 
 #, python-format
 msgid "New amendment to %(page)s: %(proposal)s"
-msgstr "New amendment to %(page)s: %(discussion)s"
+msgstr "New amendment to %(page)s: %(proposal)s"
 
 #, python-format
 msgid "created amendment %(proposal)s to %(page)s"
-msgstr "created amendment %(discussion)s to %(page)s"
+msgstr "created amendment %(proposal)s to %(page)s"
 
 #, python-format
 msgid "Edit amendment to %(page)s: %(proposal)s"
-msgstr "Edit amendment to %(page)s: %(discussion)s"
+msgstr "Edit amendment to %(page)s: %(proposal)s"
 
 #, python-format
 msgid "edited amendment %(proposal)s to %(page)s"
-msgstr "edited amendment %(discussion)s to %(page)s"
+msgstr "edited amendment %(proposal)s to %(page)s"
 
 #, python-format
 msgid "Deleted amendment to %(page)s: %(proposal)s"
-msgstr "Deleted amendment to %(page)s: %(discussion)s"
+msgstr "Deleted amendment to %(page)s: %(proposal)s"
 
 #, python-format
 msgid "deleted amendment %(proposal)s to %(page)s"
-msgstr "deleted amendment %(discussion)s to %(page)s"
+msgstr "deleted amendment %(proposal)s to %(page)s"
 
 #, python-format
 msgid "New page: %(page)s"
