@@ -101,3 +101,26 @@ body {
 #share {
     top: 14em;
 }
+
+.subsection-noc-startpage #main {
+    #galleria-5f9a6cc463d14fa798c604d173d8fc77 {
+
+        h3 a {
+            color: $primary-color-grey;
+        }
+
+        .prev,
+        .next {
+            border-color: $primary-color-grey;
+        }
+    }
+}
+
+#subheader .page_wrapper {
+    background-color: $primary-color-grey;
+}
+
+#subnav li.current a {
+    color: $black-real;
+}
+
