@@ -81,8 +81,7 @@
     </replace>
     <replace css:content="#logo" if-content="//body[contains(@class, 'instance-noc')]">
       <div id="logo">
-        <h1><a href="/i/noc"><img src="/static_theme/static/images/logo_noc.png" alt="" /></a></h1>
-        <span class="tag-line">Global Network of <em>Internet and Society</em> Research Centers</span>
+        <h1><a href="/i/noc"><img src="/static_theme/static/images/logo_slogan.png" alt="Global Network of Internet and Society Research Centers" /></a></h1>
 
         <div id="share">
           <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://publixphere.de/i/noc" id="fb_share"></a>
