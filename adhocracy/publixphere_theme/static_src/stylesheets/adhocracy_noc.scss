@@ -102,17 +102,32 @@ body {
     top: 14em;
 }
 
-.subsection-noc-startpage #main {
-    #galleria-5f9a6cc463d14fa798c604d173d8fc77 {
-
-        h3 a {
-            color: $primary-color-grey;
+.subsection-noc-startpage {
+    #main {
+        #f9192db1797a4008ba706924ee908661 {
+            h2 {
+                color: $primary-color-grey;
+            }
         }
 
-        .prev,
-        .next {
-            border-color: $primary-color-grey;
+        h3 {
+            color: $primary-color-grey !important;
         }
+
+        #galleria-5f9a6cc463d14fa798c604d173d8fc77 {
+            h3 a {
+                color: $primary-color-grey;
+            }
+
+            .prev,
+            .next {
+                border-color: $primary-color-grey;
+            }
+        }
+    }
+
+    #footer .page_wrapper {
+        border-color: $primary-color-grey;
     }
 }
 
