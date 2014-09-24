@@ -263,11 +263,15 @@ $(document).ready(function () {
     });
 
     var imgSrc = $('body').hasClass('instance-noc') ? 'badge_pp_claim_grey.png' : 'badge_pp_claim.png';
-    $('#galleria-aef93412aeb1495f95035c1e8eb0fecb').append($('<a href="/static/footer_1/about-publixphere">').append($('<img src="/static_theme/static/images/' + imgSrc + '" alt="unabhängig, überparteilich, unkommerziell">').css({
+    $('#galleria-aef93412aeb1495f95035c1e8eb0fecb')
+    .append($('<a href="https://noc.publixphere.net/en/about-publixphere">')
+    .append($('<img src="/static_theme/static/images/' + imgSrc + '" alt="unabhängig, überparteilich, unkommerziell">')
+    .css({
         'position': 'absolute',
         'bottom': '-53px',
         'right': '7px',
-    })).css({
+    }))
+    .css({
         'margin-bottom': '32px',
     }));
 
